@@ -1,3 +1,7 @@
 data/pdfs/
 __pycache__/
 data/processed/rollcall_long.csv
+data/pdfs_tbmm/
+data/gnact/
+data/gnact_raw/
+data/interim/tbmm_1943_60_votes_raw.csv

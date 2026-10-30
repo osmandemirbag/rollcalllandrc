@@ -201,3 +201,93 @@ I tested both. Read it as suggestive only.
 - Anything requiring Senate parties, which are not in the data.
 - The effect of government status on land-tax votes. No deputy's status changed between the
   land-tax votes.
+
+---
+
+## Extension to 1943–60 and to speeches (added October 2026)
+
+### What was built
+
+- **Vote index 1943–60.** `analysis/tbmm1943/01_index_votes.py` searches the GNACT page text
+  (Hugging Face `boun-tabilab/turkish_parliamentary_data`) for result headers in both the old
+  and the new vocabulary ("reylerin neticesi", "Müstenkif", "Reye iştirak etmiyenler", "Oya
+  katılmayanlar"). It finds 1,872 open votes in TBMM terms 7–11.
+  - Output: `data/interim/tbmm_1943_60_votes.csv`.
+  - Each vote's GNACT page is the page of the official TBMM PDF.
+- **Name lists, 1945.** `analysis/tbmm1943/02_parse_lists.py` reuses the 1960s parser with
+  three changes for the old print style:
+  - initial-style names ("A. MENDERES") are read as names, not as headers;
+  - the old section words are recognised ("Kabul etmiyenler", "Müstenkif");
+  - the restart-in-the-alphabet rule is switched off.
+- **Parse quality.** Of 57 votes from April 1945 to January 1946, 33 parse within 10% of the
+  printed tallies on both lists. 87% of the parsed names match a deputy of the 1943 roster on
+  province plus fuzzy surname.
+  - The parse check is in `data/interim/tbmm_1945_namelists_check.csv`.
+  - The remaining 24 votes have a lost section header and need hand repair before use.
+
+### 1945: did the future DP founders single out the land law? No.
+
+**The record**
+- **29 May 1945, seven-month budget (a confidence vote), 368–5.** The five "no" votes were
+  A. Menderes, F. Köprülü, R. Koraltan, C. Bayar and E. Sazak (tbmm07017065, PDF p. 41).
+- **11 June 1945, Çiftçiyi Topraklandırma Kanunu, 345–0.** Menderes, Köprülü, Koraltan,
+  Bayar and Sazak are all in the not-voting list, with no leave mark (tbmm07018072, PDF pp. 22–24).
+
+**The test**
+- **Units:** the 1943 deputies who were not excused.
+- **Votes:** the 33 votes that parsed cleanly.
+- **Estimate:** each deputy's absence on the land law minus their own absence on the other
+  votes, compared with the same difference for other deputies.
+- **Inference:** randomization over which vote is treated as the land law.
+
+**Result**
+- **All 33 votes.** For the 14 deputies who later sat for the DP, the difference-in-differences
+  (DiD) is +0.23. The land law ranks 2nd of 33 votes, p = 0.15 over votes.
+- **The withdrawal.** The five dissenters were absent on 46% of the votes before the budget
+  vote and on 94% of the 23 other votes after it.
+- **Votes after 29 May only.** The land law is not distinctive: for the five, DiD +0.18
+  (p = 0.17 over 24 votes); for all 14 later-DP deputies, p = 0.21.
+- **The exception.** In December 1945 Menderes, Köprülü and Koraltan came back to vote "no" on
+  the 1946 budget (tbmm07020020).
+
+**Reading**
+- **What it shows.** The founders' absence from the land law was part of a general withdrawal
+  that began the day after their "no" on the budget. On that withdrawal they broke cover only to
+  vote against budgets.
+- **What it does not show.** The land-law absence is not evidence of landlord opposition to that
+  law in particular. The common story in the literature, that the DP founders split with the
+  CHP over the land law, is not supported by their votes, though it may still hold for their
+  speeches (to be checked in the 1945 debate in the PDFs).
+- **Government mobilization.** Other deputies were unusually present for the land law: 17%
+  absent against 29% on the other votes after the budget.
+
+### Speech salience, 1943–80
+
+`analysis/output/speech_land_salience.csv` gives the share of minutes pages that mention land
+reform or land distribution. Terms used: toprak reformu, tarım reformu, toprak dağıtımı,
+topraklandırma.
+
+| Period | Share of pages |
+|---|---|
+| Legislative year 1944–45 (TBMM) | **3.9%** |
+| 1950–51 (TBMM) | **1.6%**, the DP amendments to the 1945 law |
+| Other TBMM years | 0.1–0.7% |
+| Millet Meclisi 1961–65 | 1.4% |
+| Millet Meclisi 1965–69 | 2.3% |
+| Millet Meclisi 1969–73 | **4.2%** |
+| Millet Meclisi 1973–77 | 2.2% |
+| Millet Meclisi 1977–80 | 1.5% |
+| Senate 1972–73 and 1974–75 | 4.4% |
+
+Land reform talk rises when a government puts it on the agenda (1945, 1950, 1971–74), not
+steadily with rural pressure. This fits the cabinet-driven pattern in the votes.
+
+**Caveat:** GNACT's OCR sometimes invents text, so these are counts of robust phrases. Every
+quotation must come from the TBMM PDFs.
+
+### Occupations ("farmers")
+
+- **The elites dataset has no occupation variable.** Its `majororoccupation` field is the field
+  of study: Other 51%, Law 22%, Medicine 4%, and so on. It has no farmer or landowner category.
+- **Where occupations are.** The TBMM Albümü (1920–2010) prints each deputy's occupation, but
+  the site that hosts it (acikerisim.tbmm.gov.tr) is blocked in this environment.
