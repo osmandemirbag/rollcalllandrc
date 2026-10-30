@@ -1,0 +1,482 @@
+<title>Land and Cabinet, 1945–1980</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with wide figures and tables breaking out to 1080px; numbered propositions carry the argument. */
+:root{
+  --bg:#f5f7f4; --surface:#ffffff; --ink:#151a17; --ink-2:#4b5550; --ink-3:#77817b;
+  --rule:#d9dfda; --grid:#e6eae6; --accent:#245c46; --accent-soft:#e3eee8;
+  --gov:#2a78d6; --opp:#eb6834; --neutral:#8a938e;
+  --yes:#1d7a52; --no:#b23b3b; --part:#9a6b00;
+  --f-display:"Newsreader",Georgia,"Times New Roman",serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --s-1:.8125rem; --s0:1rem; --s1:1.1875rem; --s2:1.5rem; --s3:2.125rem; --s4:2.875rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121614; --surface:#1a1f1c; --ink:#eef1ee; --ink-2:#b9c2bc; --ink-3:#8b958f;
+  --rule:#2e3631; --grid:#252c28; --accent:#7cc4a3; --accent-soft:#1f2f27;
+  --gov:#3987e5; --opp:#d95926; --neutral:#7d8681; --yes:#5cbf8f; --no:#e66767; --part:#d9a43a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614; --surface:#1a1f1c; --ink:#eef1ee; --ink-2:#b9c2bc; --ink-3:#8b958f;
+  --rule:#2e3631; --grid:#252c28; --accent:#7cc4a3; --accent-soft:#1f2f27;
+  --gov:#3987e5; --opp:#d95926; --neutral:#7d8681; --yes:#5cbf8f; --no:#e66767; --part:#d9a43a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:var(--s0);line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+main{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+.col{max-width:68ch}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:var(--s4);letter-spacing:-.01em}
+h2{font-size:var(--s3)}
+h3{font-size:var(--s1);font-weight:600}
+p{margin:0}
+.stack{display:flex;flex-direction:column;gap:16px}
+.eyebrow{font-family:var(--f-data);font-size:var(--s-1);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lede{font-family:var(--f-display);font-size:var(--s1);line-height:1.5;color:var(--ink-2)}
+header{padding-top:48px;display:flex;flex-direction:column;gap:18px;border-bottom:1px solid var(--rule);padding-bottom:32px}
+.meta{font-size:var(--s-1);color:var(--ink-3)}
+a{color:var(--accent)}
+.num{font-family:var(--f-data);font-variant-numeric:tabular-nums;font-size:.92em;overflow-wrap:anywhere}
+.props{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.props li{display:grid;grid-template-columns:2.2rem 1fr;gap:10px;align-items:baseline}
+.props b.k{font-family:var(--f-data);color:var(--accent);font-weight:500}
+section{display:flex;flex-direction:column;gap:18px}
+h2 .pn{font-family:var(--f-data);font-size:.5em;color:var(--accent);display:block;letter-spacing:.06em;margin-bottom:6px}
+.claim{border-left:3px solid var(--accent);padding:4px 0 4px 16px;font-family:var(--f-display);font-size:var(--s1);line-height:1.45}
+.box{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px 18px}
+.estimand{display:grid;gap:8px;font-size:.95rem}
+.estimand b{font-weight:600}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{font-family:var(--f-data);font-weight:500;font-size:var(--s-1);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+td.n,th.n{text-align:right;font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.hl td{background:var(--accent-soft)}
+figure{margin:0;display:flex;flex-direction:column;gap:10px}
+.fig{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px;position:relative}
+.fig svg{display:block;width:100%;height:auto}
+figcaption{font-size:var(--s-1);color:var(--ink-2);max-width:80ch}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:var(--s-1);color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:50%;display:inline-block}
+svg text{fill:var(--ink-2);font-family:var(--f-data);font-size:11px}
+svg .t-strong{fill:var(--ink)}
+svg .grid{stroke:var(--grid);stroke-width:1}
+svg .axis{stroke:var(--rule);stroke-width:1}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;line-height:1.35;padding:6px 8px;border-radius:4px;max-width:240px;opacity:0;transition:opacity .12s}
+.tip.on{opacity:1}
+.verdict{display:inline-block;font-family:var(--f-data);font-size:.75rem;padding:1px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.v-yes{color:var(--yes)} .v-no{color:var(--no)} .v-part{color:var(--part)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+.two > *{min-width:0}
+blockquote{margin:0;padding:12px 16px;background:var(--surface);border:1px solid var(--rule);border-radius:6px;display:grid;gap:6px}
+blockquote .tr{font-family:var(--f-display);font-style:italic;color:var(--ink-2)}
+blockquote .en{font-family:var(--f-display);font-size:var(--s1)}
+blockquote .src{font-size:var(--s-1);color:var(--ink-3)}
+ul.plain{margin:0;padding-left:1.2em;display:grid;gap:8px}
+@media (prefers-reduced-motion:reduce){.tip{transition:none}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<main>
+<header>
+  <div class="eyebrow">Turkish Grand National Assembly · named votes on land and agriculture · 1945–1980</div>
+  <h1>Land and Cabinet, 1945–1980</h1>
+  <p class="lede">For thirty-five years, Turkish deputies voted on land, credit, crops, forests and the farm agencies as if each vote were a vote of confidence in the cabinet. Landed interests left their mark in debate, in absence and in party exit, never in a recorded vote against their own party. Land redistribution passed only twice, both times when party competition was absent or suspended.</p>
+  <p class="meta">A single record built from the official minutes: <span class="num" data-t="roll_calls"></span> Assembly roll calls, <span class="num" data-t="rows"></span> deputy-votes and <span class="num" data-t="deputies"></span> deputies, linked to the Turkish Political Elites Dataset and to the TBMM Albümü biographies, with the 1945 and 1950 land debates read from the speech corpus. Senate votes for 1961–80 are part of the larger collection but are left out of the comparisons here, because senators' parties are not observed.</p>
+</header>
+
+<section class="col">
+  <h2>Six propositions</h2>
+  <ol class="props">
+    <li><b class="k">P1</b><span><b>Agrarian roll calls are confidence votes.</b> In every competitive era the same deputies vote yes in government and no in opposition, on the same farm agencies. The 1950 turnover and the 1961–80 switches identify this within deputies.</span></li>
+    <li><b class="k">P2</b><span><b>Only exits that cross the cabinet line move votes.</b> Two exits out of the governing party (1955, 1970) reversed deputies' votes on farm budgets. Two exits between opposition parties (1948, 1967) changed nothing.</span></li>
+    <li><b class="k">P3</b><span><b>Land and constituency do not predict votes within party.</b> Farmer and landowner deputies, and deputies from rural provinces, vote like their party colleagues in every era. Landed deputies speak far more than their share in land debates.</span></li>
+    <li><b class="k">P4</b><span><b>Opponents of land distribution stay away; opponents of land taxes vote no.</b> On five of five distribution and titling laws the opposing side attended less than usual. On all three land-tax votes it attended and voted no. The only distribution vote it attended in force was the one it could win.</span></li>
+    <li><b class="k">P5</b><span><b>Redistribution passes only without competition.</b> The 1945 law (single party, 345–0) and the 1973 law (military-supervised cabinets, 238–5) are the only two. Every competitive government diluted, stalled or administered reform instead.</span></li>
+    <li><b class="k">P6</b><span><b>Competition makes agriculture partisan, and tutelage suspends it.</b> The share of contested agrarian votes rose from 0% in 1945 to 58% in 1965–71, fell to 30% under the 1971–73 cabinets, and returned to 47% after 1973.</span></li>
+  </ol>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">THE RECORD</span>What was collected, era by era</h2>
+    <p>Each era's record comes from the same kind of source, the printed lists of named votes in the official minutes (<i>Tutanak Dergisi</i>), but it took different work to read. The table states what each era contributes and how reliable it is.</p>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Period</th><th>Chamber</th><th class="n">Roll calls</th><th class="n">Deputy-votes</th><th>How the lists were read</th><th>Accuracy</th></tr></thead>
+    <tbody>
+      <tr><td>1945</td><td>TBMM (single chamber, single party)</td><td class="n">54</td><td class="n">19,115</td><td>Initial-style names ("A. MENDERES"); old section words (<i>Kabul etmiyenler</i>, <i>Oya katılmıyanlar</i>); garbled headers repaired by hand.</td><td>54 of 57 votes usable; 85% of names matched to the 1943 roster</td></tr>
+      <tr><td>1946–60</td><td>TBMM</td><td class="n">135</td><td class="n">60,080</td><td>Full names; <i>Reddedenler</i>, <i>Müstenkifler</i>, <i>Reye iştirak etmiyenler</i>. Tally misreads corrected from the PDF.</td><td>135 of 143 usable; 89.5% matched to the 1946–57 cohorts</td></tr>
+      <tr><td>1961–80</td><td>Millet Meclisi (Assembly)</td><td class="n">322</td><td class="n">137,120</td><td>Layout parser with column and section reconstruction; reconciliation to tallies.</td><td>72% of all lists exact, 85% within two names; all 73 land votes hand-verified exact</td></tr>
+      <tr><td>1961–80</td><td>Cumhuriyet Senatosu</td><td class="n">245</td><td class="n">44,484</td><td>Same parser. Senators' parties are not in the elites data.</td><td>Not used in the comparisons below</td></tr>
+    </tbody>
+  </table></div>
+  <p class="col">The selection rule is the same throughout: every named vote whose subject is land, farm credit and prices, crops and their boards, forests, irrigation, state farms, or the budgets and accounts of the agencies that run them. Most agrarian legislation was decided by a show of hands and left no individual record. What follows describes the recorded part.</p>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">SEVEN ERAS</span>The same statistics for every era</h2>
+    <p>The eras follow the changes of regime and cabinet that matter for the propositions. Every statistic is computed the same way in every era (definitions under the table).</p>
+  </div>
+  <div class="tablewrap"><table id="tbl-eras">
+    <thead><tr><th>Era</th><th>Regime</th><th class="n">Roll calls</th><th class="n">Contested</th><th class="n">Not yes</th><th class="n">Took part</th><th class="n">Gov. yes</th><th class="n">Opp. yes</th><th class="n">Premium</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="meta col"><b>Contested:</b> the losing side holds at least 5% of votes cast. <b>Not yes:</b> no and abstain as a share of votes cast. <b>Took part:</b> share of listed deputies casting a vote. <b>Government yes / opposition yes:</b> yes among votes cast on contested roll calls. <b>Government premium:</b> the mean, over contested roll calls, of the government deputies' yes share minus the opposition deputies'. Ministers, presiding officers and deputies on leave are excluded. 1946–50 has only four contested roll calls, so its premium is imprecise.</p>
+  <figure>
+    <div class="legend"><span><i class="sw" style="background:var(--gov)"></i>Government deputies</span><span><i class="sw" style="background:var(--opp)"></i>Opposition deputies</span></div>
+    <div class="fig" id="fig-eras"></div>
+    <figcaption>Figure 1. Yes among votes cast on contested agrarian roll calls, by era. The gap is the government premium. It is smallest under the military-supervised cabinets of 1971–73.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P1</span>Agrarian roll calls are confidence votes</h2>
+    <p class="claim">The same deputies reverse their votes on the same farm agencies when their party enters or leaves the cabinet.</p>
+    <div class="box estimand">
+      <div><b>Estimand.</b> For a deputy whose party's cabinet status changes, the change in the probability of voting yes on a contested agrarian roll call, relative to deputies whose status does not change.</div>
+      <div><b>Two designs.</b> (a) The May 1950 turnover: 68 deputies elected in both 1946 and 1950 who kept their party. The DP moved from opposition to government, the CHP the reverse. (b) 1961–80: the DID<sub>M</sub> estimator of de Chaisemartin and D'Haultfœuille over every switch of cabinet status, with a placebo on non-switching periods.</div>
+      <div><b>Threat.</b> Roll calls before and after a change of government are not the same bills. In both designs, the treated and comparison deputies vote on the same roll calls, so a change in the bills alone cannot produce opposite movements in the two groups.</div>
+    </div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Design</th><th>Group</th><th class="n">Before</th><th class="n">After</th><th class="n">Estimate</th><th>Inference</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="2">1950 turnover</td><td>27 DP deputies (opposition → government)</td><td class="n">5%</td><td class="n">100%</td><td class="n" rowspan="2">+1.54</td><td rowspan="2">Fisher randomization over party labels: 0 of 5,000 as large (p &lt; 0.001)</td></tr>
+      <tr><td>41 CHP deputies (government → opposition)</td><td class="n">99%</td><td class="n">40%</td></tr>
+      <tr><td>1961–80 switches</td><td>2,242 deputies, 509 switch observations</td><td class="n" colspan="2">—</td><td class="n">+0.41</td><td>95% CI [0.11, 0.50]; placebo 0.002</td></tr>
+      <tr><td>1961–80 switches, taking part</td><td>2,263 deputies</td><td class="n" colspan="2">—</td><td class="n">+0.22</td><td>95% CI [0.10, 0.32]; placebo 0.03</td></tr>
+    </tbody>
+  </table></div>
+  <p class="col">The 1950 estimate adds the two flips together, so its scale is twice that of a single switch. Read per group, the DP rose 95 points and the CHP fell 59. The 1961–80 effect is smaller, probably because coalition partners and technocratic cabinets blur what being in government means. The direction and the mechanism are the same across the two regimes, the two governing parties, and thirty years.</p>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P2</span>Only exits that cross the cabinet line move votes</h2>
+    <p class="claim">Four parliamentary splits form a two-by-two comparison. Leaving the governing party turned deputies against the cabinet's farm budgets. Leaving one opposition party for another did nothing.</p>
+    <div class="box estimand">
+      <div><b>Estimand.</b> Difference-in-differences in yes on agrarian roll calls: deputies who left the party minus those who stayed, after minus before the split.</div>
+      <div><b>Inference.</b> Fisher randomization over which deputies of the party are labelled as leavers (5,000 draws).</div>
+      <div><b>Why it is a test.</b> All four groups left their party for policy or personal reasons. Only two of them changed their relation to the cabinet. If agrarian conviction drove the votes, all four exits should show effects.</div>
+    </div>
+  </div>
+  <div class="two">
+    <div class="tablewrap"><table id="tbl-exits">
+      <thead><tr><th>Split</th><th>From → to</th><th class="n">Leavers / stayers</th><th class="n">DiD</th><th class="n">p</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <figure>
+      <div class="legend"><span><i class="sw" style="background:var(--gov)"></i>Left the governing party</span><span><i class="sw" style="background:var(--neutral)"></i>Moved between opposition parties</span></div>
+      <div class="fig" id="fig-exits"></div>
+      <figcaption>Figure 2. Change in leavers' yes share relative to stayers. Outcomes: agency budgets for 1955 and 1970; contested agrarian votes for 1948; contested agency budgets for 1967.</figcaption>
+    </figure>
+  </div>
+  <p class="col">The 1955 and 1970 exits are fifteen years and two party systems apart, yet both show the same pattern. Leavers who had voted 100% yes with the cabinet fell to 48% (Hürriyet Partisi) and to between 0% and 27% in each period after the split (Demokratik Parti), while the stayers did not move. In 1970 the future DP founders had already broken with the AP on the land tax six months before the split (Fisher p = 5×10<sup>−9</sup>). That is the one place where an issue preceded the exit, and the issue was taxing land, not distributing it.</p>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P3</span>Land and constituency do not predict votes within party</h2>
+    <p class="claim">Farmer and landowner deputies voted with their party in every era. They were over-represented among the speakers.</p>
+    <div class="box estimand">
+      <div><b>Estimand.</b> The difference in yes between farmer and other deputies of the same party on the same contested roll call (party × roll-call fixed effects; standard errors clustered by deputy).</div>
+      <div><b>Measure.</b> Occupation from the TBMM Albümü 1920–2010 (7,355 biographies for 1920–80, 97–100% matched in every term). "Farmer" means the biography lists farming, a farm, land or livestock as an occupation (<i>çiftçi, çiftçilik, ziraatçı, çiftlik sahibi, arazi sahibi, hayvancılık</i>): Menderes "Çiftçilik", Sazak "Ziraatçı", Oral "Çiftçiler Birliği Reisi". It records occupation, not the size of holdings.</div>
+    </div>
+  </div>
+  <div class="two">
+    <figure>
+      <div class="fig" id="fig-farmer"></div>
+      <figcaption>Figure 3. Farmer effect on yes within party and roll call, by era, with 95% intervals. 1945 has no contested votes and is left out.</figcaption>
+    </figure>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Test</th><th>Sample</th><th class="n">Estimate (SE)</th></tr></thead>
+      <tbody>
+        <tr><td>Farmer, contested agrarian votes</td><td>1946–60</td><td class="n">−0.002 (0.007)</td></tr>
+        <tr><td>Farmer, contested land and land-tax votes</td><td>1961–80</td><td class="n">+0.002 (0.009)</td></tr>
+        <tr><td>Farmer, taking part in land votes</td><td>1961–80</td><td class="n">−0.030 (0.015)</td></tr>
+        <tr><td>Rural population share, per SD</td><td>1946–60</td><td class="n">−0.001 (0.002)</td></tr>
+        <tr><td>Rural population share, per SD</td><td>1961–80</td><td class="n">+0.002 (0.003)</td></tr>
+        <tr><td>Harvest shock in home province (yield vs trend)</td><td>1968–80, farm benefits, taking part</td><td class="n">−0.025 (0.022)</td></tr>
+        <tr><td>Farmer, absence on the 1945 land law (DiD over votes)</td><td>1945</td><td class="n">+0.005 (p = 0.93)</td></tr>
+        <tr class="hl"><td>Farmer share of words in the 1945 land debate</td><td>1945</td><td class="n">23% (9% of house)</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="col">Every within-party estimate is close to zero and precise, across a single-party house, a two-party house and a fragmented one. In 1961–80, farmer deputies took part slightly less often in land votes, which is the only behavioural difference. In 1945, landed deputies did not vote differently. They argued differently and much more: 9% of the house spoke 23% of the words.</p>
+  <div class="two">
+    <blockquote><span class="tr">"…konuşmamda, hissiyatımda toprakla alâkamın olmasının tesiri olmadığını inkâr edersem yalan söylemiş olurum."</span><span class="en">"If I denied that my tie to land affects my speech and my feelings, I would be lying."</span><span class="src">Emin Sazak (Eskişehir), 4 June 1945, on Article 17 · tbmm07018067, PDF p. 46</span></blockquote>
+    <blockquote><span class="tr">"…17 nci maddenin hükümleri toprakta hiçbir had ve hudut tanımamaktadır."</span><span class="en">"The provisions of Article 17 recognize no limit in land."</span><span class="src">Cavit Oral (Seyhan), 4 June 1945 · tbmm07018067, PDF p. 32. Five years later he presented the dilution of the law as Agriculture Minister.</span></blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P4</span>Opponents of distribution stay away; opponents of taxation vote no</h2>
+    <p class="claim">On land distribution and titling, the losing side's instrument was absence. On land taxes, it was a recorded no.</p>
+    <div class="box estimand">
+      <div><b>Measure.</b> For each key land vote, the share of the opposing party's listed deputies who took part, divided by that party's own participation on the other agrarian roll calls of the same era (1.0 = usual attendance). Present members' votes are reported alongside.</div>
+      <div><b>Coding.</b> "Distribution" transfers or registers land (land laws, titling). "Taxation" taxes land or property. The 1965 motion was procedural, but its defeat stopped İnönü's land reform bill, and the opposition could win it.</div>
+    </div>
+  </div>
+  <figure>
+    <div class="legend"><span><i class="sw" style="background:var(--opp)"></i>Distribution or titling</span><span><i class="sw" style="background:var(--gov)"></i>Taxation</span><span><i class="sw" style="background:var(--neutral)"></i>Winnable motion</span></div>
+    <div class="fig" id="fig-land"></div>
+    <figcaption>Figure 4. The opposing party's attendance on each key land vote relative to its usual attendance in the same era (log scale; 1 = usual). Labels show the share of present members voting no.</figcaption>
+  </figure>
+  <div class="tablewrap"><table id="tbl-land">
+    <thead><tr><th>Vote</th><th>Kind</th><th>Opposing party</th><th class="n">Present</th><th class="n">Usual</th><th class="n">Ratio</th><th class="n">No, of present</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="col">The rule holds at every one of the nine votes, under three governing parties.</p>
+  <ul class="plain col">
+    <li><b>Distribution:</b> the side that opposed the bill attended at 0.04–0.69 of its usual rate, five times out of five. In 1973, 2 of the CHP's 101 listed deputies took part.</li>
+    <li><b>Taxation:</b> the losing side attended at 0.89–1.48 of its usual rate and voted no, 83–100% of those present.</li>
+    <li><b>The 1945 precedent:</b> the five future DP founders voted no on the 29 May budget (368–5), then were absent from 91% of the votes that followed, the land law included.</li>
+    <li><b>The exception:</b> the one distribution vote the opposition could win, the 1965 motion, drew the AP at 1.65 times its usual rate. It defeated İnönü's bill 157–167.</li>
+  </ul>
+  <p class="col">The pattern fits a simple account. A recorded no against giving land to peasants is costly with rural voters, and a recorded no against a tax is not. Opponents of redistribution therefore vote no only when the no can win.</p>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P5</span>Redistribution passes only without competition</h2>
+    <p class="claim">Land reform passed in only two moments, and in both no opposition party was contesting the cabinet: a single-party house in 1945 and military-supervised cabinets in 1973.</p>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Moment</th><th>Regime</th><th>What reached the floor</th><th>Recorded result</th><th>How the landed side acted</th><th>Outcome</th></tr></thead>
+    <tbody>
+      <tr class="hl"><td>June 1945</td><td>Single party (CHP), war's end</td><td>Çiftçiyi Topraklandırma Kanunu, with Article 17 expropriating sharecropped land</td><td class="n">345–0</td><td>Voice in debate (Article 17 attacked by Menderes, Sazak, Oral, Koraltan); the founders' general withdrawal after 29 May</td><td><span class="verdict v-yes">Passed</span></td></tr>
+      <tr><td>March 1950</td><td>Two-party competition; election in May</td><td>CHP amendment removing the bite of the 1945 law</td><td class="n">261–15</td><td>The landed critics rewrote it from inside the CHP: Oral as minister. The 15 no votes were the law's authors (Hatipoğlu).</td><td><span class="verdict v-no">Diluted</span></td></tr>
+      <tr><td>1950–60</td><td>DP majority</td><td>Titling and technical amendments (1955: 275–0)</td><td class="n">near-unanimous</td><td>No bill extending distribution reached a recorded vote</td><td><span class="verdict v-no">Shelved</span></td></tr>
+      <tr><td>February 1965</td><td>Coalition competition; TİP about to enter</td><td>Motion to send İnönü's land reform bill to a joint committee</td><td class="n">157–167</td><td>The AP mobilized (1.65× its usual attendance) and voted no 98%</td><td><span class="verdict v-no">Defeated</span></td></tr>
+      <tr><td>1965–71</td><td>AP majority; TİP in the house</td><td>Titling amendment; TİP's ceiling amendments (by show of hands)</td><td class="n">—</td><td>TİP pivotal on 0 of 78 outcomes</td><td><span class="verdict v-no">Shelved</span></td></tr>
+      <tr class="hl"><td>June 1973</td><td>Military-supervised cabinets after the 12 March 1971 memorandum; TİP closed</td><td>Toprak ve Tarım Reformu Kanunu</td><td class="n">238–5</td><td>AP from 2–127 against (1965) to 198–1 for; the CHP stayed away (2 of 101 present)</td><td><span class="verdict v-yes">Passed</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="col">Process tracing gives each passage the same sequence: the opposition is excluded or absent, and the governing majority votes as a bloc. In 1945 the regime was a single party and the dissidents withdrew. In 1973 party conflict was suspended by the military (Proposition 6) and the radical left was closed. Under open competition, the party in power used land policy for its own constituents: dilution before an election in 1950, titling in the 1950s and 1966. The parliamentary record ends there. The fate of the 1973 law afterwards (it was annulled by the Constitutional Court in 1977) left no roll call and is context, not evidence from this record.</p>
+  <figure>
+    <div class="legend"><span><i class="sw" style="background:var(--accent)"></i>TBMM 1943–60, by legislative year</span><span><i class="sw" style="background:var(--gov)"></i>Senate 1961–79, by legislative year</span><span><i class="sw" style="background:var(--opp)"></i>Assembly 1961–80, by term</span></div>
+    <div class="fig" id="fig-speech"></div>
+    <figcaption>Figure 5. Share of minutes pages that mention land reform or land distribution (GNACT corpus; phrase counts, not quotations). Talk peaks when a cabinet puts land on its agenda (1944–45, 1950, 1969–75) and stays flat otherwise.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">P6</span>Competition makes agriculture partisan; tutelage suspends it</h2>
+    <p class="claim">The share of agrarian roll calls with a real losing side grew with each step of party competition and fell when the military supervised the cabinets.</p>
+  </div>
+  <figure>
+    <div class="fig" id="fig-contested"></div>
+    <figcaption>Figure 6. Share of agrarian roll calls that were contested (losing side at least 5% of votes cast), and share of all votes cast that were not yes, by era.</figcaption>
+  </figure>
+  <ul class="plain col">
+    <li><b>1945:</b> no contested vote, and 0.1% of votes cast were not yes. Dissent took the form of absence.</li>
+    <li><b>1946–60:</b> a two-party opposition voted no on agency budgets: 11% of roll calls were contested under the CHP and 24% under the DP. The government premium was already 0.72–0.76.</li>
+    <li><b>1961–71:</b> coalitions and then an AP majority facing a fragmented opposition. Contested roll calls reached 38% and then 58%.</li>
+    <li><b>1971–73:</b> the government premium fell to 0.31, the lowest of any competitive era. The AP–CHP distance on Assembly roll calls dropped by 0.38 after the memorandum (placebo in time, p = 0.03).</li>
+    <li><b>1973–80:</b> the premium returned to 0.84, the highest of the period, and 23% of votes cast were not yes.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">COMPARISON</span>What is held constant, and what is not</h2>
+    <p>A comparison across thirty-five years is only as good as the ways the eras resemble each other. The table sets out each difference that could affect the results and how it was handled.</p>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Dimension</th><th>1945</th><th>1946–60</th><th>1961–80</th><th>Consequence for the comparison</th></tr></thead>
+    <tbody>
+      <tr><td>Party system</td><td>Single party; independents</td><td>Two parties plus splinters</td><td>Multiparty; coalitions; one supervised period</td><td>The government premium is undefined in 1945; P1–P2 rest on 1946–80</td></tr>
+      <tr><td>Chambers</td><td colspan="2">One (TBMM)</td><td>Assembly and Senate</td><td>Only the lower house is compared</td></tr>
+      <tr><td>Which votes are named</td><td>Final passage of laws and budgets</td><td>Same</td><td>Also articles, motions and amendments</td><td>Restricting 1961–80 to final passage, budgets and accounts gives premiums of 0.46, 0.64, 0.35 and 0.84, against 0.42, 0.59, 0.31 and 0.84 with all stages</td></tr>
+      <tr><td>Vote categories</td><td>Yes / no / abstain / not voting</td><td>Same (<i>müstenkif</i> = abstain)</td><td>Same, plus invalid ballots</td><td>Harmonized to yes among votes cast and taking part</td></tr>
+      <tr><td>Absences excused</td><td>(İ.) leave, (Hasta) sick, ministers</td><td>Same</td><td>Same, plus status notes</td><td>Excused deputies removed everywhere</td></tr>
+      <tr><td>List accuracy</td><td>85% of names matched</td><td>89.5% matched</td><td>Land votes hand-verified exact</td><td>Unmatched names leave cells empty, not wrong; errors are not related to party</td></tr>
+      <tr><td>Occupation measure</td><td colspan="3">TBMM Albümü biographies, same coding rule in every term</td><td>The farmer effect is comparable across eras</td></tr>
+      <tr><td>Agenda control</td><td>Total</td><td>Majority party</td><td>Cabinet and quorum (226 of 450)</td><td>Unrecorded decisions are invisible in every era; the selection is the same kind of vote throughout</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="col stack">
+    <h2><span class="pn">BEYOND TURKEY</span>How far the argument travels</h2>
+    <p>Each proposition implies a scope condition, a setting in which it should hold elsewhere. They are stated here as hypotheses for other cases, not as findings.</p>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Proposition</th><th>Scope condition</th><th>Theory it speaks to</th><th>Verdict here</th></tr></thead>
+    <tbody>
+      <tr><td>P1–P2: votes follow the cabinet</td><td>Parliamentary executives with disciplined parties and confidence-style budget votes</td><td>Cox (1987); Huber (1996): executive control of the legislative agenda</td><td><span class="verdict v-yes">Causal, replicated across regimes</span></td></tr>
+      <tr><td>P3: no landed vote within party</td><td>Where party labels decide careers and candidate lists</td><td>Bates (1981); Olson (1985): sectoral interest in legislatures</td><td><span class="verdict v-no">Not supported in votes</span></td></tr>
+      <tr><td>P3–P4: voice and exit</td><td>Where public dissent is costly with rural voters</td><td>Hirschman (1970); Albertus (2015) on elite splits</td><td><span class="verdict v-part">Supported, descriptive</span></td></tr>
+      <tr><td>P5: reform without competition</td><td>Electoral regimes with large rural electorates and landed party wings</td><td>Albertus (2015): redistribution under autocracy; Huntington (1968)</td><td><span class="verdict v-part">Consistent (2 of 2 passages), not identified</span></td></tr>
+      <tr><td>P6: competition polarizes</td><td>Transitions from dominant-party to competitive rule</td><td>Mardin (1973), centre and periphery</td><td><span class="verdict v-part">Descriptive</span></td></tr>
+      <tr><td>Radical flank</td><td>A small radical party in a disciplined house</td><td>Haines (1984)</td><td><span class="verdict v-no">No direct effect (0 of 78 pivotal)</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="col">
+  <h2><span class="pn">LIMITS</span>What this record cannot show</h2>
+  <ul class="plain">
+    <li><b>Effects on farmers.</b> Support prices, credit ceilings and most decrees were never named votes.</li>
+    <li><b>Holdings.</b> The occupation flag does not measure acres. A deputy who owned large estates but listed law as his profession is coded as a lawyer.</li>
+    <li><b>The Senate.</b> Senators' parties are not observed, so the 1961–80 Senate stays out of the comparisons, and senators' occupations are not coded: the Senate albums are scans without text.</li>
+    <li><b>P5 rests on two cases.</b> It is a pattern consistent with theory, not an identified effect. Before 1960, the comparison covers 189 roll calls against 322 after.</li>
+    <li><b>Speech measures.</b> The GNACT text sometimes invents content, so salience is a phrase count and every quotation was checked on the TBMM PDF.</li>
+    <li><b>Era boundaries.</b> 1946–50 has four contested roll calls; its premium is shown but not leaned on.</li>
+  </ul>
+</section>
+
+<section class="col">
+  <h2><span class="pn">APPENDIX</span>Methods and files</h2>
+  <ul class="plain">
+    <li><b>Lists.</b> TBMM <i>Tutanak Dergisi</i> PDFs (www5.tbmm.gov.tr). The vote index for 1943–60 was found in the GNACT corpus (Hugging Face <span class="num">boun-tabilab/turkish_parliamentary_data</span>), whose page numbers are the PDF pages. Names were parsed with a layout parser and matched to the Turkish Political Elites Dataset by term, province and fuzzy name.</li>
+    <li><b>Occupations.</b> TBMM Albümü 1920–2010, volumes 1–2 (acikerisim.tbmm.gov.tr, hdl 11543/2343).</li>
+    <li><b>Estimators.</b> Government premium: per-roll-call differences in means. DID<sub>M</sub> (de Chaisemartin–D'Haultfœuille) with a deputy bootstrap. Exit DiDs with Fisher randomization over deputies (5,000 draws). Within-party effects with party × roll-call fixed effects and deputy-clustered errors. Memorandum: placebo in time over 156 break dates.</li>
+    <li><b>Files</b> (repository <span class="num">rollcalllandrc</span>): <span class="num">data/processed/rollcall_1945_1980_long.csv.gz</span> (the harmonized panel); <span class="num">analysis/10_synthesis_1945_80.py</span> (this report's statistics); <span class="num">analysis/tbmm1943/</span> (1945–60 lists, debates, designs); <span class="num">analysis/occupation/</span> (albums); <span class="num">analysis/findings.md</span> (full notes).</li>
+  </ul>
+</section>
+</main>
+
+<script>
+const D = /*__DATA__*/null;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (x, d = 2) => x == null ? "—" : (Math.round(x * 10 ** d) / 10 ** d).toFixed(d);
+const pct = x => x == null ? "—" : Math.round(x * 100) + "%";
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function txt(parent, x, y, s, attrs = {}) { const t = el("text", { x, y, ...attrs }, parent); t.textContent = s; return t; }
+function tipFor(host) { const t = document.createElement("div"); t.className = "tip"; host.appendChild(t); return {
+  show(html, ev) { t.innerHTML = html; t.classList.add("on"); const r = host.getBoundingClientRect(); let x = ev.clientX - r.left + 12, y = ev.clientY - r.top + 12; if (x > r.width - 250) x = Math.max(4, x - 260); t.style.left = x + "px"; t.style.top = y + "px"; },
+  hide() { t.classList.remove("on"); } }; }
+function hover(mark, tip, html) { mark.style.cursor = "default"; mark.addEventListener("pointermove", e => tip.show(html, e)); mark.addEventListener("pointerleave", () => tip.hide()); }
+
+document.querySelectorAll("[data-t]").forEach(n => n.textContent = D.totals[n.dataset.t].toLocaleString("en-US"));
+
+const REGIME = { "1945": "Single party", "1946–50": "CHP government, DP opposition", "1950–60": "DP government", "1961–65": "Coalitions", "1965–71": "AP majority", "1971–73": "Military-supervised cabinets", "1973–80": "Competitive coalitions" };
+document.querySelector("#tbl-eras tbody").innerHTML = D.eras.map(e => `<tr${e.era === "1971–73" ? ' class="hl"' : ""}><td>${e.era}</td><td>${REGIME[e.era]}</td><td class="n">${e.roll_calls}</td><td class="n">${pct(e.contested_share)}</td><td class="n">${(e.no_share_of_cast * 100).toFixed(1)}%</td><td class="n">${pct(e.participation)}</td><td class="n">${pct(e.gov_yes)}</td><td class="n">${pct(e.opp_yes)}</td><td class="n">${e.gov_premium_yes == null ? "—" : "+" + fmt(e.gov_premium_yes)}</td></tr>`).join("");
+
+const EXIT = { "1948 DP -> Millet Partisi": "1948 DP → Millet Partisi", "1955 DP -> Hürriyet Partisi": "1955 DP → Hürriyet Partisi", "1967 CHP -> Güven Partisi": "1967 CHP → Güven Partisi", "1970 AP -> Demokratik Parti": "1970 AP → Demokratik Parti" };
+const pfmt = p => p < 0.0002 ? "&lt; 0.001" : fmt(p, 2);
+document.querySelector("#tbl-exits tbody").innerHTML = D.exits.map(x => `<tr><td>${EXIT[x.name]}</td><td>${x.from} → ${x.to}</td><td class="n">${x.treated} / ${x.control}</td><td class="n">${x.estimate > 0 ? "+" : ""}${fmt(x.estimate)}</td><td class="n">${pfmt(x.ri_p)}</td></tr>`).join("");
+
+const KIND = { distribution: "Distribution", taxation: "Taxation", "winnable motion": "Winnable motion" };
+document.querySelector("#tbl-land tbody").innerHTML = D.land.map(x => `<tr><td>${x.label}</td><td>${KIND[x.kind]}</td><td>${x.party}</td><td class="n">${pct(x.present)}</td><td class="n">${pct(x.base)}</td><td class="n">${fmt(x.ratio)}</td><td class="n">${x.no_of_present == null ? "—" : pct(x.no_of_present)}</td></tr>`).join("");
+
+function figEras() {
+  const host = document.getElementById("fig-eras"), tip = tipFor(host);
+  const rows = D.eras.filter(e => e.gov_yes != null), W = 720, rowH = 40, top = 30, left = 78, right = 24, H = top + rows.length * rowH + 14;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Government and opposition yes shares by era" }, host);
+  const x = v => left + v * (W - left - right);
+  [0, .25, .5, .75, 1].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: top - 8, y2: H - 10, class: "grid" }, svg); txt(svg, x(v), top - 14, pct(v), { "text-anchor": "middle" }); });
+  rows.forEach((e, i) => {
+    const y = top + i * rowH + rowH / 2;
+    txt(svg, 0, y + 4, e.era, { class: "t-strong" });
+    el("line", { x1: x(e.opp_yes), x2: x(e.gov_yes), y1: y, y2: y, stroke: css("--neutral"), "stroke-width": 2 }, svg);
+    const o = el("circle", { cx: x(e.opp_yes), cy: y, r: 6, fill: css("--opp"), stroke: css("--surface"), "stroke-width": 2 }, svg);
+    const g = el("circle", { cx: x(e.gov_yes), cy: y, r: 6, fill: css("--gov"), stroke: css("--surface"), "stroke-width": 2 }, svg);
+    const html = `<b>${e.era}</b><br>Government yes ${pct(e.gov_yes)}<br>Opposition yes ${pct(e.opp_yes)}<br>Premium +${fmt(e.gov_premium_yes)}`;
+    [o, g].forEach(m => hover(m, tip, html));
+    txt(svg, x(e.gov_yes) - 10, y - 10, "+" + fmt(e.gov_premium_yes), { "text-anchor": "end" });
+  });
+}
+
+function figExits() {
+  const host = document.getElementById("fig-exits"), tip = tipFor(host);
+  const W = 460, H = 240, left = 170, right = 44, top = 16, rowH = 50;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Effect of party exits on yes" }, host);
+  const x = v => left + (v + 1) / 1.25 * (W - left - right);
+  [-1, -.5, 0].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: top, y2: H - 22, class: v === 0 ? "axis" : "grid" }, svg); txt(svg, x(v), H - 6, (v > 0 ? "+" : "") + v.toFixed(1), { "text-anchor": "middle" }); });
+  D.exits.forEach((e, i) => {
+    const y = top + i * rowH + 16, gov = e.from === "government";
+    txt(svg, 0, y + 12, EXIT[e.name].replace(" → ", " → ").slice(0, 26), { class: "t-strong" });
+    const x0 = x(0), x1 = x(e.estimate);
+    const r = el("rect", { x: Math.min(x0, x1), y, width: Math.max(2, Math.abs(x1 - x0)), height: 18, rx: 3, fill: gov ? css("--gov") : css("--neutral") }, svg);
+    hover(r, tip, `<b>${EXIT[e.name]}</b><br>${e.from} → ${e.to}<br>DiD ${fmt(e.estimate)} · p ${pfmt(e.ri_p).replace("&lt;", "<")}`);
+    txt(svg, Math.max(x0, x1) + 6, y + 13, (e.estimate > 0 ? "+" : "") + fmt(e.estimate), { "text-anchor": "start" });
+  });
+}
+
+function figFarmer() {
+  const host = document.getElementById("fig-farmer"), tip = tipFor(host);
+  const rows = D.eras.filter(e => e.farmer_effect != null), W = 460, H = 250, left = 70, right = 20, top = 14, rowH = 34;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Farmer effect by era" }, host);
+  const x = v => left + (v + .08) / .16 * (W - left - right);
+  [-.08, -.04, 0, .04, .08].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: top, y2: H - 22, class: v === 0 ? "axis" : "grid" }, svg); txt(svg, x(v), H - 6, (v > 0 ? "+" : "") + v.toFixed(2), { "text-anchor": "middle" }); });
+  rows.forEach((e, i) => {
+    const y = top + i * rowH + 16, lo = e.farmer_effect - 1.96 * e.farmer_se, hi = e.farmer_effect + 1.96 * e.farmer_se;
+    txt(svg, 0, y + 4, e.era, { class: "t-strong" });
+    el("line", { x1: x(lo), x2: x(hi), y1: y, y2: y, stroke: css("--accent"), "stroke-width": 2 }, svg);
+    const c = el("circle", { cx: x(e.farmer_effect), cy: y, r: 5, fill: css("--accent"), stroke: css("--surface"), "stroke-width": 2 }, svg);
+    hover(c, tip, `<b>${e.era}</b><br>Farmer effect ${fmt(e.farmer_effect, 3)} (SE ${fmt(e.farmer_se, 3)})<br>${e.farmer_deputies} farmer deputies`);
+  });
+}
+
+function figLand() {
+  const host = document.getElementById("fig-land"), tip = tipFor(host);
+  const W = 720, rowH = 30, top = 24, left = 220, right = 60, H = top + D.land.length * rowH + 26;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Opposing party attendance on key land votes" }, host);
+  const lg = v => Math.log(v), lo = Math.log(.05), hi = Math.log(2);
+  const x = v => left + (lg(v) - lo) / (hi - lo) * (W - left - right);
+  [.05, .1, .25, .5, 1, 2].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: top - 6, y2: H - 22, class: v === 1 ? "axis" : "grid" }, svg); txt(svg, x(v), H - 6, v + "×", { "text-anchor": "middle" }); });
+  const col = { distribution: css("--opp"), taxation: css("--gov"), "winnable motion": css("--neutral") };
+  D.land.forEach((d, i) => {
+    const y = top + i * rowH + 10, r = Math.max(d.ratio, .05);
+    txt(svg, 0, y + 4, `${d.label} (${d.party})`, { class: "t-strong" });
+    el("line", { x1: x(1), x2: x(r), y1: y, y2: y, stroke: col[d.kind], "stroke-width": 2 }, svg);
+    const c = el("circle", { cx: x(r), cy: y, r: 6, fill: col[d.kind], stroke: css("--surface"), "stroke-width": 2 }, svg);
+    hover(c, tip, `<b>${d.label}</b><br>${d.party}: present ${pct(d.present)} vs usual ${pct(d.base)}<br>No among present ${d.no_of_present == null ? "—" : pct(d.no_of_present)}`);
+    txt(svg, x(r) + (r >= 1 ? 10 : -10), y + 4, d.no_of_present == null ? "" : "no " + pct(d.no_of_present), { "text-anchor": r >= 1 ? "start" : "end" });
+  });
+}
+
+function figSpeech() {
+  const host = document.getElementById("fig-speech"), tip = tipFor(host);
+  const W = 720, H = 260, left = 44, right = 16, top = 14, bottom = 26;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Land reform mentions in the minutes, 1943-1980" }, host);
+  const x = v => left + (v - 1943) / (1980 - 1943) * (W - left - right), y = v => top + (1 - v / .05) * (H - top - bottom);
+  [0, .01, .02, .03, .04, .05].forEach(v => { el("line", { x1: left, x2: W - right, y1: y(v), y2: y(v), class: v === 0 ? "axis" : "grid" }, svg); txt(svg, left - 6, y(v) + 4, (v * 100) + "%", { "text-anchor": "end" }); });
+  [1945, 1950, 1955, 1960, 1965, 1970, 1975, 1980].forEach(v => txt(svg, x(v), H - 6, v, { "text-anchor": "middle" }));
+  const line = (pts, color) => { el("polyline", { points: pts.map(p => `${x(p[0] + .5)},${y(p[1])}`).join(" "), fill: "none", stroke: color, "stroke-width": 2, "stroke-linejoin": "round" }, svg); };
+  line(D.speech.TBMM, css("--accent")); line(D.speech.CS, css("--gov"));
+  D.speech.MM.forEach(([s, v]) => { const e = s === 1977 ? 1980 : s + 4; el("line", { x1: x(s), x2: x(e), y1: y(v), y2: y(v), stroke: css("--opp"), "stroke-width": 3, "stroke-linecap": "round" }, svg); });
+  const all = [...D.speech.TBMM.map(p => ["TBMM", ...p]), ...D.speech.CS.map(p => ["Senate", ...p]), ...D.speech.MM.map(p => ["Assembly term", ...p])];
+  all.forEach(([b, s, v]) => { const c = el("circle", { cx: b === "Assembly term" ? x(s + 2) : x(s + .5), cy: y(v), r: 7, fill: "transparent" }, svg); hover(c, tip, `<b>${b} ${s}</b><br>${(v * 100).toFixed(1)}% of pages`); });
+  [[1945, .0385, "1945 land law"], [1950, .0163, "1950 dilution"], [1969, .0418, "1969–73 Assembly"]].forEach(([s, v, l]) => txt(svg, x(s + .5), y(v) - 8, l, { "text-anchor": "middle", class: "t-strong" }));
+}
+
+function figContested() {
+  const host = document.getElementById("fig-contested"), tip = tipFor(host);
+  const rows = D.eras, W = 720, H = 240, left = 44, right = 16, top = 24, bottom = 30, bw = (W - left - right) / rows.length;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Contested share by era" }, host);
+  const y = v => top + (1 - v / .7) * (H - top - bottom);
+  [0, .2, .4, .6].forEach(v => { el("line", { x1: left, x2: W - right, y1: y(v), y2: y(v), class: v === 0 ? "axis" : "grid" }, svg); txt(svg, left - 6, y(v) + 4, pct(v), { "text-anchor": "end" }); });
+  rows.forEach((e, i) => {
+    const cx = left + i * bw + bw / 2, w = Math.min(36, bw / 3);
+    const a = el("rect", { x: cx - w - 1, y: y(e.contested_share), width: w, height: Math.max(0, y(0) - y(e.contested_share)), rx: 3, fill: css("--accent") }, svg);
+    const b = el("rect", { x: cx + 1, y: y(e.no_share_of_cast), width: w, height: Math.max(0, y(0) - y(e.no_share_of_cast)), rx: 3, fill: css("--neutral") }, svg);
+    const html = `<b>${e.era}</b><br>Contested roll calls ${pct(e.contested_share)}<br>Not-yes share of votes cast ${(e.no_share_of_cast * 100).toFixed(1)}%`;
+    hover(a, tip, html); hover(b, tip, html);
+    txt(svg, cx, H - 10, e.era, { "text-anchor": "middle", class: "t-strong" });
+    txt(svg, cx - w / 2 - 1, y(e.contested_share) - 5, pct(e.contested_share), { "text-anchor": "middle" });
+  });
+  const lg = el("g", {}, svg);
+  el("rect", { x: left + 6, y: 4, width: 10, height: 10, rx: 2, fill: css("--accent") }, lg); txt(lg, left + 20, 13, "Contested roll calls");
+  el("rect", { x: left + 160, y: 4, width: 10, height: 10, rx: 2, fill: css("--neutral") }, lg); txt(lg, left + 174, 13, "Not-yes share of votes cast");
+}
+
+function drawAll() { ["fig-eras", "fig-exits", "fig-farmer", "fig-land", "fig-speech", "fig-contested"].forEach(id => document.getElementById(id).innerHTML = ""); figEras(); figExits(); figFarmer(); figLand(); figSpeech(); figContested(); }
+drawAll();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawAll);
+new MutationObserver(drawAll).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>

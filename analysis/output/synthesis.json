@@ -1,0 +1,873 @@
+{
+ "rows": 216315,
+ "roll_calls": 511,
+ "deputies": 2979,
+ "by_source": [
+  {
+   "era_src": "1945",
+   "roll_calls": 54,
+   "rows": 19115
+  },
+  {
+   "era_src": "1946-60",
+   "roll_calls": 135,
+   "rows": 60080
+  },
+  {
+   "era_src": "1961-80",
+   "roll_calls": 322,
+   "rows": 137120
+  }
+ ],
+ "eras": [
+  {
+   "era": "1945 single party",
+   "roll_calls": 54,
+   "deputy_votes": 17878,
+   "deputies": 441,
+   "contested_share": 0.0,
+   "participation": 0.7257523212887348,
+   "no_share_of_cast": 0.0006165703275529866,
+   "gov_premium_yes": null,
+   "gov_premium_votes": 0,
+   "gov_premium_participation": -0.12807771594208472,
+   "gov_yes": null,
+   "opp_yes": null,
+   "farmer_effect": null,
+   "farmer_se": null,
+   "farmer_deputies": 0,
+   "farmer_share": 0.09297052154195011
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "roll_calls": 36,
+   "deputy_votes": 13646,
+   "deputies": 479,
+   "contested_share": 0.1111111111111111,
+   "participation": 0.607797156675949,
+   "no_share_of_cast": 0.01917048468772607,
+   "gov_premium_yes": 0.7179056305773246,
+   "gov_premium_votes": 4,
+   "gov_premium_participation": 0.4064891412593629,
+   "gov_yes": 0.983756345177665,
+   "opp_yes": 0.18181818181818182,
+   "farmer_effect": -0.004813385243536682,
+   "farmer_se": 0.01014814550514431,
+   "farmer_deputies": 69,
+   "farmer_share": 0.1544885177453027
+  },
+  {
+   "era": "1950-60 DP government",
+   "roll_calls": 90,
+   "deputy_votes": 41460,
+   "deputies": 1079,
+   "contested_share": 0.24444444444444444,
+   "participation": 0.56027496382055,
+   "no_share_of_cast": 0.04726850058117009,
+   "gov_premium_yes": 0.7561630657594454,
+   "gov_premium_votes": 22,
+   "gov_premium_participation": 0.21805767697533934,
+   "gov_yes": 0.9889925373134328,
+   "opp_yes": 0.16363636363636364,
+   "farmer_effect": -0.001339006155498964,
+   "farmer_se": 0.007621588445446078,
+   "farmer_deputies": 181,
+   "farmer_share": 0.1788693234476367
+  },
+  {
+   "era": "1961-65 coalitions",
+   "roll_calls": 91,
+   "deputy_votes": 38476,
+   "deputies": 853,
+   "contested_share": 0.38461538461538464,
+   "participation": 0.49082544963093877,
+   "no_share_of_cast": 0.12533756949960287,
+   "gov_premium_yes": 0.42184062171170716,
+   "gov_premium_votes": 35,
+   "gov_premium_participation": 0.055885566963898334,
+   "gov_yes": 0.9183886999738425,
+   "opp_yes": 0.49100599600266487,
+   "farmer_effect": -0.012286222095444633,
+   "farmer_se": 0.012523883698959603,
+   "farmer_deputies": 80,
+   "farmer_share": 0.1746776084407972
+  },
+  {
+   "era": "1965-71 AP majority",
+   "roll_calls": 125,
+   "deputy_votes": 49248,
+   "deputies": 1405,
+   "contested_share": 0.584,
+   "participation": 0.48202972709551656,
+   "no_share_of_cast": 0.16622435654408357,
+   "gov_premium_yes": 0.5930297717465683,
+   "gov_premium_votes": 73,
+   "gov_premium_participation": 0.11999794248356498,
+   "gov_yes": 0.9658287964786285,
+   "opp_yes": 0.3874680306905371,
+   "farmer_effect": 0.021260486006674982,
+   "farmer_se": 0.012469708350438334,
+   "farmer_deputies": 156,
+   "farmer_share": 0.1601423487544484
+  },
+  {
+   "era": "1971-73 military-supervised cabinets",
+   "roll_calls": 46,
+   "deputy_votes": 19979,
+   "deputies": 697,
+   "contested_share": 0.30434782608695654,
+   "participation": 0.503829020471495,
+   "no_share_of_cast": 0.10749056228889331,
+   "gov_premium_yes": 0.3123801297354623,
+   "gov_premium_votes": 14,
+   "gov_premium_participation": 0.18736213414019948,
+   "gov_yes": 0.7584055459272097,
+   "opp_yes": 0.6283582089552239,
+   "farmer_effect": -0.00039793270254272634,
+   "farmer_se": 0.02028890650652581,
+   "farmer_deputies": 95,
+   "farmer_share": 0.16355810616929697
+  },
+  {
+   "era": "1973-80 competitive coalitions",
+   "roll_calls": 62,
+   "deputy_votes": 26582,
+   "deputies": 720,
+   "contested_share": 0.46774193548387094,
+   "participation": 0.589082838010684,
+   "no_share_of_cast": 0.23419788664745436,
+   "gov_premium_yes": 0.8353311566463689,
+   "gov_premium_votes": 25,
+   "gov_premium_participation": 0.16111590689865601,
+   "gov_yes": 0.9974587039390089,
+   "opp_yes": 0.2673702726473175,
+   "farmer_effect": -0.0007381844828845518,
+   "farmer_se": 0.008431059433838465,
+   "farmer_deputies": 96,
+   "farmer_share": 0.13194444444444445
+  }
+ ],
+ "exits": {
+  "1948 DP -> Millet Partisi": {
+   "from": "opposition",
+   "to": "opposition",
+   "votes": "contested agrarian",
+   "estimate": 0.10098522167487686,
+   "ri_p": 0.227,
+   "treated": 19,
+   "control": 25,
+   "pre_treated": 0.0,
+   "post_treated": 0.1724137931034483,
+   "pre_control": 0.0,
+   "post_control": 0.07142857142857142,
+   "split_july_1948": 0.10098522167487686
+  },
+  "1955 DP -> Hürriyet Partisi": {
+   "from": "government",
+   "to": "opposition",
+   "votes": "agency budgets",
+   "estimate": -0.5185185185185186,
+   "ri_p": 0.0,
+   "treated": 29,
+   "control": 422,
+   "pre_treated": 1.0,
+   "post_treated": 0.48148148148148145,
+   "pre_control": 1.0,
+   "post_control": 1.0
+  },
+  "1967 CHP -> Güven Partisi": {
+   "from": "opposition",
+   "to": "opposition",
+   "votes": "contested agency budgets",
+   "estimate": -0.04147673174110986,
+   "ri_p": 0.4648,
+   "treated": 32,
+   "control": 85
+  },
+  "1970 AP -> Demokratik Parti": {
+   "from": "government",
+   "to": "opposition",
+   "votes": "agency budgets",
+   "estimate": -0.8278764530137371,
+   "ri_p": 0.0,
+   "treated": 21,
+   "control": 211
+  }
+ },
+ "contested_by_type_era": [
+  {
+   "era": "1945 single party",
+   "pt": "agency_budget",
+   "mean": 0.0,
+   "size": 30
+  },
+  {
+   "era": "1945 single party",
+   "pt": "land_reform",
+   "mean": 0.0,
+   "size": 1
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "agency_budget",
+   "mean": 0.182,
+   "size": 11
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "commodity_board",
+   "mean": 0.167,
+   "size": 6
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "farm_benefit",
+   "mean": 0.0,
+   "size": 2
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "forest_law",
+   "mean": 0.0,
+   "size": 5
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "infrastructure",
+   "mean": 0.0,
+   "size": 1
+  },
+  {
+   "era": "1946-50 CHP government, DP opposition",
+   "pt": "land_reform",
+   "mean": 0.167,
+   "size": 6
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "agency_budget",
+   "mean": 0.462,
+   "size": 39
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "commodity_board",
+   "mean": 0.0,
+   "size": 15
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "farm_benefit",
+   "mean": 0.0,
+   "size": 4
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "forest_law",
+   "mean": 0.0,
+   "size": 1
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "infrastructure",
+   "mean": 0.267,
+   "size": 15
+  },
+  {
+   "era": "1950-60 DP government",
+   "pt": "land_reform",
+   "mean": 0.0,
+   "size": 6
+  },
+  {
+   "era": "1961-65 coalitions",
+   "pt": "agency_budget",
+   "mean": 0.703,
+   "size": 37
+  },
+  {
+   "era": "1961-65 coalitions",
+   "pt": "farm_benefit",
+   "mean": 0.143,
+   "size": 7
+  },
+  {
+   "era": "1961-65 coalitions",
+   "pt": "land_reform",
+   "mean": 1.0,
+   "size": 3
+  },
+  {
+   "era": "1965-71 AP majority",
+   "pt": "agency_budget",
+   "mean": 0.768,
+   "size": 69
+  },
+  {
+   "era": "1965-71 AP majority",
+   "pt": "farm_benefit",
+   "mean": 0.5,
+   "size": 2
+  },
+  {
+   "era": "1965-71 AP majority",
+   "pt": "land_reform",
+   "mean": 1.0,
+   "size": 2
+  },
+  {
+   "era": "1971-73 military-supervised cabinets",
+   "pt": "agency_budget",
+   "mean": 0.4,
+   "size": 20
+  },
+  {
+   "era": "1971-73 military-supervised cabinets",
+   "pt": "farm_benefit",
+   "mean": 0.0,
+   "size": 5
+  },
+  {
+   "era": "1971-73 military-supervised cabinets",
+   "pt": "land_reform",
+   "mean": 0.8,
+   "size": 5
+  },
+  {
+   "era": "1973-80 competitive coalitions",
+   "pt": "agency_budget",
+   "mean": 0.667,
+   "size": 30
+  },
+  {
+   "era": "1973-80 competitive coalitions",
+   "pt": "farm_benefit",
+   "mean": 0.0,
+   "size": 17
+  },
+  {
+   "era": "1973-80 competitive coalitions",
+   "pt": "land_reform",
+   "mean": 1.0,
+   "size": 8
+  }
+ ],
+ "land_votes": [
+  {
+   "vote": "1945 Land distribution law (final)",
+   "vote_id": "tbmm07018072_p022",
+   "era": "1945 single party",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 290,
+   "present": 0.8241379310344827,
+   "era_baseline_present": 0.7245214838236125,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Amendment diluting the 1945 law",
+   "vote_id": "tbmm08025070_p086",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "Bağımsız",
+   "government": false,
+   "members_listed": 9,
+   "present": 0.4444444444444444,
+   "era_baseline_present": 0.2639751552795031,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Amendment diluting the 1945 law",
+   "vote_id": "tbmm08025070_p086",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 339,
+   "present": 0.6991150442477876,
+   "era_baseline_present": 0.6674940089010613,
+   "yes_of_present": 0.9535864978902954,
+   "no_of_present": 0.0379746835443038
+  },
+  {
+   "vote": "1950 Amendment diluting the 1945 law",
+   "vote_id": "tbmm08025070_p086",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "DP",
+   "government": false,
+   "members_listed": 31,
+   "present": 0.1935483870967742,
+   "era_baseline_present": 0.28042763157894735,
+   "yes_of_present": 0.5,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Amendment diluting the 1945 law",
+   "vote_id": "tbmm08025070_p086",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "MP",
+   "government": false,
+   "members_listed": 17,
+   "present": 0.11764705882352941,
+   "era_baseline_present": 0.16273584905660377,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Titling (Tapulama) law",
+   "vote_id": "tbmm08025066_p040",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "Bağımsız",
+   "government": false,
+   "members_listed": 11,
+   "present": 0.36363636363636365,
+   "era_baseline_present": 0.2639751552795031,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Titling (Tapulama) law",
+   "vote_id": "tbmm08025066_p040",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 303,
+   "present": 0.594059405940594,
+   "era_baseline_present": 0.6674940089010613,
+   "yes_of_present": 0.9944444444444445,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Titling (Tapulama) law",
+   "vote_id": "tbmm08025066_p040",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "DP",
+   "government": false,
+   "members_listed": 28,
+   "present": 0.10714285714285714,
+   "era_baseline_present": 0.28042763157894735,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1950 Titling (Tapulama) law",
+   "vote_id": "tbmm08025066_p040",
+   "era": "1946-50 CHP government, DP opposition",
+   "party": "MP",
+   "government": false,
+   "members_listed": 18,
+   "present": 0.0,
+   "era_baseline_present": 0.16273584905660377,
+   "yes_of_present": null,
+   "no_of_present": null
+  },
+  {
+   "vote": "1955 Land law amendment",
+   "vote_id": "tbmm10007078_p139",
+   "era": "1950-60 DP government",
+   "party": "Bağımsız",
+   "government": false,
+   "members_listed": 12,
+   "present": 0.5,
+   "era_baseline_present": 0.38109756097560976,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1955 Land law amendment",
+   "vote_id": "tbmm10007078_p139",
+   "era": "1950-60 DP government",
+   "party": "CHP",
+   "government": false,
+   "members_listed": 28,
+   "present": 0.10714285714285714,
+   "era_baseline_present": 0.3857537490134175,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1955 Land law amendment",
+   "vote_id": "tbmm10007078_p139",
+   "era": "1950-60 DP government",
+   "party": "DP",
+   "government": true,
+   "members_listed": 454,
+   "present": 0.539647577092511,
+   "era_baseline_present": 0.6020101697939279,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "AP",
+   "government": false,
+   "members_listed": 167,
+   "present": 0.4251497005988024,
+   "era_baseline_present": 0.4773401101228293,
+   "yes_of_present": 0.1267605633802817,
+   "no_of_present": 0.8309859154929577
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 178,
+   "present": 0.6966292134831461,
+   "era_baseline_present": 0.5306712202810981,
+   "yes_of_present": 0.9919354838709677,
+   "no_of_present": 0.008064516129032258
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "CKMP",
+   "government": false,
+   "members_listed": 20,
+   "present": 0.5,
+   "era_baseline_present": 0.4481818181818182,
+   "yes_of_present": 0.4,
+   "no_of_present": 0.5
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "IND",
+   "government": false,
+   "members_listed": 18,
+   "present": 0.2777777777777778,
+   "era_baseline_present": 0.36503856041131105,
+   "yes_of_present": 0.8,
+   "no_of_present": 0.2
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "MP",
+   "government": false,
+   "members_listed": 12,
+   "present": 0.3333333333333333,
+   "era_baseline_present": 0.37136929460580914,
+   "yes_of_present": 0.5,
+   "no_of_present": 0.5
+  },
+  {
+   "vote": "1964 Land tax, article 9",
+   "vote_id": "mm01030096_p062",
+   "era": "1961-65 coalitions",
+   "party": "YTP",
+   "government": false,
+   "members_listed": 30,
+   "present": 0.43333333333333335,
+   "era_baseline_present": 0.451114922813036,
+   "yes_of_present": 0.5384615384615384,
+   "no_of_present": 0.38461538461538464
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "AP",
+   "government": false,
+   "members_listed": 164,
+   "present": 0.7865853658536586,
+   "era_baseline_present": 0.4773401101228293,
+   "yes_of_present": 0.015503875968992248,
+   "no_of_present": 0.9844961240310077
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 184,
+   "present": 0.7880434782608695,
+   "era_baseline_present": 0.5306712202810981,
+   "yes_of_present": 0.9793103448275862,
+   "no_of_present": 0.013793103448275862
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "CKMP",
+   "government": false,
+   "members_listed": 20,
+   "present": 0.55,
+   "era_baseline_present": 0.4481818181818182,
+   "yes_of_present": 0.09090909090909091,
+   "no_of_present": 0.8181818181818182
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "IND",
+   "government": false,
+   "members_listed": 18,
+   "present": 0.6666666666666666,
+   "era_baseline_present": 0.36503856041131105,
+   "yes_of_present": 0.5,
+   "no_of_present": 0.5
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "MP",
+   "government": false,
+   "members_listed": 12,
+   "present": 0.8333333333333334,
+   "era_baseline_present": 0.37136929460580914,
+   "yes_of_present": 0.1,
+   "no_of_present": 0.9
+  },
+  {
+   "vote": "1965 Motion: land reform bill to a joint committee",
+   "vote_id": "mm01035055_p050",
+   "era": "1961-65 coalitions",
+   "party": "YTP",
+   "government": false,
+   "members_listed": 30,
+   "present": 0.5666666666666667,
+   "era_baseline_present": 0.451114922813036,
+   "yes_of_present": 0.17647058823529413,
+   "no_of_present": 0.8235294117647058
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "AP",
+   "government": true,
+   "members_listed": 226,
+   "present": 0.11946902654867257,
+   "era_baseline_present": 0.5517426479046049,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "CHP",
+   "government": false,
+   "members_listed": 129,
+   "present": 0.05426356589147287,
+   "era_baseline_present": 0.41209079331785153,
+   "yes_of_present": 0.0,
+   "no_of_present": 1.0
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "CKMP",
+   "government": false,
+   "members_listed": 10,
+   "present": 0.0,
+   "era_baseline_present": 0.2484472049689441,
+   "yes_of_present": null,
+   "no_of_present": null
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "MP",
+   "government": false,
+   "members_listed": 29,
+   "present": 0.0,
+   "era_baseline_present": 0.40772532188841204,
+   "yes_of_present": null,
+   "no_of_present": null
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "TİP",
+   "government": false,
+   "members_listed": 15,
+   "present": 0.2,
+   "era_baseline_present": 0.3667315175097276,
+   "yes_of_present": 0.0,
+   "no_of_present": 1.0
+  },
+  {
+   "vote": "1966 Titling law amendment",
+   "vote_id": "mm02006092_p086",
+   "era": "1965-71 AP majority",
+   "party": "YTP",
+   "government": false,
+   "members_listed": 19,
+   "present": 0.10526315789473684,
+   "era_baseline_present": 0.4023876404494382,
+   "yes_of_present": 0.0,
+   "no_of_present": 1.0
+  },
+  {
+   "vote": "1970 Property (land) tax law",
+   "vote_id": "mm03007115_p075",
+   "era": "1965-71 AP majority",
+   "party": "AP",
+   "government": true,
+   "members_listed": 246,
+   "present": 0.5609756097560976,
+   "era_baseline_present": 0.5517426479046049,
+   "yes_of_present": 0.8768115942028986,
+   "no_of_present": 0.11594202898550725
+  },
+  {
+   "vote": "1970 Property (land) tax law",
+   "vote_id": "mm03007115_p075",
+   "era": "1965-71 AP majority",
+   "party": "CGP",
+   "government": false,
+   "members_listed": 14,
+   "present": 0.42857142857142855,
+   "era_baseline_present": 0.3829676071055381,
+   "yes_of_present": 0.3333333333333333,
+   "no_of_present": 0.16666666666666666
+  },
+  {
+   "vote": "1970 Property (land) tax law",
+   "vote_id": "mm03007115_p075",
+   "era": "1965-71 AP majority",
+   "party": "CHP",
+   "government": false,
+   "members_listed": 142,
+   "present": 0.5211267605633803,
+   "era_baseline_present": 0.41209079331785153,
+   "yes_of_present": 0.04054054054054054,
+   "no_of_present": 0.9594594594594594
+  },
+  {
+   "vote": "1970 Property (land) tax law",
+   "vote_id": "mm03007115_p075",
+   "era": "1965-71 AP majority",
+   "party": "IND",
+   "government": false,
+   "members_listed": 12,
+   "present": 0.5833333333333334,
+   "era_baseline_present": 0.40099626400996263,
+   "yes_of_present": 0.7142857142857143,
+   "no_of_present": 0.2857142857142857
+  },
+  {
+   "vote": "1970 Property (land) tax law",
+   "vote_id": "mm03007115_p075",
+   "era": "1965-71 AP majority",
+   "party": "MP",
+   "government": false,
+   "members_listed": 8,
+   "present": 0.5,
+   "era_baseline_present": 0.40772532188841204,
+   "yes_of_present": 0.25,
+   "no_of_present": 0.75
+  },
+  {
+   "vote": "1972 Property tax amendment",
+   "vote_id": "mm03026116_p050",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "AP",
+   "government": true,
+   "members_listed": 219,
+   "present": 0.7214611872146118,
+   "era_baseline_present": 0.5751518714481677,
+   "yes_of_present": 0.9746835443037974,
+   "no_of_present": 0.0189873417721519
+  },
+  {
+   "vote": "1972 Property tax amendment",
+   "vote_id": "mm03026116_p050",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "CGP",
+   "government": true,
+   "members_listed": 17,
+   "present": 0.8823529411764706,
+   "era_baseline_present": 0.5823888404533566,
+   "yes_of_present": 0.9333333333333333,
+   "no_of_present": 0.06666666666666667
+  },
+  {
+   "vote": "1972 Property tax amendment",
+   "vote_id": "mm03026116_p050",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "CHP",
+   "government": true,
+   "members_listed": 137,
+   "present": 0.5985401459854015,
+   "era_baseline_present": 0.4430187405031234,
+   "yes_of_present": 0.43902439024390244,
+   "no_of_present": 0.5609756097560976
+  },
+  {
+   "vote": "1972 Property tax amendment",
+   "vote_id": "mm03026116_p050",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "DP",
+   "government": false,
+   "members_listed": 34,
+   "present": 0.5,
+   "era_baseline_present": 0.33796016898008446,
+   "yes_of_present": 0.0,
+   "no_of_present": 1.0
+  },
+  {
+   "vote": "1973 Land and Agrarian Reform Law (final)",
+   "vote_id": "mm03038125_p153",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "AP",
+   "government": true,
+   "members_listed": 224,
+   "present": 0.8883928571428571,
+   "era_baseline_present": 0.5751518714481677,
+   "yes_of_present": 0.9949748743718593,
+   "no_of_present": 0.005025125628140704
+  },
+  {
+   "vote": "1973 Land and Agrarian Reform Law (final)",
+   "vote_id": "mm03038125_p153",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "CGP",
+   "government": true,
+   "members_listed": 48,
+   "present": 0.75,
+   "era_baseline_present": 0.5823888404533566,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1973 Land and Agrarian Reform Law (final)",
+   "vote_id": "mm03038125_p153",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "CHP",
+   "government": false,
+   "members_listed": 101,
+   "present": 0.019801980198019802,
+   "era_baseline_present": 0.4430187405031234,
+   "yes_of_present": 1.0,
+   "no_of_present": 0.0
+  },
+  {
+   "vote": "1973 Land and Agrarian Reform Law (final)",
+   "vote_id": "mm03038125_p153",
+   "era": "1971-73 military-supervised cabinets",
+   "party": "DP",
+   "government": false,
+   "members_listed": 37,
+   "present": 0.10810810810810811,
+   "era_baseline_present": 0.33796016898008446,
+   "yes_of_present": 0.0,
+   "no_of_present": 1.0
+  }
+ ]
+}
