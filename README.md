@@ -91,6 +91,8 @@ Requirements:
 ## Analysis
 
 - `analysis/report.md`: tests of general and Turkey-specific theories of agrarian politics.
+- `analysis/findings.md`: findings ranked by credibility, each tied to a within-deputy,
+  same-vote or timing design.
 - `analysis/quality_and_causality.md`: a measured quality audit of the collection, an inductive
   exploration, and which findings can be read causally.
 
