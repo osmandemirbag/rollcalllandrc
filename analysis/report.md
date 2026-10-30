@@ -274,8 +274,8 @@ prices and debt forgiveness. Agricultural policy was patronage rather than progr
 - **Input subsidies:** 2 roll calls (1962) removing customs duties on fertiliser and tractors.
 - **Rural infrastructure:**
   - DSİ (irrigation and dams): 147 roll calls (109 budgets, 35 final accounts, 3 other).
-  - The Village Affairs Ministry law (1971), which created the ministry in charge of village
-    roads, drinking water and electrification (YSE).
+  - The 1971 law on the organisation and duties of the Village Affairs Ministry, which ran
+    village roads, drinking water and electrification (YSE).
   - The Village Law amendments (1963, 19 article votes in the Senate).
 - **State farms and agencies (TİGEM/DÜÇ, plant protection, Forestry):** 144 budgets and 79
   final-accounts votes.
@@ -304,7 +304,7 @@ agency, with one difference. Irrigation is the least partisan item: AP in opposi
 DSİ budgets 68% support, against 34–35% for the other agencies. This fits the distributive
 reading, since irrigation projects are geographically targeted and attractive to every deputy.
 
-The 1971 law creating the Village Affairs Ministry got 116–2 from AP and 89–1 from CHP. As with
+The 1971 Village Affairs Ministry organisation law got 116–2 from AP and 89–1 from CHP. As with
 farm benefits, nobody voted against it; it failed quorum twice before passing.
 
 **Verdict:** credit, subsidies and infrastructure behave like the farm-benefit votes in §2.5
