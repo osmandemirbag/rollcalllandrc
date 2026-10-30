@@ -1,0 +1,48 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,AFYON,Haandi Hamaımcıoğlu,Haandi Hamaımcıoğlu,198,False,mm03005088_p198,pdftotext parser
+yes,AMASYA,Yavuz Acar,Yavuz Acar,198,False,mm03005088_p198,pdftotext parser
+yes,ANKARA,Ferhat Nuri Yıldırım,Ferhat Nuri Yıldırım,198,False,mm03005088_p198,pdftotext parser
+yes,ANTALYA,Rafet Eker,Rafet Eker,198,False,mm03005088_p198,pdftotext parser
+yes,ARTVİN,Sabit Osman Avcı,Sabit Osman Avcı,198,False,mm03005088_p198,pdftotext parser
+yes,BİLECİK,Sadi Binay,Sadi Binay,198,False,mm03005088_p198,pdftotext parser
+yes,BİNGÖL,Mehmet Bilgin,Mehmet Bilgin,198,False,mm03005088_p198,pdftotext parser
+yes,BOLU,Halil İbrahim Cop,Halil İbrahim Cop,198,False,mm03005088_p198,pdftotext parser
+yes,BOLU,M. Şükrü Kiykıoğlu,M. Şükrü Kiykıoğlu,198,False,mm03005088_p198,pdftotext parser
+yes,BURSA,Barlas Küıntay,Barlas Küıntay,198,False,mm03005088_p198,pdftotext parser
+yes,BURSA,Kasım önadını,Kasım önadını,198,False,mm03005088_p198,pdftotext parser
+yes,ÇORUM,Kemal Demjirer,Kemal Demjirer,198,False,mm03005088_p198,pdftotext parser
+yes,DİYARBAKIR,Necmettin Gönenç,Necmettin Gönenç,198,False,mm03005088_p198,pdftotext parser
+yes,MERSİN,Mazhar Arıkan,Mazhar Arıkan,198,False,mm03005088_p198,pdftotext parser
+yes,İSTANBUL,Naime Ik/bal Tokgöz,Naime Ik/bal Tokgöz,198,False,mm03005088_p198,pdftotext parser
+yes,İZMİR,Ali Ns/ki Üner,Ali Ns/ki Üner,198,False,mm03005088_p198,pdftotext parser
+yes,KARS,Lâtif Aküzüm,Lâtif Aküzüm,198,False,mm03005088_p198,pdftotext parser
+yes,KARS,ismail Hakkı Alaca,ismail Hakkı Alaca,198,False,mm03005088_p198,pdftotext parser
+yes,KASTAMONU,Muzaffer Akdoğanlı,Muzaffer Akdoğanlı,198,False,mm03005088_p198,pdftotext parser
+yes,KASTAMONU,Mustafa Topçular,Mustafa Topçular,198,False,mm03005088_p198,pdftotext parser
+yes,KASTAMONU,Hasan Tosyalı,Hasan Tosyalı,198,False,mm03005088_p198,pdftotext parser
+yes,KAYSERİ,M. ŞeVket Doğan,M. ŞeVket Doğan,198,False,mm03005088_p198,pdftotext parser
+yes,KAYSERİ,Enver Turgut,Enver Turgut,198,False,mm03005088_p198,pdftotext parser
+yes,KONYA,Sezıai Ergun,Sezıai Ergun,198,False,mm03005088_p198,pdftotext parser
+yes,KONYA,ihsan Kabadayı,ihsan Kabadayı,198,False,mm03005088_p198,pdftotext parser
+yes,KONYA,Baha Müderrisoğlu,Baha Müderrisoğlu,198,False,mm03005088_p198,pdftotext parser
+yes,KONYA,Vefa Tanır,Vefa Tanır,198,False,mm03005088_p198,pdftotext parser
+yes,MANİSA,Mustafa Orhan Daut,Mustafa Orhan Daut,198,False,mm03005088_p198,pdftotext parser
+yes,KAHRAMANMARAŞ,Veysi Kadıoğlu,Veysi Kadıoğlu,198,False,mm03005088_p198,pdftotext parser
+yes,KAHRAMANMARAŞ,M. Zekeriya Kürşad,M. Zekeriya Kürşad,198,False,mm03005088_p198,pdftotext parser
+yes,MUŞ,Nimet Ağaoğlu,Nimet Ağaoğlu,198,False,mm03005088_p198,pdftotext parser
+yes,NEVŞEHİR,Hüsamettin Başer,Hüsamettin Başer,198,False,mm03005088_p198,pdftotext parser
+yes,ORDU,Cengiz Ekinci,Cengiz Ekinci,198,False,mm03005088_p198,pdftotext parser
+yes,SAKARYA,Güngör Hun,Güngör Hun,198,False,mm03005088_p198,pdftotext parser
+yes,SAMSUN,Doğan Kitaplı,Doğan Kitaplı,198,False,mm03005088_p198,pdftotext parser
+yes,TOKAT,ismet Hilmi Balcı,ismet Hilmi Balcı,198,False,mm03005088_p198,pdftotext parser
+no,ADIYAMAN,Yusuü Ziya Yılmaz,Yusuü Ziya Yılmaz,198,False,mm03005088_p198,pdftotext parser
+no,ANKARA,Şinasi özdenoğlu,Şinasi özdenoğlu,198,False,mm03005088_p198,pdftotext parser
+no,ANKARA,Osman Soğukpmar,Osman Soğukpmar,198,False,mm03005088_p198,pdftotext parser
+no,BURDUR,Nadir Yavuzkan,Nadir Yavuzkan,198,False,mm03005088_p198,pdftotext parser
+no,BURSA,Nail Atlı,Nail Atlı,198,False,mm03005088_p198,pdftotext parser
+no,İZMİR,Kemal önder,Kemal önder,198,False,mm03005088_p198,pdftotext parser
+no,ORDU,Ata Topaloğlu,Ata Topaloğlu,198,False,mm03005088_p198,pdftotext parser
+no,SAKARYA,B. Turgut Boztepe,B. Turgut Boztepe,198,False,mm03005088_p198,pdftotext parser
+no,TOKAT,Hüseyin Abbas,Hüseyin Abbas,198,False,mm03005088_p198,pdftotext parser
+no,TRABZON,Ahmet Şener,Ahmet Şener,198,False,mm03005088_p198,pdftotext parser
+abstain,ORDU,Memduh Ekşi,Memduh Ekşi,198,False,mm03005088_p198,pdftotext parser

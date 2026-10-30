@@ -1,0 +1,37 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,AMASYA,Salih Aygün,Salih Aygün,75,False,mm03007114_p075,pdftotext parser
+yes,BURSA,Kasım Önadım,Kasım Önadım,75,False,mm03007114_p075,pdftotext parser
+yes,ÇORUM,Abdurrahmıan Güler,Abdurrahmıan Güler,75,False,mm03007114_p075,pdftotext parser
+yes,DİYARBAKIR,Behzat Egilli,Behzat Egilli,75,False,mm03007114_p075,pdftotext parser
+yes,DİYARBAKIR,Necan^ttdn Gönenç,Necan^ttdn Gönenç,75,False,mm03007114_p075,pdftotext parser
+yes,DİYARBAKIR,Sabahattin Savcı,Sabahattin Savcı,75,False,mm03007114_p075,pdftotext parser
+yes,ERZURUM,Gıyasettin Karaca,Gıyasettin Karaca,75,False,mm03007114_p075,pdftotext parser
+yes,GÜMÜŞHANE,Mustafa Karaman,Mustafa Karaman,75,False,mm03007114_p075,pdftotext parser
+yes,ISPARTA,Ali ihsan Balım,Ali ihsan Balım,75,False,mm03007114_p075,pdftotext parser
+yes,ISPARTA,Yusuf Uysal,Yusuf Uysal,75,False,mm03007114_p075,pdftotext parser
+yes,İSTANBUL,Nuri Eroğan,Nuri Eroğan,75,False,mm03007114_p075,pdftotext parser
+yes,KARS,+ smail Hakkı Alaoa,+ smail Hakkı Alaoa,75,False,mm03007114_p075,pdftotext parser
+yes,KARS,Musa Doğan,Musa Doğan,75,False,mm03007114_p075,pdftotext parser
+yes,KAYSERİ,M. Şevket Doğan,M. Şevket Doğan,75,False,mm03007114_p075,pdftotext parser
+yes,KÜTAHYA,Mesut Erez,Mesut Erez,75,False,mm03007114_p075,pdftotext parser
+yes,KAHRAMANMARAŞ,Veysi Kadıoğlu,Veysi Kadıoğlu,75,False,mm03007114_p075,pdftotext parser
+yes,MARDİN,Abdülkadir Özmen,Abdülkadir Özmen,75,False,mm03007114_p075,pdftotext parser
+yes,MARDİN,Abdurrahim Türk,Abdurrahim Türk,75,False,mm03007114_p075,pdftotext parser
+yes,MUŞ,Nimet Ağaoğlu,Nimet Ağaoğlu,75,False,mm03007114_p075,pdftotext parser
+yes,ORDU,Hamdi Mağden,Hamdi Mağden,75,False,mm03007114_p075,pdftotext parser
+yes,SAKARYA,Yaşar Bir,Yaşar Bir,75,False,mm03007114_p075,pdftotext parser
+yes,TOKAT,Mehmet Kazova,Mehmet Kazova,75,False,mm03007114_p075,pdftotext parser
+yes,YOZGAT,Neşet Tanrıdağ,Neşet Tanrıdağ,75,False,mm03007114_p075,pdftotext parser
+no,ADIYAMAN,Yusuf Ziya Yılmaz,Yusuf Ziya Yılmaz,75,False,mm03007114_p075,pdftotext parser
+no,ANKARA,A. Sakıp Hiçjer&mez,A. Sakıp Hiçjer&mez,75,False,mm03007114_p075,pdftotext parser
+no,GAZİANTEP,Şinasi Çolakoğlu,Şinasi Çolakoğlu,75,False,mm03007114_p075,pdftotext parser
+no,GAZİANTEP,Kemal önder,Kemal önder,75,False,mm03007114_p075,pdftotext parser
+no,KAYSERİ,Tufan Doğan Avşargil,Tufan Doğan Avşargil,75,False,mm03007114_p075,pdftotext parser
+no,KAHRAMANMARAŞ,M. Nejat Çuhadar,M. Nejat Çuhadar,75,False,mm03007114_p075,pdftotext parser
+no,NİĞDE,M. Nhıriı KoJdteJmajnoğlu,M. Nhıriı KoJdteJmajnoğlu,75,False,mm03007114_p075,pdftotext parser
+no,SAMSUN,Nihat Kale,Nihat Kale,75,False,mm03007114_p075,pdftotext parser
+no,SİVAS,Vahit Bozatlı,Vahit Bozatlı,75,False,mm03007114_p075,pdftotext parser
+no,TOKAT,ismail Hakkı Birler,ismail Hakkı Birler,75,False,mm03007114_p075,pdftotext parser
+no,ZONGULDAK,Ahmet Güner,Ahmet Güner,75,False,mm03007114_p075,pdftotext parser
+abstain,NEVŞEHİR,Hüsamettin Ba§eır,Hüsamettin Ba§eır,75,False,mm03007114_p075,pdftotext parser
+abstain,ORDU,Ferda Güley,Ferda Güley,75,False,mm03007114_p075,pdftotext parser

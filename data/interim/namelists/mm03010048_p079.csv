@@ -1,0 +1,17 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADIYAMAN,M. Zeki Adıyaman,M. Zeki Adıyaman,79,False,mm03010048_p079,pdftotext parser
+yes,AMASYA,Salih Aygün,Salih Aygün,79,False,mm03010048_p079,pdftotext parser
+yes,BİLECİK,Mehmet Erigül,Mehmet Erigül,79,False,mm03010048_p079,pdftotext parser
+yes,BİNGÖL,Mehmet Bilgim,Mehmet Bilgim,79,False,mm03010048_p079,pdftotext parser
+yes,DENİZLİ,İlhan Açıkalın,İlhan Açıkalın,79,False,mm03010048_p079,pdftotext parser
+yes,GÜMÜŞHANE,Mustafa Karaman,Mustafa Karaman,79,False,mm03010048_p079,pdftotext parser
+yes,İSTANBUL,Nuri Enoğan,Nuri Enoğan,79,False,mm03010048_p079,pdftotext parser
+yes,İZMİR,Burhanettin Asutay,Burhanettin Asutay,79,False,mm03010048_p079,pdftotext parser
+yes,İZMİR,M. Şevket Doğan,M. Şevket Doğan,79,False,mm03010048_p079,pdftotext parser
+yes,MALATYA,Ahmet Karaaslan,Ahmet Karaaslan,79,False,mm03010048_p079,pdftotext parser
+yes,MANİSA,Süleyman Çağlar,Süleyman Çağlar,79,False,mm03010048_p079,pdftotext parser
+yes,TOKAT,Mehmet Kazova,Mehmet Kazova,79,False,mm03010048_p079,pdftotext parser
+yes,TRABZON,Necati Oakıroğlu,Necati Oakıroğlu,79,False,mm03010048_p079,pdftotext parser
+yes,TUNCELİ,Hüseyin Yenipınar,Hüseyin Yenipınar,79,False,mm03010048_p079,pdftotext parser
+yes,UŞAK,Orhan Denigiz,Orhan Denigiz,79,False,mm03010048_p079,pdftotext parser
+yes,YOZGAT,Turgut Nizamoğlu,Turgut Nizamoğlu,79,False,mm03010048_p079,pdftotext parser

@@ -1,0 +1,14 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADIYAMAN,M. Zelki Adıyaıman,M. Zelki Adıyaıman,78,False,mm03010048_p078,pdftotext parser
+yes,AMASYA,Salih Ayigün,Salih Ayigün,78,False,mm03010048_p078,pdftotext parser
+yes,BİNGÖL,Mehmet Bilgin,Mehmet Bilgin,78,False,mm03010048_p078,pdftotext parser
+yes,BİNGÖL,İlhan Açıkalın Burhanettin Asutay,İlhan Açıkalın Burhanettin Asutay,78,False,mm03010048_p078,pdftotext parser
+yes,BİNGÖL,Mehmet Emin Durul KAYSERİ,Mehmet Emin Durul KAYSERİ,78,False,mm03010048_p078,pdftotext parser
+yes,BİNGÖL,M. Şevket Doğan,M. Şevket Doğan,78,False,mm03010048_p078,pdftotext parser
+yes,MALATYA,Mustafa Karaman,Mustafa Karaman,78,False,mm03010048_p078,pdftotext parser
+yes,MALATYA,Ahmet Karaaslan,Ahmet Karaaslan,78,False,mm03010048_p078,pdftotext parser
+yes,MALATYA,Nuri Eroğan Süleyman Çağlar,Nuri Eroğan Süleyman Çağlar,78,False,mm03010048_p078,pdftotext parser
+yes,YOZGAT,Neışet Tanrıdağ,Neışet Tanrıdağ,78,False,mm03010048_p078,pdftotext parser
+yes,TOKAT,Mehmet Kaizova,Mehmet Kaizova,78,False,mm03010048_p078,pdftotext parser
+yes,UŞAK,Orhan Dengiz,Orhan Dengiz,78,False,mm03010048_p078,pdftotext parser
+yes,YOZGAT,Tungut Nizamoğlu,Tungut Nizamoğlu,78,False,mm03010048_p078,pdftotext parser

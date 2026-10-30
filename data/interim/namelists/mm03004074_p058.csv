@@ -1,0 +1,53 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADIYAMAN,Yusuf Ziya Yılmaz,Yusuf Ziya Yılmaz,58,False,mm03004074_p058,pdftotext parser
+yes,AMASYA,Yavuz Acar,Yavuz Acar,58,False,mm03004074_p058,pdftotext parser
+yes,AMASYA,Salih Ay gün,Salih Ay gün,58,False,mm03004074_p058,pdftotext parser
+yes,ANKARA,Suna Tural,Suna Tural,58,False,mm03004074_p058,pdftotext parser
+yes,ANTALYA,Ömer Buyrukçu,Ömer Buyrukçu,58,False,mm03004074_p058,pdftotext parser
+yes,ANTALYA,Süleyman Çiloğlu,Süleyman Çiloğlu,58,False,mm03004074_p058,pdftotext parser
+yes,BİNGÖL,Mehmet Bilgin,Mehmet Bilgin,58,False,mm03004074_p058,pdftotext parser
+yes,BURDUR,A. Mukadder Çiloğlu,A. Mukadder Çiloğlu,58,False,mm03004074_p058,pdftotext parser
+yes,BURDUR,Mehmet özfooy,Mehmet özfooy,58,False,mm03004074_p058,pdftotext parser
+yes,BURSA,Mustafa Tayyar,Mustafa Tayyar,58,False,mm03004074_p058,pdftotext parser
+yes,ÇANAKKALE,Must af a Çalık o ğlu,Must af a Çalık o ğlu,58,False,mm03004074_p058,pdftotext parser
+yes,ÇANAKKALE,Zekiye Gülsen,Zekiye Gülsen,58,False,mm03004074_p058,pdftotext parser
+yes,EDİRNE,Veli Gülkan,Veli Gülkan,58,False,mm03004074_p058,pdftotext parser
+yes,EDİRNE,Musitafa Harmancıoğlu,Musitafa Harmancıoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,ELAZIĞ,Mehmet Aytuğ,Mehmet Aytuğ,58,False,mm03004074_p058,pdftotext parser
+yes,ERZURUM,Rıfkı Danışman,Rıfkı Danışman,58,False,mm03004074_p058,pdftotext parser
+yes,ESKİŞEHİR,Mehmet Israet Angı,Mehmet Israet Angı,58,False,mm03004074_p058,pdftotext parser
+yes,ESKİŞEHİR,B. Sıtkı Karacaşehir,B. Sıtkı Karacaşehir,58,False,mm03004074_p058,pdftotext parser
+yes,GAZİANTEP,Mehmet Lütfi Söylemez,Mehmet Lütfi Söylemez,58,False,mm03004074_p058,pdftotext parser
+yes,GİRESUN,Mustafa Kemal Çilesiz,Mustafa Kemal Çilesiz,58,False,mm03004074_p058,pdftotext parser
+yes,HATAY,Hüsnü Özkan,Hüsnü Özkan,58,False,mm03004074_p058,pdftotext parser
+yes,MERSİN,Turhan özgüner,Turhan özgüner,58,False,mm03004074_p058,pdftotext parser
+yes,İSTANBUL,ibrahim Elmalı,ibrahim Elmalı,58,False,mm03004074_p058,pdftotext parser
+yes,İSTANBUL,Tekin Erer,Tekin Erer,58,False,mm03004074_p058,pdftotext parser
+yes,İZMİR,Şevket Ada lan,Şevket Ada lan,58,False,mm03004074_p058,pdftotext parser
+yes,İZMİR,Şeref Bakşık,Şeref Bakşık,58,False,mm03004074_p058,pdftotext parser
+yes,İZMİR,üoşkun Karagözoğlu,üoşkun Karagözoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,İZMİR,Kemal önder,Kemal önder,58,False,mm03004074_p058,pdftotext parser
+yes,KARS,Lâtif Ak üzüm,Lâtif Ak üzüm,58,False,mm03004074_p058,pdftotext parser
+yes,KARS,Musa Doğan,Musa Doğan,58,False,mm03004074_p058,pdftotext parser
+yes,KASTAMONU,Hasan Tosyalı,Hasan Tosyalı,58,False,mm03004074_p058,pdftotext parser
+yes,KONYA,Baha Müderrisoğlu,Baha Müderrisoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,KONYA,Taihsin Yılmaz özıtuna,Taihsin Yılmaz özıtuna,58,False,mm03004074_p058,pdftotext parser
+yes,MALATYA,Süleyman Çağlar,Süleyman Çağlar,58,False,mm03004074_p058,pdftotext parser
+yes,MALATYA,O. Selçuk (îümüşpala,"0. Selçuk (îümüşpala,",58,False,mm03004074_p058,pdftotext parser
+yes,KAHRAMANMARAŞ,İbrahim Öztürk,İbrahim Öztürk,58,False,mm03004074_p058,pdftotext parser
+yes,NİĞDE,M. Naci Çerezci,M. Naci Çerezci,58,False,mm03004074_p058,pdftotext parser
+yes,NİĞDE,PL Avni Kavurmacıoğlu,PL Avni Kavurmacıoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,NİĞDE,Mevrut Ocakçıoğlu,Mevrut Ocakçıoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,RİZE,Salih Zeki Köseoğlu,Salih Zeki Köseoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,SAMSUN,Doğan Kitaplı,Doğan Kitaplı,58,False,mm03004074_p058,pdftotext parser
+yes,SİNOP,Hilmi İşgüzar,Hilmi İşgüzar,58,False,mm03004074_p058,pdftotext parser
+yes,SİVAS,Ekrem Kangal,Ekrem Kangal,58,False,mm03004074_p058,pdftotext parser
+yes,TOKAT,Osmaıı Hacıbaloğlu,Osmaıı Hacıbaloğlu,58,False,mm03004074_p058,pdftotext parser
+yes,TRABZON,Ahmet Şener,Ahmet Şener,58,False,mm03004074_p058,pdftotext parser
+yes,TUNCELİ,Kenan Aral,Kenan Aral (t.),58,False,mm03004074_p058,pdftotext parser
+yes,YOZGAT,Turgut Nizanıoğlu,Turgut Nizanıoğlu,58,False,mm03004074_p058,pdftotext parser
+yes,ZONGULDAK,Ahmet Gün er,Ahmet Gün er,58,False,mm03004074_p058,pdftotext parser
+abstain,ELAZIĞ,Hayrettin Hanağası,Hayrettin Hanağası,58,False,mm03004074_p058,pdftotext parser
+abstain,ERZURUM,Gıyasettiıı Karaca,Gıyasettiıı Karaca,58,False,mm03004074_p058,pdftotext parser
+abstain,KARS,İsmail hakkı Alaca,İsmail hakkı Alaca,58,False,mm03004074_p058,pdftotext parser
+abstain,ORDU,Fenda. Gül ey,Fenda. Gül ey,58,False,mm03004074_p058,pdftotext parser

@@ -1,0 +1,24 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,AFYON,Mustafa Akalın,Mustafa Akalın,192,False,mm02034057_p192,pdftotext parser
+yes,ANTALYA,Hasan Fehmi Boztepc,Hasan Fehmi Boztepc,192,False,mm02034057_p192,pdftotext parser
+yes,ANTALYA,Ahmet Torgay,Ahmet Torgay,192,False,mm02034057_p192,pdftotext parser
+yes,BİNGÖL,M. Emin Gündoğdu,M. Emin Gündoğdu,192,False,mm02034057_p192,pdftotext parser
+yes,BURSA,Cemal Külâhlı,Cemal Külâhlı,192,False,mm02034057_p192,pdftotext parser
+yes,DİYARBAKIR,Abdüllâtif Ensarioğlu,Abdüllâtif Ensarioğlu,192,False,mm02034057_p192,pdftotext parser
+yes,EDİRNE,Nazma Özoğul,Nazma Özoğul,192,False,mm02034057_p192,pdftotext parser
+yes,ERZURUM,İsmail Hakkı Yıldırım,İsmail Hakkı Yıldırım,192,False,mm02034057_p192,pdftotext parser
+yes,ESKİŞEHİR,Mehmet İsmet Angı,Mehmet İsmet Angı,192,False,mm02034057_p192,pdftotext parser
+yes,HATAY,Şemsettin Mursaloğlu,Şemsettin Mursaloğlu,192,False,mm02034057_p192,pdftotext parser
+yes,HATAY,İSTANBUL Mekki Keskin,İSTANBUL Mekki Keskin,192,False,mm02034057_p192,pdftotext parser
+yes,HATAY,Osman Özer,Osman Özer,192,False,mm02034057_p192,pdftotext parser
+yes,SAKARYA,Hakkı Tekinel,Hakkı Tekinel,192,False,mm02034057_p192,pdftotext parser
+yes,SAKARYA,Şerafettin Paker,Şerafettin Paker,192,False,mm02034057_p192,pdftotext parser
+yes,SAKARYA,Osman Nurıi Ulusay,Osman Nurıi Ulusay,192,False,mm02034057_p192,pdftotext parser
+yes,KARS,Melâhat Gedik,Melâhat Gedik,192,False,mm02034057_p192,pdftotext parser
+yes,KARS,Cengiz Ekinci,Cengiz Ekinci,192,False,mm02034057_p192,pdftotext parser
+yes,KARS,Mehmet Orhan Türkkan Gıyasettin Duman,Mehmet Orhan Türkkan Gıyasettin Duman,192,False,mm02034057_p192,pdftotext parser
+yes,KARS,Bahri Dağdaş M. Fahni Uğrasızoğlu,Bahri Dağdaş M. Fahni Uğrasızoğlu,192,False,mm02034057_p192,pdftotext parser
+no,ANTALYA,Hüseyin Avıii Akın,Hüseyin Avıii Akın,192,False,mm02034057_p192,pdftotext parser
+no,DİYARBAKIR,Feyzi Kalfagil,Feyzi Kalfagil,192,False,mm02034057_p192,pdftotext parser
+no,ERZURUM,Adnan Şcnyurt,Adnan Şcnyurt,192,False,mm02034057_p192,pdftotext parser
+no,ERZURUM,Millet Meclisi,Millet Meclisi,193,False,mm02034057_p192,pdftotext parser

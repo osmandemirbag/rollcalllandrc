@@ -1,0 +1,34 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADANA,Tahir Yücekök,Tahir Yücekök,168,False,mm02033055_p168,pdftotext parser
+yes,AFYON,Mustafa Akalm,Mustafa Akalm,168,False,mm02033055_p168,pdftotext parser
+yes,AFYON,Şevki Güler,Şevki Güler,168,False,mm02033055_p168,pdftotext parser
+yes,AFYON,Ali İhsan Ulubahşji,Ali İhsan Ulubahşji,168,False,mm02033055_p168,pdftotext parser
+yes,ARTVİN,Sabit Om an Avcı,Sabit Om an Avcı,168,False,mm02033055_p168,pdftotext parser
+yes,ARTVİN,Mustafa Rona,Mustafa Rona,168,False,mm02033055_p168,pdftotext parser
+yes,BURDUR,Faik Kırbaşlı,Faik Kırbaşlı,168,False,mm02033055_p168,pdftotext parser
+yes,BURSA,Kasım Önadım,Kasım Önadım,168,False,mm02033055_p168,pdftotext parser
+yes,ÇANAKKALE,Refet Seızıgin,Refet Seızıgin,168,False,mm02033055_p168,pdftotext parser
+yes,ÇORUM,Ahmet Uysal,Ahmet Uysal,168,False,mm02033055_p168,pdftotext parser
+yes,EDİRNE,Nazmi Özoğul,Nazmi Özoğul,168,False,mm02033055_p168,pdftotext parser
+yes,ERZURUM,Necati Güven,Necati Güven,168,False,mm02033055_p168,pdftotext parser
+yes,GÜMÜŞHANE,Sabri özcan San,Sabri özcan San,168,False,mm02033055_p168,pdftotext parser
+yes,ISPARTA,Ali îhsan Balım,Ali îhsan Balım,168,False,mm02033055_p168,pdftotext parser
+yes,İSTANBUL,Nuri Eroğan,Nuri Eroğan,168,False,mm02033055_p168,pdftotext parser
+yes,İZMİR,Enver Turgut,Enver Turgut,168,False,mm02033055_p168,pdftotext parser
+yes,KIRŞEHİR,Memduh Erdemir,Memduh Erdemir,168,False,mm02033055_p168,pdftotext parser
+yes,KÜTAHYA,Mesut Erez,Mesut Erez,168,False,mm02033055_p168,pdftotext parser
+yes,MUŞ,Kâmil özsarıyıldız,Kâmil özsarıyıldız,168,False,mm02033055_p168,pdftotext parser
+yes,NEVŞEHİR,ibrahim Boz,ibrahim Boz,168,False,mm02033055_p168,pdftotext parser
+yes,ORDU,Ata Bodur,Ata Bodur,168,False,mm02033055_p168,pdftotext parser
+yes,SİVAS,Seyfi Kurtbek,Seyfi Kurtbek,168,False,mm02033055_p168,pdftotext parser
+yes,TOKAT,Osman Saraç,Osman Saraç,168,False,mm02033055_p168,pdftotext parser
+yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,168,False,mm02033055_p168,pdftotext parser
+no,ADANA,Bekir Tünay,Bekir Tünay,168,False,mm02033055_p168,pdftotext parser
+no,BİNGÖL,Cemal Yavuz,Cemal Yavuz,168,False,mm02033055_p168,pdftotext parser
+no,BOLU,Hasan öze? m,Hasan öze? m,168,False,mm02033055_p168,pdftotext parser
+no,BURSA,Bahri Yazır,Bahri Yazır,168,False,mm02033055_p168,pdftotext parser
+no,ERZURUM,Adnan Şenyurt,Adnan Şenyurt,168,False,mm02033055_p168,pdftotext parser
+no,İSTANBUL,Reşit Ülkeı,Reşit Ülkeı *,168,False,mm02033055_p168,pdftotext parser
+no,KARS,Muzaffer Şamiloğlu,Muzaffer Şamiloğlu,168,False,mm02033055_p168,pdftotext parser
+no,MALATYA,Şaban Erik,Şaban Erik,168,False,mm02033055_p168,pdftotext parser
+no,TRABZON,Alii Rıza Uzuner,Alii Rıza Uzuner,168,False,mm02033055_p168,pdftotext parser

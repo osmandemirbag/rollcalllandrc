@@ -1,0 +1,28 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADIYAMAN,M. Zeki Adıyaman,M. Zeki Adıyaman,69,False,mm03010048_p069,pdftotext parser
+yes,AMASYA,Salih Aygün,Salih Aygün,69,False,mm03010048_p069,pdftotext parser
+yes,BALIKESİR,Salih Zeki Altınbaş,Salih Zeki Altınbaş,69,False,mm03010048_p069,pdftotext parser
+yes,BİNGÖL,Mehmet Bilgin,Mehmet Bilgin,69,False,mm03010048_p069,pdftotext parser
+yes,DENİZLİ,Mehmet Emin Durul,Mehmet Emin Durul,69,False,mm03010048_p069,pdftotext parser
+yes,ESKİŞEHİR,M. Şemsettin Sönmez,M. Şemsettin Sönmez,69,False,mm03010048_p069,pdftotext parser
+yes,HATAY,Halil Aflsgöl,Halil Aflsgöl,69,False,mm03010048_p069,pdftotext parser
+yes,HATAY,Hüsnü Özkan,Hüsnü Özkan,69,False,mm03010048_p069,pdftotext parser
+yes,İZMİR,Burhatnettin Asutay,Burhatnettin Asutay,69,False,mm03010048_p069,pdftotext parser
+yes,KARS,Kemal Kaya,Kemal Kaya,69,False,mm03010048_p069,pdftotext parser
+yes,KASTAMONU,Mustafa Topçular,Mustafa Topçular,69,False,mm03010048_p069,pdftotext parser
+yes,KAYSERİ,M. Şevket Doğan,M. Şevket Doğan,69,False,mm03010048_p069,pdftotext parser
+yes,KONYA,İhsan Kabadayı,İhsan Kabadayı,69,False,mm03010048_p069,pdftotext parser
+yes,KÜTAHYA,Ahmet Fuat Azmioğlu,Ahmet Fuat Azmioğlu,69,False,mm03010048_p069,pdftotext parser
+yes,MALATYA,Ahmet Karaaslan,Ahmet Karaaslan,69,False,mm03010048_p069,pdftotext parser
+yes,MANİSA,Veli Bakirli,Veli Bakirli,69,False,mm03010048_p069,pdftotext parser
+yes,MANİSA,Süleyman Çağlar,Süleyman Çağlar,69,False,mm03010048_p069,pdftotext parser
+yes,MANİSA,Mustafa Orhan Daut,Mustafa Orhan Daut,69,False,mm03010048_p069,pdftotext parser
+yes,NEVŞEHİR,Esat Kıratlıoğlu,Esat Kıratlıoğlu,69,False,mm03010048_p069,pdftotext parser
+yes,NİĞDE,Mevlüt OcakçıoğİAi,Mevlüt OcakçıoğİAi,69,False,mm03010048_p069,pdftotext parser
+yes,SAMSUN,Doğan Kitaplı,Doğan Kitaplı,69,False,mm03010048_p069,pdftotext parser
+yes,SİİRT,Mehmet Nebil Oktay,Mehmet Nebil Oktay,69,False,mm03010048_p069,pdftotext parser
+yes,TOKAT,Mehmet Kaızoıva,Mehmet Kaızoıva,69,False,mm03010048_p069,pdftotext parser
+yes,UŞAK,Orhan Denıgiz,Orhan Denıgiz,69,False,mm03010048_p069,pdftotext parser
+no,ARTVİN,Abdullah N aci Budak,Abdullah N aci Budak,69,False,mm03010048_p069,pdftotext parser
+no,EDİRNE,Cevat Sayın,Cevat Sayın,69,False,mm03010048_p069,pdftotext parser
+no,ELAZIĞ,Mehmet Aytuğ,Mehmet Aytuğ,69,False,mm03010048_p069,pdftotext parser

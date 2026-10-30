@@ -1,0 +1,25 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,AFYON,Mustafa Akalın,Mustafa Akalın,191,False,mm02034057_p191,pdftotext parser
+yes,ANTALYA,Hasan Fehmi Boztepe,Hasan Fehmi Boztepe,191,False,mm02034057_p191,pdftotext parser
+yes,ANTALYA,Ahmet Torgay,Ahmet Torgay,191,False,mm02034057_p191,pdftotext parser
+yes,BİNGÖL,M. Emin Gündoğdu,M. Emin Gündoğdu,191,False,mm02034057_p191,pdftotext parser
+yes,BURSA,Cemâl Külâhlı,Cemâl Külâhlı,191,False,mm02034057_p191,pdftotext parser
+yes,DİYARBAKIR,Abdüllâtif Ensarioğlu,Abdüllâtif Ensarioğlu,191,False,mm02034057_p191,pdftotext parser
+yes,EDİRNE,Nazmi Özoğul,Nazmi Özoğul,191,False,mm02034057_p191,pdftotext parser
+yes,ERZURUM,İsmail Hakkı Yıldırım,İsmail Hakkı Yıldırım,191,False,mm02034057_p191,pdftotext parser
+yes,ESKİŞEHİR,Mehmet İsmet Angı,Mehmet İsmet Angı,191,False,mm02034057_p191,pdftotext parser
+yes,HATAY,Şemsettin Mursaloğlu,Şemsettin Mursaloğlu,191,False,mm02034057_p191,pdftotext parser
+yes,İSTANBUL,Osman Özer,Osman Özer,191,False,mm02034057_p191,pdftotext parser
+yes,İSTANBUL,İ. Hakkı Tekine] SAKARYA,İ. Hakkı Tekine] SAKARYA,191,False,mm02034057_p191,pdftotext parser
+yes,İSTANBUL,Osman Nuri Ulusoy Şerafettin Paker,Osman Nuri Ulusoy Şerafettin Paker,191,False,mm02034057_p191,pdftotext parser
+yes,SAMSUN,Cengiz Ekinci,Cengiz Ekinci,191,False,mm02034057_p191,pdftotext parser
+yes,SAMSUN,Ali Fuat Alişan,Ali Fuat Alişan,191,False,mm02034057_p191,pdftotext parser
+yes,SAMSUN,KIRKLARELİ Melâhat Gedilk,KIRKLARELİ Melâhat Gedilk,191,False,mm02034057_p191,pdftotext parser
+yes,SAMSUN,Mehmet Orhan Türkkan,Mehmet Orhan Türkkan,191,False,mm02034057_p191,pdftotext parser
+yes,SİVAS,KONYA Gıyasettin Duman,KONYA Gıyasettin Duman,191,False,mm02034057_p191,pdftotext parser
+yes,SİVAS,Bahni Dağdaş,Bahni Dağdaş,191,False,mm02034057_p191,pdftotext parser
+yes,SİVAS,"M, Necati Kalaycıoğlu UŞAK","M, Necati Kalaycıoğlu UŞAK",191,False,mm02034057_p191,pdftotext parser
+yes,SİVAS,Mekkı Keskin M. Fahri Uğrasızoğlu,Mekkı Keskin M. Fahri Uğrasızoğlu,191,False,mm02034057_p191,pdftotext parser
+no,ANTALYA,Hüseyin Avni Akın,Hüseyin Avni Akın,191,False,mm02034057_p191,pdftotext parser
+no,DİYARBAKIR,Feyzi Kalfagil,Feyzi Kalfagil,191,False,mm02034057_p191,pdftotext parser
+no,ERZURUM,Adnan Şenyurt,Adnan Şenyurt,191,False,mm02034057_p191,pdftotext parser
