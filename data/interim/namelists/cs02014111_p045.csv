@@ -94,20 +94,20 @@ yes,TRABZON,Yusuf Demii'dağ,Yusuf Demii'dağ,46,False,cs02014111_p045,pdftotext
 yes,TRABZON,Kesat Zaloğlu,Kesat Zaloğlu,46,False,cs02014111_p045,pdftotext parser
 yes,TRABZON,Vasfi Gerger Tarık Remzi Baltan,Vasfi Gerger Tarık Remzi Baltan,46,False,cs02014111_p045,pdftotext parser
 yes,TRABZON,Esat Malım ut Karakıırt Akif Ey i doğan,Esat Malım ut Karakıırt Akif Ey i doğan,46,False,cs02014111_p045,pdftotext parser
-yes,UŞAK,CUMHURBAŞKANINKâmil Cuşkunoğlu,CUMHURBAŞKANINKâmil Cuşkunoğlu,46,False,cs02014111_p045,pdftotext parser
-yes,VAN,Kanık Işık Cevaf Ar ika m,Kanık Işık Cevaf Ar ika m,46,False,cs02014111_p045,pdftotext parser
-yes,VAN,YOZGAT Âmil Arlus,YOZGAT Âmil Arlus,46,False,cs02014111_p045,pdftotext parser
-yes,VAN,Sadık Artukmac Esat Cağa,Sadık Artukmac Esat Cağa,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,E etli i Başak,E etli i Başak,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Örn w Ergün,Örn w Ergün,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,ILksan Kangal,ILksan Kangal,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Sadi Koçaş,Sadi Koçaş,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Enver Kök,Enver Kök,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Kâzım Orbay,Kâzım Orbay,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Kagıp Üner,Kagıp Üner,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Nevzat Sen gel,Nevzat Sen gel,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Burhan ettin Uluç,Burhan ettin Uluç,46,False,cs02014111_p045,pdftotext parser
-yes,İSTANBUL,Adil Ünlü,Adil Ünlü,46,False,cs02014111_p045,pdftotext parser
+yes,CUMHURBAŞKANINCA S. Ü.,Kâmil Cuşkunoğlu,Kâmil Cuşkunoğlu,46,False,cs02014111_p045,pdftotext parser
+no,VAN,Kanık Işık Cevaf Ar ika m,Kanık Işık Cevaf Ar ika m,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Âmil Arlus,Âmil Arlus,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Sadık Artukmac Esat Cağa,Sadık Artukmac Esat Cağa,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Örn w Ergün,Örn w Ergün,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,ILksan Kangal,ILksan Kangal,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Sadi Koçaş,Sadi Koçaş,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Enver Kök,Enver Kök,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Kâzım Orbay,Kâzım Orbay,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Kagıp Üner,Kagıp Üner,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Nevzat Sen gel,Nevzat Sen gel,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Burhan ettin Uluç,Burhan ettin Uluç,46,True,cs02014111_p045,pdftotext parser
+no,YOZGAT,Adil Ünlü,Adil Ünlü,46,True,cs02014111_p045,pdftotext parser
+no,İSTANBUL,E etli i Başak,E etli i Başak,46,True,cs02014111_p045,pdftotext parser
 not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,46,False,cs02014111_p045,pdftotext parser
 not_voting,TABİİ ÜYELER,Mucip Ataklı,Mucip Ataklı,46,False,cs02014111_p045,pdftotext parser
 not_voting,TABİİ ÜYELER,Emanullah Çelebi,Emanullah Çelebi,46,False,cs02014111_p045,pdftotext parser
@@ -131,7 +131,8 @@ not_voting,AYDIN,Fikret; Turhan »'il,Fikret; Turhan »'il,46,False,cs02014111_p
 not_voting,BALIKESİR,Kadri Öztaş,Kadri Öztaş,46,False,cs02014111_p045,pdftotext parser
 not_voting,BİTLİS,"Cevdet, Geboloğlıı","Cevdet, Geboloğlıı",46,False,cs02014111_p045,pdftotext parser
 not_voting,BOLU,Ivii hm i Ar ikan,Ivii hm i Ar ikan,46,False,cs02014111_p045,pdftotext parser
-not_voting,BURSA,j lisan Sabri ÇağlayanBaki Güzey,j lisan Sabri ÇağlayanBaki Güzey,46,False,cs02014111_p045,pdftotext parser
+not_voting,BURSA,j lisan Sabri Çağlayan,j lisan Sabri Çağlayan,46,False,cs02014111_p045,pdftotext parser
+not_voting,BURSA,Baki Güzey,Baki Güzey,46,False,cs02014111_p045,pdftotext parser
 not_voting,BURSA,Şeref: Kayalar,Şeref: Kayalar,46,False,cs02014111_p045,pdftotext parser
 not_voting,BURSA,Cahit Ortaç,Cahit Ortaç,46,False,cs02014111_p045,pdftotext parser
 not_voting,ÇORUM,Zeki Arsan,Zeki Arsan,46,False,cs02014111_p045,pdftotext parser

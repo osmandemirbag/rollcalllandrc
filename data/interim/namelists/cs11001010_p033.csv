@@ -91,12 +91,12 @@ yes,ŞANLIURFA,Hasan O rai,Hasan O rai,34,False,cs11001010_p033,pdftotext parser
 yes,YOZGAT,ismail Yeşilyurt,ismail Yeşilyurt,34,False,cs11001010_p033,pdftotext parser
 yes,ZONGULDAK,Yırık Remzi Baltan,Yırık Remzi Baltan,34,False,cs11001010_p033,pdftotext parser
 yes,ZONGULDAK,Ahmet Demir Yüce,Ahmet Demir Yüce,34,False,cs11001010_p033,pdftotext parser
-yes,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,34,False,cs11001010_p033,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Lûtfi Akadla,Lûtfi Akadla,34,False,cs11001010_p033,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Sait Naci Ergin,Sait Naci Ergin,34,False,cs11001010_p033,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Fahri Korutürk,Fahri Korutürk,34,False,cs11001010_p033,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Bahriye Üç ok,Bahriye Üç ok,34,False,cs11001010_p033,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Ragıp Ün er,Ragıp Ün er,34,False,cs11001010_p033,pdftotext parser
+no,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,34,True,cs11001010_p033,pdftotext parser
 abstain,MALATYA,Ham di Özer,Ham di Özer,34,False,cs11001010_p033,pdftotext parser
 not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,34,False,cs11001010_p033,pdftotext parser
 not_voting,TABİİ ÜYELER,Kefet Akaoyoglu,Kefet Akaoyoglu,34,False,cs11001010_p033,pdftotext parser
@@ -163,7 +163,7 @@ not_voting,NEVŞEHİR,î. Şevki Atasağun,î. Şevki Atasağun,34,False,cs11001
 not_voting,NİĞDE,Hüseyin Avni Göktürk,Hüseyin Avni Göktürk,34,False,cs11001010_p033,pdftotext parser
 not_voting,ORDU,Şevket Koksal,Şevket Koksal,34,False,cs11001010_p033,pdftotext parser
 not_voting,SİNOP,Nazım Inebeyli,Nazım Inebeyli,34,False,cs11001010_p033,pdftotext parser
-not_voting,SİNOP,TEKİRDAĞHayri Muımcuoğlu,TEKİRDAĞHayri Muımcuoğlu,35,False,cs11001010_p033,pdftotext parser
+not_voting,TEKİRDAĞ,Hayri Muımcuoğlu,Hayri Muımcuoğlu,35,False,cs11001010_p033,pdftotext parser
 not_voting,TOKAT,/J-LllllJ Zihni Retil UCİİJ,/J-LllllJ Zihni Retil UC11J.,35,False,cs11001010_p033,pdftotext parser
 not_voting,TRABZON,ö. Lûtfi Hocaoğlu,ö. Lûtfi Hocaoğlu,35,False,cs11001010_p033,pdftotext parser
 not_voting,ŞANLIURFA,î. Etem Karakapıcı,î. Etem Karakapıcı,35,False,cs11001010_p033,pdftotext parser

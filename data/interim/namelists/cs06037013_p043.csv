@@ -106,22 +106,23 @@ yes,SAMSUN,Rıza Isıtan,Rıza Isıtan,44,False,cs06037013_p043,pdftotext parser
 yes,SAMSUN,Refet Rendeci,Refet Rendeci,44,False,cs06037013_p043,pdftotext parser
 yes,SAMSUN,Fethi Tevetoğlu,Fethi Tevetoğlu,44,False,cs06037013_p043,pdftotext parser
 yes,SİİRT,Abdurrahman Kavak,Abdurrahman Kavak,44,False,cs06037013_p043,pdftotext parser
-yes,SİİRT,Suphi Batur Ecem Karakapıeı,Suphi Batur Ecem Karakapıeı,44,False,cs06037013_p043,pdftotext parser
-yes,SİİRT,SİVAS Hasan Oral,SİVAS Hasan Oral,44,False,cs06037013_p043,pdftotext parser
-yes,SİİRT,Ahmet Çekemoğlu,Ahmet Çekemoğlu,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Rifat Öçten,Rifat Öçten,44,False,cs06037013_p043,pdftotext parser
+yes,SİNOP,Suphi Batur,Suphi Batur,44,False,cs06037013_p043,pdftotext parser
+yes,SİVAS,Ahmet Çekemoğlu,Ahmet Çekemoğlu,44,False,cs06037013_p043,pdftotext parser
+yes,SİVAS,Rifat Öçten,Rifat Öçten,44,False,cs06037013_p043,pdftotext parser
+yes,SİVAS,Ziya Önder,Ziya Önder,44,False,cs06037013_p043,pdftotext parser
+yes,SİVAS,Hulusi Söylemezoğlu,Hulusi Söylemezoğlu,44,False,cs06037013_p043,pdftotext parser
+yes,TEKİRDAĞ,Hayri Mumcuoğlu,Hayri Mumcuoğlu,44,False,cs06037013_p043,pdftotext parser
+yes,TEKİRDAĞ,Cemal Tarlan,Cemal Tarlan,44,False,cs06037013_p043,pdftotext parser
+yes,TRABZON,Reşat Zaloğlu,Reşat Zaloğlu,44,False,cs06037013_p043,pdftotext parser
+yes,TUNCELİ,Arslan Bora,Arslan Bora,44,False,cs06037013_p043,pdftotext parser
+yes,ŞANLIURFA,Ecem Karakapıeı,Ecem Karakapıeı,44,False,cs06037013_p043,pdftotext parser
+yes,ŞANLIURFA,Hasan Oral,Hasan Oral,44,False,cs06037013_p043,pdftotext parser
 yes,UŞAK,Mehmet Faik A ta. yurt,Mehmet Faik A ta. yurt,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Ziya Önder,Ziya Önder,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Hulusi Söylemezoğlu VAN,Hulusi Söylemezoğlu VAN,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,TEKİRDAĞ Fenci Melen,TEKİRDAĞ Fenci Melen,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Hayri Mumcuoğlu YOZGAT,Hayri Mumcuoğlu YOZGAT,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Cemal Tarlan,Cemal Tarlan,44,False,cs06037013_p043,pdftotext parser
-yes,UŞAK,Sadık Artukmae,Sadık Artukmae,44,False,cs06037013_p043,pdftotext parser
-yes,ZONGULDAK,Reşat Zaloğlu,Reşat Zaloğlu,44,False,cs06037013_p043,pdftotext parser
+yes,VAN,Fenci Melen,Fenci Melen,44,False,cs06037013_p043,pdftotext parser
+yes,YOZGAT,Sadık Artukmae,Sadık Artukmae,44,False,cs06037013_p043,pdftotext parser
 yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,44,False,cs06037013_p043,pdftotext parser
-yes,ZONGULDAK,TUNCELİ Akif Eyidoğan,TUNCELİ Akif Eyidoğan,44,False,cs06037013_p043,pdftotext parser
-yes,ZONGULDAK,Arslan Bora Tevfik İnci,Arslan Bora Tevfik İnci,44,False,cs06037013_p043,pdftotext parser
-yes,İSTANBUL,Ekrem Özden,Ekrem Özden,44,False,cs06037013_p043,pdftotext parser
+yes,ZONGULDAK,Akif Eyidoğan,Akif Eyidoğan,44,False,cs06037013_p043,pdftotext parser
+yes,ZONGULDAK,Tevfik İnci,Tevfik İnci,44,False,cs06037013_p043,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Cevat Açıkalm,Cevat Açıkalm,44,False,cs06037013_p043,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Lûtfi Ak adla,Lûtfi Ak adla,44,False,cs06037013_p043,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âmil Artus,Âmil Artus,44,False,cs06037013_p043,pdftotext parser
@@ -134,6 +135,7 @@ yes,CUMHURBAŞKANINCA S. Ü.,N. Zerin Tüzün,N. Zerin Tüzün,44,False,cs060370
 yes,CUMHURBAŞKANINCA S. Ü.,Ragıp Ün er,Ragıp Ün er,44,False,cs06037013_p043,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âdil Ünlü,Âdil Ünlü,44,False,cs06037013_p043,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Suad Hayri Ürgüplü,Suad Hayri Ürgüplü,44,False,cs06037013_p043,pdftotext parser
+no,İSTANBUL,Ekrem Özden,Ekrem Özden,44,True,cs06037013_p043,pdftotext parser
 abstain,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,44,False,cs06037013_p043,pdftotext parser
 not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,44,False,cs06037013_p043,pdftotext parser
 not_voting,TABİİ ÜYELER,Mucip Ataklı,Mucip Ataklı,44,False,cs06037013_p043,pdftotext parser

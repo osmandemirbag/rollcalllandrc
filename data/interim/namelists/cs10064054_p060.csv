@@ -101,16 +101,17 @@ yes,SAMSUN,Fethi Tevetoğîu,Fethi Tevetoğîu,61,False,cs10064054_p060,pdftotex
 yes,SİİRT,Abdurrahraan Kavak,Abdurrahraan Kavak,61,False,cs10064054_p060,pdftotext parser
 yes,SİNOP,Nâzım tnebeyli,Nâzım tnebeyli,61,False,cs10064054_p060,pdftotext parser
 yes,SİNOP,Âdil Altay,Âdil Altay,61,False,cs10064054_p060,pdftotext parser
-yes,SİNOP,Nurettin Ertürk URFA,Nurettin Ertürk URFA,61,False,cs10064054_p060,pdftotext parser
-yes,SİNOP,î. Etem Karakapıcı,î. Etem Karakapıcı,61,False,cs10064054_p060,pdftotext parser
-yes,SİNOP,TOKAT Hasan Oral,TOKAT Hasan Oral,61,False,cs10064054_p060,pdftotext parser
-yes,SİNOP,Ali Altuntaş YOZaAT,Ali Altuntaş YOZaAT,61,False,cs10064054_p060,pdftotext parser
-yes,SİNOP,Sadık Artukmaç,Sadık Artukmaç,61,False,cs10064054_p060,pdftotext parser
-yes,TRABZON,İsmail Yeşilyurt,İsmail Yeşilyurt,61,False,cs10064054_p060,pdftotext parser
-yes,TRABZON,Ali Şakir Ağanoğlu ZONGULDAK,Ali Şakir Ağanoğlu ZONGULDAK,61,False,cs10064054_p060,pdftotext parser
-yes,TRABZON,ö. Lûtfi Hocaoğlu Tarık Remzi Baltan,ö. Lûtfi Hocaoğlu Tarık Remzi Baltan,61,False,cs10064054_p060,pdftotext parser
-yes,TRABZON,Reşat Zaloğlu Ahmet Demir Yüce,Reşat Zaloğlu Ahmet Demir Yüce,61,False,cs10064054_p060,pdftotext parser
-yes,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,61,False,cs10064054_p060,pdftotext parser
+yes,SİNOP,Nurettin Ertürk,Nurettin Ertürk,61,False,cs10064054_p060,pdftotext parser
+yes,TOKAT,Ali Altuntaş,Ali Altuntaş,61,False,cs10064054_p060,pdftotext parser
+yes,TRABZON,Ali Şakir Ağanoğlu,Ali Şakir Ağanoğlu,61,False,cs10064054_p060,pdftotext parser
+yes,TRABZON,ö. Lûtfi Hocaoğlu,ö. Lûtfi Hocaoğlu,61,False,cs10064054_p060,pdftotext parser
+yes,TRABZON,Reşat Zaloğlu,Reşat Zaloğlu,61,False,cs10064054_p060,pdftotext parser
+yes,ŞANLIURFA,î. Etem Karakapıcı,î. Etem Karakapıcı,61,False,cs10064054_p060,pdftotext parser
+yes,ŞANLIURFA,Hasan Oral,Hasan Oral,61,False,cs10064054_p060,pdftotext parser
+yes,ŞANLIURFA,Sadık Artukmaç,Sadık Artukmaç,61,False,cs10064054_p060,pdftotext parser
+yes,ŞANLIURFA,İsmail Yeşilyurt,İsmail Yeşilyurt,61,False,cs10064054_p060,pdftotext parser
+yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,61,False,cs10064054_p060,pdftotext parser
+yes,ZONGULDAK,Ahmet Demir Yüce,Ahmet Demir Yüce,61,False,cs10064054_p060,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Lûtfi Akadlı,Lûtfi Akadlı,61,False,cs10064054_p060,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Hidayet Aydmer,Hidayet Aydmer,61,False,cs10064054_p060,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Hayri Dener,Hayri Dener,61,False,cs10064054_p060,pdftotext parser
@@ -118,6 +119,7 @@ yes,CUMHURBAŞKANINCA S. Ü.,Feridun Cemal Erkin,Feridun Cemal Erkin,61,False,cs
 yes,CUMHURBAŞKANINCA S. Ü.,Kasım Gülek,Kasım Gülek,61,False,cs10064054_p060,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Fahri Korutürk,Fahri Korutürk,61,False,cs10064054_p060,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Zerin Tüzün,Zerin Tüzün,61,False,cs10064054_p060,pdftotext parser
+no,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,61,True,cs10064054_p060,pdftotext parser
 abstain,UŞAK,Mehmet Faik Atayurt,Mehmet Faik Atayurt,61,False,cs10064054_p060,pdftotext parser
 not_voting,,Ekrem Acuner,Ekrem Acuner,61,False,cs10064054_p060,pdftotext parser
 not_voting,,Mucip Ataklı,Mucip Ataklı,61,False,cs10064054_p060,pdftotext parser

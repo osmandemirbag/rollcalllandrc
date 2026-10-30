@@ -105,18 +105,20 @@ yes,SAMSUN,Refet Rendeci,Refet Rendeci,155,False,cs06038032_p154,pdftotext parse
 yes,SAMSUN,Fethi Tevetoğlu,Fethi Tevetoğlu,155,False,cs06038032_p154,pdftotext parser
 yes,SİİRT,Abdurrahman Kavak,Abdurrahman Kavak,155,False,cs06038032_p154,pdftotext parser
 yes,SİNOP,Suphi Batur,Suphi Batur,155,False,cs06038032_p154,pdftotext parser
-yes,SİNOP,SİVAS Ö. Lûtfi Hoeaoğlu,SİVAS Ö. Lûtfi Hoeaoğlu,155,False,cs06038032_p154,pdftotext parser
-yes,SİNOP,Ahmet Çekemoğlu Reşat Zaloğlu,Ahmet Çekemoğlu Reşat Zaloğlu,155,False,cs06038032_p154,pdftotext parser
-yes,SİNOP,Rifat Öçten,Rifat Öçten,155,False,cs06038032_p154,pdftotext parser
-yes,TUNCELİ,Ziya Önder,Ziya Önder,155,False,cs06038032_p154,pdftotext parser
+yes,SİVAS,Ahmet Çekemoğlu,Ahmet Çekemoğlu,155,False,cs06038032_p154,pdftotext parser
+yes,SİVAS,Rifat Öçten,Rifat Öçten,155,False,cs06038032_p154,pdftotext parser
+yes,SİVAS,Ziya Önder,Ziya Önder,155,False,cs06038032_p154,pdftotext parser
+yes,SİVAS,Hulusi SöyLemezoğlu,Hulusi SöyLemezoğlu,155,False,cs06038032_p154,pdftotext parser
+yes,TEKİRDAĞ,Cemal Tarlan,Cemal Tarlan,155,False,cs06038032_p154,pdftotext parser
+yes,TOKAT,Ali Altuntaş,Ali Altuntaş,155,False,cs06038032_p154,pdftotext parser
+yes,TRABZON,Ali Şakir Ağanoğlu,Ali Şakir Ağanoğlu,155,False,cs06038032_p154,pdftotext parser
+yes,TRABZON,Ö. Lûtfi Hoeaoğlu,Ö. Lûtfi Hoeaoğlu,155,False,cs06038032_p154,pdftotext parser
+yes,TRABZON,Reşat Zaloğlu,Reşat Zaloğlu,155,False,cs06038032_p154,pdftotext parser
 yes,TUNCELİ,Arslan Bora,Arslan Bora,155,False,cs06038032_p154,pdftotext parser
-yes,TUNCELİ,Hulusi SöyLemezoğlu,Hulusi SöyLemezoğlu,155,False,cs06038032_p154,pdftotext parser
-yes,TEKİRDAĞ,Cemal Tarlan Hasan Oral,Cemal Tarlan Hasan Oral,155,False,cs06038032_p154,pdftotext parser
-yes,TEKİRDAĞ,Mehmet Faik Atayurt,Mehmet Faik Atayurt,155,False,cs06038032_p154,pdftotext parser
-yes,TEKİRDAĞ,Ali Altuntaş,Ali Altuntaş,155,False,cs06038032_p154,pdftotext parser
-yes,TEKİRDAĞ,Ali Şakir Ağanoğlu Tarık Remzi Baltan,Ali Şakir Ağanoğlu Tarık Remzi Baltan,155,False,cs06038032_p154,pdftotext parser
-yes,İSTANBUL,Ekrem Özden,Ekrem Özden,155,False,cs06038032_p154,pdftotext parser
-yes,İSTANBUL,Akil Eyidoğan,Akil Eyidoğan,155,False,cs06038032_p154,pdftotext parser
+yes,ŞANLIURFA,Hasan Oral,Hasan Oral,155,False,cs06038032_p154,pdftotext parser
+yes,UŞAK,Mehmet Faik Atayurt,Mehmet Faik Atayurt,155,False,cs06038032_p154,pdftotext parser
+yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,155,False,cs06038032_p154,pdftotext parser
+yes,ZONGULDAK,Akil Eyidoğan,Akil Eyidoğan,155,False,cs06038032_p154,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âmil Artus,Âmil Artus,155,False,cs06038032_p154,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Hidayet Aydmer,Hidayet Aydmer,155,False,cs06038032_p154,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Ömer Ergün,Ömer Ergün,155,False,cs06038032_p154,pdftotext parser
@@ -124,6 +126,7 @@ yes,CUMHURBAŞKANINCA S. Ü.,Enver Kök,Enver Kök,155,False,cs06038032_p154,pdf
 yes,CUMHURBAŞKANINCA S. Ü.,Nadir Nadi,Nadir Nadi,155,False,cs06038032_p154,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Ragıp Üner,Ragıp Üner,155,False,cs06038032_p154,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âdil Ünlü,Âdil Ünlü,155,False,cs06038032_p154,pdftotext parser
+no,İSTANBUL,Ekrem Özden,Ekrem Özden,155,True,cs06038032_p154,pdftotext parser
 abstain,TEKİRDAĞ,Hayri Mumcuoğlu,Hayri Mumcuoğlu,155,False,cs06038032_p154,pdftotext parser
 not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,155,False,cs06038032_p154,pdftotext parser
 not_voting,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,155,False,cs06038032_p154,pdftotext parser
@@ -179,3 +182,5 @@ not_voting,CUMHURBAŞKANINCA S. Ü.,Cevat Açıkalm,Cevat Açıkalm,155,False,cs
 not_voting,CUMHURBAŞKANINCA S. Ü.,Cemal Madanoğlu,Cemal Madanoğlu,155,False,cs06038032_p154,pdftotext parser
 not_voting,CUMHURBAŞKANINCA S. Ü.,N. Zerin Tüzün,N. Zerin Tüzün,155,False,cs06038032_p154,pdftotext parser
 not_voting,CUMHURBAŞKANINCA S. Ü.,Suad Hayri Ürgüplü,Suad Hayri Ürgüplü,155,False,cs06038032_p154,pdftotext parser
+not_voting,CUMHURBAŞKANINCA S. Ü.,Devlet Hava Meydanları,Devlet Hava Meydanları,156,False,cs06038032_p154,pdftotext parser
+not_voting,CUMHURBAŞKANINCA S. Ü.,İşletmesi Genel Müdürlüğüverilen,İşletmesi Genel Müdürlüğü verilen,156,False,cs06038032_p154,pdftotext parser

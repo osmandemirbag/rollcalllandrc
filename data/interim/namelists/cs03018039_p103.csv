@@ -108,10 +108,16 @@ yes,CUMHURBAŞKANINCA S. Ü.,Enver Kök,Enver Kök,104,False,cs03018039_p103,pdf
 yes,CUMHURBAŞKANINCA S. Ü.,Sahir Kurutluoğlu,Sahir Kurutluoğlu,104,False,cs03018039_p103,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Necati özdeniz,Necati özdeniz,104,False,cs03018039_p103,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âdil Ünlü,Âdil Ünlü,104,False,cs03018039_p103,pdftotext parser
-no,,Fikret Turhangil,Fikret Turhangil,104,False,cs03018039_p103,pdftotext parser
-no,,özel Şahingiray Cahit Okurer,özel Şahingiray Cahit Okurer,104,False,cs03018039_p103,pdftotext parser
-no,BALIKESİR,Hüseyin Kalpaklıoğlu Ahmet Çekemoğlu Faruk,Hüseyin Kalpaklıoğlu Ahmet Çekemoğlu Faruk,104,False,cs03018039_p103,pdftotext parser
+no,AYDIN,Fikret Turhangil,Fikret Turhangil,104,False,cs03018039_p103,pdftotext parser
+no,BALIKESİR,Hasan Ali Türker,Hasan Ali Türker,104,False,cs03018039_p103,pdftotext parser
+no,İSTANBUL,özel Şahingiray,özel Şahingiray,104,False,cs03018039_p103,pdftotext parser
+no,İSTANBUL,Sabahattin Tanman,Sabahattin Tanman,104,False,cs03018039_p103,pdftotext parser
+no,İZMİR,Cahit Okurer,Cahit Okurer,104,False,cs03018039_p103,pdftotext parser
+no,İZMİR,Nevzat özerdemli,Nevzat özerdemli,104,False,cs03018039_p103,pdftotext parser
 no,TRABZON,Yusuf Demirdağ,Yusuf Demirdağ,104,False,cs03018039_p103,pdftotext parser
+abstain,KAYSERİ,Hüseyin Kalpaklıoğlu,Hüseyin Kalpaklıoğlu,104,True,cs03018039_p103,pdftotext parser
+abstain,SİVAS,Ahmet Çekemoğlu,Ahmet Çekemoğlu,104,True,cs03018039_p103,pdftotext parser
+abstain,VAN,Faruk Işık,Faruk Işık,104,True,cs03018039_p103,pdftotext parser
 not_voting,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,104,False,cs03018039_p103,pdftotext parser
 not_voting,TABİİ ÜYELER,Kadri Kaplan,Kadri Kaplan,104,False,cs03018039_p103,pdftotext parser
 not_voting,TABİİ ÜYELER,Osman Koksal,Osman Koksal,104,False,cs03018039_p103,pdftotext parser

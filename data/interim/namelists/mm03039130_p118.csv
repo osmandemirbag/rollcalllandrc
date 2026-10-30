@@ -171,7 +171,6 @@ yes,KÜTAHYA,Kemali Kaoar,Kemali Kaoar,119,False,mm03039130_p118,pdftotext parse
 yes,MALATYA,Hakkı Gökçe,Hakkı Gökçe,119,False,mm03039130_p118,pdftotext parser
 yes,MALATYA,Ahmet Karaaslan,Ahmet Karaaslan,119,False,mm03039130_p118,pdftotext parser
 yes,MALATYA,İsmail Hakkı Şengüler,İsmail Hakkı Şengüler,119,False,mm03039130_p118,pdftotext parser
-yes,KARAMAN,Mehmet özdal,Mehmet özdal,119,False,mm03039130_p118,pdftotext parser
 yes,MANİSA,Ertuğrul Akça,Ertuğrul Akça,119,False,mm03039130_p118,pdftotext parser
 yes,MANİSA,Süleyman Çağlar,Süleyman Çağlar,119,False,mm03039130_p118,pdftotext parser
 yes,MANİSA,Mustafa Orhan Daut,Mustafa Orhan Daut,119,False,mm03039130_p118,pdftotext parser
@@ -203,10 +202,10 @@ yes,SAKARYA,Yaşar Bir,Yaşar Bir,119,False,mm03039130_p118,pdftotext parser
 yes,SAKARYA,Güngör Hun,Güngör Hun,119,False,mm03039130_p118,pdftotext parser
 yes,SAMSUN,llyas Kılıç,llyas Kılıç,119,False,mm03039130_p118,pdftotext parser
 yes,SAMSUN,Doğan Kitaplı,Doğan Kitaplı,119,False,mm03039130_p118,pdftotext parser
-yes,KAHRAMANMARAŞ,Nafiz Yavuz Kurt,Nafiz Yavuz Kurt,119,False,mm03039130_p118,pdftotext parser
-yes,KAHRAMANMARAŞ,Hüseyin Özalp,Hüseyin Özalp,119,False,mm03039130_p118,pdftotext parser
-yes,KAHRAMANMARAŞ,Bahattin Uzunoğlu,Bahattin Uzunoğlu,119,False,mm03039130_p118,pdftotext parser
-yes,KAHRAMANMARAŞ,ismet Yalçmer,ismet Yalçmer,119,False,mm03039130_p118,pdftotext parser
+yes,SAMSUN,Nafiz Yavuz Kurt,Nafiz Yavuz Kurt,119,False,mm03039130_p118,pdftotext parser
+yes,SAMSUN,Hüseyin Özalp,Hüseyin Özalp,119,False,mm03039130_p118,pdftotext parser
+yes,SAMSUN,Bahattin Uzunoğlu,Bahattin Uzunoğlu,119,False,mm03039130_p118,pdftotext parser
+yes,SAMSUN,ismet Yalçmer,ismet Yalçmer,119,False,mm03039130_p118,pdftotext parser
 yes,SİİRT,Selâhattin Oran,Selâhattin Oran,119,False,mm03039130_p118,pdftotext parser
 yes,SİİRT,Âdil Yaşa,Âdil Yaşa,119,False,mm03039130_p118,pdftotext parser
 yes,SİNOP,Mustafa Kaptan,Mustafa Kaptan,119,False,mm03039130_p118,pdftotext parser
@@ -234,7 +233,8 @@ yes,ZONGULDAK,Fevzi Fırat,Fevzi Fırat,119,False,mm03039130_p118,pdftotext pars
 yes,ZONGULDAK,Ahmet Güner,Ahmet Güner,119,False,mm03039130_p118,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,119,False,mm03039130_p118,pdftotext parser
 yes,ZONGULDAK,S. Tekin Müftüoğlu,S. Tekin Müftüoğlu,119,False,mm03039130_p118,pdftotext parser
-yes,ZONGULDAK,M. İVMisi,M. İVMisi,120,False,mm03039130_p118,pdftotext parser
+no,KAHRAMANMARAŞ,Mehmet özdal,Mehmet özdal,119,True,mm03039130_p118,pdftotext parser
+no,KAHRAMANMARAŞ,M. İVMisi,M. İVMisi,120,True,mm03039130_p118,pdftotext parser
 abstain,ÇORUM,Ali Naki Ulusoy,Ali Naki Ulusoy,120,False,mm03039130_p118,pdftotext parser
 not_voting,ADANA,Ali Rıza Gülliioğlu,Ali Rıza Gülliioğlu (î.),120,False,mm03039130_p118,pdftotext parser
 not_voting,ADANA,Melih Kemal Küçüktepepınar,Melih Kemal Küçüktepepınar,120,False,mm03039130_p118,pdftotext parser

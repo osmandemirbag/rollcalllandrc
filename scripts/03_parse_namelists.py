@@ -35,6 +35,9 @@ SECTIONS = {
     "vacant": ["acik uyelikler", "acik milletvekillikleri", "acik uyelik", "acik milletvekilligi",
                "acik bulunan", "munhal"],
 }
+# The agenda (gündem) or the next sitting follows the lists.
+AGENDA = re.compile(r"G[ÜU]NDEM|B[İI]RLE[ŞS][İI]M\b|Komisyonu\s+Rapor|S\.\s*Say[ıi]s|OYA\s+KONULACAK|"
+                    r"G[ÖO]R[ÜU][ŞS][ÜU]LECEK\s+[İI][ŞS]LER|BA[ŞS]KANLIK\s+D[İI]VANI", re.I)
 TITLE_ROW = re.compile(r"sonu\S?u\b|sonuç|oyla?r[ıi]n\s+sonu|neticesi", re.I)
 DIGIT_FIX = str.maketrans({"0": "O", "1": "İ", "3": "B", "4": "A", "5": "S", "6": "G", "8": "B"})
 RUNNING_HEAD = re.compile(r"(Senatos|Mecl[iı]s|Meclis)\w*\W.*\bB\b|\d+\s*[.,]\s*\d+\s*[.,]\s*19[67]\d|^\W*[0-9 ]+\W*$", re.I)
@@ -66,9 +69,36 @@ def section_of(text):
             r = SequenceMatcher(None, f, n).ratio()
             if r > score:
                 best, score = c, r
-    if not re.search(r"(l[ae]r|lık|lik|ler\W*)$", f.split()[-1]) and score < 0.85:
+    if re.search(r"edil|mis|mış|kanunlas|yok|vardir|saglan|kabul ol|redd?edil", f):
+        return None  # outcome lines such as '(Madde kabul edilmiştir.)'
+    if not re.search(r"(l[ae]r|lık|lik|ler\W*)$", f.split()[-1]) and score < 0.85 and not is_bracketed(text):
         return None  # outcome lines such as '(Kabul edilmiştir.)'
     return best if score >= (0.6 if is_bracketed(text) else 0.8) else None
+
+
+def header_is_clear(text):
+    f = " ".join(t for t in fold(text).split() if len(t) > 1)
+    return max(SequenceMatcher(None, f, n).ratio() for ns in SECTIONS.values() for n in ns) >= 0.85
+
+
+def relabel_sections(df, targets):
+    """A list whose header was lost or garbled may carry the wrong label: if its size fits
+    another section that came out empty, move it there."""
+    if df.empty or "section_inferred" not in df:
+        return df
+    counts = df.choice.value_counts()
+    for c in ["yes", "no", "abstain", "not_voting"]:
+        n = int(counts.get(c, 0))
+        if not n or n in targets.get(c, []):
+            continue
+        rows = df.choice == c
+        if not df.loc[rows, "section_inferred"].any():
+            continue
+        for d in ["yes", "no", "abstain", "not_voting"]:
+            if d != c and int(counts.get(d, 0)) == 0 and n in targets.get(d, []):
+                df.loc[rows & df.section_inferred.astype(bool), "choice"] = d
+                return relabel_sections(df, targets)
+    return df
 
 
 def is_bracketed(text):
@@ -127,7 +157,9 @@ def is_prose(row, width):
     if len(row) < 7:
         return False
     gaps = [b.x0 - a.x1 for a, b in zip(row, row[1:])]
-    return max(gaps) < 18 and (row[-1].x1 - row[0].x0) > 0.6 * width
+    lower = sum(w.text[:1].islower() for w in row) / len(row)
+    # Names are capitalised; running prose is mostly lower-case words.
+    return max(gaps) < 18 and (row[-1].x1 - row[0].x0) > 0.6 * width and lower >= 0.5
 
 
 def pick_title(rows, title):
@@ -167,17 +199,40 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
         if not text:
             return
         if pending:
-            text, pending = pending + text, ""
+            if text[:1].isupper() and not text.isupper():
+                # The continuation landed elsewhere; keep the stem ('Mithat Şükrü Çavdar').
+                stem, pending = pending, ""
+                emit_line(stem, page)
+            else:
+                text, pending = pending + text, ""
         if text.endswith("-") and not text.endswith(" -"):
             pending = text[:-1]
             return
+        # A province header glued to a name on the same line ('TEKİRDAĞ Kâmil Coşkunoğlu',
+        # 'İhsan Topaloğlu MANİSA'): split it off.
+        toks = text.split()
+        if len(toks) >= 3 and not is_upper(text):
+            for n in (2, 1):
+                head, tail = " ".join(toks[:n]), " ".join(toks[n:])
+                if is_upper(head) and len(fold(head)) >= 3 and province_of(head, provinces):
+                    emit_line(head, page)
+                    emit_line(tail, page)
+                    return
+                head, tail = " ".join(toks[:-n]), " ".join(toks[-n:])
+                if is_upper(tail) and len(fold(tail)) >= 3 and province_of(tail, provinces):
+                    emit_line(head, page)
+                    emit_line(tail, page)
+                    return
         if is_upper(text):
             p = province_of(text, provinces)
             if p:
                 # Lists print provinces alphabetically: a jump from late in the alphabet
                 # back to the start means a new list began whose header the OCR lost.
-                if prov and choice in order and province_rank(prov) >= 14 and province_rank(p) <= 3 \
-                        and province_rank(p) < province_rank(prov):
+                # The Senate lists end with the presidential-quota group: any province after it
+                # starts a new list. Otherwise require a clear jump back in the alphabet.
+                after_quota = prov == "CUMHURBAŞKANINCA S. Ü." and p != prov
+                if prov and choice in order and (after_quota or (
+                        province_rank(p) <= 3 and province_rank(p) <= province_rank(prov) - 6)):
                     nxt = next_section()
                     if nxt:
                         choice, inferred = nxt, True
@@ -229,7 +284,8 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
                 if t:
                     tally.setdefault(t[0], t[1])
                     continue
-            if choice is not None and (TITLE_ROW.search(text) or re.match(r"\W*[ÜU]ye\s+say", text)):
+            if choice is not None and (TITLE_ROW.search(text) or re.match(r"\W*[ÜU]ye\s+say", text)
+                                       or AGENDA.search(text)):
                 flush()
                 return out, tally  # next vote's result block
             sec = section_of(text)
@@ -250,7 +306,7 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
                     continue
             if sec:
                 flush()
-                choice, prov, inferred = sec, None, False
+                choice, prov, inferred = sec, None, not header_is_clear(text)
                 continue
             if choice is not None and is_prose(r, page.width):
                 flush()
@@ -301,7 +357,8 @@ def check_counts(v, df, tally):
         idx = None if pd.isna(idx) else int(idx)
         pdf_t = tally.get(c)
         parsed = int(got.get(c, 0))
-        row.update({f"{c}_index": idx, f"{c}_pdf": pdf_t, f"{c}_parsed": parsed})
+        row.update({f"{c}_index": idx, f"{c}_pdf": pdf_t, f"{c}_parsed": parsed,
+                    f"{c}_derived": " ".join(map(str, derived.get(c, [])))})
         targets = [t for t in (idx, pdf_t) if t is not None] + derived.get(c, [])
         targets = targets or [0]
         if c == "not_voting" and parsed == 0:
@@ -309,11 +366,22 @@ def check_counts(v, df, tally):
         if parsed not in targets:
             mism.append(c)
             diff += min(abs(parsed - t) for t in targets)
+    row["abs_diff"] = diff
+    row["inferred_breaks"] = int(df.get("section_inferred", pd.Series(dtype=bool)).fillna(False).astype(bool).sum())
     nv_missing = int(got.get("not_voting", 0)) == 0 and any(
         (t or 0) > 0 for t in (row["not_voting_index"], row["not_voting_pdf"]))
     row["not_voting_list_printed"] = not nv_missing
-    row["abs_diff"] = diff
-    row["inferred_breaks"] = int(df.get("section_inferred", pd.Series(dtype=bool)).fillna(False).astype(bool).sum())
+    # Tallies can be misread while the lists are right: accept when the lists add up to the
+    # seats less vacancies and the votes cast agree.
+    if mism:
+        members = {x for x in (tally.get("members"), None if pd.isna(v.seats) else int(v.seats)) if x}
+        vac = tally.get("vacant", 0) or 0
+        vc = {x for x in (tally.get("votes_cast"), None if pd.isna(v.votes_cast) else int(v.votes_cast)) if x}
+        cast = sum(int(got.get(c, 0)) for c in ["yes", "no", "abstain"])
+        total = cast + int(got.get("not_voting", 0))
+        if not nv_missing and cast in vc and total in {m - vac for m in members}:
+            row["identity_ok"] = True
+            mism = []
     row["status"] = ("ok" if not mism else "count mismatch: " + ",".join(mism)) + \
         (" (not-voting list not printed)" if nv_missing else "")
     return row
@@ -369,7 +437,14 @@ def main():
                                              "section_inferred"]).assign(vote_id=v.vote_id, source="pdftotext parser")
             tallies[v.vote_id] = tally
             df.to_csv(out, index=False)
-        checks.append(check_counts(v, df, tallies.get(v.vote_id, {})))
+        tally = tallies.get(v.vote_id, {})
+        if df.get("source", pd.Series(["x"])).iloc[0] == "pdftotext parser" if len(df) else False:
+            der = derived_targets(v, tally)
+            tg = {c: [x for x in (None if pd.isna(getattr(v, c)) else int(getattr(v, c)), tally.get(c))
+                      if x is not None] + der.get(c, []) for c in ["yes", "no", "abstain", "not_voting"]}
+            df = relabel_sections(df, tg)
+            df.to_csv(out, index=False)
+        checks.append(check_counts(v, df, tally))
 
     ch = pd.DataFrame(checks)
     ch.to_csv(INTERIM / "namelist_checks.csv", index=False)

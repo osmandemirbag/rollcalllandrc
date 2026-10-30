@@ -110,7 +110,8 @@ yes,İSTANBUL,Halûk Ulanan,Halûk Ulanan,51,False,mm04022030_p050,pdftotext par
 yes,İSTANBUL,Engin Unsal,Engin Unsal,51,False,mm04022030_p050,pdftotext parser
 yes,İSTANBUL,Cemil Yavaş,Cemil Yavaş,51,False,mm04022030_p050,pdftotext parser
 yes,İZMİR,Alev Coşkun,Alev Coşkun,51,False,mm04022030_p050,pdftotext parser
-yes,İZMİR,Yüksel ÇakmuıÂdil Demir,Yüksel ÇakmuıÂdil Demir,51,False,mm04022030_p050,pdftotext parser
+yes,İZMİR,Yüksel Çakmuı,Yüksel Çakmuı,51,False,mm04022030_p050,pdftotext parser
+yes,İZMİR,Âdil Demir,Âdil Demir,51,False,mm04022030_p050,pdftotext parser
 yes,İZMİR,Coşkun Karagözüğlu,Coşkun Karagözüğlu,51,False,mm04022030_p050,pdftotext parser
 yes,İZMİR,A. Kemal Önder,A. Kemal Önder,51,False,mm04022030_p050,pdftotext parser
 yes,İZMİR,Remzi özen,Remzi özen,51,False,mm04022030_p050,pdftotext parser
@@ -399,7 +400,8 @@ not_voting,ORDU,Bilâl Tarautoğlu,Bilâl Tarautoğlu,53,False,mm04022030_p050,p
 not_voting,ORDU,Senai Yazıcı,Senai Yazıcı,53,False,mm04022030_p050,pdftotext parser
 not_voting,RİZE,O. Yılmaz Karaosmanoğlu,0. Yılmaz Karaosmanoğlu,53,False,mm04022030_p050,pdftotext parser
 not_voting,RİZE,Sami Kumbasar,Sami Kumbasar,53,False,mm04022030_p050,pdftotext parser
-not_voting,RİZE,Sûdi Reşat SanmanCevat Yalçın,Sûdi Reşat SanmanCevat Yalçın,53,False,mm04022030_p050,pdftotext parser
+not_voting,RİZE,Sûdi Reşat Sanman,Sûdi Reşat Sanman,53,False,mm04022030_p050,pdftotext parser
+not_voting,RİZE,Cevat Yalçın,Cevat Yalçın,53,False,mm04022030_p050,pdftotext parser
 not_voting,SAKARYA,Kenan Durukan,Kenan Durukan,53,False,mm04022030_p050,pdftotext parser
 not_voting,SAKARYA,Nadir Lâtif tsiâm,Nadir Lâtif tsiâm,53,False,mm04022030_p050,pdftotext parser
 not_voting,SAKARYA,M. Vedat önsal,M. Vedat önsal,53,False,mm04022030_p050,pdftotext parser
@@ -431,9 +433,9 @@ not_voting,ŞANLIURFA,Mehmet Celâl Bucak,Mehmet Celâl Bucak,53,False,mm0402203
 not_voting,ŞANLIURFA,Mustafa Kılıç,Mustafa Kılıç,53,False,mm04022030_p050,pdftotext parser
 not_voting,ŞANLIURFA,Halil Millî,Halil Millî,53,False,mm04022030_p050,pdftotext parser
 not_voting,UŞAK,Kadir özpak,Kadir özpak,53,False,mm04022030_p050,pdftotext parser
-not_voting,UŞAK,VAN V x\l^,VAN V x\l^,53,False,mm04022030_p050,pdftotext parser
-not_voting,UŞAK,Kinyas Kartal,Kinyas Kartal,53,False,mm04022030_p050,pdftotext parser
-not_voting,UŞAK,Mehmet SaiLih Yıldız,Mehmet SaiLih Yıldız,53,False,mm04022030_p050,pdftotext parser
+not_voting,VAN,x\l^,x\l^,53,False,mm04022030_p050,pdftotext parser
+not_voting,VAN,Kinyas Kartal,Kinyas Kartal,53,False,mm04022030_p050,pdftotext parser
+not_voting,VAN,Mehmet SaiLih Yıldız,Mehmet SaiLih Yıldız,53,False,mm04022030_p050,pdftotext parser
 not_voting,YOZGAT,Ilhami Çetin,Ilhami Çetin,53,False,mm04022030_p050,pdftotext parser
 not_voting,YOZGAT,AM Fuat Eyüpoğlu,AM Fuat Eyüpoğlu,53,False,mm04022030_p050,pdftotext parser
 not_voting,YOZGAT,Nedim Korkmaz,Nedim Korkmaz,53,False,mm04022030_p050,pdftotext parser

@@ -203,10 +203,10 @@ abstain,MANİSA,Nahit Yenişehirlioğlu,Nahit Yenişehirlioğlu,133,False,mm0101
 abstain,ZONGULDAK,Ramiz Karakaşoğlu,Ramiz Karakaşoğlu,133,False,mm01013054_p132,pdftotext parser
 abstain,ISPARTA,Ali ihsan Balım,Ali ihsan Balım,133,False,mm01013054_p132,pdftotext parser
 abstain,KONYA,Cahit Yılmaz,Cahit Yılmaz,133,False,mm01013054_p132,pdftotext parser
-abstain,BALIKESİR,Kaya Bulut,Kaya Bulut,133,False,mm01013054_p132,pdftotext parser
-abstain,EDİRNE,Ilhami Ertem,Ilhami Ertem,133,False,mm01013054_p132,pdftotext parser
-abstain,ANKARA,Mehdi Mıhçıoğlu,Mehdi Mıhçıoğlu,133,False,mm01013054_p132,pdftotext parser
-abstain,ANTALYA,Ömer Eken,Ömer Eken,133,False,mm01013054_p132,pdftotext parser
+not_voting,BALIKESİR,Kaya Bulut,Kaya Bulut,133,True,mm01013054_p132,pdftotext parser
+not_voting,EDİRNE,Ilhami Ertem,Ilhami Ertem,133,True,mm01013054_p132,pdftotext parser
+not_voting,ANKARA,Mehdi Mıhçıoğlu,Mehdi Mıhçıoğlu,133,True,mm01013054_p132,pdftotext parser
+not_voting,ANTALYA,Ömer Eken,Ömer Eken,133,True,mm01013054_p132,pdftotext parser
 not_voting,ADANA,Hasan Aksay,Hasan Aksay,134,False,mm01013054_p132,pdftotext parser
 not_voting,ADANA,Kasım G-ülek,Kasım G-ülek,134,False,mm01013054_p132,pdftotext parser
 not_voting,ADANA,Melih Kemal Küçüktepepmar,Melih Kemal Küçüktepepmar,134,False,mm01013054_p132,pdftotext parser
@@ -389,7 +389,8 @@ not_voting,MANİSA,Nusret Köklü,Nusret Köklü,135,False,mm01013054_p132,pdfto
 not_voting,MANİSA,Hurrem Kubat,Hurrem Kubat,135,False,mm01013054_p132,pdftotext parser
 not_voting,MANİSA,Hilmi Okçu,Hilmi Okçu,135,False,mm01013054_p132,pdftotext parser
 not_voting,MANİSA,Yakup Yakut,Yakup Yakut,135,False,mm01013054_p132,pdftotext parser
-not_voting,KAHRAMANMARAŞ,Kemal BağeıoğluAli Hüdayioğlu,Kemal BağeıoğluAli Hüdayioğlu,135,False,mm01013054_p132,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Kemal Bağeıoğlu,Kemal Bağeıoğlu,135,False,mm01013054_p132,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Ali Hüdayioğlu,Ali Hüdayioğlu,135,False,mm01013054_p132,pdftotext parser
 not_voting,KAHRAMANMARAŞ,Enver Kaplan,Enver Kaplan,135,False,mm01013054_p132,pdftotext parser
 not_voting,KAHRAMANMARAŞ,Adnan Karaküçük,Adnan Karaküçük,135,False,mm01013054_p132,pdftotext parser
 not_voting,MARDİN,Seyfi Güneştan,Seyfi Güneştan,135,False,mm01013054_p132,pdftotext parser

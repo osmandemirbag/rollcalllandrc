@@ -157,9 +157,8 @@ yes,MUĞLA,Adnan Akarca,Adnan Akarca,55,False,mm04002046_p054,pdftotext parser
 yes,MUĞLA,Ünat Demir,Ünat Demir,55,False,mm04002046_p054,pdftotext parser
 yes,MUĞLA,Halil Dere,Halil Dere,55,False,mm04002046_p054,pdftotext parser
 yes,MUĞLA,Ali üöğerli,Ali üöğerli,55,False,mm04002046_p054,pdftotext parser
-yes,SAKARYA,M. Vedat onsa,M. Vedat onsa,55,False,mm04002046_p054,pdftotext parser
-yes,SAKARYA,Ahmet Haımdi Çelebi,Ahmet Haımdi Çelebi,55,False,mm04002046_p054,pdftotext parser
-yes,SAKARYA,Tekin İleri Dikmen,Tekin İleri Dikmen,55,False,mm04002046_p054,pdftotext parser
+yes,MUĞLA,Ahmet Haımdi Çelebi,Ahmet Haımdi Çelebi,55,False,mm04002046_p054,pdftotext parser
+yes,MUĞLA,Tekin İleri Dikmen,Tekin İleri Dikmen,55,False,mm04002046_p054,pdftotext parser
 yes,NİĞDE,Ş. Yaşar Arıbaş,Ş. Yaşar Arıbaş,55,False,mm04002046_p054,pdftotext parser
 yes,NİĞDE,Azmi Yavuzalp,Azmi Yavuzalp,55,False,mm04002046_p054,pdftotext parser
 yes,ORDU,Mehmet Said Erbıil,Mehmet Said Erbıil,55,False,mm04002046_p054,pdftotext parser
@@ -184,33 +183,34 @@ yes,SİNOP,Tevfîk Fikret övet,Tevfîk Fikret övet,55,False,mm04002046_p054,pd
 yes,SİVAS,Enver Akova,Enver Akova,55,False,mm04002046_p054,pdftotext parser
 yes,SİVAS,Ahmet Arıkan,Ahmet Arıkan,55,False,mm04002046_p054,pdftotext parser
 yes,SİVAS,N. Nazif Arslaın,N. Nazif Arslaın,55,False,mm04002046_p054,pdftotext parser
-no,BALIKESİR,İbrahim Behranı Eken,İbrahim Behranı Eken',55,True,mm04002046_p054,pdftotext parser
-no,BALIKESİR,Ahmet Durakoğlu,Ahmet Durakoğlu,55,True,mm04002046_p054,pdftotext parser
-no,BALIKESİR,Ekrem Kangal,Ekrem Kangal,55,True,mm04002046_p054,pdftotext parser
-no,TEKİRDAĞ,Halil Başol,Halil Başol,55,True,mm04002046_p054,pdftotext parser
-no,TEKİRDAĞ,Nâhan îlgüm,Nâhan îlgüm,55,True,mm04002046_p054,pdftotext parser
-no,TEKİRDAĞ,Ömer Kahraman,Ömer Kahraman,55,True,mm04002046_p054,pdftotext parser
-no,TOKAT,Hüseyin Abbas,Hüseyin Abbas,55,True,mm04002046_p054,pdftotext parser
-no,TOKAT,Ali Şevki Erek,Ali Şevki Erek,55,True,mm04002046_p054,pdftotext parser
-no,TOKAT,Ali Kurt,Ali Kurt,55,True,mm04002046_p054,pdftotext parser
-no,TOKAT,Haydar Ulusoy,Haydar Ulusoy,55,True,mm04002046_p054,pdftotext parser
-no,TRABZON,Mehmet özgür,Mehmet özgür,55,True,mm04002046_p054,pdftotext parser
-no,TRABZON,Ahmet Şener,Ahmet Şener,55,True,mm04002046_p054,pdftotext parser
-no,TUNCELİ,Nihat Saatlik,Nihat Saatlik,55,True,mm04002046_p054,pdftotext parser
-no,TUNCELİ,Süleym'an Yıldırım,Süleym'an Yıldırım,55,True,mm04002046_p054,pdftotext parser
-no,ŞANLIURFA,Celâli Paydaş,Celâli Paydaş,55,True,mm04002046_p054,pdftotext parser
-no,UŞAK,Orhan Dengiız,Orhan Dengiız,55,True,mm04002046_p054,pdftotext parser
-no,UŞAK,Kadir özpak,Kadir özpak,55,True,mm04002046_p054,pdftotext parser
-no,VAN,İhsan Bedk'hanoğlu,İhsan Bedk'hanoğlu,55,True,mm04002046_p054,pdftotext parser
-no,YOZGAT,İlhamı Çetin,İlhamı Çetin,55,True,mm04002046_p054,pdftotext parser
-no,YOZGAT,Nedim Korfcmaa,Nedim Korfcmaa,55,True,mm04002046_p054,pdftotext parser
-no,YOZGAT,Mustafa Asri Unsur,Mustafa Asri Unsur,55,True,mm04002046_p054,pdftotext parser
-no,YOZGAT,Ömer Lûtfi Zaraırsız,Ömer Lûtfi Zaraırsız,55,True,mm04002046_p054,pdftotext parser
-no,ZONGULDAK,Ahmet Nihat Akın,Ahmet Nihat Akın,55,True,mm04002046_p054,pdftotext parser
-no,ZONGULDAK,Zekâi Altınay,Zekâi Altınay,55,True,mm04002046_p054,pdftotext parser
-no,ZONGULDAK,Kemal Anadoıl »,Kemal Anadoıl »,55,True,mm04002046_p054,pdftotext parser
-no,ZONGULDAK,Cahit Karakaış,Cahit Karakaış,55,True,mm04002046_p054,pdftotext parser
-no,ZONGULDAK,Mehmet Zeki Okur,Mehmet Zeki Okur,55,True,mm04002046_p054,pdftotext parser
+yes,SİVAS,Ahmet Durakoğlu,Ahmet Durakoğlu,55,False,mm04002046_p054,pdftotext parser
+yes,SİVAS,Ekrem Kangal,Ekrem Kangal,55,False,mm04002046_p054,pdftotext parser
+yes,TEKİRDAĞ,Halil Başol,Halil Başol,55,False,mm04002046_p054,pdftotext parser
+yes,TEKİRDAĞ,Nâhan îlgüm,Nâhan îlgüm,55,False,mm04002046_p054,pdftotext parser
+yes,TEKİRDAĞ,Ömer Kahraman,Ömer Kahraman,55,False,mm04002046_p054,pdftotext parser
+yes,TOKAT,Hüseyin Abbas,Hüseyin Abbas,55,False,mm04002046_p054,pdftotext parser
+yes,TOKAT,Ali Şevki Erek,Ali Şevki Erek,55,False,mm04002046_p054,pdftotext parser
+yes,TOKAT,Ali Kurt,Ali Kurt,55,False,mm04002046_p054,pdftotext parser
+yes,TOKAT,Haydar Ulusoy,Haydar Ulusoy,55,False,mm04002046_p054,pdftotext parser
+yes,TRABZON,Mehmet özgür,Mehmet özgür,55,False,mm04002046_p054,pdftotext parser
+yes,TRABZON,Ahmet Şener,Ahmet Şener,55,False,mm04002046_p054,pdftotext parser
+yes,TUNCELİ,Nihat Saatlik,Nihat Saatlik,55,False,mm04002046_p054,pdftotext parser
+yes,TUNCELİ,Süleym'an Yıldırım,Süleym'an Yıldırım,55,False,mm04002046_p054,pdftotext parser
+yes,ŞANLIURFA,Celâli Paydaş,Celâli Paydaş,55,False,mm04002046_p054,pdftotext parser
+yes,UŞAK,Orhan Dengiız,Orhan Dengiız,55,False,mm04002046_p054,pdftotext parser
+yes,UŞAK,Kadir özpak,Kadir özpak,55,False,mm04002046_p054,pdftotext parser
+yes,VAN,İhsan Bedk'hanoğlu,İhsan Bedk'hanoğlu,55,False,mm04002046_p054,pdftotext parser
+yes,YOZGAT,İlhamı Çetin,İlhamı Çetin,55,False,mm04002046_p054,pdftotext parser
+yes,YOZGAT,Nedim Korfcmaa,Nedim Korfcmaa,55,False,mm04002046_p054,pdftotext parser
+yes,YOZGAT,Mustafa Asri Unsur,Mustafa Asri Unsur,55,False,mm04002046_p054,pdftotext parser
+yes,YOZGAT,Ömer Lûtfi Zaraırsız,Ömer Lûtfi Zaraırsız,55,False,mm04002046_p054,pdftotext parser
+yes,ZONGULDAK,Ahmet Nihat Akın,Ahmet Nihat Akın,55,False,mm04002046_p054,pdftotext parser
+yes,ZONGULDAK,Zekâi Altınay,Zekâi Altınay,55,False,mm04002046_p054,pdftotext parser
+yes,ZONGULDAK,Kemal Anadoıl »,Kemal Anadoıl »,55,False,mm04002046_p054,pdftotext parser
+yes,ZONGULDAK,Cahit Karakaış,Cahit Karakaış,55,False,mm04002046_p054,pdftotext parser
+yes,ZONGULDAK,Mehmet Zeki Okur,Mehmet Zeki Okur,55,False,mm04002046_p054,pdftotext parser
+no,SAKARYA,M. Vedat onsa,M. Vedat onsa,55,True,mm04002046_p054,pdftotext parser
+abstain,BALIKESİR,İbrahim Behranı Eken,İbrahim Behranı Eken',55,True,mm04002046_p054,pdftotext parser
 abstain,ANKARA,Hasan özçeiik,Hasan özçeiik,55,False,mm04002046_p054,pdftotext parser
 abstain,ANTALYA,İhsan Ataöv,İhsan Ataöv,55,False,mm04002046_p054,pdftotext parser
 abstain,BALIKESİR,Mustafa Kemal Alver,Mustafa Kemal Alver,55,False,mm04002046_p054,pdftotext parser

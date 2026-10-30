@@ -23,7 +23,7 @@ yes,TABİİ ÜYELER,Emanullah Çelebi,Emanullah Çelebi,85,False,cs07044010_p085
 yes,TABİİ ÜYELER,Kadri Kaplan,Kadri Kaplan,85,False,cs07044010_p085,pdftotext parser
 yes,TABİİ ÜYELER,Suphi Karaman,Suphi Karaman,85,False,cs07044010_p085,pdftotext parser
 yes,TABİİ ÜYELER,Fahri özd,Fahri özd,85,False,cs07044010_p085,pdftotext parser
-yes,TABİİ ÜYELER,MehS i m Uzunhasanoğlu,MehS i m Uzunhasanoğlu,85,False,cs07044010_p085,pdftotext parser
+yes,TABİİ ÜYELER,S i m Uzunhasanoğlu,S i m Uzunhasanoğlu,85,False,cs07044010_p085,pdftotext parser
 yes,BURDUR,Ö. Faruk Kmaytürfc,Ö. Faruk Kmaytürfc,85,False,cs07044010_p085,pdftotext parser
 yes,BURSA,Şeref Kayalar,Şeref Kayalar,85,False,cs07044010_p085,pdftotext parser
 yes,BURSA,Cahit Ortaç,Cahit Ortaç,85,False,cs07044010_p085,pdftotext parser
@@ -40,35 +40,36 @@ yes,MERSİN,Talip özdolay,Talip özdolay,85,False,cs07044010_p085,pdftotext par
 yes,İSTANBUL,Halûk Berkol,Halûk Berkol,85,False,cs07044010_p085,pdftotext parser
 yes,İSTANBUL,Ekrem Özden,Ekrem Özden,85,False,cs07044010_p085,pdftotext parser
 yes,İSTANBUL,Cemal Yıldırım,Cemal Yıldırım,85,False,cs07044010_p085,pdftotext parser
-yes,ADANA,M. Nuri ÂclerM. YıliPM*\S,M. Nuri ÂclerM. YıliPM*\S,85,False,cs07044010_p085,pdftotext parser
-yes,İZMİR,Ömer Lûtfi Bozcalı,Ömer Lûtfi Bozcalı,85,False,cs07044010_p085,pdftotext parser
-yes,KIRKLARELİ,Ahmet Naci Arı,Ahmet Naci Arı,85,False,cs07044010_p085,pdftotext parser
-yes,KOCAELİ,Lûtfi Tokoğlu,Lûtfi Tokoğlu,85,False,cs07044010_p085,pdftotext parser
-yes,KONYA,Mustafa Dinekli,Mustafa Dinekli,85,False,cs07044010_p085,pdftotext parser
-yes,KONYA,Muammer Obuz,Muammer Obuz,85,False,cs07044010_p085,pdftotext parser
-yes,KÜTAHYA,A. Orhan Akça,A. Orhan Akça,85,False,cs07044010_p085,pdftotext parser
-yes,KÜTAHYA,İ. Eteni Erdinç,İ. Eteni Erdinç,85,False,cs07044010_p085,pdftotext parser
-yes,MALATYA,M. Zeki Tulunay,M. Zeki Tulunay,85,False,cs07044010_p085,pdftotext parser
-yes,MANİSA,Emin Açar,Emin Açar,85,False,cs07044010_p085,pdftotext parser
-yes,MANİSA,Refik Ulusov,Refik Ulusov,85,False,cs07044010_p085,pdftotext parser
-yes,MUĞLA,îlyas Karaöz,îlyas Karaöz,85,False,cs07044010_p085,pdftotext parser
-yes,ORDU,Şevket Koksal,Şevket Koksal,85,False,cs07044010_p085,pdftotext parser
-yes,ORDU,Zeki Kumrulu,Zeki Kumrulu,85,False,cs07044010_p085,pdftotext parser
-yes,SAKARYA,Osman Salilıoğlu,Osman Salilıoğlu,85,False,cs07044010_p085,pdftotext parser
-yes,SAKARYA,H. Envokatılw,"H. Envo"" katılw",85,False,cs07044010_p085,pdftotext parser
-yes,SAKARYA,F.efct Ecndeci,F.efct Ecndeci,85,False,cs07044010_p085,pdftotext parser
-yes,SİNOP,Suphi Batur,Suphi Batur,85,False,cs07044010_p085,pdftotext parser
-yes,SİVAS,Ahmet Çekemoğhı,Ahmet Çekemoğhı,85,False,cs07044010_p085,pdftotext parser
-yes,SİVAS,Ziya önder,Ziya önder,85,False,cs07044010_p085,pdftotext parser
-yes,SİVAS,îıılûsi SÖylfmozoğlu,îıılûsi SÖylfmozoğlu,85,False,cs07044010_p085,pdftotext parser
-yes,TEKİRDAĞ,Cemal Tarlan,Cemal Tarlan,85,False,cs07044010_p085,pdftotext parser
-yes,TOKAT,Ali Altuntaş,Ali Altuntaş,85,False,cs07044010_p085,pdftotext parser
-yes,TOKAT,Zihni Botil,Zihni Botil,85,False,cs07044010_p085,pdftotext parser
-yes,TUNCELİ,Arslan Bora,Arslan Bora,85,False,cs07044010_p085,pdftotext parser
-yes,TUNCELİ,İ. Etem Karakapıcı,İ. Etem Karakapıcı,85,False,cs07044010_p085,pdftotext parser
-yes,UŞAK,Mehmet Faik Aiayurt,Mehmet Faik Aiayurt,85,False,cs07044010_p085,pdftotext parser
-yes,VAN,Forid MeleCUMBİNGÖL,Forid MeleCUMBİNGÖL,86,False,cs07044010_p085,pdftotext parser
-yes,VAN,A. Hikmet Yurtsever,A. Hikmet Yurtsever,86,False,cs07044010_p085,pdftotext parser
+not_voting,ADANA,M. Nuri Âcler,M. Nuri Âcler,85,True,cs07044010_p085,pdftotext parser
+not_voting,ADANA,M. YıliPM*\S,M. YıliPM*\S,85,True,cs07044010_p085,pdftotext parser
+not_voting,İZMİR,Ömer Lûtfi Bozcalı,Ömer Lûtfi Bozcalı,85,True,cs07044010_p085,pdftotext parser
+not_voting,KIRKLARELİ,Ahmet Naci Arı,Ahmet Naci Arı,85,True,cs07044010_p085,pdftotext parser
+not_voting,KOCAELİ,Lûtfi Tokoğlu,Lûtfi Tokoğlu,85,True,cs07044010_p085,pdftotext parser
+not_voting,KONYA,Mustafa Dinekli,Mustafa Dinekli,85,True,cs07044010_p085,pdftotext parser
+not_voting,KONYA,Muammer Obuz,Muammer Obuz,85,True,cs07044010_p085,pdftotext parser
+not_voting,KÜTAHYA,A. Orhan Akça,A. Orhan Akça,85,True,cs07044010_p085,pdftotext parser
+not_voting,KÜTAHYA,İ. Eteni Erdinç,İ. Eteni Erdinç,85,True,cs07044010_p085,pdftotext parser
+not_voting,MALATYA,M. Zeki Tulunay,M. Zeki Tulunay,85,True,cs07044010_p085,pdftotext parser
+not_voting,MANİSA,Emin Açar,Emin Açar,85,True,cs07044010_p085,pdftotext parser
+not_voting,MANİSA,Refik Ulusov,Refik Ulusov,85,True,cs07044010_p085,pdftotext parser
+not_voting,MUĞLA,îlyas Karaöz,îlyas Karaöz,85,True,cs07044010_p085,pdftotext parser
+not_voting,ORDU,Şevket Koksal,Şevket Koksal,85,True,cs07044010_p085,pdftotext parser
+not_voting,ORDU,Zeki Kumrulu,Zeki Kumrulu,85,True,cs07044010_p085,pdftotext parser
+not_voting,SAKARYA,Osman Salilıoğlu,Osman Salilıoğlu,85,True,cs07044010_p085,pdftotext parser
+not_voting,SAKARYA,H. Envokatılw,"H. Envo"" katılw",85,True,cs07044010_p085,pdftotext parser
+not_voting,SAKARYA,F.efct Ecndeci,F.efct Ecndeci,85,True,cs07044010_p085,pdftotext parser
+not_voting,SİNOP,Suphi Batur,Suphi Batur,85,True,cs07044010_p085,pdftotext parser
+not_voting,SİVAS,Ahmet Çekemoğhı,Ahmet Çekemoğhı,85,True,cs07044010_p085,pdftotext parser
+not_voting,SİVAS,Ziya önder,Ziya önder,85,True,cs07044010_p085,pdftotext parser
+not_voting,SİVAS,îıılûsi SÖylfmozoğlu,îıılûsi SÖylfmozoğlu,85,True,cs07044010_p085,pdftotext parser
+not_voting,TEKİRDAĞ,Cemal Tarlan,Cemal Tarlan,85,True,cs07044010_p085,pdftotext parser
+not_voting,TOKAT,Ali Altuntaş,Ali Altuntaş,85,True,cs07044010_p085,pdftotext parser
+not_voting,TOKAT,Zihni Botil,Zihni Botil,85,True,cs07044010_p085,pdftotext parser
+not_voting,TUNCELİ,Arslan Bora,Arslan Bora,85,True,cs07044010_p085,pdftotext parser
+not_voting,TUNCELİ,İ. Etem Karakapıcı,İ. Etem Karakapıcı,85,True,cs07044010_p085,pdftotext parser
+not_voting,UŞAK,Mehmet Faik Aiayurt,Mehmet Faik Aiayurt,85,True,cs07044010_p085,pdftotext parser
+not_voting,VAN,Forid MeleCUMBİNGÖL,Forid MeleCUMBİNGÖL,86,True,cs07044010_p085,pdftotext parser
+not_voting,VAN,A. Hikmet Yurtsever,A. Hikmet Yurtsever,86,True,cs07044010_p085,pdftotext parser
 not_voting,BURSA,İ. Sabri Çağlayangil,İ. Sabri Çağlayangil,86,True,cs07044010_p085,pdftotext parser
 not_voting,BURSA,Saffet Ural,Saffet Ural,86,True,cs07044010_p085,pdftotext parser
 not_voting,ÇANKIRI,Hazım Dağlı,Hazım Dağlı,86,True,cs07044010_p085,pdftotext parser

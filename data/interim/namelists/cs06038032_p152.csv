@@ -101,20 +101,23 @@ yes,ORDU,Şevket Koksal,Şevket Koksal,153,False,cs06038032_p152,pdftotext parse
 yes,RİZE,O. Mecdi Ağım,O. Mecdi Ağım,153,False,cs06038032_p152,pdftotext parser
 yes,SAKARYA,Osman Salihoğlu,Osman Salihoğlu,153,False,cs06038032_p152,pdftotext parser
 yes,SAMSUN,Rıza Isıtan,Rıza Isıtan,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Rcfet Rendeci TOKAT,Rcfet Rendeci TOKAT,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Fethi Tevetoğlu Ali Altuntaş,Fethi Tevetoğlu Ali Altuntaş,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Abdurrahman Kavak Ali Şakir Ağanoğlu,Abdurrahman Kavak Ali Şakir Ağanoğlu,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,SİNOP Ö. Lûtfi Hocaoğlu,SİNOP Ö. Lûtfi Hocaoğlu,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Suphi Batur,Suphi Batur,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Reşat Zaloğlu,Reşat Zaloğlu,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Ahmet Çekemoğlu Arslan Bora,Ahmet Çekemoğlu Arslan Bora,153,False,cs06038032_p152,pdftotext parser
-yes,SAMSUN,Rifat Öçten,Rifat Öçten,153,False,cs06038032_p152,pdftotext parser
-yes,ŞANLIURFA,Ziya Önder,Ziya Önder,153,False,cs06038032_p152,pdftotext parser
+yes,SAMSUN,Rcfet Rendeci,Rcfet Rendeci,153,False,cs06038032_p152,pdftotext parser
+yes,SAMSUN,Fethi Tevetoğlu,Fethi Tevetoğlu,153,False,cs06038032_p152,pdftotext parser
+yes,SİİRT,Abdurrahman Kavak,Abdurrahman Kavak,153,False,cs06038032_p152,pdftotext parser
+yes,SİNOP,Suphi Batur,Suphi Batur,153,False,cs06038032_p152,pdftotext parser
+yes,SİVAS,Ahmet Çekemoğlu,Ahmet Çekemoğlu,153,False,cs06038032_p152,pdftotext parser
+yes,SİVAS,Rifat Öçten,Rifat Öçten,153,False,cs06038032_p152,pdftotext parser
+yes,SİVAS,Ziya Önder,Ziya Önder,153,False,cs06038032_p152,pdftotext parser
+yes,SİVAS,Hulusi Söylemezoğlu,Hulusi Söylemezoğlu,153,False,cs06038032_p152,pdftotext parser
+yes,TEKİRDAĞ,Cemal Tarlan,Cemal Tarlan,153,False,cs06038032_p152,pdftotext parser
+yes,TOKAT,Ali Altuntaş,Ali Altuntaş,153,False,cs06038032_p152,pdftotext parser
+yes,TRABZON,Ali Şakir Ağanoğlu,Ali Şakir Ağanoğlu,153,False,cs06038032_p152,pdftotext parser
+yes,TRABZON,Ö. Lûtfi Hocaoğlu,Ö. Lûtfi Hocaoğlu,153,False,cs06038032_p152,pdftotext parser
+yes,TRABZON,Reşat Zaloğlu,Reşat Zaloğlu,153,False,cs06038032_p152,pdftotext parser
+yes,TUNCELİ,Arslan Bora,Arslan Bora,153,False,cs06038032_p152,pdftotext parser
 yes,ŞANLIURFA,Etem Karakapıcı,Etem Karakapıcı,153,False,cs06038032_p152,pdftotext parser
-yes,ŞANLIURFA,Hulusi Söylemezoğlu,Hulusi Söylemezoğlu,153,False,cs06038032_p152,pdftotext parser
 yes,ŞANLIURFA,Hasan Oral,Hasan Oral,153,False,cs06038032_p152,pdftotext parser
-yes,ŞANLIURFA,Cemal Tarlan Mehmet Faik Atayurt,Cemal Tarlan Mehmet Faik Atayurt,153,False,cs06038032_p152,pdftotext parser
-yes,İSTANBUL,Ekrem Özden,Ekrem Özden,153,False,cs06038032_p152,pdftotext parser
+yes,UŞAK,Mehmet Faik Atayurt,Mehmet Faik Atayurt,153,False,cs06038032_p152,pdftotext parser
 yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,153,False,cs06038032_p152,pdftotext parser
 yes,ZONGULDAK,Akif Eyidoğan,Akif Eyidoğan,153,False,cs06038032_p152,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âmil Artus,Âmil Artus,153,False,cs06038032_p152,pdftotext parser
@@ -124,6 +127,7 @@ yes,CUMHURBAŞKANINCA S. Ü.,Enver Kök,Enver Kök,153,False,cs06038032_p152,pdf
 yes,CUMHURBAŞKANINCA S. Ü.,Nadir Nadi,Nadir Nadi,153,False,cs06038032_p152,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Ragıp Üner,Ragıp Üner,153,False,cs06038032_p152,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Âdil Ünlü,Âdil Ünlü,153,False,cs06038032_p152,pdftotext parser
+no,İSTANBUL,Ekrem Özden,Ekrem Özden,153,True,cs06038032_p152,pdftotext parser
 abstain,TEKİRDAĞ,Hayri Mumcuoğlu,Hayri Mumcuoğlu,153,False,cs06038032_p152,pdftotext parser
 not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,153,False,cs06038032_p152,pdftotext parser
 not_voting,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,153,False,cs06038032_p152,pdftotext parser

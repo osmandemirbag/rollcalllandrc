@@ -1,2 +1,728 @@
-vote_id,choice,province,name,name_raw,pdf_page,source,elite_row,match_score,match_method,list_status
-mm01035055_p050,not_voting,KONYA,0:1,0:1,53,hand-cleaned list (raw xlsx),,,unmatched,ok
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source,match_score,match_method,elite_row,person_key,person_name,senate_person_id,row_status,list_status
+not_voting,MALATYA,Tl. A r ııi Aksi t,Tl. A r ııi Aksi t,29.0,False,mm01002042_p026,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KASTAMONU,O ğfaı,O ğfaı,30.0,False,mm01002045_p028,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,SAMSUN,f (©O,f (©0,30.0,False,mm01002045_p028,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KAYSERİ,"KTttKT,ARCT,t","KTttKT,ARCT,t",21.0,False,mm01002046_p018,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,TUNCELİ,fTTlTl A,fTTlTl A,89.0,False,mm01003056_p086,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+yes,ÇORUM,TTilmi TnPAsmfhı,TTilmi TnPAsmfhı,40.0,False,mm01006117_p040,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ERZİNCAN,ERZURUM AşlXV*J \J AV \J ATA,ERZURUM 4şlXV*J \J AV \J ATA,40.0,False,mm01006117_p040,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ERZİNCAN,V-/C V <ÂıV V İ U V İ,V-/C V <ÂıV V İ U V İ,40.0,False,mm01006117_p040,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,KONYA,KÜTAHYA A& W X * * * * A J7İ,KÜTAHYA A& W X * * * * A J71,43.0,True,mm01006117_p040,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MALATYA,MANİSA *f JMİhdb V A İ V,MANİSA *f JMİhdb V A İ V * *,43.0,True,mm01006117_p040,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BURSA,Ziya l!ğııı,Ziya l!ğııı,66.0,False,mm01007122_p066,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,DENİZLİ,Mehmet ColmııoğJıı,Mehmet ColmııoğJıı,66.0,False,mm01007122_p066,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,KONYA,"Alıınet (ıüi""l\M.n","Alıınet (ıüi""l\M.n",67.0,False,mm01007122_p066,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,TRABZON,Ahmet Şcncv,Ahmet Şcncv,67.0,False,mm01007122_p066,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ADANA,Mı met Karanı iiL'tiioğlu,Mı met Karanı iiL'tiioğlu,75.0,False,mm01007122_p074,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+abstain,AFYON,[Oya katîlmıymıîarj,[Oya katîlmıymıîarj,79.0,False,mm01007122_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,AFYON,AĞRI van,AĞRI van,79.0,False,mm01007122_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+not_voting,KASTAMONU,oğl u,oğl u,84.0,False,mm01007122_p082,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ANKARA,LXl.OCl.ll. IlıRPTI Z A X t t C n U n V v,.LXl.OCl.ll. IlıRPTI Z A X t t C n U n V v,81.0,False,mm01007123_p081,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ANKARA,ARTVİN XXXV JL V J.Xİ,ARTVİN XXXV JL V J.X1,81.0,False,mm01007123_p081,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ANKARA,lh<nn KrV»^),lh<nn KrV»^),32.0,False,mm01009013_p032,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİLECİK,Sadi lüiı.ı,Sadi lüiı.ı,34.0,False,mm01009013_p032,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,SAKARYA,"\III-I l>a,vfii","\III-I l>a,vfii",35.0,False,mm01009013_p032,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,ÇANKIRI,TCâ'7Tnn ATAT,TCâ'7Tnn ATAT*,67.0,False,mm01010016_p067,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+yes,GAZİANTEP,Mithat iuXtilclrlı San fcjurll,Mithat iuXtilclrlı San fcjurll,71.0,False,mm01010016_p071,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KOCAELİ,Şeref Bakşık felçtik Ay tan,Şeref Bakşık felçtik Ay tan,105.0,False,mm01010016_p103,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KOCAELİ,îhsan Gursan îkki Keskin (Baş,îhsan Gursan îkki Keskin (Baş,105.0,False,mm01010016_p103,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KOCAELİ,Mustafa Uyar Cari t Yljmaz,Mustafa Uyar Cari t Yljmaz,105.0,False,mm01010016_p103,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MALATYA,Bahtiyar Vural Nuıettin Afyıırt,Bahtiyar Vural Nuıettin Afyıırt,105.0,False,mm01010016_p103,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ŞANLIURFA,Ali Rıza UltoB&y,Ali Rıza UltoB&y,72.0,False,mm01010018_p069,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,TOKAT,[Açık ü,[Açık ü,76.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,TOKAT,Aydın Muş,Aydın Muş,76.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,TOKAT,Haitay Zıonguldalk,Haitay Zıonguldalk,76.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,TOKAT,İstanbul 'U,İstanbul 'U,76.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,TOKAT,Manisa YekûniBüüm***^—^,"Manisa Yekûn iBüüm***^—^'*""",76.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,ZONGULDAK,Devlet Üretme Çiftlikleri,Devlet Üretme Çiftlikleri,77.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,ZONGULDAK,Genel [Müdürlüğünün,Genel [Müdürlüğünün,77.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,ZONGULDAK,kanunu tasarısına,kanunu tasarısına,77.0,False,mm01010018_p073,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ADANA,"Al cinnet licç,io£lu","Al cinnet licç,io£lu",109.0,False,mm01010018_p109,pdftotext parser,,unmatched,,,,,kept,ok
+yes,İSTANBUL,Sin-ahim Aiuık,Sin-ahim Aiuık,110.0,False,mm01010018_p109,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SİVAS,Kesat Tııı-lıaıı,Kesat Tııı-lıaıı,112.0,False,mm01010018_p109,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KASTAMONU,Avni Doğan,Avni Doğan,45.0,False,mm01016069_p042,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,KASTAMONU,Fethi Doğançay,Fethi Doğançay,45.0,False,mm01016069_p042,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,KASTAMONU,Ali özdikmenli,Ali özdikmenli,45.0,False,mm01016069_p042,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,HATAY,a rm,a rm,34.0,False,mm01021137_p033,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,AFYON,X B,X 8,118.0,True,mm01028063_p117,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,MANİSA,J.JLUİ TTIITTPTYI i v i i TCnluıt V U U C t,J.JLU1 TTIITTPTYI i v i i TCnluıt V U U C t,120.0,True,mm01028063_p117,pdftotext parser,,unmatched,,,,,kept,ok
+yes,EDİRNE,i el i i J-Jl b e i,i el i i J-Jl b e i,127.0,False,mm01028064_p127,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,Turhan Kut Hami/' K.' ı-jıl<;ış(»ğiu,Turhan Kut Hami/' K.' ı-jıl<;ış(»ğiu,156.0,False,mm01028064_p155,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ÇORUM,Rahmi İnceler,Rahmi İnceler,31.0,False,mm01031115_p031,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İSTANBUL,Bşk. V.),'Bşk. V.),33.0,True,mm01031115_p031,pdftotext parser,,unmatched,,,,,kept,ok
+yes,İZMİR,Şinasd Osuna,Şinasd Osuna,40.0,False,mm01031116_p039,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,İZMİR,LeMt Y!u*doğlx,LeMt Y!u*doğlx,40.0,False,mm01031116_p039,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+abstain,MUĞLA,j^g,j^g,41.0,False,mm01031116_p039,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+abstain,MUĞLA,gam  ztürk,gam () ztürk,41.0,False,mm01031116_p039,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ADANA,Kasım «Jıilok,Kasım «Jıilok,53.0,False,mm01033019_p053,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ESKİŞEHİR,Azdz Zeytinojrhı,Azdz Zeytinojrhı,53.0,False,mm01033019_p053,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SİNOP,Ilagira T a n,Ilagira T a n (I.),56.0,True,mm01033019_p053,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TUNCELİ,Vahap Ku$<>£lu,Vahap Ku$<>£lu,56.0,True,mm01033019_p053,pdftotext parser,,unmatched,,,,,kept,ok
+yes,AFYON,Asını Yi ün az,Asını Yi ün az,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ANKARA,Nihal İ>«• ıkk;ıti,Nihal İ>«• ıkk;ıti,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,BİNGÖL,Jlalit Kıza î'i.nl,Jlalit Kıza î'i.nl,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,BOLU,/oki Bnltneıoğlu,/oki Bnltneıoğlu,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,BURSA,SndnMtirı Çar ma,SndnMtirı Çar ma,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,BURSA,İlaha Penini n ü m,İlaha Penini n ü m,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ÇANKIRI,Kahmi lııeeler,Kahmi lııeeler,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,EDİRNE,Naei (îıiray,Naei (îıiray,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ERZURUM,Cevat lXırsunoğlı,Cevat lXırsunoğlı,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ESKİŞEHİR,Şevket Aslııızuğlu,Şevket Aslııızuğlu,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,GAZİANTEP,Muzaffer L'aııholat,Muzaffer L'aııholat,57.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ORDU,Vnsuf izzettin Ağa( >ğhi,Vnsuf izzettin Ağa( >ğhi,60.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,RİZE,Fuad Sirnıeıı,Fuad Sirnıeıı (Başkan),60.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,TOKAT,Kesit Hinler,Kesit Hinler,60.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ŞANLIURFA,Celâl öııeel,Celâl öııeel,60.0,False,mm01034022_p057,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,TOKAT,II. Ali Dizınan,II. Ali Dizınan,42.0,False,mm01034034_p042,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ORDU,Fuad Sirıııen,Fuad Sirıııen (Başkan),45.0,False,mm01034034_p042,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SİNOP,Ilaşim T a n,Ilaşim T a n,45.0,False,mm01034034_p042,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SİNOP,Haşini T a n,Haşini T a n,24.0,False,mm01034035_p021,pdftotext parser,,unmatched,,,,,kept,ok
+yes,DENİZLİ,Atıf Şohn&lıı,Atıf Şohn&lıı,84.0,False,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,İSTANBUL,Ziya Ilanhan,Ziya Ilanhan,84.0,False,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,AĞRI,Nevzat CîiinpÖr,Nevzat CîiinpÖr,84.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BOLU,Kâmil tftal,Kâmil tftal,85.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BURSA,M. Mecliıi B B9,M. Mecliıi B 39,85.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,TTilmi GühloğaD,TTilmi GühloğaD,85.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Yahya Dcnııancı,Yahya Dcnııancı,85.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,İSTANBUL,Tl il m i Obcn,Tl il m i Obcn,85.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KONYA,Fa kili ö/fa kin,Fa kili ö/fa kin,86.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,TUNCELİ,Kemal Badı İh,Kemal Badı İh,86.0,True,mm01034039_p084,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,SİİRT,Haşim T a n,Haşim T a n,79.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KÜTAHYA,Ali Krbok,Ali Krbok,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,MANİSA,Neriman' Aürao&hı,Neriman' Aürao&hı,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KAHRAMANMARAŞ,Kemal l'ajreıuîrlu,Kemal l'ajreıuîrlu,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ORDU,Vrda f» fi ley,'•Vrda f» fi ley,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ORDU,Vta Topaloghı,Vta Topaloghı,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,SİVAS,liahmi flünay,liahmi flünay,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,TEKİRDAĞ,Hayrı Mıımeuoğltı,Hayrı Mıımeuoğltı,81.0,False,mm01034040_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KONYA,0:1,0:1,53.0,,mm01035055_p050,hand-cleaned list (raw xlsx),,unmatched,,,,,kept,ok
+not_voting,MALATYA,İsmet inönü (Başbakan,İsmet inönü (Başbakan,64.0,False,mm01035055_p062,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,DENİZLİ,Atıf S o W u,Atıf S o W u,80.0,False,mm01036056_p080,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ELAZIĞ,Ömer Kanık S:ırmç,Ömer Kanık S:ırmç,80.0,False,mm01036056_p080,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ISPARTA,"Sadetti"" !«'«*wİSTANBUL","Sadetti"" !«'«*wİSTANBUL",48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ISPARTA,Tahsin FVmirav,Tahsin FVmirav,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KAYSERİ,A İxİ ü hali m Araj?,A 1x1 ü hali m Araj?,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KIRŞEHİR,Vfemduh Erd«ruir,Vfemduh Erd«ruir,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,SAKARYA,T uri Ha.var,T uri Ha.var,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,SAKARYA,Vıısuf (îlıısov,Vıısuf (îlıısov,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,SAMSUN,HavH'ttin özgen,HavH'ttin özgen,48.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+no,EDİRNE,Yahya Denııaneı,Yahya Denııaneı,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DENİZLİ,\tıf Şnhnffln,\tıf Şnhnffln,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ELAZIĞ,\nıer Faruk SHUH»,'*\nıer Faruk SHUH»,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,GAZİANTEP,Hüseyin tucinğlıı,Hüseyin tucinğlıı,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İSTANBUL,Orhan Eyülmjrhı,Orhan Eyülmjrhı,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İZMİR,n f Ertnne.ı,n f Ertnne.ı,49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KONYA,Fakih Avlor,"Fakih Avlor,",49.0,False,mm01036061_p047,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MERSİN,V A,V A,64.0,False,mm01036064_p064,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,SİNOP,Haşini T a n,Haşini T a n,65.0,False,mm01036064_p064,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ORDU,Fııad Sirmen,Fııad Sirmen (Başkan),65.0,False,mm01040113_p063,pdftotext parser,,unmatched,,,,,kept,ok
+yes,DENİZLİ,Sinan Bosrid,Sinan Bosrid,112.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+yes,ERZİNCAN,Sadık PoHnppk,Sadık PoHnppk,112.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+yes,YOZGAT,Turjrnt NizamnSlu,Turjrnt NizamnSlu,113.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+no,SİNOP,Ilaşim Tan,Ilaşim Tan,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+no,YOZGAT,Veli FVnr,Veli FVnr,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,ADANA,Ahmet Topnlojtfn,Ahmet Topnlojtfn (B.),114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,UŞAK,[Oya hat,[Oya hat,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,UŞAK,Mustafa Kemal ErkoBURSA,Mustafa Kemal ErkoBURSA,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,UŞAK,ibrahim Sıtkı Hatip- gadrettin Çanca,ibrahim Sıtkı Hatip- gadrettin Çanca,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,EDİRNE,Cihat Tu ram t,Cihat Tu ram t,114.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+abstain,RİZE,Arif nikmet Cı'iner,Arif nikmet Cı'iner,115.0,False,mm01040114_p112,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+not_voting,ANKARA,Ilyaa Se$cra,Ilyaa Se$cra,126.0,False,mm01041116_p124,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,İSTANBUL,Nihad Kürşad,Nihad Kürşad,63.0,False,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,KIRŞEHİR,lialil özrnerı,lialil özrnerı,63.0,False,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,İSTANBUL,»ehan Evübo&lu,»ehan Evübo&lu,64.0,True,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,TEKİRDAĞ,Hayri Mıımcuoğlutstanbultzmir,Hayri Mıımcuoğlu tstanbul tzmir,65.0,True,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ŞANLIURFA,üj jeliklerl,üj jeliklerl,65.0,True,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ŞANLIURFA,M'anis'a,M'anis'a,65.0,True,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ZONGULDAK,ve  işaretlicetvellerde,ve (B) işaretli cetvellerde,66.0,True,mm01043147_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+no,ERZURUM,Cevat ÖnderaîRESUN,Cevat Önder aîRESUN,138.0,False,mm01013055_p136,pdftotext parser,,unmatched,,,,,kept,ok
+no,SAKARYA,Hami TezkanSAMSUN,Hami TezkanSAMSUN,138.0,False,mm01013055_p136,pdftotext parser,,unmatched,,,,,kept,ok
+abstain,İSTANBUL,Ziya Altmoğhı,Ziya Altmoğhı,138.0,False,mm01013055_p136,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAKARYA,Ekrem AMcan,Ekrem AMcan (B.),139.0,True,mm01013055_p136,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ARTVİN,M. Kemal Yılmaz,M. Kemal Yılmaz,59.0,False,mm02002042_p059,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,BOLU,Hakkı Boyacıoğlu,Hakkı Boyacıoğlu,61.0,False,mm02002042_p059,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,BURSA,Muhlis Görenltaş,Muhlis Görenltaş (I. Ü.),94.0,False,mm02004051_p092,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MERSİN,i-d»VflfcJİMİS>«-fc.»A»-l„^,i-d»VflfcJİMİS>«-fc.»4»-l„^,83.0,False,mm02004052_p083,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+not_voting,MUŞ,Kemal Aytaç,Kemal Aytaç,88.0,False,mm02006092_p086,pdftotext parser,,unmatched,,,,,kept,ok
+no,ANKARA,t Sıtkı Hatipoğlu Fennî Islimyeli,t Sıtkı Hatipoğlu Fennî Islimyeli,22.0,True,mm02006093_p021,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,BURSA,Bahri Yazır,Bahri Yazır,146.0,False,mm02008117_p145,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+abstain,,KONYA ^YA,KONYA ^YA,67.0,True,mm02008118_p066,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+abstain,,Kurucu ICU,Kurucu ICU,67.0,True,mm02008118_p066,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+not_voting,ERZİNCAN,Â d i S'iftiT-ofTİTi,Â d i S'iftiT-ofTİTi,68.0,False,mm02008118_p066,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+yes,KÜTAHYA,Hoşu t Eroz,Hoşu t Eroz,66.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,MANİSA,Mithat. Dillere,Mithat. Dillere,66.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ZONGULDAK,Knmil Kırıkotrln,Knmil Kırıkotrln,66.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,AMASYA,t. Sıtkı Ilatipoğlu,t. Sıtkı Ilatipoğlu,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,AMASYA,Rıza Knas,Rıza Knas,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,AMASYA,rîasan Türk ay,rîasan Türk ay,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,DİYARBAKIR,Nurettin Anlıeoğlu,Nurettin Anlıeoğlu,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KONYA,Yunm Koç*k,Yunm Koç*k,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KONYA,Nazif Kunıen,Nazif Kunıen,67.0,False,mm02008119_p065,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ANKARA,Sıtkı Hatipoğhı,Sıtkı Hatipoğhı,42.0,False,mm02010024_p041,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,YOZGAT,Yusuii Ziya Bahadmh,Yusuii Ziya Bahadmh,44.0,False,mm02010024_p041,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ANKARA,Musa Kâzım Coşkun,Musa Kâzım Coşkun,122.0,False,mm02014062_p122,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,ADANA,Ali K a m,Ali K a m,72.0,False,mm02018113_p071,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ŞANLIURFA,T T f i A T'T,T T f i A T'T,65.0,True,mm02021139_p062,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,SİVAS,M. Mecüsi B İA9,M. Mecüsi B 149,64.0,False,mm02021149_p061,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,,Oya katlim ıvanlar,Oya katlim ıvanlar,55.0,False,mm02021150_p055,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+no,,Açık üyelikler,Açık üyelikler,55.0,False,mm02021150_p055,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+not_voting,ANKARA,î. Sıtkı Hatipoğkı,î. Sıtkı Hatipoğkı,57.0,True,mm02021150_p055,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+not_voting,ESKİŞEHİR,Seyfii ÖzıtiMt,Seyfii ÖzıtiMt (B.),157.0,False,mm02025047_p156,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KIRŞEHİR,M. Meclisi E A7,M. Meclisi E 47,158.0,False,mm02025047_p156,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+abstain,BALIKESİR,[Oya kal,[Oya kal,145.0,False,mm02026048_p143,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain (not-voting list not printed)
+not_voting,BURSA,Ö. Doğan Öztih'kmcrı,Ö. Doğan Öztih'kmcrı,114.0,True,mm02030027_p113,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DİYARBAKIR,Ahırıet Bilgin,Ahırıet Bilgin,114.0,True,mm02030027_p113,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İSTANBUL,Arif Ertoınga,Arif Ertoınga,92.0,False,mm02030028_p090,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İSTANBUL,Nihad Kürşad,Nihad Kürşad (B.),92.0,False,mm02030028_p090,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,Alparslan TUrfcOB,.Alparslan TUrfcOB,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Sinan Boama,Sinan Boama,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Kenıal Ziya öztftrk,Kenıal Ziya öztftrk,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Adnan. J&m,Adnan. J&m,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Cihat BUgehaa,'Cihat BUgehaa (B.),153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Fen#S tşümyeli,Fen#5 tşümyeli,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Mesut Qzan$ü,Mesut Qzan$ü,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Mevlüt Yümat,Mevlüt Yümat,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,Bll^atK,Bll^atK,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ARTVİN,IŞadi Biuay,IŞadi Biuay,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,"M. Emi», Gü#dpğAu","M. Emi», Gü#dpğ4u,",153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,Ş. Nihat BAiyı?amoğlu,*Ş. Nihat B4iyı?amoğlu,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,Halü tbrafcim Cop,Halü tbrafcim Cop,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,Kemal Dmûr,Kemal Dmûr,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,Hasan özeaa,Hasan özeaa,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BİNGÖL,Jlami Tezkajı,Jlami Tezkajı,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,BURSA,Kevni Nedinıoğjlu,Kevni Nedinıoğjlu,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DENİZLİ,Naşit Sanca,Naşit Sanca,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,GİRESUN,Atıf Şohoğloı,"Atıf Şohoğloı (Etek, Y,)",153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,Ali Cüceoğhı,Ali Cüceoğhı,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,M. Kesaal Çilesiz,M. Kesaal Çilesiz,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,Nizamettip Eritme»,Nizamettip Eritme»,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,Etem Kıbeoğlu,Etem Kıbeoğlu,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,DİYARBAKIR,AH Köymem,AH Köymem,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Orhan Erkanh,Orhan Erkanh (1. ),153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Puad Sirmen,Puad Sirmen,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Hakkı Tekinel,Hakkı Tekinel,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Osman Nuri Uhısay,Osman Nuri Uhısay,153.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,MERSİN,Nihad Kürşad,Nihad Kürşad (B.),154.0,False,mm02031032_p152,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,ANKARA,Ahmet tîfltün,Ahmet tîfltün,82.0,False,mm02031033_p082,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,BALIKESİR,Ahmet Ih'san Kırımlı,Ahmet Ih'san Kırımlı,84.0,False,mm02031033_p082,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,NEVŞEHİR,Ali Baran Nııraanoğlıı,Ali Baran Nııraanoğlıı,70.0,False,mm02032042_p069,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ARTVİN,M. Kemal Yılmaz,M. Kemal Yılmaz,45.0,False,mm02032043_p045,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+not_voting,MERSİN,Celâl Kıhq,Celâl Kıhq,47.0,False,mm02032043_p045,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+no,,Ziya öztürk,Ziya öztürk.,70.0,False,mm02032045_p070,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no (not-voting list not printed)"
+not_voting,ANKARA,t. Sıtkı Ha tip oğlu,t. Sıtkı Ha tip oğlu,112.0,False,mm02032046_p110,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KIRŞEHİR,Süreyya Sofuoğiiı,Süreyya Sofuoğiiı,112.0,False,mm02032046_p110,pdftotext parser,,unmatched,,,,,kept,ok
+no,İSTANBUL,Fuald Sd'nn'en,Fuald Sd'nn'en,154.0,False,mm02034056_p153,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,UŞAK,Ali Ruja Aklbıyıfkloğlkı,Ali Ruja Aklbıyıfkloğlkı,154.0,False,mm02034056_p153,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,AFYON,Mehmet öö'belkM,Mehmet öö'belkM,158.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,İSTANBUL,Hakkı Tettrinel,Hakkı Tettrinel,158.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,SİNOP,OevaJd Odyaktauaz,OevaJd Odyaktauaz,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,İZMİR,Şeref Balkşfls,Şeref Balkşfls,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,ORDU,Ferlda Güley,Ferlda Güley,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,ORDU,Arif Hükmet Onat,Arif Hükmet Onat,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,SİNOP,HiıMi İşgüzarsrvAs,HiıMi İşgüzar srvAs,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,SİNOP,M. Kemal Palaoğlu,M. Kemal Palaoğlu,159.0,False,mm02034056_p158,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,ADIYAMAN,Afyon Karahisar,Afyon Karahisar,183.0,False,mm02034056_p183,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no (not-voting list not printed)"
+yes,BİTLİS,Cevdet Gcifoolioğlıı,Cevdet Gcifoolioğlıı,123.0,False,mm02034057_p123,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,ERZURUM,Orhan Erkanh Ş. Raşit Hatipoğlu,Orhan Erkanh Ş. Raşit Hatipoğlu,124.0,False,mm02034057_p123,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,RİZE,Nihat Erim Ekrem Aılioan,Nihat Erim Ekrem Aılioan,124.0,False,mm02034057_p123,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,UŞAK,A. Rızt Akbayıtooğlu,A. Rızt Akbayıtooğlu,124.0,False,mm02034057_p123,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+not_voting,İSTANBUL,Aydım Yalçm,Aydım Yalçm (I.),154.0,False,mm02034057_p151,pdftotext parser,,unmatched,,,,,kept,ok
+no,AYDIN,Reşat ös&nda,Reşat ös&nda,184.0,False,mm02034057_p183,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,KASTAMONU,Adil Aydın,Adil Aydın,185.0,False,mm02034057_p183,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,SAKARYA,Hakkı Tekinel,Hakkı Tekinel,192.0,False,mm02034057_p192,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,ANKARA,Recali Enîyü'der,Recali Enîyü'der,128.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,ANTALYA,Saihp'lt Osman Avcı,Saihp'lt Osman Avcı,128.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,GİRESUN,Ali Kfvvmen,Ali Kfvvmen,128.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,HATAY,Ahdullıah O M,Ahdullıah O M,128.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,KOCAELİ,Şevket IMnoğlu,Şevket IMnoğlu,128.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,SİVAS,M. Mecflisi,M. Mecflisi,129.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,SİVAS,Oevad Odıyatamaz,Oevad Odıyatamaz,129.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+no,ANKARA,Sıtkı HaMpoğllu,Sıtkı HaMpoğllu,129.0,False,mm02034058_p128,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,HATAY,Talât Köseonflili,Talât Köseonflili,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,İSTANBUL,Hakkı TeMmel,Hakkı TeMmel,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,KIRKLARELİ,M. Orhan Tiirikkan,M. Orhan Tiirikkan,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,KOCAELİ,Sürevvıa Sofuloo'kı,•Sürevvıa Sofuloo'kı,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,SİİRT,Niyazi özmiç,Niyazi özmiç,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,SİVAS,Cevad Odlvafcmaz,Cevad Odlvafcmaz,130.0,False,mm02034058_p130,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,TEKİRDAĞ,Tahsin Türkay,Tahsin Türkay,77.0,False,mm02035065_p076,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,İSTANBUL,Hakkı TeMnel,Hakkı TeMnel,59.0,False,mm02035067_p059,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,MARDİN,Selçuk Aytan S. Hakkı Esatoğlu,Selçuk Aytan S. Hakkı Esatoğlu,44.0,False,mm02035068_p043,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,NİĞDE,oğlu ORDU,oğlu ORDU,44.0,False,mm02035068_p043,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,NİĞDE,Mekki Keskin Raif Aybar,Mekki Keskin Raif Aybar,44.0,False,mm02035068_p043,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,ANKARA,Sıtkı Hatipoğkı,Sıtkı Hatipoğkı,45.0,False,mm02035068_p043,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,İZMİR,Nihaıdj Kürşa;d,Nihaıdj Kürşa;d (B.),45.0,False,mm02035068_p043,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,İSTANBUL,Nihad Kürşad,Nihad Kürşad,140.0,False,mm02034058_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,KÜTAHYA,Msclisi B SB,Msclisi B 58,141.0,False,mm02034058_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,ANKARA,Sıtkı Hatipoğhı,Sıtkı Hatipoğhı,141.0,False,mm02034058_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,NEVŞEHİR,S. Hakkı Esat oğlu,S. Hakkı Esat oğlu,142.0,False,mm02034058_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,İSTANBUL,Muzaffer Fazlı Anne,Muzaffer Fazlı Anne,33.0,False,mm03001020_p033,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,ZONGULDAK,S. Tekin Müftüoğhı,S. Tekin Müftüoğhı,34.0,False,mm03001020_p033,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,KONYA,î. Etem Kılıçoğhı,î. Etem Kılıçoğhı,28.0,False,mm03002021_p027,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+abstain,,Turgut Topaloğlu Kasım Küfre'vi Kemal Okyay,Turgut Topaloğlu Kasım Küfre'vi Kemal Okyay,60.0,False,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+abstain,,Eımir H. Postacı Mehmet Çelik DİYARBAKIR,Eımir H. Postacı Mehmet Çelik DİYARBAKIR (Başbakan),60.0,False,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+abstain,,Kemal Satır Nahit Menteşe  Baısan Değer,Kemal Satır Nahit Menteşe (B.) Baısan Değer,60.0,False,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,GÜMÜŞHANE,Orhan Eren Sadrettin Çanga Turgut Topaloğlu,Orhan Eren Sadrettin Çanga Turgut Topaloğlu,60.0,True,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,GÜMÜŞHANE,İ. Sıtkı Hatipoğlu Ahmet Dallı  Necdet Uğur,İ. Sıtkı Hatipoğlu Ahmet Dallı (I.) Necdet Uğur,60.0,True,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,GÜMÜŞHANE,Mustafa Maden İbrahim Öktem Lelbit Yurdoğlu,Mustafa Maden İbrahim Öktem Lelbit Yurdoğlu,60.0,True,mm03002038_p058,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,ÇANAKKALE,M. Zekeriya Kürşiat,M. Zekeriya Kürşiat,43.0,False,mm03004071_p043,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,ADIYAMAN,Kâmil Kınkoğhı,Kâmil Kınkoğhı,38.0,False,mm03004076_p037,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+not_voting,VAN,e*. D,e*. D,18.0,False,mm03004077_p015,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,,"Anîtalya (Hasan Akçalıoğlu, İhsan Ataöv","Anîtalya (Hasan Akçalıoğlu, İhsan Ataöv,",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Ömer Buyrukçu, Ref et Eker, Hasan Ali Gülcan)","Ömer Buyrukçu, Ref et Eker, Hasan Ali Gülcan).",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Çiloğlu, Mehmet özbey). Bursa Kasım önadım","Çiloğlu, Mehmet özbey). Bursa Kasım önadım,",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Nai Ulusoy). Denizli (Sami Arslan, Hasaa","Nai Ulusoy). Denizli (Sami Arslan, Hasaa",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Sabahattin Savacı, Nafiz Yıldırım). Edirne","Sabahattin Savacı, Nafiz Yıldırım). Edirne",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,Eskişehir . Gaziantep,Eskişehir (Mehmet İsmet Anjgı). Gaziantep,149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,Kırklareli . Kırşehir,Kırklareli (Feyzullah Çarıkçı). Kırşehir,149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Ordu (Cengiz Ekinci, Ferda Güley). Rize","Ordu (Cengiz Ekinci, Ferda Güley). Rize",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,Sa'karya . Samsun,"Sa'karya (Yaşar Bir, Güngör Hun). Samsun",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Nihat Kale, Doğan Kitaplı, Nafiz Yavuz Kurt","Nihat Kale, Doğan Kitaplı, Nafiz Yavuz Kurt,",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,"Bahattin Uzuoğlu, İsmet Yalçıner). Siirt (Ze«","Bahattin Uzuoğlu, İsmet Yalçıner). Siirt (Ze«",149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,,ki Çeliker). Sivas . Tekirdağ,ki Çeliker). Sivas (Hüseyin Çınar). Tekirdağ:,149.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Adıyaman . Amaysa,Adıyaman (Yusuf Ziya Yılmaz). Amaysa:,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Yazıcıoğlu). Çorum Cahit Anığın). Denizli,Yazıcıoğlu). Çorum Cahit Anığın). Denizli,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Eskişehir . Gaziantep,Eskişehir (Şevket Asbuzoğlu). Gaziantep,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,"İstanbul (Bahir Ersoy, Orhan Kabibay, Rıza","İstanbul (Bahir Ersoy, Orhan Kabibay, Rıza",150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,"Kuas, Sezai Orkunt, M. Kâzım özeke, llhami","Kuas, Sezai Orkunt, M. Kâzım özeke, llhami",150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Kastamonu . Kayseri . Kırşehir (Mustalfa,Kastamonu (Mehmet Seydibeyoğlu). Kayseri (Mehmet Yüceler). Kırşehir (Mustalfa,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Maraş . Nevşehir . Niğde,Maraş (Mehmet özdal). Nevşehir (S. Hakkı Esatoğlu). Niğde (M. Nuri Kodamanoğlu).,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+no,,Kangal). Tekirdağ . Tokat,Kangal). Tekirdağ (Yılmaz Alpaslan). Tokat:,150.0,False,mm03005089_p149,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+yes,BURDUR,A. Mukadder Çiloğkı,A. Mukadder Çiloğkı,75.0,False,mm03007115_p075,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ADANA,Ali Rıza G ü M,Ali Rıza G ü M,77.0,False,mm03007115_p075,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,İZMİR,Şifcnasd Oömıa,Şifcnasd Oömıa,77.0,False,mm03007115_p075,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KÜTAHYA,Ali Eıfodk,Ali Eıfodk,78.0,False,mm03007115_p075,pdftotext parser,,unmatched,,,,,kept,ok
+yes,İSTANBUL,M. Hulusi Çakır,M. Hulusi Çakır,84.0,False,mm03010045_p083,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,KÜTAHYA,MALATYA İ T *-. * * * *••* * M. ^ &,MALATYA İ T *-. * * * *••* * M. ^ &,87.0,False,mm03010045_p086,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+no,,Muhmet Ali Aybar Musa Doğan Ekrem Dikmen,Muhmet Ali Aybar Musa Doğan Ekrem Dikmen,91.0,False,mm03010045_p090,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+yes,AFYON,"t£VlYI,j\KJ AMASYA X JX","t£VlYI,j\KJ AMASYA X JX",123.0,False,mm03011057_p123,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,MERSİN,XKJ ÎSTATSTRTTTi X ~L\.XS J_>\J XJ,XKJ ÎSTATSTRTTTi X ~L\.XS J_>\J XJ,155.0,False,mm03011058_p155,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,MERSİN,J U Gbl.l.±M-LX JLUİ.LXLCAıl.X,J U Gbl.l.±M-LX JLUİ.LXLCAıl.X,155.0,False,mm03011058_p155,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,KARS,GA ti,64 ti (4),155.0,False,mm03011058_p155,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes (not-voting list not printed)
+yes,İSTANBUL,Nihad Kürşad,Nihad Kürşad,39.0,False,mm03015123_p038,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,BURDUR,Tl SB,Tl 53,45.0,False,mm03019022_p045,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ERZİNCAN,Sadık Perinçek rendelioğlu,Sadık Perinçek rendelioğlu,47.0,False,mm03019022_p045,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,İZMİR,Aâon ö»d«otir,Aâon ö»d«otir,58.0,False,mm03020029_p058,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,KAHRAMANMARAŞ,M. Meclüsi B 29,M. Meclüsi B 29,59.0,False,mm03020029_p058,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,ÇANAKKALE,Mustafa Çalıkoğlu Kayhan Naipoğlu,Mustafa Çalıkoğlu Kayhan Naipoğlu,139.0,False,mm03022049_p139,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no (not-voting list not printed)"
+yes,MALATYA,M. Meclisi IB 'A9,M. Meclisi IB '49,140.0,False,mm03022049_p139,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no (not-voting list not printed)"
+yes,AYDIN,öihat Bilgetfıan Zekiye Gülsen,öihat Bilgetfıan Zekiye Gülsen,173.0,False,mm03022052_p173,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,AYDIN,M. Şükrü Çavdarioğiu Mesut Hulki Önür,M. Şükrü Çavdarioğiu Mesut Hulki Önür,173.0,False,mm03022052_p173,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ANTALYA,"A )mP""P T^İTPTl","4 )mP""P T^İTPTl",50.0,False,mm03024075_p050,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BURSA,\~J V/LXA CIU. XV.UlCvllll,\~J V/LXA CIU. XV.UlCvllll,50.0,False,mm03024075_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAMSUN,Ol\iVO QtV ^,Ol\iVO QtV ^,53.0,False,mm03024075_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAMSUN,Vahit Bozath,Vahit Bozath (Bşk. V.),53.0,False,mm03024075_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAMSUN,M. Kemal Palaoğm,M. Kemal Palaoğm,53.0,False,mm03024075_p050,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BALIKESİR,MevKit Yıknaz,MevKit Yıknaz,27.0,False,mm03026115_p027,pdftotext parser,,unmatched,,,,,kept,ok (not-voting list not printed)
+yes,ANKARA,H. Turgut Tofeer,'H. Turgut Tofeer,50.0,False,mm03026116_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,BALIKESİR,Oısıman T a n,Oısıman T a n,50.0,False,mm03026116_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,ÇORUM,İhKiyn Tomjbug,İhKiyn Tomjbug,51.0,False,mm03026116_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,İSTANBUL,M. Hulusi Çakır,M. Hulusi Çakır,51.0,False,mm03026116_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,SİVAS,M. Kemal Palaoğhı,M. Kemal Palaoğhı,53.0,False,mm03026116_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ADANA,Ali Rıza (MİMopu,Ali Rıza (MİMopu,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ADANA,Alî CavÜl Orai,Alî CavÜl Orai,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,AFYON,Hamdi HamaımeıoğİTi,Hamdi HamaımeıoğİTi,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BALIKESİR,Osıman T a n,Osıman T a n,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BURSA,îbraMm Öıktera,îbraMm Öıktera,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ERZURUM,Necati Çakıroğlu,Necati Çakıroğlu,150.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ISPARTA,Hüsamettin AkmumeL,Hüsamettin AkmumeL,151.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ISPARTA,Mi Ilışan Balını,Mi Ilışan Balını,151.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,RİZE,iSami KumbasatSAKARYA,iSami KumbasatSAKARYA,151.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MUŞ,M. Naci Çereeei,M. Naci Çereeei,153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MUŞ,H. Moolisi B 2A,H. Moolisi B 24,153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MUŞ,Haydar özeljp,Haydar özeljp (B.),153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MUŞ,Haindi Mağdeu,Haindi Mağdeu,153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,MUŞ,Erol Aksal,Erol Aksal (B.),153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,TOKAT,Metanet Kaasova,Metanet Kaasova,153.0,False,mm03030024_p150,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BALIKESİR,Osmıan T a n,Osmıan T a n,116.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,SAKARYA,Güngör Hım,Güngör Hım,118.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ZONGULDAK,S. Tekin Müİfaüoğhı,S. Tekin Müİfaüoğhı,118.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,İSTANBUL,M. Hulûsa Çakır,M. Hulûsa Çakır,119.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KONYA,Etem Kıheoğlu,Etem Kıheoğlu,119.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,KONYA,Sadi K)Qa§,Sadi K)Qa§,119.0,False,mm03033058_p116,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ESKİŞEHİR,Mehtûet.laaajet Asığı,Mehtûet.laaajet Asığı,133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,İSTANBUL,JVL MecÜsi B GB,JVL MecÜsi B 68,133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,KARS,"Osman, Y^Uakin","Osman, Y^Uakin",133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,KIRŞEHİR,Gevat Eroğhı,Gevat Eroğhı,133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,ORDU,Cengiz. lılkinei,Cengiz. lılkinei,133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,RİZE,Bml Ateşa?,Bml Ateşa?,133.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+no,KONYA,Imer Ferda,Imer Ferda,134.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,İZMİR,M. Hulûsa Çakır i,M. Hulûsa Çakır i,134.0,False,mm03033058_p132,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,AYDIN,M. Şükrü Çavdaroğlu,M. Şükrü Çavdaroğlu,144.0,False,mm03033058_p144,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,AYDIN,Osman T a n,Osman T a n,144.0,False,mm03033058_p144,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,SAMSUN,Nihat JA-lllClL Kalp £Y<İİC,Nihat JA-lllClL Kalp £Y<11C,147.0,False,mm03033058_p144,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,,Emir H. Postacı Süleyman Mutlu jj Komal Ataman,Emir H. Postacı Süleyman Mutlu jj Komal Ataman,125.0,False,mm03035071_p124,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+no,,jj A. Sakıp Hiçerimez,jj A. Sakıp Hiçerimez,125.0,False,mm03035071_p124,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+not_voting,SAMSUN,Kamran Evliyaoğlu,Kamran Evliyaoğlu,127.0,False,mm03035071_p124,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,BALIKESİR,Osıman T a n,Osıman T a n,132.0,False,mm03035071_p132,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,ELAZIĞ,M. M e c M B 7İ,M. M e c M B 71,134.0,False,mm03035071_p132,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,İSTANBUL,Şeref Bafcşık,Şeref Bafcşık,134.0,False,mm03035071_p132,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,İSTANBUL,M. Hulusi Çakır,M. Hulusi Çakır,134.0,False,mm03035071_p132,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,İSTANBUL,Burbamettim Asufray,Burbamettim Asufray,141.0,True,mm03035071_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,İSTANBUL,Nih'ad Kürşad,Nih'ad Kürşad,141.0,True,mm03035071_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,RİZE,Erol A^çal,Erol A^çal,141.0,True,mm03035071_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,ÇANKIRI,ihsan Tomjraş,ihsan Tomjraş,143.0,False,mm03035071_p140,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,BALIKESİR,Osrman T a n,Osrman T a n,46.0,False,mm03036080_p046,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,İSTANBUL,Muzaffer Fazlı Anne,"Muzaffer Fazlı Anne,",47.0,False,mm03036080_p046,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,İSTANBUL,Nihad Kürşad,Nihad Kürşad,47.0,False,mm03036080_p046,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,MUŞ,Kasım Enir o,Kasım Enir o,47.0,False,mm03036080_p046,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,ERZURUM,Rasimı Oinkli,Rasimı Oinkli,49.0,False,mm03036080_p046,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BALIKESİR,öiihat Bilgeftıan,öiihat Bilgeftıan,153.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,DENİZLİ,Fuat Arca,Fuat Arca,153.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,SİNOP,Tevfik Komitan,Tevfik Komitan,154.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ZONGULDAK,S. Tekin Müffcüoğh,S. Tekin Müffcüoğh*,154.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ZONGULDAK,M. ŞffieclplgOCAELl,M. Şffieclpl gOCAELl,155.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,KONYA,Bahri Bağdaş Hasan,Bahri Bağdaş Hasan,155.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,,Ali Rıza GüMoğlu,Ali Rıza GüMoğlu,155.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,KÜTAHYA,Xİ.XX Ali JLJİ Erhplr U t İ V,X1.XX Ali JLJİ Erhplr U t İ V,156.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,MANİSA,M. Medlsi B İ2S,M. Medlsi B 125,156.0,False,mm03038125_p153,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,,M. Salâhattto Kılıç,M. Salâhattto Kılıç,110.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,GİRESUN,Kayhan Naip oğlu,Kayhan Naip oğlu,111.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,İZMİR,M. M e o M B İBO,M. M e o M B 130,111.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ORDU,Ata ToüaloShı,Ata ToüaloShı,111.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,YOZGAT,M. MecSisi B İBO,M. MecSisi B 130,112.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,GAZİANTEP,Mehmet Kvhç,Mehmet Kvhç,112.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,İSTANBUL,M. Hulusi Çakır,M. Hulusi Çakır,112.0,False,mm03039130_p110,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,BALIKESİR,Osıman Tan,Osıman Tan,114.0,False,mm03039130_p114,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,GÜMÜŞHANE,Nuröt'tıkı Ö'zdeınir,Nuröt'tıkı Ö'zdeınir,114.0,False,mm03039130_p114,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,KAHRAMANMARAŞ,M. Medliisi B İBO,M. Medliisi B 130,115.0,False,mm03039130_p114,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,AFYON,Haımdi Hamaımeıoğhı,Haımdi Hamaımeıoğhı,116.0,False,mm03039130_p114,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,SİVAS,M. Kemal Palaoğkt,M. Kemal Palaoğkt,117.0,False,mm03039130_p114,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BALIKESİR,öilhat Bilgetfıan,öilhat Bilgetfıan,118.0,False,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,MERSİN,Cavit ökyagroz,Cavit ökyagroz,119.0,False,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+no,KAHRAMANMARAŞ,M. İVMisi,M. İVMisi,120.0,True,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,İSTANBUL,Haydar özdemir,Haydar özdemir,120.0,False,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,İSTANBUL,M. Hulusi Çakır,M. Hulusi Çakır,120.0,False,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,MANİSA,M. M e o M B İBO,M. M e o M B 130,121.0,False,mm03039130_p118,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+no,NEVŞEHİR,M. Naci Çerezci,M. Naci Çerezci,24.0,True,mm03024079_p023,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,NEVŞEHİR,II. Avni Kavurmacıoğhı,II. Avni Kavurmacıoğhı,24.0,True,mm03024079_p023,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+yes,ANTALYA,Fa'hni öaçelü/k,Fa'hni öaçelü/k,40.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,SAMSUN,Ali xlear,Ali xlear,41.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,SİİRT,r ı»,r ı»,41.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ANTALYA,Kemali Ziya öztüıik,Kemali Ziya öztüıik,42.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,DİYARBAKIR,Recaıi Iykıenıderoğkı,Recaıi Iykıenıderoğkı,42.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,DİYARBAKIR,Mahmut Kepdlıii,Mahmut Kepdlıii,42.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,KÜTAHYA,H. Cavit Er'clemir,H. Cavit Er'clemir,43.0,False,mm04002047_p040,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,DİYARBAKIR,Reeali İdkıenıderoğ'kı,Reeali İdkıenıderoğ'kı,54.0,False,mm04002046_p054,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,DİYARBAKIR,Reoaji Maenıderoğlu,Reoaji Maenıderoğlu,76.0,False,mm04002046_p074,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,ANKARA,o «/o,o «/o,78.0,False,mm04002046_p078,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,İZMİR,M. Meolisi B A7,M. Meolisi B 47,47.0,False,mm04002047_p044,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,KASTAMONU,M. f e c i s i B 9O,M. f e c i s i B 90,116.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+no,DİYARBAKIR,M. M e c M B 9O,M. M e c M B 90,117.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+no,TRABZON,M. Mjeci&i B 9O,M. Mjeci&i B 90,118.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,ANKARA,A XTm A T tr A,A XTm A T tr A,118.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,SİİRT,î XUİİXKJ r vı\sı X\J.JJV£ttl.Jf ATMITATI!,î XU11XKJ r vı\sı X\J.JJV£ttl.Jf ATMITATI!,118.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,SİVAS,TTRFA KJ XVX X,TTRFA KJ XVX X*.,118.0,False,mm04005090_p115,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+no,DİYARBAKIR,M. M&slüiai B 9O,M. M&slüiai B 90,137.0,True,mm04005090_p135,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,TRABZON,"?.-.:-.: r,-TBBEA.-r.'.:.s","?.-.:-.: r,-T3BEA.-r.'.:.s"".",138.0,True,mm04005090_p135,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,TRABZON,M. MecM B 9O,M. MecM B 90,138.0,True,mm04005090_p135,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,SAMSUN,Hüseyin Özalp,Hüseyin Özalp,138.0,False,mm04005090_p135,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,AYDIN,Nofn'hî Cplır»,Nofn'hî Cplır»,183.0,False,mm04005090_p183,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,BOLU,XX U<XX \s fark. \J<£\,XX U<XX \s fark. \J<£\.,183.0,False,mm04005090_p183,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,BURDUR,±J \j xtıxy \j x>,±J \j xtıxy \j x>,183.0,False,mm04005090_p183,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,KARS,M. Meclsi B 9O,M. Meclsi B 90,184.0,False,mm04005090_p183,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,BALIKESİR,Sa dul lalı Usunu,Sa dul lalı Usunu,31.0,False,mm04007021_p030,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,MALATYA,Celâl Ünv-CTMANİSA,Celâl Ünv-CTMANİSA,32.0,False,mm04007021_p030,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,GİRESUN,i M. Emin Turguteülp Metin Tüzüii,i M. Emin Turguteülp Metin Tüzüii,57.0,False,mm04008028_p055,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+no,ANKARA,A t r~l,*4 t r~l,167.0,False,mm04010049_p166,pdftotext parser,,unmatched,,,,,kept,ok
+abstain,YOZGAT,Arslan a,Arslan a,176.0,True,mm04010049_p174,pdftotext parser,,unmatched,,,,,kept,ok
+yes,DİYARBAKIR,VeM Gülkan,VeM Gülkan,179.0,False,mm04017068_p179,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+no,DENİZLİ,Hüsey'u ErçeM-k,Hüsey'u ErçeM-k,180.0,False,mm04017068_p179,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+no,TRABZON,Ekrem DiHarnen,Ekrem DiHarnen,181.0,False,mm04017068_p179,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,DİYARBAKIR,Abdüıllâtiif Eıısa!i%>ğk,Abdüıllâtiif Eıısa!i%>ğk,182.0,False,mm04017068_p179,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ELAZIĞ,Rasim Küfltökel,Rasim Küfltökel,263.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KARS,Yasin Bozfcıırit,Yasin Bozfcıırit,264.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KASTAMONU,Mehdii KecMn,Mehdii KecMn,264.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KASTAMONU,Sahri Kesiklim,Sahri Kesiklim,264.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+yes,SAMSUN,Vahit Bozath,Vahit Bozath,264.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+no,ERZİNCAN,Nwettdn Kaimi,Nwettdn Kaimi,264.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+no,KAHRAMANMARAŞ,Ali Ztiifükâroğlu,Ali Ztiifükâroğlu,265.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,Hüsamettin Abmaımcu,Hüsamettin Abmaımcu,265.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ARTVİN,M. Şükrü Koç,M. Şükrü Koç,265.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DENİZLİ,Hasan Korfornazcau,Hasan Korfornazcau,266.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,Raaiır. öini&li,Raaiır. öini&li,266.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TRABZON,Âdil AÜ Oineâ,Âdil AÜ Oineâ,266.0,False,mm04017068_p263,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ANKARA,H. Turgut T o t o,H. Turgut T o t o,267.0,False,mm04017068_p267,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DİYARBAKIR,Abdüillâtıif Eıısardıoğıhı,Abdüillâtıif Eıısardıoğıhı,270.0,False,mm04017068_p267,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,Rasiım GkıisGü,Rasiım GkıisGü,270.0,False,mm04017068_p267,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KAHRAMANMARAŞ,Yasdn Bozikıınt,Yasdn Bozikıınt,280.0,False,mm04017068_p279,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain"
+not_voting,ANKARA,Hüsamettin Abmumeu,Hüsamettin Abmumeu,281.0,False,mm04017068_p279,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain"
+not_voting,ARTVİN,M. Şükrü Koç,M. Şükrü Koç,281.0,False,mm04017068_p279,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain"
+not_voting,EDİRNE,İlhan LşıLj,İlhan LşıLj,281.0,False,mm04017068_p279,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain"
+yes,İZMİR,Yücel DMk,Yücel DMk,288.0,True,mm04017068_p287,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ANKARA,Kâmil Kınlkoğlnı,Kâmil Kınlkoğlnı,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,ANKARA,î. Hakkı Köylüoğım,î. Hakkı Köylüoğım,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,BALIKESİR,lihan Aytdkün,lihan Aytdkün,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,DİYARBAKIR,ELÂZTft JZtJ~l£\.£J±.\JI,ELÂZTft JZtJ~l£\.£J±.\JI,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,MERSİN,ibrahim GöktepefflSTANBUIT,ibrahim Göktepe fflSTANBUIT,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,MERSİN,t. Fehmi Cumaboğlu,t. Fehmi Cumaboğlu,295.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,MERSİN,İhsan Toksan,İhsan Toksan,296.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,TEKİRDAĞ,Niıhan tlgüm,Niıhan tlgüm,296.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+no,KARS,Kemaî OOsgsay,Kemaî OOsgsay,297.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+abstain,İSTANBUL,Abdi özkök t. Hakkı Keten©ğlû,Abdi özkök t. Hakkı Keten©ğlû,297.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,,Üter Çubukçu,Üter Çubukçu,297.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,DİYARBAKIR,Reoati îsBsenıderoğtu,Reoati îsBsenıderoğtu,297.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,ERZURUM,Rasüim OkıMi'i,Rasüim OkıMi'i,297.0,False,mm04017068_p295,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,AYDIN,Oya katılmayanlar,Oya katılmayanlar,49.0,True,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,DİYARBAKIR,Reeaâ îştoenderoğlııı,Reeaâ îştoenderoğlııı,49.0,True,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,ERZİNCAN,oylar B,oylar 3,49.0,True,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,SİNOP,M. İhsanı Karaçam,M. İhsanı Karaçam,50.0,True,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+not_voting,AFYON,Mir Balıattdn Yandumcı,Mir Balıattdn Yandumcı,50.0,False,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+not_voting,DENİZLİ,Hüseyiita ErçeMk,Hüseyiita ErçeMk,51.0,False,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+not_voting,KARS,Yasin Bozfaırtt,Yasin Bozfaırtt,51.0,False,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+not_voting,SAMSUN,îdraa AnJkan,îdraa AnJkan,52.0,False,mm04022018_p049,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,ANKARA,Kâmil Kınlkoğkı,Kâmil Kınlkoğkı,44.0,True,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+yes,EDİRNE,Basaaa Buz,Basaaa Buz,44.0,True,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ESKİŞEHİR,NîyazS Chıal,NîyazS Chıal,44.0,True,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+yes,GAZİANTEP,M&hmöît Ozırıpri,M&hmöît Ozırıpri',44.0,True,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,BURSA,Enim Aca.r,Enim Aca.r,45.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DİYARBAKIR,Mafamtrt Uyajııik!,Mafamtrt Uyajııik!,46.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,RaafeL GinMd,RaafeL GinMd,46.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KONYA,KemâiMtlin Gükakm,KemâiMtlin Gükakm,46.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,NEVŞEHİR,Ragrp Ürier,Ragrp Ürier,46.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TEKİRDAĞ,Nfflıan llgüri,Nfflıan llgüri,47.0,False,mm04022020_p044,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ANKARA,Necdet BvMyagffl,Necdet BvMyagffl,51.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,DİYARBAKIR,Abdüiilâtdf Enaasftoğilu,Abdüiilâtdf Enaasftoğilu,51.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,ELAZIĞ,A. Oühan Sememopu,A. Oühan Sememopu,51.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,KASTAMONU,i ( Cemal V/vlllMl Cebeci V v KJ \nf\fl,i ( Cemal V/vlllMl Cebeci V v KJ \nf\fl.,51.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,AYDIN,Isa Ayflıan,Isa Ayflıan,52.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,BALIKESİR,Orhan ÜretmenBİLECİK,Orhan ÜretmenBİLECİK,52.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,KONYA,Ali KbMradak,Ali KbMradak,53.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,TRABZON,İ d i Aid Ö M,İ d i Aid Ö M,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,TRABZON,Ekrem Dffloaı$Bi,Ekrem Dffloaı$3i,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,TUNCELİ,Siileymıaaı Yûûnrım,Siileymıaaı Yûûnrım,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,ŞANLIURFA,Neera^efttinı ÖeMherâ,Neera^efttinı ÖeMherâ,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,UŞAK,"A ""V7* t","A ""V7* t",54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,UŞAK,Ahmat Yıtaaz,Ahmat Yıtaaz,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,VAN,îhisan BedMuaıoğlu,îhisan BedMuaıoğlu,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,YOZGAT,Neââra Korkm'aiz,Neââra Korkm'aiz,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,ZONGULDAK,Otihan GRkucüoğlu,Otihan GRkucüoğlu,54.0,False,mm04022022_p051,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,EDİRNE,Ati/İlâ Atiilâ,Ati/İlâ Atiilâ,46.0,False,mm04022026_p045,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,Rasâm öinMd,Rasâm öinMd,47.0,False,mm04022026_p045,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAMSUN,i Idria Arrkan,i Idria Arrkan,48.0,False,mm04022026_p045,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TRABZON,Adil Ali O M,Adil Ali O M,48.0,False,mm04022026_p045,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TUNCELİ,Mehmöt Akaoy,Mehmöt Akaoy,48.0,False,mm04022026_p045,pdftotext parser,,unmatched,,,,,kept,ok
+yes,İSTANBUL,edenler İ.İO,edenler 1.10,50.0,True,mm04022027_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,İSTANBUL,oylar li,oylar li,50.0,True,mm04022027_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,SAMSUN,M. MecMsi B 27,M. MecMsi B 27,51.0,True,mm04022027_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no"
+yes,ANKARA,î. Hakkı Köylüoğthı,î. Hakkı Köylüoğthı,32.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+yes,KONYA,Rasıim Cinisdii,Rasıim Cinisdii,32.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,EDİRNE,Yeîl Gaikaıı,Yeîl Gaikaıı,33.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,EDİRNE,A t i â Aöilâ,A t i â Aöilâ,33.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,KAYSERİ,Kâmü özsanyıâdıız,Kâmü özsanyıâdıız,34.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,NİĞDE,Mehmet Altmsoy (Bşk. V.>,Mehmet Altmsoy (Bşk. V.>,34.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,SİNOP,Ahmet Duırakoğihı,Ahmet Duırakoğihı,35.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,SİNOP,M. ihsan Karaçam,M. ihsan Karaçam,35.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+not_voting,TRABZON,Ekrem DüfameiD,Ekrem DüfameiD,35.0,False,mm04022028_p032,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain,not_voting"
+yes,DİYARBAKIR,Reeıaıi Itslbenıderoğkı,Reeıaıi Itslbenıderoğkı,39.0,False,mm04022029_p039,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KONYA,ICemâlettdn Gökakm,ICemâlettdn Gökakm,40.0,False,mm04022029_p039,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SİVAS,Mustafa Tknisd,Mustafa Tknisd,42.0,False,mm04022029_p039,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ERZURUM,Raslim ÖinMü,Raslim ÖinMü,50.0,False,mm04022030_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+yes,TOKAT,FeyzuUaih Değer'n,FeyzuUaih Değer'n,51.0,False,mm04022030_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,ANKARA,Kâmil Kmkoğiu,Kâmil Kmkoğiu,52.0,False,mm04022030_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,ÇORUM,Ihsuii Tonıbus,Ihsuii Tonıbus,52.0,False,mm04022030_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+not_voting,VAN,x\l^,x\l^,53.0,False,mm04022030_p050,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,not_voting"
+yes,BOLU,Ahmet Gaıkımıalk,Ahmet Gaıkımıalk,50.0,True,mm04023031_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,H. Turgut Tofcer,H. Turgut Tofcer,52.0,True,mm04023031_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,Rasûm öinisüi,Rasûm öinisüi,52.0,True,mm04023031_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,KONYA,KemMettân Gak&kın,KemMettân Gak&kın,52.0,True,mm04023031_p050,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,M. KemaTErkovan,M. KemaTErkovan (B.),45.0,False,mm04023032_p044,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,SAKARYA,M. Meclîsi B B2,M. Meclîsi B 32,47.0,False,mm04023032_p044,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,ARTVİN,Sabit Osnıatf» Avoı,Sabit Osnıatf» Avoı,56.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,DİYARBAKIR,Reaaâ Û&ıeaaıderoğiu,Reaaâ Û&ıeaaıderoğiu,56.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,ELAZIĞ,Rasim Kiiiyfflkel,Rasim Kiiiyfflkel,56.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,HAKKARİ,Mikââl İlganm,Mikââl İlgan m,56.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,İSTANBUL,Uman Toksan,Uman Toksan,56.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,KARS,Gemdi Ümal,Gemdi Ümal,57.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,KAYSERİ,Kâmil özaanyüdız,Kâmil özaanyüdız,57.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,KONYA,Kfcmâiteıttiin Gökakm,Kfcmâiteıttiin Gökakm,57.0,True,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,ANKARA,Necdeıt EvMyagâa,Necdeıt EvMyagâa,57.0,False,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,BALIKESİR,Ilbıan Ayteikftn,Ilbıan Ayteikftn,58.0,False,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,TEKİRDAĞ,Nülıan Ilgürı,Nülıan Ilgürı,59.0,False,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+not_voting,TRABZON,Âdil AM Gineli,Âdil AM Gineli,59.0,False,mm04023033_p056,pdftotext parser,,unmatched,,,,,kept,count mismatch: no
+yes,BALIKESİR,Cihat Bügehaaı,Cihat Bügehaaı,60.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,EDİRNE,İlhan Işût,İlhan Işût,60.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,ERZURUM,Rasii'm OkİBÖü,Rasii'm OkİBÖü,60.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,KARS,Doğan Anaöh,Doğan Anaöh,61.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,GİRESUN,Nizamettiriı Erfenıen,Nizamettiriı Erfenıen,62.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,KAHRAMANMARAŞ,Ali Zülfükârppu,Ali Zülfükârppu,62.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,TRABZON,Âdil AH Oinett,Âdil AH Oinett,63.0,False,mm04023033_p060,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,ERZURUM,Rasıim öinıjsüii,Rasıim öinıjsüii,48.0,False,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,KARS,Yasdn BozfcuKt,Yasdn BozfcuKt,49.0,False,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,TEKİRDAĞ,Nâhan Ûgüa,Nâhan Ûgüa,49.0,False,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+abstain,,AM. A.SYA İEL,AM. A.SYA İEL,49.0,False,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,ADANA,Alparslan Tiirfceç,Alparslan Tiirfceç (B.),49.0,True,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,EDİRNE,Rasiim. Küeü!k«l,Rasiim. Küeü!k«l,50.0,True,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,KARS,Kemali üfayay,Kemali üfayay,50.0,True,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,KASTAMONU,Sabd KessMn,Sabd KessMn,50.0,True,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,KIRŞEHİR,M«mduh Erdftmdr,M«mduh Erdftmdr,50.0,True,mm04023035_p048,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,ANKARA,Needet BrliyagU,Needet BrliyagU,52.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ANKARA,î. Hakkı Köyltioğdu,î. Hakkı Köyltioğdu,52.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,EDİRNE,İlhan IAİÜ,İlhan I41Ü,52.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ERZURUM,Rasfim Oinklıi,Rasfim Oinklıi,52.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,KARS,Yasin Borikuaıt,Yasin Borikuaıt,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,KIRKLARELİ,Tankut Aklattığı,Tankut Aklattığı,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,KONYA,Kem&kttin Gökakm,Kem&kttin Gökakm,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,TEKİRDAĞ,Ndhan ÎLgüfl,Ndhan ÎLgüfl,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,TOKAT,FeyaulıleJh DeğerH,FeyaulıleJh DeğerH,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,TRABZON,AdU Ali O&nei,AdU Ali O&nei,53.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,ANKARA,SAbs&&ttlfci Sslok,S4bs&&ttlfci Sslok,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,AYDIN,M. Ş ü M K o ç,M. Ş ü M K o ç,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,DENİZLİ,Haaıam KofrOcmıaroan,Haaıam KofrOcmıaroan,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,GAZİANTEP,Ibriahüm Hortoğikı,Ibriahüm Hortoğikı,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,KAHRAMANMARAŞ,AB Ztilfflkâroğlu,AB Ztilfflkâroğlu,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,KOCAELİ,Sabrf Yahjfi,Sabrf Yahjfi,54.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,SİİRT,Yallgiaa Oğuz,Yallgiaa Oğuz,55.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,SİVAS,N. Nazif Aradım,N. Nazif Aradım,55.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,UŞAK,^sılJLtllvli Aıhfrveti Yılma?; X LlLİ.XfXCJ,^sılJLtllvli Aıhfrveti Yılma?; X LlLİ.XfXCJ,55.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,YOZGAT,AM Puat Eyüpo&lu,AM Puat Eyüpo&lu,55.0,False,mm04023035_p052,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+yes,ÇORUM,Eteni Eben,Eteni Eben,59.0,False,mm04023036_p059,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,jj Nihan llgür,jj Nihan llgür*,60.0,False,mm04023036_p059,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,GİRESUN,M. Emin TurjrutaOp,M. Emin TurjrutaOp,61.0,False,mm04023036_p059,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,YOZGAT,Nedlim Korfemas,Nedlim Korfemas,66.0,False,mm04023036_p063,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+yes,GÜMÜŞHANE,AH Yılmaz,AH Yılmaz,238.0,False,mm04025056_p238,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,KARS,Yasin Rozfcualt,Yasin Rozfcualt,239.0,False,mm04025056_p238,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,KONYA,KemâMtin Gökakm,KemâMtin Gökakm,239.0,False,mm04025056_p238,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+no,AYDIN,GİS r,615 r,239.0,False,mm04025056_p238,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+not_voting,ERZURUM,Ra^im öiniısılii,Ra^im öiniısılii,241.0,False,mm04025056_p238,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain"
+yes,ANKARA,"H. ""Turgut Toifcer","H. ""Turgut Toifcer",250.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BALIKESİR,İlhan AyfceMn,İlhan AyfceMn,250.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BALIKESİR,Cihat Bügehaaı,Cihat Bügehaaı,250.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KARS,Yasdn Bo^famt,Yasdn Bo^famt,251.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KAYSERİ,Kâmıü özsanyıidıız,Kâmıü özsanyıidıız,251.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,HaiM Ba§ol,HaiM Ba§ol,251.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,Ntfhan llgüıı,Ntfhan llgüıı,251.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+no,KIRKLARELİ,Tankut Akıaüiaı,Tankut Akıaüiaı,252.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+no,KONYA,Ali KöMradak,Ali KöMradak,252.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZURUM,Rasiim Öinisılü,Rasiim Öinisılü,253.0,False,mm04025056_p250,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ANTALYA,Reımzd Yıiamaz,Reımzd Yıiamaz,278.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BALIKESİR,İlhan Ayrfceüüin,İlhan Ayrfceüüin,278.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+yes,KARS,Yasin Bozfcuatt,Yasin Bozfcuatt,278.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,Ndlhan îlgüıı,Ndlhan îlgüıı,279.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+no,ANKARA,KâimM Kırfroğlu,KâimM Kırfroğlu,279.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+no,ÇORUM,Hüseyâta Erçeüik,Hüseyâta Erçeüik,279.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+no,ERZİNCAN,Nurettan Karını,Nurettan Karını,279.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+no,KARS,Hasan Yıildünm,Hasan Yıildünm,280.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+abstain,ANKARA,ön<t©r Sav Fuat,ön<t©r Sav Fuat,280.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,CaMt Kayına,CaMt Kayına,280.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ANKARA,llyıas S#gfkm,llyıas S#gfkm,280.0,False,mm04025056_p278,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MALATYA,IJüttfö Öoğafl,IJüttfö Öoğafl,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,MALATYA,Mustafa ŞeaKfiüirfc,Mustafa ŞeaKfiüirfc,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,MANİSA,Halil Yuıltfsövetı,Halil Yuıltfsövetı,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,NİĞDE,Hİseyte ÇelÜfc,Hİseyte ÇelÜfc,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ORDU,Memidluh Elfcşti,Memidluh Elfcşti,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,SAMSUN,Ahmet AKön,Ahmet AKön,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,YOZGAT,Ö. Lütfü EraunKöluağlu,Ö. Lütfü EraunKöluağlu,132.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,MANİSA,Zelkıi Kaıragözii,Zelkıi Kaıragözii,134.0,False,mm05004116_p131,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ESKİŞEHİR,Tcmîlll t\'7^fT,Tcmîlll t\'7^fT,134.0,False,mm05004118_p134,pdftotext parser,,unmatched,,,,,kept,ok
+no,AYDIN,i T ^,i T ^,135.0,True,mm05004118_p134,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ELAZIĞ,M. Medisi B İİB,M. Medisi B 118,137.0,False,mm05004118_p134,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,AFYON,Mete Tam <İB.),Mete Tam <1B.),64.0,False,mm05009050_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,VAN,Muslih Görenjfcaş pişik) V.),'Muslih Görenjfcaş pişik) V.),65.0,False,mm05009050_p062,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,KONYA,M MedisS B GA,M MedisS B 64,256.0,False,mm05011064_p255,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,KONYA,Fair>uik Slülkıan r,Fair>uik Slülkıan r,128.0,False,mm05015055_p127,pdftotext parser,,unmatched,,,,,kept,ok
+yes,SİİRT,Zeki Çelıjıjcer t. v,"Zeki Çelıjıjcer t. v ..,",128.0,False,mm05015055_p127,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ADANA,Möliıh Kemal Küçüfctepe,Möliıh Kemal Küçüfctepe,227.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,ANKARA,NeealtS Güftefcin,NeealtS Güftefcin,227.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,BURSA,Adi Bliverdii,Adi Bliverdii',227.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,İSTANBUL,Pehrnli Cusmalkoğkı,Pehrnli Cusmalkoğkı,228.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,KARS,"M, Meclisi ^ SS","M, Meclisi ^ 55",228.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,ORDU,Günay Yata,Günay Yata,228.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,ANKARA,Sdâhaatıtin Öoal,Sdâhaatıtin Öoal,228.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,BALIKESİR,İrfan Öziaydıruk,İrfan Öziaydıruk,228.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,BOLU,Halûk KaroböaHdüi,Halûk KaroböaHdüi,229.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+no,EDİRNE,Oa'viıttin Venıaü,Oa'viıttin Venıaü,229.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,ANKARA,Oğuztan Asıitüılk,Oğuztan Asıitüılk,230.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,GAZİANTEP,Ataıet Kanatan,Ataıet Kanatan,230.0,False,mm05015055_p227,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,KASTAMONU,M Medisii B SS,M Medisii B 55,244.0,False,mm05015055_p243,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,MUĞLA,Zeyyat Mandafooi,Zeyyat Mandafooi,244.0,False,mm05015055_p243,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,SİVAS,Enver Atavia,Enver Atavia,244.0,False,mm05015055_p243,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+yes,SİVAS,liulâsi Soyu,liulâsi Soyu- -•-•-••:,65.0,False,cs01005094_p065,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ŞANLIURFA,[Oya İi,[Oya 1i,81.0,True,cs02013092_p080,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+no,VAN,Kanık Işık Cevaf Ar ika m,Kanık Işık Cevaf Ar ika m,46.0,True,cs02014111_p045,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+abstain,CUMHURBAŞKANINCA S. Ü.,O ı/a k atıl m ymı lor],0 ı/a k atıl m ymı lor],68.0,False,cs02015115_p068,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,,TABU tjYELER,TABU tjYELER,35.0,False,cs03019044_p034,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,HATAY,Sn KJ \X<X\j fi t Sprpn Ks**s*-\JİA,Sn KJ \X<X\j fi t Sprpn Ks**s*-\JİA,35.0,False,cs03019044_p034,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,KARS,"Mehmet \\<V/,PV","Mehmet \\<V/,PV",32.0,False,cs04022004_p031,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+yes,BOLU,l^ırn Uzuııhasanugm,l^ırn Uzuııhasanugm,33.0,False,cs04022004_p033,pdftotext parser,,unmatched,,,,,kept,ok
+yes,GİRESUN,Mehmpt fzmpu,Mehmpt fzmpu,25.0,False,cs04022005_p025,pdftotext parser,,unmatched,,,,,kept,ok
+yes,AFYON,Knsim llaııcınğlıt,Knsim llaııcınğlıt,28.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MANİSA,"Kmiu Ac,;tf","Kmiu Ac,;tf",28.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MANİSA,lîefik nin^Mv,lîefik nin^Mv,28.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+yes,MARDİN,AİKİÜİkenm Sjırncogli!,AİKİÜİkenm Sjırncogli!,28.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,AYDIN,M W t Tn-hnruril,M W t Tn-hnruril,29.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ERZİNCAN,Kelimi Rav«nv,Kelimi Rav«nv,29.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,SAKARYA,Kâzım Yıi!-(J;ılrnl,Kâzım Yıi!-(J;ılrnl,29.0,False,cs04022005_p028,pdftotext parser,,unmatched,,,,,kept,ok
+yes,DİYARBAKIR,Azmi tirdi uran,Azmi tirdi uran,157.0,False,cs04024035_p157,pdftotext parser,,unmatched,,,,,kept,ok
+yes,GAZİANTEP,ITalit Zartanı,ITalit Zartanı,157.0,False,cs04024035_p157,pdftotext parser,,unmatched,,,,,kept,ok
+yes,ESKİŞEHİR,(Javsi l\«ntrok,(Javsi l\«ntrok,160.0,False,cs04024035_p160,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+yes,CUMHURBAŞKANINCA S. Ü.,^n.er Erjrürı,^n.er Erjrürı,160.0,False,cs04024035_p160,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,abstain,not_voting"
+not_voting,AFYON,Macit Zeren  Kt-îr.û Baysoy,Macit Zeren (B.) Kt-îr.û Baysoy,28.0,False,cs04026071_p027,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,ISPARTA,E n i s fCîinsn,E n i s fCîinsn,142.0,False,cs04027080_p142,pdftotext parser,,unmatched,,,,,kept,ok
+no,BALIKESİR,Hasan Âli Türker,Hasan Âli Türker,143.0,False,cs04027080_p142,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,DİYARBAKIR,^Bşk. V.),^Bşk. V.),59.0,False,cs04030119_p058,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,SAKARYA,H'ethi Tevetoğin,H'ethi Tevetoğin,59.0,False,cs04030119_p058,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,CUMHURBAŞKANINCA S. Ü.,\'«'i'H*i < ^7<prıiz,\'«'i'H*i < ^7<prıiz,59.0,False,cs04030119_p058,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,ERZİNCAN,O. Edip Somunoğhı (B,O. Edip Somunoğhı (B.,56.0,False,cs05031023_p055,pdftotext parser,,unmatched,,,,,kept,ok
+yes,TEKİRDAĞ,i v i y i * r\. \y,* i v i y i * r\. \y,149.0,False,cs05032042_p149,pdftotext parser,100.0,unmatched,,,,,kept,count mismatch: yes
+yes,TRABZON,XvXoX/£JVylı,XvXoX/£JVylı,149.0,False,cs05032042_p149,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,ERZURUM,Eu'n> Soımınoğln,Eu'n> Soımınoğln. (!>.),76.0,False,cs05034049_p075,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TABİİ ÜYELER,Cemal Gürsel,Cemal Gürsel (1.),61.0,False,cs05036082_p060,pdftotext parser,,unmatched,,,,,kept,count mismatch: abstain
+yes,İZMİR,(Salt çoğunluk,(Salt çoğunluk,37.0,True,cs06037011_p037,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,ORDU,Eşref Ayhansağlanamamıştır.),Eşref Ayhan sağlanamamıştır.),37.0,True,cs06037011_p037,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,TEKİRDAĞ,Cemâl Tfîrbm,Cemâl Tfîrbm,37.0,True,cs06037011_p037,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Kesinhesap kanun tasarısına verilenoyların,Kesinhesap kanun tasarısına verilen oyların,39.0,False,cs06037011_p037,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,BOLU,t. Sal)ri Cağhyangil,t. Sal)ri Cağhyangil,42.0,False,cs06037013_p041,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan (1.),46.0,False,cs06037014_p045,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ADANA,M. Nuri Âcler,M. Nuri Âcler,85.0,True,cs07044010_p085,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,ADANA,M. YıliPM*\S,M. YıliPM*\S,85.0,True,cs07044010_p085,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,SAKARYA,H. Envokatılw,"H. Envo"" katılw",85.0,True,cs07044010_p085,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,SAKARYA,F.efct Ecndeci,F.efct Ecndeci,85.0,True,cs07044010_p085,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,KOCAELİ,[Açık il,[Açık il,86.0,True,cs07044010_p085,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Rarrm Ürıer,Rarrm Ürıer,88.0,False,cs07044010_p087,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,CUMHURBAŞKANINCA S. Ü.,Raftır) Ürer,Raftır) Ürer,96.0,False,cs07044010_p095,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,CUMHURBAŞKANINCA S. Ü.,Sim d TIa:m Ürgüplü,Sim d TIa:m Ürgüplü,96.0,False,cs07044010_p095,pdftotext parser,,unmatched,,,,,kept,ok
+yes,CUMHURBAŞKANINCA S. Ü.,Suad Hayri,Suad Hayri,48.0,True,cs07044011_p047,pdftotext parser,,unmatched,,,,,kept,"count mismatch: abstain,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,bağlı cetvellerde,bağlı cetvellerde,52.0,False,cs08049018_p050,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,SİİRT,\>m<t,\>m<t,61.0,False,cs08051036_p060,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,CUMHURBAŞKANINCA S. Ü.,Genel Müdürlüğü,Genel Müdürlüğü,62.0,False,cs08051036_p060,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,AFYON,Ahmet Knrnvimt,Ahmet Knrnvimt,139.0,False,cs09056032_p139,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+yes,DİYARBAKIR,İ.İ U i i FJ,1.1 U i i FJ,139.0,False,cs09056032_p139,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,TABİİ ÜYELER,J A C A J m J LV/ p U t X Yıl XL\Xx£i c\ İ7,J A C A J m J LV/ p U t X Yıl XL\Xx£i c\ 17,53.0,False,cs10064042_p052,pdftotext parser,100.0,unmatched,,,,,kept,ok
+yes,BOLU,Ö. Farofe Km&ytiürik,Ö. Farofe Km&ytiürik,62.0,True,cs10064054_p062,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ADANA,Melımet Üımkh (B%,Melımet Üımkh (B%.,34.0,False,cs11001010_p033,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,TOKAT,/J-LllllJ Zihni Retil UCİİJ,/J-LllllJ Zihni Retil UC11J.,35.0,False,cs11001010_p033,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,CUMHURBAŞKANINCA S. Ü.,"C* * ""\ T * T7İ "" /'Tl","C* * ""\ T * T71 "" /'Tl",41.0,False,cs11001016_p039,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Suacl Hayri ÜrgüplS,Suacl Hayri ÜrgüplS,26.0,True,cs11004050_p025,pdftotext parser,,unmatched,,,,,kept,ok
+abstain,CUMHURBAŞKANINCA S. Ü.,Kalpaklıoğhı Bekir Sıtkı Baykal,Kalpaklıoğhı Bekir Sıtkı Baykal,95.0,True,cs11005077_p094,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+abstain,CUMHURBAŞKANINCA S. Ü.,[Çelcin serJ,[Çelcin serJ,95.0,True,cs11005077_p094,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,KASTAMONU,[Oya kah iı nay ani ar,[Oya kah iı nay ani ar,95.0,True,cs11005077_p094,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+not_voting,KAYSERİ,Ali Alfean Fethi Tevetoğlu,Ali Alfean Fethi Tevetoğlu,95.0,True,cs11005077_p094,pdftotext parser,,unmatched,,,,,kept,"count mismatch: no,abstain,not_voting"
+yes,MANİSA,xt um i luuıivaıı,xt um i luuıivaıı,38.0,False,cs12007011_p038,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,ÇANKIRI,"/""•< A T X TTfc İt","/""•< A T X TTfc İt",143.0,False,cs12009030_p143,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+yes,KIRKLARELİ,Alı Al İm TI,Alı Al İm TI,143.0,False,cs12009030_p143,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain"
+yes,İSTANBUL,Ayhan Pek er,Ayhan Pek er,33.0,False,cs13013033_p033,pdftotext parser,100.0,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,BOLU,[Oya Kat hnayctnlarj,[Oya Kat hnayctnlarj,34.0,False,cs13013033_p033,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,MUŞ,> e-<e-—«,> e-<e-—«••,34.0,False,cs13013033_p033,pdftotext parser,,unmatched,,,,,kept,count mismatch: no (not-voting list not printed)
+no,KIRKLARELİ,C. Senatoau B S7,C. Senatoau B 57,160.0,False,cs13016057_p159,pdftotext parser,100.0,unmatched,,,,,kept,count mismatch: yes
+not_voting,KARS,Yusuf Ziya Ayrım,Yusuf Ziya Ayrım (I.),160.0,False,cs13016057_p159,pdftotext parser,,unmatched,,,,,kept,count mismatch: yes
+not_voting,DENİZLİ,Halil özmeıı,Halil özmeıı,20.0,False,cs13017065_p019,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+no,TOKAT,[Oya Katili,[Oya Katili:,97.0,True,cs14021051_p096,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,no,abstain (not-voting list not printed)"
+not_voting,TABİİ ÜYELER,"T Hayri öner M, Cahit Dalokay","T Hayri öner M, Cahit Dalokay",159.0,False,cs15025033_p158,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,TABİİ ÜYELER,Kemal SarıibrahimoRİıı Hasan İldan,Kemal SarıibrahimoRİıı Hasan İldan,159.0,False,cs15025033_p158,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,NİĞDE,jj SİVAS,jj SİVAS,159.0,False,cs15025033_p158,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,NİĞDE,Kâzım Kangal (Cşk. V.j,Kâzım Kangal (Cşk. V.j,159.0,False,cs15025033_p158,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,CUMHURBAŞKANINCA S. Ü.,Bağlı Cetvellerde,Bağlı Cetvellerde,87.0,False,cs15027040_p085,pdftotext parser,100.0,unmatched,,,,,kept,count mismatch: not_voting
+yes,TRABZON,IİAJUn VJUVVll,IİAJUn VJUVVll,29.0,False,cs15028077_p029,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,ÇANAKKALE,Gürhan Titick,Gürhan Titick,162.0,False,cs16031035_p162,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,CUMHURBAŞKANINCA S. Ü.,Zeyyat Baykara,Zeyyat Baykara,164.0,False,cs16031035_p162,pdftotext parser,,unmatched,,,,,kept,ok
+no,SİVAS,T a M n Tiitfkay,T a M n Tiitfkay,137.0,False,cs17035026_p136,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+yes,CUMHURBAŞKANINCA S. Ü.,C. Sgpatosu,C. Sgpatosu,166.0,False,cs17036030_p165,pdftotext parser,,unmatched,,,,,kept,ok
+no,BALIKESİR,Kâmran j$$n,Kâmran j$$n,166.0,True,cs17036030_p165,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ADANA,Kaeıal ^^K bçahiîrw>ğiu,Kaeıal ^^K bçahiîrw>ğiu,166.0,False,cs17036030_p165,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,ADANA,Möhrriöt Üm®d}  j,Möhrriöt Üm®d} (B§k. V.) j,166.0,False,cs17036030_p165,pdftotext parser,,unmatched,,,,,kept,ok
+not_voting,NİĞDE,Erigun C/lVjan fi.),Erigun C/lVjan fi.),144.0,False,cs18042039_p143,pdftotext parser,,unmatched,,,,,kept,ok
+yes,BURSA,Badas Kumlayı,Badas Kumlayı,61.0,False,cs19045030_p061,pdftotext parser,,unmatched,,,,,kept,count mismatch: not_voting
+not_voting,CUMHURBAŞKANINCA S. Ü.,Yıh Devlet Üretn ıe,Yıh Devlet Üretn ıe,132.0,False,cs19046036_p130,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Müdürlüğü Bütçe,Müdürlüğü Bütçe,132.0,False,cs19046036_p130,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Kanunu Tasarısınla,Kanunu Tasarısınla,132.0,False,cs19046036_p130,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"
+not_voting,CUMHURBAŞKANINCA S. Ü.,Verilen Oyların,Verilen Oyların,132.0,False,cs19046036_p130,pdftotext parser,,unmatched,,,,,kept,"count mismatch: yes,not_voting"

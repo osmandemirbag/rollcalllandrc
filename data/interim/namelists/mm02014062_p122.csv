@@ -123,14 +123,14 @@ yes,SAKARYA,Şerafettin Paker,Şerafettin Paker,123,False,mm02014062_p122,pdftot
 yes,SAMSUN,Melâhat Gedik,Melâhat Gedik,123,False,mm02014062_p122,pdftotext parser
 yes,SAMSUN,Osman Şahinoğlu,Osman Şahinoğlu,123,False,mm02014062_p122,pdftotext parser
 yes,SAMSUN,Namık Kemal Tülczoğlu' Ilyas Demir,Namık Kemal Tülczoğlu' Ilyas Demir,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Süreyya Uluçay TOKAT,Süreyya Uluçay TOKAT,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Şevki Yücel M. Şükrü Çavdaroğlu,Şevki Yücel M. Şükrü Çavdaroğlu,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,SİİRT Osman Kacıbaloğlu,SİİRT Osman Kacıbaloğlu,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Abdülhalim Araş TRABZON,Abdülhalim Araş TRABZON,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Hüseyin Hüsnü Oran A. İhsan Birincioğlu,Hüseyin Hüsnü Oran A. İhsan Birincioğlu,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,SİNOP Selâhattin Güven,SİNOP Selâhattin Güven,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Mustafa Kaptan TUNCELİ,Mustafa Kaptan TUNCELİ,123,False,mm02014062_p122,pdftotext parser
-yes,SAMSUN,Cemil Karahan Kenan Aral,Cemil Karahan Kenan Aral,123,False,mm02014062_p122,pdftotext parser
+yes,SAMSUN,Süreyya Uluçay,Süreyya Uluçay,123,False,mm02014062_p122,pdftotext parser
+yes,TOKAT,Şevki Yücel M. Şükrü Çavdaroğlu,Şevki Yücel M. Şükrü Çavdaroğlu,123,False,mm02014062_p122,pdftotext parser
+yes,SİİRT,Osman Kacıbaloğlu,Osman Kacıbaloğlu,123,False,mm02014062_p122,pdftotext parser
+yes,SİİRT,Abdülhalim Araş,Abdülhalim Araş,123,False,mm02014062_p122,pdftotext parser
+yes,TRABZON,Hüseyin Hüsnü Oran A. İhsan Birincioğlu,Hüseyin Hüsnü Oran A. İhsan Birincioğlu,123,False,mm02014062_p122,pdftotext parser
+yes,SİNOP,Selâhattin Güven,Selâhattin Güven,123,False,mm02014062_p122,pdftotext parser
+yes,SİNOP,Mustafa Kaptan,Mustafa Kaptan,123,False,mm02014062_p122,pdftotext parser
+yes,TUNCELİ,Cemil Karahan Kenan Aral,Cemil Karahan Kenan Aral,123,False,mm02014062_p122,pdftotext parser
 yes,UŞAK,Seyfi Kurtbck,Seyfi Kurtbck,123,False,mm02014062_p122,pdftotext parser
 yes,UŞAK,Ali Rıza Akbıyıkoğlu,Ali Rıza Akbıyıkoğlu,123,False,mm02014062_p122,pdftotext parser
 yes,UŞAK,Ccvad Odyakmaz,Ccvad Odyakmaz,123,False,mm02014062_p122,pdftotext parser
@@ -186,11 +186,11 @@ not_voting,ADANA,İbrahim Tekin  Osman Attila,İbrahim Tekin (B.) Osman Attila,1
 not_voting,ADANA,Ahmet Topaloğlu  Mehmet Göbekli,Ahmet Topaloğlu (B.) Mehmet Göbekli,123,False,mm02014062_p122,pdftotext parser
 not_voting,ADANA,Bekir Tünay Şevki Güler,Bekir Tünay Şevki Güler,123,False,mm02014062_p122,pdftotext parser
 not_voting,ADANA,Tahiı- Yücekök Murat öner,Tahiı- Yücekök Murat öner,123,False,mm02014062_p122,pdftotext parser
-not_voting,ADANA,ADIYAMAN Muzaffer Özdağ,ADIYAMAN Muzaffer Özdağ,123,False,mm02014062_p122,pdftotext parser
-not_voting,ADANA,M. Arif AtaLay Ali İhsan Ulubahşi,M. Arif AtaLay Ali İhsan Ulubahşi,123,False,mm02014062_p122,pdftotext parser
-not_voting,ADANA,Nazım Bayıllıoğlu AĞRI,Nazım Bayıllıoğlu AĞRI,123,False,mm02014062_p122,pdftotext parser
-not_voting,ADANA,AFYON KARAHlSAR Abdülbâri Akdoğan,AFYON KARAHlSAR Abdülbâri Akdoğan,123,False,mm02014062_p122,pdftotext parser
-not_voting,ADANA,Mustafa Akalın Kasım Küfrevi,Mustafa Akalın Kasım Küfrevi,123,False,mm02014062_p122,pdftotext parser
+not_voting,ADIYAMAN,Muzaffer Özdağ,Muzaffer Özdağ,123,False,mm02014062_p122,pdftotext parser
+not_voting,ADIYAMAN,M. Arif AtaLay Ali İhsan Ulubahşi,M. Arif AtaLay Ali İhsan Ulubahşi,123,False,mm02014062_p122,pdftotext parser
+not_voting,ADIYAMAN,Nazım Bayıllıoğlu,Nazım Bayıllıoğlu,123,False,mm02014062_p122,pdftotext parser
+not_voting,AFYON,Abdülbâri Akdoğan,Abdülbâri Akdoğan,123,False,mm02014062_p122,pdftotext parser
+not_voting,AFYON,Mustafa Akalın Kasım Küfrevi,Mustafa Akalın Kasım Küfrevi,123,False,mm02014062_p122,pdftotext parser
 not_voting,AMASYA,Kâzım Uluscy,Kâzım Uluscy,123,False,mm02014062_p122,pdftotext parser
 not_voting,ANKARA,Osman BolükBaşı,Osman BolükBaşı (I.),123,False,mm02014062_p122,pdftotext parser
 not_voting,ANKARA,Orhan Eren,Orhan Eren,123,False,mm02014062_p122,pdftotext parser

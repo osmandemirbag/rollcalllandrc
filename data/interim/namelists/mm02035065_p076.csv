@@ -114,9 +114,6 @@ yes,MANİSA,Önol Şaîkar,Önol Şaîkar,77,False,mm02035065_p076,pdftotext par
 yes,MANİSA,Nahit Yenişehirlioğlu,Nahit Yenişehirlioğlu,77,False,mm02035065_p076,pdftotext parser
 yes,KAHRAMANMARAŞ,Veysi Kadıoğlu,Veysi Kadıoğlu,77,False,mm02035065_p076,pdftotext parser
 yes,KAHRAMANMARAŞ,Enver Kaplan,Enver Kaplan,77,False,mm02035065_p076,pdftotext parser
-yes,AMASYA,"Kâzım, Ulusoy","Kâzım, Ulusoy",77,False,mm02035065_p076,pdftotext parser
-yes,ANKARA,Hüseyin Balan,Hüseyin Balan,77,False,mm02035065_p076,pdftotext parser
-yes,ANKARA,iSi'tkı Hatıipoğlu,iSi'tkı Hatıipoğlu,77,False,mm02035065_p076,pdftotext parser
 yes,MARDİN,Nazmi Oğıız,Nazmi Oğıız,77,False,mm02035065_p076,pdftotext parser
 yes,MUŞ,Kemal Aytaç,Kemal Aytaç,77,False,mm02035065_p076,pdftotext parser
 yes,MUŞ,Kâmil Özsarıyıldız,Kâmil Özsarıyıldız,77,False,mm02035065_p076,pdftotext parser
@@ -130,11 +127,8 @@ yes,ORDU,ismail Sarıgöz,ismail Sarıgöz,77,False,mm02035065_p076,pdftotext pa
 yes,ORDU,Cevat Yalçın,Cevat Yalçın,77,False,mm02035065_p076,pdftotext parser
 yes,SAKARYA,Ekrem Alican,Ekrem Alican,77,False,mm02035065_p076,pdftotext parser
 yes,SAKARYA,Musli'hittin Gürer,Musli'hittin Gürer,77,False,mm02035065_p076,pdftotext parser
-yes,DİYARBAKIR,Tarık Zıiya Efkinöi,Tarık Zıiya Efkinöi,77,False,mm02035065_p076,pdftotext parser
-yes,İSTANBUL,Sadoın Aren,Sadoın Aren,77,False,mm02035065_p076,pdftotext parser
-yes,İSTANBUL,Hüseyin Ataman,Hüseyin Ataman,77,False,mm02035065_p076,pdftotext parser
-yes,İSTANBUL,Şerafettin Paker,Şerafettin Paker,77,False,mm02035065_p076,pdftotext parser
-yes,İSTANBUL,Hüseyin Hüsnü Oran,Hüseyin Hüsnü Oran,77,False,mm02035065_p076,pdftotext parser
+yes,SAKARYA,Şerafettin Paker,Şerafettin Paker,77,False,mm02035065_p076,pdftotext parser
+yes,SAKARYA,Hüseyin Hüsnü Oran,Hüseyin Hüsnü Oran,77,False,mm02035065_p076,pdftotext parser
 yes,SİVAS,Orhan Kabibay,Orhan Kabibay,77,False,mm02035065_p076,pdftotext parser
 yes,SİVAS,Kâzım; Kangal,Kâzım; Kangal,77,False,mm02035065_p076,pdftotext parser
 yes,SİVAS,Tevfik Koraltan,Tevfik Koraltan,77,False,mm02035065_p076,pdftotext parser
@@ -147,8 +141,6 @@ yes,TOKAT,Osun/an Hacıbaloğlu,Osun/an Hacıbaloğlu,77,False,mm02035065_p076,p
 yes,TOKAT,Bödlretltin Karaerkek,Bödlretltin Karaerkek,77,False,mm02035065_p076,pdftotext parser
 yes,TRABZON,Hamdi Orhon,Hamdi Orhon,77,False,mm02035065_p076,pdftotext parser
 yes,TRABZON,Ali Rıza Uzuner,Ali Rıza Uzuner,77,False,mm02035065_p076,pdftotext parser
-yes,İZMİR,CemaA Hakkı Selek,CemaA Hakkı Selek,77,False,mm02035065_p076,pdftotext parser
-yes,ORDU,Ferda Güley,Ferda Güley,77,False,mm02035065_p076,pdftotext parser
 yes,TUNCELİ,Kenan Aral,Kenan Aral,77,False,mm02035065_p076,pdftotext parser
 yes,ŞANLIURFA,Necmettin Cevheri,Necmettin Cevheri,77,False,mm02035065_p076,pdftotext parser
 yes,ŞANLIURFA,Cemal Güven,Cemal Güven,77,False,mm02035065_p076,pdftotext parser
@@ -162,8 +154,16 @@ yes,ZONGULDAK,Talât Asal,Talât Asal,77,False,mm02035065_p076,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,77,False,mm02035065_p076,pdftotext parser
 yes,ZONGULDAK,Kâmjil Kırıfooğlu,Kâmjil Kırıfooğlu,77,False,mm02035065_p076,pdftotext parser
 yes,ZONGULDAK,Sadık Tekin Müftüoglu,Sadık Tekin Müftüoglu,77,False,mm02035065_p076,pdftotext parser
-yes,TEKİRDAĞ,Kental Nebioğlu,Kental Nebioğlu,77,False,mm02035065_p076,pdftotext parser
-yes,ŞANLIURFA,Behice Hatko,Behice Hatko (Boran),77,False,mm02035065_p076,pdftotext parser
+no,AMASYA,"Kâzım, Ulusoy","Kâzım, Ulusoy",77,True,mm02035065_p076,pdftotext parser
+no,ANKARA,Hüseyin Balan,Hüseyin Balan,77,True,mm02035065_p076,pdftotext parser
+no,ANKARA,iSi'tkı Hatıipoğlu,iSi'tkı Hatıipoğlu,77,True,mm02035065_p076,pdftotext parser
+no,DİYARBAKIR,Tarık Zıiya Efkinöi,Tarık Zıiya Efkinöi,77,True,mm02035065_p076,pdftotext parser
+no,İSTANBUL,Sadoın Aren,Sadoın Aren,77,True,mm02035065_p076,pdftotext parser
+no,İSTANBUL,Hüseyin Ataman,Hüseyin Ataman,77,True,mm02035065_p076,pdftotext parser
+no,İZMİR,CemaA Hakkı Selek,CemaA Hakkı Selek,77,True,mm02035065_p076,pdftotext parser
+no,ORDU,Ferda Güley,Ferda Güley,77,True,mm02035065_p076,pdftotext parser
+no,TEKİRDAĞ,Kental Nebioğlu,Kental Nebioğlu,77,True,mm02035065_p076,pdftotext parser
+no,ŞANLIURFA,Behice Hatko,Behice Hatko (Boran),77,True,mm02035065_p076,pdftotext parser
 abstain,ADANA,Kemal Sarıibrah'imoğlu,Kemal Sarıibrah'imoğlu,77,False,mm02035065_p076,pdftotext parser
 abstain,ADANA,İsmail Hakkı Yılanlıoğlu! Felhımli Cumalıoğlu,İsmail Hakkı Yılanlıoğlu! Felhımli Cumalıoğlu,77,False,mm02035065_p076,pdftotext parser
 abstain,TUNCELİ,Hasan Ünlü,Hasan Ünlü,77,False,mm02035065_p076,pdftotext parser
