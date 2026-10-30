@@ -57,7 +57,7 @@ def fig_eras():
     s = json.loads((OUT / "synthesis.json").read_text())
     short = ["1945", "1946–50", "1950–60", "1961–65", "1965–71", "1971–73", "1973–80"]
     e = pd.DataFrame(s["eras"]); e["era"] = short
-    fig, (a, b) = plt.subplots(1, 2, figsize=(7.4, 3.2), gridspec_kw={"width_ratios": [1.1, 1]})
+    fig, (a, b) = plt.subplots(1, 2, figsize=(7.8, 3.3), gridspec_kw={"width_ratios": [1.1, 1], "wspace": .45})
     r = e.dropna(subset=["gov_yes"]).reset_index(drop=True)
     y = np.arange(len(r))[::-1]
     a.hlines(y, r.opp_yes, r.gov_yes, color=GRAY, lw=1.2)
@@ -68,12 +68,15 @@ def fig_eras():
     a.set_yticks(y, r.era); a.set_xlim(0, 1.12); a.set_xlabel("Yes among votes cast, contested roll calls")
     a.set_title("A. Government premium", loc="left")
     a.legend(fontsize=7, loc="upper center", bbox_to_anchor=(.5, -.2), ncol=2)
-    x = np.arange(len(e)); w = .38
-    b.bar(x - w / 2, e.contested_share, w, color="#444", label="Contested roll calls")
-    b.bar(x + w / 2, e.no_share_of_cast, w, color=LIGHT, edgecolor="#777", lw=.4, label="Not-yes share of votes cast")
-    b.set_xticks(x, e.era, rotation=45, ha="right"); b.set_ylim(0, .7)
-    b.axvspan(4.5, 5.5, color="#eeeeee", zorder=0); b.text(5, .66, "tutelage", ha="center", fontsize=7, color="#555")
-    b.set_title("B. Partisan conflict over agriculture", loc="left"); b.legend(fontsize=7, loc="upper left")
+    v = pd.read_csv(OUT / "variance_decomposition.csv")
+    v["era"] = v.era.map(dict(zip(s_names := [x["era"] for x in s["eras"]], short)))
+    v = v.set_index("era").reindex(short[1:])
+    x = np.arange(len(v))
+    b.bar(x, v.party_only, color="#333", label="Party")
+    b.bar(x, v.province_net, bottom=v.party_only, color="#999", label="Province beyond party (net of chance)")
+    b.bar(x, v.residual, bottom=v.party_only + v.province_net, color="#e6e6e6", edgecolor="#bbb", lw=.4, label="Residual")
+    b.set_xticks(x, v.index, rotation=45, ha="right"); b.set_ylim(0, 1); b.set_ylabel("Share of variance in vote choice")
+    b.set_title("B. Party and province", loc="left"); b.legend(fontsize=6.5, loc="upper center", bbox_to_anchor=(.5, -.28), ncol=1)
     save(fig, "fig2_eras")
 
 

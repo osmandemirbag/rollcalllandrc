@@ -12,23 +12,23 @@
 
 \paragraph{Parsing and reconciliation.} The parser reconstructs columns from word positions, recognizes province and section headings, and checks the resulting lists against the printed tallies (yes, no, abstain, not voting, vacant). The 1945 lists print initials and surnames in capitals (``A.~MENDERES''), so lines carrying an initial were read as names rather than headings; headings garbled by the scans (for example, ``[0]](h ıvatılnrHjanjarl'' for \textit{Oya katılmıyanlar}) were recognized as the next section whose tally is not zero. A vote is used when no list holds more names than its tally, since an overflow indicates that names were filed under the wrong section; names lost to unreadable print leave a deputy's cell empty. Tally misreadings in the text corpus (for example, 17 for 167) were corrected from the page image. Deputies were matched to the Turkish Political Elites Dataset within legislative term and province, by surname and initials (1945) or by full name (1946--80).
 
-\paragraph{Occupations.} The \textit{TBMM Albümü 1920--2010} (Ankara: TBMM, 2010; volumes 1--2, available from the Assembly's open archive) prints for each deputy the place and year of birth, parents, education, languages, occupation, career, and terms served. We parsed 7,355 entries for 1920--80 and matched them to the elites dataset at rates of 97--100 percent in every term. The farmer flag is set when the occupation or career lists \textit{çiftçi}, \textit{çiftçilik}, \textit{ziraatçı}, \textit{çiftlik sahibi}, \textit{arazi sahibi}, \textit{toprak sahibi}, \textit{bağcılık}, \textit{hayvancılık}, or \textit{müstahsil}. Agricultural schooling is coded separately and not counted. The Senate albums are scans without a text layer and were not coded.
+\paragraph{Occupations.} The \textit{TBMM Albümü 1920--2010} (Ankara: TBMM, 2010; volumes 1--2, available from the Assembly's open archive) prints for each deputy the place and year of birth, parents, education, languages, occupation, career, and terms served. I parsed 7,355 entries for 1920--80 and matched them to the elites dataset at rates of 97--100 percent in every term. The farmer flag is set when the occupation or career lists \textit{çiftçi}, \textit{çiftçilik}, \textit{ziraatçı}, \textit{çiftlik sahibi}, \textit{arazi sahibi}, \textit{toprak sahibi}, \textit{bağcılık}, \textit{hayvancılık}, or \textit{müstahsil}. Agricultural schooling is coded separately and not counted. The Senate albums are scans without a text layer and were not coded.
 
 \begin{table}[H]
 \centering
 \begin{threeparttable}
-\caption{Roll Calls by Policy Type and Period}
+\caption{Roll Calls by Policy Type and Period, and Contested Roll Calls}
 \label{tab:A1}
 \small
-\begin{tabular}{L{8.2cm}rrrr}
+\begin{tabular}{L{7.0cm}rrrrr}
 \toprule
-Policy type & 1945 & 1946--60 & 1961--80 & Total \\
+Policy type & 1945 & 1946--60 & 1961--80 & Total & Contested, 1946--80 \\
 \midrule
 \tabinput{tables/ta1_coding.tex}
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
-\item \textit{Note:} Assembly roll calls in the harmonized record. 1945 includes all named votes of April 1945--January 1946, which serve as the comparison set for the land law. 1946--60: named votes whose subject is agrarian. 1961--80: National Assembly votes on land, agriculture, and agrarian agencies; the Senate's 245 votes are not included.
+\item \textit{Note:} Assembly roll calls in the harmonized record. 1945 includes all named votes of April 1945--January 1946, which serve as the comparison set for the land law. 1946--60: named votes whose subject is agrarian. 1961--80: National Assembly votes on land, agriculture, and agrarian agencies; the Senate's 245 votes are not included. Contested: the losing side holds at least 5 percent of votes cast; 1945 is excluded because there was no opposition party.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}

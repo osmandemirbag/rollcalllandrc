@@ -117,11 +117,16 @@ def ta1_coding():
     v["type"] = v.policy_type.map(lambda t: lab.get(t, "Other agrarian"))
     t = pd.crosstab(v.type, v.era_src)
     t["Total"] = t.sum(axis=1)
+    later = v[v.era_src != "1945"]
+    con = later.groupby("type").contested.agg(["sum", "size"])
     t = t.sort_values("Total", ascending=False)
-    rows = [f"{i} & {r.get('1945', 0)} & {r.get('1946-60', 0)} & {r.get('1961-80', 0)} & {r['Total']} \\\\" for i, r in t.iterrows()]
+    def cs(i):
+        return f"{int(con.loc[i, 'sum'])} of {int(con.loc[i, 'size'])}" if i in con.index else "---"
+    rows = [f"{i} & {r.get('1945', 0)} & {r.get('1946-60', 0)} & {r.get('1961-80', 0)} & {r['Total']} & {cs(i)} \\\\" for i, r in t.iterrows()]
     tot = t.sum()
     rows.append(r"\midrule")
-    rows.append(f"Total & {tot.get('1945', 0)} & {tot.get('1946-60', 0)} & {tot.get('1961-80', 0)} & {tot['Total']} \\\\")
+    rows.append(f"Total & {tot.get('1945', 0)} & {tot.get('1946-60', 0)} & {tot.get('1961-80', 0)} & {tot['Total']} & "
+                f"{int(later.contested.sum())} of {len(later)} \\\\")
     write("ta1_coding", "\n".join(rows) + "\n")
 
 
@@ -146,3 +151,44 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+TERMS = [("tbmm07", "TBMM 7th (1943--46), April 1945--January 1946"), ("tbmm08", "TBMM 8th (1946--50)"), ("tbmm09", "TBMM 9th (1950--54)"),
+         ("tbmm10", "TBMM 10th (1954--57)"), ("tbmm11", "TBMM 11th (1957--60)"), ("mm01", "National Assembly 1st (1961--65)"),
+         ("mm02", "National Assembly 2nd (1965--69)"), ("mm03", "National Assembly 3rd (1969--73)"),
+         ("mm04", "National Assembly 4th (1973--77)"), ("mm05", "National Assembly 5th (1977--80)")]
+
+
+def t2_terms():
+    d = pd.read_csv(ROOT / "data/processed/rollcall_1945_1980_long.csv.gz", low_memory=False,
+                    usecols=["vote_id", "id", "contested", "choice"])
+    d["term"] = d.vote_id.str.extract(r"^(tbmm\d\d|mm0\d)")[0]
+    rows = []
+    for t, lab in TERMS:
+        x = d[d.term == t]
+        per = x.groupby("id").vote_id.nunique()
+        v = x.drop_duplicates("vote_id")
+        rows.append(f"{lab} & {x.id.nunique():,} & {(per >= 5).sum():,} & {v.vote_id.nunique()} & {int(v.contested.sum())} & {len(x):,} \\\\")
+    tot = d.drop_duplicates("vote_id")
+    rows += [r"\midrule", f"Total & {d.id.nunique():,} & & {tot.vote_id.nunique()} & {int(tot.contested.sum())} & {len(d):,} \\\\"]
+    write("t2_terms", "\n".join(rows) + "\n")
+
+
+def t3_characteristics():
+    c = pd.read_csv(OUT / "characteristics_by_party.csv").set_index(["period", "party"])
+    cols = [("1943 Assembly", "CHP"), ("1946-60", "CHP"), ("1946-60", "DP"), ("1961-80", "CHP"), ("1961-80", "AP"), ("1961-80", "Other")]
+    def row(label, key, f=lambda v: f"{100 * v:.1f}"):
+        return label + " & " + " & ".join(f(c.loc[k, key]) for k in cols) + " \\\\"
+    rows = [row("Deputies ($N$)", "deputies", lambda v: f"{int(v):,}"), row("Mean age", "age", lambda v: f"{v:.1f}"),
+            r"\textit{Occupation (\% of deputies)} & & & & & & \\",
+            row("\\quad Farmer or landowner", "farmer"), row("\\quad Merchant or trade", "merchant"), row("\\quad Lawyer or judge", "lawyer"),
+            row("\\quad Military officer", "officer"), row("\\quad Religious office", "ulema"),
+            r"\textit{Education (\% of deputies)} & & & & & & \\",
+            row("\\quad Law", "law_education"), row("\\quad Military", "military_education"), row("\\quad Agriculture", "agri_education"),
+            r"\textit{Constituency} & & & & & & \\",
+            row("\\quad Born in province (\\%)", "local"), row("\\quad Rural population of province (\\%)", "rural")]
+    write("t3_characteristics", "\n".join(rows) + "\n")
+
+
+if __name__ == "__main__":
+    t2_terms(); t3_characteristics()
