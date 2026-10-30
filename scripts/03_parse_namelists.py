@@ -32,6 +32,7 @@ SECTIONS = {
     "no": ["reddedenler", "red edenler", "ret edenler"],
     "abstain": ["cekinserler", "cekimserler", "cekinser"],
     "not_voting": ["oya katilmayanlar", "oya katilmiyanlar", "oylamaya katilmayanlar", "oya katilmayan"],
+    "invalid": ["gecersiz oylar", "gecersiz oy", "gecersiz"],
     "vacant": ["acik uyelikler", "acik milletvekillikleri", "acik uyelik", "acik milletvekilligi",
                "acik bulunan", "munhal"],
 }
@@ -111,7 +112,7 @@ def is_bracketed(text):
 
 TALLY_LABELS = {"uye sayisi": "members", "oy verenler": "votes_cast", "kabul edenler": "yes",
                 "reddedenler": "no", "cekinserler": "abstain", "oya katilmayanlar": "not_voting",
-                "oya katilmiyanlar": "not_voting", "acik uyelikler": "vacant"}
+                "oya katilmiyanlar": "not_voting", "acik uyelikler": "vacant", "gecersiz oylar": "invalid"}
 
 
 def tally_of(text):
@@ -330,6 +331,7 @@ def derived_targets(v, tally):
     """Counts implied by the tally identities, for when one printed number is misread:
     votes cast = yes + no + abstain;  not voting = members - vacancies - votes cast."""
     vals = {}
+    invalid = tally.get("invalid") or 0  # 'Geçersiz oylar' count among the votes cast
     for c in ["yes", "no", "abstain", "not_voting", "members", "vacant", "votes_cast"]:
         cand = {tally.get(c)}
         if c in ("yes", "no", "abstain", "not_voting"):
@@ -350,7 +352,7 @@ def derived_targets(v, tally):
             others = [o for o in sec if o != c]
             for a in vals[others[0]] or {0}:
                 for b in vals[others[1]] or {0}:
-                    out[c].add(vc - a - b)
+                    out[c].add(vc - a - b - invalid)
     return {c: sorted(x for x in xs if x >= 0) for c, xs in out.items()}
 
 
@@ -376,6 +378,8 @@ def check_counts(v, df, tally):
         if parsed not in targets:
             mism.append(c)
             diff += min(abs(parsed - t) for t in targets)
+    row["invalid_parsed"] = int(got.get("invalid", 0))
+    row["invalid_pdf"] = tally.get("invalid")
     row["abs_diff"] = diff
     row["inferred_breaks"] = int(df.get("section_inferred", pd.Series(dtype=bool)).fillna(False).astype(bool).sum())
     nv_missing = int(got.get("not_voting", 0)) == 0 and any(
@@ -387,7 +391,7 @@ def check_counts(v, df, tally):
         members = {x for x in (tally.get("members"), None if pd.isna(v.seats) else int(v.seats)) if x}
         vac = tally.get("vacant", 0) or 0
         vc = {x for x in (tally.get("votes_cast"), None if pd.isna(v.votes_cast) else int(v.votes_cast)) if x}
-        cast = sum(int(got.get(c, 0)) for c in ["yes", "no", "abstain"])
+        cast = sum(int(got.get(c, 0)) for c in ["yes", "no", "abstain", "invalid"])
         total = cast + int(got.get("not_voting", 0))
         if not nv_missing and cast in vc and total in {m - vac for m in members}:
             row["identity_ok"] = True
@@ -395,6 +399,25 @@ def check_counts(v, df, tally):
     row["status"] = ("ok" if not mism else "count mismatch: " + ",".join(mism)) + \
         (" (not-voting list not printed)" if nv_missing else "")
     return row
+
+
+def apply_patches(df, patches, vid):
+    """Hand corrections checked against the page images (data/interim/namelist_patches.csv).
+    add: insert a name the OCR lost; drop: remove an OCR fragment or merged line;
+    link: keep the line, the person is fixed in 04_match_elites.py."""
+    df = df.copy()
+    for p in patches.itertuples():
+        if p.action == "drop":
+            hit = df.index[(df.name == p.name) & (df.choice == p.choice)]
+            if len(hit) != 1:
+                raise ValueError(f"{vid}: patch drop '{p.name}' matches {len(hit)} rows")
+            df = df.drop(index=hit)
+        elif p.action == "add":
+            df = pd.concat([df, pd.DataFrame([{"choice": p.choice, "province": p.province, "name": p.name,
+                                               "name_raw": "", "pdf_page": None, "section_inferred": False,
+                                               "vote_id": vid, "source": "hand-added (page image)"}])],
+                           ignore_index=True)
+    return df
 
 
 def npages(pdf):
@@ -417,6 +440,9 @@ def main():
     votes = pd.read_csv(PROCESSED / "votes.csv")
     provinces = province_names()
     checks, tallies = [], {}
+    patches = pd.read_csv(INTERIM / "namelist_patches.csv") if (INTERIM / "namelist_patches.csv").exists() \
+        else pd.DataFrame(columns=["vote_id", "action", "choice", "province", "name", "note"])
+    patch_votes = set(patches.vote_id)
     verified = pd.read_csv(INTERIM / "verified_votes.csv").set_index("vote_id") \
         if (INTERIM / "verified_votes.csv").exists() else pd.DataFrame(columns=["verified_counts"])
 
@@ -455,6 +481,9 @@ def main():
             tg = {c: [x for x in (None if pd.isna(getattr(v, c)) else int(getattr(v, c)), tally.get(c))
                       if x is not None] + der.get(c, []) for c in ["yes", "no", "abstain", "not_voting"]}
             df = relabel_sections(df, tg)
+            df.to_csv(out, index=False)
+        if v.vote_id in patch_votes:
+            df = apply_patches(df, patches[patches.vote_id == v.vote_id], v.vote_id)
             df.to_csv(out, index=False)
         row = check_counts(v, df, tally)
         if v.vote_id in verified.index:

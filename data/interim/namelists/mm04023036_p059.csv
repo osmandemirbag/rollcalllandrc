@@ -282,10 +282,9 @@ yes,ZONGULDAK,Fevzi Fırat,Fevzi Fırat,61,False,mm04023036_p059,pdftotext parse
 yes,ZONGULDAK,Orhan Gön'cüoğlu,Orhan Gön'cüoğlu,61,False,mm04023036_p059,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,"Cahit Karakaş,",61,False,mm04023036_p059,pdftotext parser
 yes,ZONGULDAK,Mehmet Zeka Okur,Mehmet Zeka Okur,61,False,mm04023036_p059,pdftotext parser
-abstain,AMASYA,Orhan Kayıhan,Orhan Kayıhan,61,False,mm04023036_p059,pdftotext parser
-abstain,SİVAS,Ahmet Arıkan,Ahmet Arıkan,61,False,mm04023036_p059,pdftotext parser
-abstain,MERSİN,Çetin Yılmaz,Çetin Yılmaz,61,False,mm04023036_p059,pdftotext parser
-abstain,MUŞ,Kasım Enire,Kasım Enire,61,False,mm04023036_p059,pdftotext parser
+invalid,AMASYA,Orhan Kayıhan,Orhan Kayıhan,61,False,mm04023036_p059,pdftotext parser
+invalid,MERSİN,Çetin Yılmaz,Çetin Yılmaz,61,False,mm04023036_p059,pdftotext parser
+invalid,MUŞ,Kasım Enire,Kasım Enire,61,False,mm04023036_p059,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,61,False,mm04023036_p059,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,61,False,mm04023036_p059,pdftotext parser
 not_voting,ADANA,Selâhattin Kılıç,Selâhattin Kılıç (B.),61,False,mm04023036_p059,pdftotext parser

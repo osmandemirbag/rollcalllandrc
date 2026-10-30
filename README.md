@@ -19,6 +19,7 @@ The matrix codes follow Voteview:
 - `1` yes
 - `6` no
 - `7` abstain
+- `8` invalid ballot (*geçersiz oy*, printed in the Assembly from 1976 on)
 - `9` not voting
 - `0` not a member at the time
 - blank: a member at the time but on no printed list
@@ -27,10 +28,10 @@ The matrix codes follow Voteview:
 
 | | votes | lists match the printed tally exactly | within 2 names | off by more than 10 |
 |---|---|---|---|---|
-| land (hand-checked set) | 73 | 57 | 69 | 0 |
-| agriculture | 169 | 114 | 134 | 10 |
-| rural/peripheral (forestry, DSİ, village affairs, cooperatives law) | 312 | 203 | 260 | 26 |
-| **all** | **554** | **374** | **463** | 36 |
+| land (hand-checked set) | 73 | **73** | 73 | 0 |
+| agriculture | 169 | 116 | 136 | 11 |
+| rural/peripheral (forestry, DSİ, village affairs, cooperatives law) | 312 | 211 | 262 | 25 |
+| **all** | **554** | **400** | **471** | 36 |
 
 Linking:
 - 99.5% of Assembly names are linked to an elites row.
@@ -62,8 +63,16 @@ come from the printed tally blocks themselves, which are sometimes wrong in the 
    quorum, the minutes often omit the not-voting list. In that case, not voting is derived from
    the sitting members (`row_status` = `derived ...`).
 
-Hand corrections go in `data/interim/namelists_manual/<vote_id>.csv`. Votes checked against the
-page images are recorded in `data/interim/verified_votes.csv`.
+Hand corrections, all checked against the page images of the minutes:
+- `data/interim/namelist_patches.csv`: single-line fixes for one vote, with the page each is on.
+  The actions are `add` (a name the OCR lost), `drop` (an OCR fragment or a merged line) and
+  `link` (fix the person behind a printed line).
+- `data/interim/namelists_manual/<vote_id>.csv`: complete lists transcribed from the images.
+- `data/interim/verified_votes.csv`: votes where the printed lists were counted on the images.
+  In most of these, the printed tally block itself is wrong (e.g. 68 names printed under a
+  tally of 67).
+
+All 73 land votes have been reconciled, 13 of them by hand from the page images.
 
 ```bash
 cd scripts

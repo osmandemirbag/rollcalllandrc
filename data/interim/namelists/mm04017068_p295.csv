@@ -257,12 +257,13 @@ no,SİVAS,Ekrem Kangal,Ekrem Kangal,297,False,mm04017068_p295,pdftotext parser
 no,TOKAT,öevat Atılgan,öevat Atılgan,297,False,mm04017068_p295,pdftotext parser
 no,TRABZON,Ekrem Dikmem,Ekrem Dikmem,297,False,mm04017068_p295,pdftotext parser
 no,VAN,İhsan Bedirhanoğlu,İhsan Bedirhanoğlu,297,False,mm04017068_p295,pdftotext parser
-abstain,KAYSERİ,Cemal Cebesi,Cemal Cebesi,297,False,mm04017068_p295,pdftotext parser
-abstain,TRABZON,E KaA*i Eyüboğlu,E Ka4*i Eyüboğlu,297,False,mm04017068_p295,pdftotext parser
 abstain,İSTANBUL,Mehmet Emin Sungur,Mehmet Emin Sungur,297,False,mm04017068_p295,pdftotext parser
 abstain,İSTANBUL,Reşit Ülker,Reşit Ülker,297,False,mm04017068_p295,pdftotext parser
-abstain,İSTANBUL,Abdi özkök t. Hakkı Keten©ğlû,Abdi özkök t. Hakkı Keten©ğlû,297,False,mm04017068_p295,pdftotext parser
-not_voting,ADANA,Battal Koksal,Battal Koksal,297,True,mm04017068_p295,pdftotext parser
+invalid,KAYSERİ,Cemal Cebesi,Cemal Cebesi,297,False,mm04017068_p295,pdftotext parser
+invalid,TRABZON,E KaA*i Eyüboğlu,E Ka4*i Eyüboğlu,297,False,mm04017068_p295,pdftotext parser
+invalid,BOLU,Abdi özkök,Abdi özkök,297,False,mm04017068_p295,pdftotext parser
+invalid,ANKARA,t. Hakkı Keten©ğlû,t. Hakkı Keten©ğlû,297,False,mm04017068_p295,pdftotext parser
+invalid,ADANA,Battal Koksal,Battal Koksal,297,False,mm04017068_p295,pdftotext parser
 not_voting,,Mehmet Can,Mehmet Can,297,False,mm04017068_p295,pdftotext parser
 not_voting,,Hasan Cerit,Hasan Cerit,297,False,mm04017068_p295,pdftotext parser
 not_voting,,Erol Çevikçe,Erol Çevikçe,297,False,mm04017068_p295,pdftotext parser

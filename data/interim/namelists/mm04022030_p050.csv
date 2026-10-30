@@ -199,11 +199,11 @@ yes,ZONGULDAK,Kemal Anadoıl,Kemal Anadoıl,51,False,mm04022030_p050,pdftotext p
 yes,ZONGULDAK,Orhan Gömsüoğlu,Orhan Gömsüoğlu,51,False,mm04022030_p050,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,51,False,mm04022030_p050,pdftotext parser
 abstain,ADIYAMAN,Ramazan Yıldırım,Ramazan Yıldırım,51,False,mm04022030_p050,pdftotext parser
-abstain,MERSİN,Çetin Yılmaz,Çetin Yılmaz,51,False,mm04022030_p050,pdftotext parser
 abstain,SAMSUN,Hayati Savaşçı,Hayati Savaşçı,51,False,mm04022030_p050,pdftotext parser
-abstain,NİĞDE,azmi Yavuza!p,azmi Yavuza!p,51,False,mm04022030_p050,pdftotext parser
 abstain,SİVAS,Ahmet Arıkan,Ahmet Arıkan,51,False,mm04022030_p050,pdftotext parser
-abstain,VAN,Muslih Görentaş,Muslih Görentaş,51,False,mm04022030_p050,pdftotext parser
+invalid,MERSİN,Çetin Yılmaz,Çetin Yılmaz,51,False,mm04022030_p050,pdftotext parser
+invalid,NİĞDE,azmi Yavuza!p,azmi Yavuza!p,51,False,mm04022030_p050,pdftotext parser
+invalid,VAN,Muslih Görentaş,Muslih Görentaş,51,False,mm04022030_p050,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,51,False,mm04022030_p050,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,51,False,mm04022030_p050,pdftotext parser
 not_voting,ADANA,Yılmaz Hocaoğlu,Yılmaz Hocaoğlu,51,False,mm04022030_p050,pdftotext parser

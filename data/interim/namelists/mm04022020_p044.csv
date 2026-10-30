@@ -130,7 +130,6 @@ yes,SAKARYA,Hayrettin Uysal,Hayrettin Uysal,45,True,mm04022020_p044,pdftotext pa
 yes,SAMSUN,Doğan Kitaplı,Doğan Kitaplı,45,True,mm04022020_p044,pdftotext parser
 yes,SAMSUN,Fuat Uysal,Fuat Uysal,45,True,mm04022020_p044,pdftotext parser
 yes,SİİRT,Mehmet Nebil Oktay,Mehmet Nebil Oktay,45,True,mm04022020_p044,pdftotext parser
-yes,SAMSUN,İrfan Yankutan,İrfan Yankutan,45,True,mm04022020_p044,pdftotext parser
 yes,SİNOP,Yalçın.' Oğuz,Yalçın.' Oğuz,45,True,mm04022020_p044,pdftotext parser
 yes,SİVAS,Ekrem Kangal,Ekrem Kangal,45,True,mm04022020_p044,pdftotext parser
 yes,SİVAS,M. İhsan Karaçam,M. İhsan Karaçam,45,True,mm04022020_p044,pdftotext parser
@@ -144,7 +143,6 @@ yes,TOKAT,Haydar Ulusoy,Haydar Ulusoy,45,True,mm04022020_p044,pdftotext parser
 yes,TRABZON,Adil Adli OineE,Adil Adli OineE,45,True,mm04022020_p044,pdftotext parser
 yes,TRABZON,H. Kadri Eyüboğlu,H. Kadri Eyüboğlu,45,True,mm04022020_p044,pdftotext parser
 yes,TRABZON,Mehmet özgür,Mehmet özgür,45,True,mm04022020_p044,pdftotext parser
-yes,RİZE,O. Yılmaz Karantmanokln,O. Yılmaz Karantmanokln,45,True,mm04022020_p044,pdftotext parser
 yes,TUNCELİ,Nihat SalLtıik,Nihat SalLtıik,45,True,mm04022020_p044,pdftotext parser
 yes,TUNCELİ,Süleyman Yıldırım,Süleyman Yıldırım,45,True,mm04022020_p044,pdftotext parser
 yes,ŞANLIURFA,Halil Millî,Halil Millî,45,True,mm04022020_p044,pdftotext parser
@@ -158,6 +156,8 @@ yes,ZONGULDAK,Ze'kâi Altanay,Ze'kâi Altanay,45,True,mm04022020_p044,pdftotext 
 yes,ZONGULDAK,K©mıal Anadol,K©mıal Anadol,45,True,mm04022020_p044,pdftotext parser
 yes,ZONGULDAK,Bülemt Eeevit,Bülemt Eeevit,45,True,mm04022020_p044,pdftotext parser
 yes,ZONGULDAK,Mehmet Zekâ Okur,Mehmet Zekâ Okur,45,True,mm04022020_p044,pdftotext parser
+invalid,SAMSUN,İrfan Yankutan,İrfan Yankutan,45,False,mm04022020_p044,pdftotext parser
+invalid,RİZE,O. Yılmaz Karantmanokln,O. Yılmaz Karantmanokln,45,False,mm04022020_p044,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,45,False,mm04022020_p044,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,45,False,mm04022020_p044,pdftotext parser
 not_voting,ADANA,Erol Çevikçe,Erol Çevikçe,45,False,mm04022020_p044,pdftotext parser

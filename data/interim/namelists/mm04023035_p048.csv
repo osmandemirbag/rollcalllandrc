@@ -197,10 +197,11 @@ yes,ZONGULDAK,Kemal Anadoi,Kemal Anadoi,49,False,mm04023035_p048,pdftotext parse
 yes,ZONGULDAK,Orlhan Gömcüoğlu,Orlhan Gömcüoğlu,49,False,mm04023035_p048,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,49,False,mm04023035_p048,pdftotext parser
 yes,ZONGULDAK,Mehmet Zekâ Okur,Mehmet Zekâ Okur,49,False,mm04023035_p048,pdftotext parser
-abstain,,ismail Hakkı Ketenoğlu Mehmet Ali,ismail Hakkı Ketenoğlu Mehmet Ali,49,False,mm04023035_p048,pdftotext parser
-abstain,AMASYA,Orhan Kayı han,Orhan Kayı han,49,False,mm04023035_p048,pdftotext parser
-abstain,AMASYA,Arsan Ahmet Arıkan,Arsan Ahmet Arıkan,49,False,mm04023035_p048,pdftotext parser
-abstain,İÇEL,Çetin Yılıı laz,Çetin Yılıı laz,49,False,mm04023035_p048,pdftotext parser
+abstain,ANKARA,ismail Hakkı Ketenoğlu,ismail Hakkı Ketenoğlu,49,False,mm04023035_p048,pdftotext parser
+abstain,ÇANKIRI,Mehmet Ali Arsan,Mehmet Ali Arsan,49,False,mm04023035_p048,pdftotext parser
+abstain,SİVAS,Ahmet Arıkan,Ahmet Arıkan,49,False,mm04023035_p048,pdftotext parser
+invalid,AMASYA,Orhan Kayı han,Orhan Kayı han,49,False,mm04023035_p048,pdftotext parser
+invalid,İÇEL,Çetin Yılıı laz,Çetin Yılıı laz,49,False,mm04023035_p048,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,49,True,mm04023035_p048,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,49,True,mm04023035_p048,pdftotext parser
 not_voting,ADANA,Osman Çıtınk,Osman Çıtınk,49,True,mm04023035_p048,pdftotext parser

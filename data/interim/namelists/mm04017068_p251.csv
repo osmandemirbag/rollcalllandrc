@@ -282,7 +282,6 @@ no,KONYA,İsmet Büyükyaylacı,İsmet Büyükyaylacı,253,False,mm04017068_p251
 no,KONYA,Hüseyin Keçeli,Hüseyin Keçeli,253,False,mm04017068_p251,pdftotext parser
 no,KONYA,Ali Kökbudak,Ali Kökbudak,253,False,mm04017068_p251,pdftotext parser
 no,KÜTAHYA,Ahmet Haşim Benli,Ahmet Haşim Benli,253,False,mm04017068_p251,pdftotext parser
-no,KAYSERİ,Cemal Cebeci,Cemal Cebeci,253,False,mm04017068_p251,pdftotext parser
 no,MALATYA,Mehmet Delikaya,Mehmet Delikaya,253,False,mm04017068_p251,pdftotext parser
 no,MALATYA,Hüseyin Deniz,Hüseyin Deniz,253,False,mm04017068_p251,pdftotext parser
 no,MALATYA,Hakkı Gökçe,Hakkı Gökçe,253,False,mm04017068_p251,pdftotext parser
@@ -300,7 +299,7 @@ no,SAKARYA,M. Vedat Öıısal,M. Vedat Öıısal,253,False,mm04017068_p251,pdfto
 no,SAMSUN,İl yas Kılıç,İl yas Kılıç,253,False,mm04017068_p251,pdftotext parser
 no,SAMSUN,Hilmi Türkmen,Hilmi Türkmen,253,False,mm04017068_p251,pdftotext parser
 no,SAMSUN,Fuat Uysal,Fuat Uysal,253,False,mm04017068_p251,pdftotext parser
-no,SAMSUN,İrfan Yankutanoy),İrfan Yankutan oy),253,False,mm04017068_p251,pdftotext parser
+no,SAMSUN,İrfan Yankutan,İrfan Yankutan,253,False,mm04017068_p251,pdftotext parser
 no,SİİRT,Abdülbaki Cartı,Abdülbaki Cartı,253,False,mm04017068_p251,pdftotext parser
 no,SİİRT,Abdülkerim Zilân,Abdülkerim Zilân,253,False,mm04017068_p251,pdftotext parser
 no,SİNOP,Tevfik Fikret Övet,Tevfik Fikret Övet,253,False,mm04017068_p251,pdftotext parser
@@ -320,6 +319,7 @@ no,YOZGAT,İlhami Çetin,İlhami Çetin,253,False,mm04017068_p251,pdftotext pars
 no,YOZGAT,Nedim Korkmaz,Nedim Korkmaz,253,False,mm04017068_p251,pdftotext parser
 no,ZONGULDAK,Kemal Anadol,Kemal Anadol,253,False,mm04017068_p251,pdftotext parser
 no,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,253,False,mm04017068_p251,pdftotext parser
+invalid,KAYSERİ,Cemal Cebeci,Cemal Cebeci,253,False,mm04017068_p251,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,253,False,mm04017068_p251,pdftotext parser
 not_voting,ADANA,Hasan Cer it,Hasan Cer it,253,False,mm04017068_p251,pdftotext parser
 not_voting,ADANA,Erol Çevikçe,Erol Çevikçe,253,False,mm04017068_p251,pdftotext parser

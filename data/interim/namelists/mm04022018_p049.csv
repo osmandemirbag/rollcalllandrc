@@ -162,10 +162,10 @@ yes,ZONGULDAK,Bülent Eeevât,Bülent Eeevât,50,True,mm04022018_p049,pdftotext 
 yes,ZONGULDAK,Fevzi Fırat,Fevzi Fırat,50,True,mm04022018_p049,pdftotext parser
 yes,ZONGULDAK,Or'han Göncüoğlu,Or'han Göncüoğlu,50,True,mm04022018_p049,pdftotext parser
 yes,ZONGULDAK,Mehmet Zeki Okur,Mehmet Zeki Okur,50,True,mm04022018_p049,pdftotext parser
-abstain,SAMSUN,Mustafa Dağıstanlı,Mustafa Dağıstanlı,50,False,mm04022018_p049,pdftotext parser
 abstain,İSTANBUL,t. Fehmi Cumalıoğlu,t. Fehmi Cumalıoğlu,50,False,mm04022018_p049,pdftotext parser
-abstain,İZMİR,Alev Coşkun,Alev Coşkun,50,False,mm04022018_p049,pdftotext parser
-abstain,İSTANBUL,Hüsamettin Tiyanşan,Hüsamettin Tiyanşan,50,False,mm04022018_p049,pdftotext parser
+invalid,SAMSUN,Mustafa Dağıstanlı,Mustafa Dağıstanlı,50,False,mm04022018_p049,pdftotext parser
+invalid,İZMİR,Alev Coşkun,Alev Coşkun,50,False,mm04022018_p049,pdftotext parser
+invalid,İSTANBUL,Hüsamettin Tiyanşan,Hüsamettin Tiyanşan,50,False,mm04022018_p049,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,50,False,mm04022018_p049,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,50,False,mm04022018_p049,pdftotext parser
 not_voting,ADANA,Osman Çıtırık,Osman Çıtırık,50,False,mm04022018_p049,pdftotext parser

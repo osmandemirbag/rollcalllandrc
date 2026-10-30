@@ -330,6 +330,90 @@ def merge_rare_senators(m, min_votes=3):
     return m
 
 
+def apply_links(m, elites):
+    """Hand-fixed person for a printed line (namelist_patches.csv, action 'link', note 'link:<elites name> | ...')."""
+    f = INTERIM / "namelist_patches.csv"
+    if not f.exists():
+        return m
+    p = pd.read_csv(f)
+    for r in p[p.action == "link"].itertuples():
+        target = r.note.split("|")[0].replace("link:", "").strip()
+        hit = m.index[(m.vote_id == r.vote_id) & (m.choice == r.choice) & (m.name == r.name)]
+        e = elites[elites.name.str.startswith(target) & (elites.year == term_year_of(r.vote_id))]
+        if len(hit) != 1 or len(e) != 1:
+            raise ValueError(f"link patch {r.vote_id} {r.name} -> {target}: {len(hit)} rows, {len(e)} people")
+        row = int(e.elite_row.iat[0])
+        m.loc[hit, ["elite_row", "person_key", "person_name", "match_method", "match_score"]] = \
+            [row, f"E{row}", e.name.iat[0], "hand-linked (page image)", np.nan]
+    return m
+
+
+def term_year_of(vid):
+    return MM_TERMS[f"d{vid[2:4]}"][0]
+
+
+def rescue_from_roster(m, elites, min_score=70, margin=10):
+    """Assembly lines still unmatched: try the whole term roster minus the members already on
+    this vote's lists (a small set), requiring a clear winner."""
+    n = 0
+    for vid in m.vote_id[(m.match_method == "unmatched") & m.vote_id.str.startswith("mm")].unique():
+        rows = [i for i in m.index[(m.vote_id == vid) & (m.match_method == "unmatched")]
+                if len(fold(m.at[i, "name"]).split()) >= 2]
+        if not rows:
+            continue
+        roster = elites[elites.year == term_year_of(vid)]
+        taken = set(m.elite_row[m.vote_id == vid].dropna().astype(int))
+        free = roster[~roster.elite_row.isin(taken)]
+        vt = variant_table(free.variants.tolist(), free.pkey.tolist())
+        best, same = score_matrix([fold(m.at[i, "name"]) for i in rows],
+                                  [province_key(m.at[i, "province"]) for i in rows], vt, len(free))
+        best = best + np.where(same, 5, 0)
+        used = set()
+        for a, i in enumerate(rows):
+            order = np.argsort(-best[a])
+            top = order[0]
+            second = best[a, order[1]] if len(order) > 1 else 0
+            if best[a, top] >= min_score and best[a, top] - second >= margin and top not in used:
+                used.add(top)
+                e = free.iloc[top]
+                m.loc[i, ["elite_row", "person_key", "person_name", "match_score", "match_method"]] = \
+                    [int(e.elite_row), f"E{int(e.elite_row)}", e["name"], round(float(best[a, top]), 1),
+                     "rescued (garbled name, term roster)"]
+                n += 1
+    print(f"rescued {n} names from the term roster")
+    return m
+
+
+def merge_duplicate_senators(m, min_score=85):
+    """One senator split into two ids by OCR spelling ('İbrahim Şevki Atasağun' / 'Şevki Atasağun'):
+    merge ids with near-identical names and the same province that never share a vote."""
+    s = m[m.senate_person_id.notna()]
+    prof = s.groupby("senate_person_id").agg(name=("name", lambda x: x.mode().iat[0]),
+                                             prov=("province", lambda x: x.mode().iat[0] if x.notna().any() else ""),
+                                             votes=("vote_id", lambda x: set(x)), n=("vote_id", "nunique"))
+    prof = prof.sort_values("n", ascending=False)
+    ids = prof.index.tolist()
+    f = [fold(x).replace(" ", "") for x in prof.name]
+    sur = [surname(fold(x)) for x in prof.name]
+    alias = {}
+    for a in range(len(ids)):
+        if ids[a] in alias:
+            continue
+        for b in range(a + 1, len(ids)):
+            if ids[b] in alias or province_key(prof.prov.iat[a]) != province_key(prof.prov.iat[b]):
+                continue
+            if prof.votes.iat[a] & prof.votes.iat[b]:
+                continue
+            sc = max(fuzz.ratio(f[a], f[b]), fuzz.partial_ratio(f[a], f[b]) if sur[a] == sur[b] else 0)
+            if sc >= min_score:
+                alias[ids[b]] = ids[a]
+    m["senate_person_id"] = m.senate_person_id.replace(alias)
+    is_s = m.senate_person_id.notna()
+    m.loc[is_s, "person_key"] = m.loc[is_s, "senate_person_id"]
+    print(f"merged {len(alias)} duplicate senator ids")
+    return m
+
+
 # ---------------------------------------------------------------- main
 def load_elites():
     e = pd.read_csv(ELITES_CSV, sep="\t", low_memory=False,
@@ -394,6 +478,7 @@ def main():
 
     m = pd.concat(frames, ignore_index=True)
     m = merge_rare_senators(m)
+    m = merge_duplicate_senators(m)
 
     # Senator display name = most frequent spelling; link to elites when also a deputy.
     sp = m[m.senate_person_id.notna()]
@@ -411,6 +496,7 @@ def main():
     m.loc[is_s, "person_name"] = m.loc[is_s, "senate_person_id"].map(spn.person_name)
     m.loc[is_s, "elite_row"] = m.loc[is_s, "senate_person_id"].map(spn.elite_row)
 
+    m = apply_links(m, elites)
     m["date"] = m.vote_id.map(votes.date)
     dates = votes.date.to_dict()
     variants = {}
@@ -421,6 +507,7 @@ def main():
         if k in variants:
             variants[k] += e.variants
     m = rescue_unmatched(m, variants, dates)
+    m = rescue_from_roster(m, elites)
     for ch in ("mm", "cs"):
         k = m[(m.vote_id.str[:2] == ch) & m.person_key.notna()]
         NAME_BANK[ch] = sorted({fold(x).replace(" ", "") for x in k.name.dropna()})[:20000]

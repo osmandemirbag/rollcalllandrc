@@ -1,182 +1,185 @@
-choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-yes,TABİİ ÜYELER,Cevdet Sunay,Cevdet Sunay,158,False,cs15025033_p158,pdftotext parser
-yes,ADANA,M. Nuri Âdemoğlu,M. Nuri Âdemoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,ADANA,Mehmet Ünaldı,Mehmet Ünaldı,158,False,cs15025033_p158,pdftotext parser
-yes,ADIYAMAN,Mehmet Sırrı Turanlı,Mehmet Sırrı Turanlı,158,False,cs15025033_p158,pdftotext parser
-yes,AFYON,M. Kâzım Karaağaçlıoğlu,M. Kâzım Karaağaçlıoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,AFYON,Ahmet Karayiğit,Ahmet Karayiğit,158,False,cs15025033_p158,pdftotext parser
-yes,AĞRI,Kasım Küfrevî,Kasım Küfrevî,158,False,cs15025033_p158,pdftotext parser
-yes,ANKARA,Mehmet Atıf Benderlioğlu,Mehmet Atıf Benderlioğlu,158,False,cs15025033_p158,pdftotext parser
-yes,ANKARA,Turhan Kapanh,Turhan Kapanh,158,False,cs15025033_p158,pdftotext parser
-yes,ANKARA,Yiğit Kö'ker,Yiğit Kö'ker,158,False,cs15025033_p158,pdftotext parser
-yes,ANTALYA,Serafettin Paker,Serafettin Paker,158,False,cs15025033_p158,pdftotext parser
-yes,AYDIN,AM Celâlettin Coşkun,AM Celâlettin Coşkun,158,False,cs15025033_p158,pdftotext parser
-yes,AYDIN,İskender Cenap Ege,İskender Cenap Ege,158,False,cs15025033_p158,pdftotext parser
-yes,BALIKESİR,Hikmet Aslanoğlu,Hikmet Aslanoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,BALIKESİR,Raif Eriş,Raif Eriş,158,False,cs15025033_p158,pdftotext parser
-yes,BALIKESİR,Sıtkı Yırcah,Sıtkı Yırcah,158,False,cs15025033_p158,pdftotext parser
-yes,BİLECİK,Mehmet Orhan Tuğrul,Mehmet Orhan Tuğrul,158,False,cs15025033_p158,pdftotext parser
-yes,BİTLİS,Kâmran İnan,Kâmran İnan,158,False,cs15025033_p158,pdftotext parser
-yes,BOLU,Turgut Yaşar Giilez,Turgut Yaşar Giilez,158,False,cs15025033_p158,pdftotext parser
-yes,BOLU,Altıe d din Yi m azt ü rk,Altıe d din Yi m azt ü rk,158,False,cs15025033_p158,pdftotext parser
-yes,BURSA,İ. Sabri Çağlayan gil,İ. Sabri Çağlayan gil,158,False,cs15025033_p158,pdftotext parser
-yes,BURSA,Şeref Kayalar,Şeref Kayalar,158,False,cs15025033_p158,pdftotext parser
-yes,ÇANAKKALE,İsmail Kutluk,İsmail Kutluk,158,False,cs15025033_p158,pdftotext parser
-yes,ÇANKIRI,Gürhan Titrek,Gürhan Titrek,158,False,cs15025033_p158,pdftotext parser
-yes,ÇORUM,M. Şevket Üzeetin,M. Şevket Üzeetin,158,False,cs15025033_p158,pdftotext parser
-yes,ÇORUM,Safa Yalçuk,Safa Yalçuk,158,False,cs15025033_p158,pdftotext parser
-yes,DENİZLİ,Baha Akşit,Baha Akşit,158,False,cs15025033_p158,pdftotext parser
-yes,DİYARBAKIR,Sabahattin Savcı,Sabahattin Savcı,158,False,cs15025033_p158,pdftotext parser
-yes,EDİRNE,Mehmet Nafiz Ergendi,Mehmet Nafiz Ergendi,158,False,cs15025033_p158,pdftotext parser
-yes,ERZURUM,Lütfi Doğan,Lütfi Doğan,158,False,cs15025033_p158,pdftotext parser
-yes,ERZURUM,Sakıp Hatuu'oğ'lıı,Sakıp Hatuu'oğ'lıı,158,False,cs15025033_p158,pdftotext parser
-yes,ESKİŞEHİR,Ömer Ucuz al,Ömer Ucuz al,158,False,cs15025033_p158,pdftotext parser
-yes,GAZİANTEP,İbrahim Tevfik Kutlar,İbrahim Tevfik Kutlar,158,False,cs15025033_p158,pdftotext parser
-yes,GİRESUN,Hayrettin Erkmen,Hayrettin Erkmen,158,False,cs15025033_p158,pdftotext parser
-yes,HATAY,Mustafa Deliveli,Mustafa Deliveli,158,False,cs15025033_p158,pdftotext parser
-yes,ISPARTA,Mustafa Gülcügil,Mustafa Gülcügil,158,False,cs15025033_p158,pdftotext parser
-yes,MERSİN,Talip Özdolay,Talip Özdolay,158,False,cs15025033_p158,pdftotext parser
-yes,İSTANBUL,M. Erdoğan Adalı,M. Erdoğan Adalı,158,False,cs15025033_p158,pdftotext parser
-yes,İSTANBUL,Ali Oğuz,Ali Oğuz,158,False,cs15025033_p158,pdftotext parser
-yes,İSTANBUL,Ahmet Vefa Poyraz,Ahmet Vefa Poyraz,158,False,cs15025033_p158,pdftotext parser
-yes,İZMİR,Beliğ Beler,Beliğ Beler,158,False,cs15025033_p158,pdftotext parser
-yes,İZMİR,Mustafa Bozoklar,Mustafa Bozoklar,158,False,cs15025033_p158,pdftotext parser
-yes,İZMİR,Müinıiıı. Kırlı,Müinıiıı. Kırlı,158,False,cs15025033_p158,pdftotext parser
-yes,İZMİR,Orhan Kor,Orhan Kor,158,False,cs15025033_p158,pdftotext parser
-yes,İZMİR,Necin Mirkelâmoğlu,Necin Mirkelâmoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,KAHRAMANMARAŞ,Adnan Karalküçük,Adnan Karalküçük,158,False,cs15025033_p158,pdftotext parser
-yes,KAHRAMANMARAŞ,Hilmi Soydan,Hilmi Soydan,158,False,cs15025033_p158,pdftotext parser
-yes,KARS,Yusuf Ziya Ayrımi,Yusuf Ziya Ayrım i,158,False,cs15025033_p158,pdftotext parser
-yes,KAYSERİ,Sami Turan,Sami Turan,158,False,cs15025033_p158,pdftotext parser
-yes,KIRKLARELİ,Ali Al kan,Ali Al kan,158,False,cs15025033_p158,pdftotext parser
-yes,KOCAELİ,Lûtf? Tokoğlu,Lûtf? Tokoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,KONYA,Osman Nuri Canpolat,Osman Nuri Canpolat,158,False,cs15025033_p158,pdftotext parser
-yes,KONYA,Fevzi Kalıcı,Fevzi Kalıcı,158,False,cs15025033_p158,pdftotext parser
-yes,KONYA,Mehmet Varışlı,Mehmet Varışlı,158,False,cs15025033_p158,pdftotext parser
-yes,KÜTAHYA,Osman Al bayrak,Osman Al bayrak,158,False,cs15025033_p158,pdftotext parser
-yes,KÜTAHYA,Ahmet Oz mumcui,Ahmet Oz mumcu i,158,False,cs15025033_p158,pdftotext parser
-yes,MALATYA,Nurettin Akyurt,Nurettin Akyurt,158,False,cs15025033_p158,pdftotext parser
-yes,MANİSA,Orai Kai'aosmanoğlu,Orai Kai'aosmanoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,MANİSA,xV. Orhan Süersan,xV. Orhan Süersan,158,False,cs15025033_p158,pdftotext parser
-yes,MARDİN,Sait. Mehmetoğlu,Sait. Mehmetoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,MUĞLA,Haldun Metnteşeoğlu,Haldun Metnteşeoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,NEVŞEHİR,İ. Şevki Atasağuni,İ. Şevki Atasağun i,158,False,cs15025033_p158,pdftotext parser
-yes,ORDU,Selâhattin Acar,Selâhattin Acar,158,False,cs15025033_p158,pdftotext parser
-yes,ORDU,Bekir Sıtkı Baykal,Bekir Sıtkı Baykal,158,False,cs15025033_p158,pdftotext parser
-yes,SAKARYA,Osman Salihoğlu,Osman Salihoğlu,158,False,cs15025033_p158,pdftotext parser
-yes,SAMSUN,Bahri Cömert,Bahri Cömert,158,False,cs15025033_p158,pdftotext parser
-yes,SAMSUN,Şaban Demirdağ,Şaban Demirdağ,158,False,cs15025033_p158,pdftotext parser
-yes,SAMSUN,Refet Rendeci,Refet Rendeci,158,False,cs15025033_p158,pdftotext parser
-yes,SİNOP,Nâzım İneıbeyli,Nâzım İneıbeyli,158,False,cs15025033_p158,pdftotext parser
-yes,TOKAT,Cevdet Aykan,Cevdet Aykan,158,False,cs15025033_p158,pdftotext parser
-yes,TRABZON,Ahmet İhsan Birincioğlu,Ahmet İhsan Birincioğlu,158,False,cs15025033_p158,pdftotext parser
-yes,TRABZON,Ahmet Cemil Kara,Ahmet Cemil Kara,158,False,cs15025033_p158,pdftotext parser
-yes,ŞANLIURFA,Hasan Oral,Hasan Oral,158,False,cs15025033_p158,pdftotext parser
-yes,VAN,Ferid Melen,Ferid Melen,158,False,cs15025033_p158,pdftotext parser
-yes,YOZGAT,E. Süleyman Ergin,E. Süleyman Ergin,158,False,cs15025033_p158,pdftotext parser
-yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,158,False,cs15025033_p158,pdftotext parser
-yes,ZONGULDAK,Ahmet Demir Yüce,Ahmet Demir Yüce,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Cihat Alpan,Cihat Alpan,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Zeyyat Baykara,Zeyyat Baykara,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Fethi Çelikbaş,Fethi Çelikbaş,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Hüsamettin Çelebi,Hüsamettin Çelebi,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Özer Derbil,Özer Derbil,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Sait Naci Ergin,Sait Naci Ergin,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Nihat Erim,Nihat Erim,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Sadi Irmak,Sadi Irmak,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Sabahattin Özbek,Sabahattin Özbek,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Naim Talû,Naim Talû,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Halil Tunç,Halil Tunç,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Şerif Tüten,Şerif Tüten,158,False,cs15025033_p158,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,Bahrive Ücok,Bahrive Ücok,158,False,cs15025033_p158,pdftotext parser
-no,ANKARA,Cengizhan. Yorulmaz,Cengizhan. Yorulmaz,159,False,cs15025033_p158,pdftotext parser
-no,ANTALYA,Reşat Oğuz,Reşat Oğuz,159,False,cs15025033_p158,pdftotext parser
-no,ARTVİN,Recai K o c a m a n,Recai K o c a m a n,159,False,cs15025033_p158,pdftotext parser
-no,AYDIN,Halil Goral,Halil Goral,159,False,cs15025033_p158,pdftotext parser
-no,BALIKESİR,Nejat Sarlmak,Nejat Sarlmak,159,False,cs15025033_p158,pdftotext parser
-no,BURDUR,Ekrem Kabay,Ekrem Kabay,159,False,cs15025033_p158,pdftotext parser
-no,ÇANAKKALE,f ma d ettin E m a s,f ma d ettin E m a s,159,False,cs15025033_p158,pdftotext parser
-no,DENİZLİ,Hüseyin Atmaca,Hüseyin Atmaca,159,False,cs15025033_p158,pdftotext parser
-no,ERZİNCAN,Niyazi Unsal,Niyazi Unsal,159,False,cs15025033_p158,pdftotext parser
-no,ERZURUM,Hilmi Nalbantoğl u,Hilmi Nalbantoğl u,159,False,cs15025033_p158,pdftotext parser
-no,GAZİANTEP,Salih T a n y e r i,Salih T a n y e r i,159,False,cs15025033_p158,pdftotext parser
-no,HAKKARİ,Naci Cidal,•Naci Cidal,159,False,cs15025033_p158,pdftotext parser
-no,HATAY,Kemal Kılıçoğhı,Kemal Kılıçoğhı,159,False,cs15025033_p158,pdftotext parser
-no,MERSİN,Lfıtfi Bilgen,Lfıtfi Bilgen,159,False,cs15025033_p158,pdftotext parser
-no,İSTANBUL,Solmaz Belül,Solmaz Belül,159,False,cs15025033_p158,pdftotext parser
-no,İSTANBUL,Fevzi Hakkı Esatoğlu,Fevzi Hakkı Esatoğlu,159,False,cs15025033_p158,pdftotext parser
-no,İSTANBUL,Mehmet Ueyyat,Mehmet Ueyyat,159,False,cs15025033_p158,pdftotext parser
-no,İSTANBUL,F i k r e t Gündoğan,F i k r e t Gündoğan,159,False,cs15025033_p158,pdftotext parser
-no,KARS,Sırrı Ât al ay,Sırrı Ât al ay,159,False,cs15025033_p158,pdftotext parser
-no,KARS,Muzaffer Ş a m il oğl u,Muzaffer Ş a m il oğl u,159,False,cs15025033_p158,pdftotext parser
-no,KIRŞEHİR,Halil Özmeıı,Halil Özmeıı,159,False,cs15025033_p158,pdftotext parser
-no,KOCAELİ,Abdullah Köseoğlu,Abdullah Köseoğlu,159,False,cs15025033_p158,pdftotext parser
-no,KONYA,Fakih Özlen,Fakih Özlen,159,False,cs15025033_p158,pdftotext parser
-no,MALATYA,H a m d Özer,H a m d Özer,159,False,cs15025033_p158,pdftotext parser
-no,MANİSA,Doğan B a r u t ouoğhı,Doğan B a r u t ouoğhı,159,False,cs15025033_p158,pdftotext parser
-no,MARDİN,Mehmet Ali A n k a n,Mehmet Ali A n k a n,159,False,cs15025033_p158,pdftotext parser
-no,ORDU,Şevket K o k s a,Şevket K o k s a,159,False,cs15025033_p158,pdftotext parser
-no,RİZE,Talât Doğan,Talât Doğan,159,False,cs15025033_p158,pdftotext parser
-no,SAKARYA,Hasan Fehmi Güneş,Hasan Fehmi Güneş,159,False,cs15025033_p158,pdftotext parser
-no,SAMSUN,Ziya Gökalp Mülayim,Ziya Gökalp Mülayim,159,False,cs15025033_p158,pdftotext parser
-no,SİİRT,f S ü r e v v a Öner,f S ü r e v v a Öner,159,False,cs15025033_p158,pdftotext parser
-no,SİVAS,Âdil Â t a y,Âdil Â t a y,159,False,cs15025033_p158,pdftotext parser
-no,SİVAS,Hüseyin üztürk,Hüseyin üztürk,159,False,cs15025033_p158,pdftotext parser
-no,TEKİRDAĞ,Hayri Mumcııoğlu,Hayri Mumcııoğlu,159,False,cs15025033_p158,pdftotext parser
-no,TOKAT,Zihni Beti!,Zihni Beti!',159,False,cs15025033_p158,pdftotext parser
-no,TRABZON,Hasan Güven,Hasan Güven,159,False,cs15025033_p158,pdftotext parser
-no,UŞAK,Ahmet Tahtakılıç,Ahmet Tahtakılıç,159,False,cs15025033_p158,pdftotext parser
-no,YOZGAT,Veli U y a r,Veli U y a r,159,False,cs15025033_p158,pdftotext parser
-no,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,159,False,cs15025033_p158,pdftotext parser
-no,CUMHURBAŞKANINCA S. Ü.,Selâhaddin Eabüroğlu,Selâhaddin Eabüroğlu,159,False,cs15025033_p158,pdftotext parser
-no,CUMHURBAŞKANINCA S. Ü.,Muhsin Batur,Muhsin Batur,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Ekrem Aeuner,Ekrem Aeuner,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Refet Aksoyoğlıı,Refet Aksoyoğlıı,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Mucip A t a k,Mucip A t a k,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,E m a n u a h Çelebi,E m a n u a h Çelebi,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Vehbi E r s ü,Vehbi E r s ü,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Suphi Gürsoyirat,Suphi Gürsoyirat,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Kadri K a p a n,Kadri K a p a n,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Suphi Karaman,Suphi Karaman (İ. A.),159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,K â m i Karavelioğlu,K â m i Karavelioğlu,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Sami K ü ç ü k,Sami K ü ç ü k,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Sezai O'Kan,Sezai O'Kan (iz.),159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,F a h r i Özdilek,F a h r i Özdilek,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Mehmet Özgüneş,Mehmet Özgüneş,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Selâlıattin Özgür,Selâlıattin Özgür,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,M. Ş ü k r a n Özkaya,M. Ş ü k r a n Özkaya,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Haydar Tunçkanat,Haydar Tunçkanat,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Ahmet Yıldız,Ahmet Yıldız,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Muzaffer Y u r d a k u er,Muzaffer Y u r d a k u er,159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,"T Hayri öner M, Cahit Dalokay","T Hayri öner M, Cahit Dalokay",159,False,cs15025033_p158,pdftotext parser
-not_voting,TABİİ ÜYELER,Kemal SarıibrahimoRİıı Hasan İldan,Kemal SarıibrahimoRİıı Hasan İldan,159,False,cs15025033_p158,pdftotext parser
-not_voting,AFYON,Hikmet Savaş,Hikmet Savaş,159,False,cs15025033_p158,pdftotext parser
-not_voting,AFYON,Mustafa Çelik j,Mustafa Çelik j,159,False,cs15025033_p158,pdftotext parser
-not_voting,AMASYA,Ali Cüceoğlu,Ali Cüceoğlu,159,False,cs15025033_p158,pdftotext parser
-not_voting,AMASYA,Macıt Zeren (Bşk,Macıt Zeren (Bşk.,159,False,cs15025033_p158,pdftotext parser
-not_voting,GÜMÜŞHANE,Ömer Naci Bozkurt,Ömer Naci Bozkurt,159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Uğur Alacakaptan,Uğur Alacakaptan,159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Te'kin Arı burun,Te'kin Arı burun (Balkan),159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Ergün Ertem  S,Ergün Ertem (İz.) S,159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Rahmi Erdem,Rahmi Erdem (Bşk. V.),159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,İbrahim Öztürk,İbrahim Öztürk,159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Besim Üstünel,Besim Üstünel,159,False,cs15025033_p158,pdftotext parser
-not_voting,İSTANBUL,Mehmet Bilgin Nazif Ç a ğ a t a y,Mehmet Bilgin Nazif Ç a ğ a t a y,159,False,cs15025033_p158,pdftotext parser
-not_voting,BURSA,Mehmet Çamlıca,Mehmet Çamlıca,159,False,cs15025033_p158,pdftotext parser
-not_voting,BURSA,Şebib Karamulîaoğîu,Şebib Karamulîaoğîu,159,False,cs15025033_p158,pdftotext parser
-not_voting,BURSA,A h m e t N u s r e t Tuna,A h m e t N u s r e t Tuna,159,False,cs15025033_p158,pdftotext parser
-not_voting,BURSA,"Barla:, Küntay","Barla:, Küntay",159,False,cs15025033_p158,pdftotext parser
-not_voting,DİYARBAKIR,İbrahim Kirazoğlu,İbrahim Kirazoğlu,159,False,cs15025033_p158,pdftotext parser
-not_voting,DİYARBAKIR,Selâlıattin Cizrelioğlu '•• Ziya Müezzinoğlu,Selâlıattin Cizrelioğlu '•• Ziya Müezzinoğlu,159,False,cs15025033_p158,pdftotext parser
-not_voting,KONYA,Erdoğan Bakkalbaş,Erdoğan Bakkalbaş*,159,False,cs15025033_p158,pdftotext parser
-not_voting,MANİSA,Ruhi Tunakan,Ruhi Tunakan,159,False,cs15025033_p158,pdftotext parser
-not_voting,MUĞLA,Fevzi özer,Fevzi özer,159,False,cs15025033_p158,pdftotext parser
-not_voting,MUŞ,İsmail İlhan,İsmail İlhan,159,False,cs15025033_p158,pdftotext parser
-not_voting,NİĞDE,i; Abdullah Emre İleri,i; Abdullah Emre İleri,159,False,cs15025033_p158,pdftotext parser
-not_voting,NİĞDE,İ Er-un Özkans,İ Er-un Özkan s,159,False,cs15025033_p158,pdftotext parser
-not_voting,NİĞDE,jj SİVAS,jj SİVAS,159,False,cs15025033_p158,pdftotext parser
-not_voting,NİĞDE,i N u r e t t i n Ertürk,i N u r e t t i n Ertürk.,159,False,cs15025033_p158,pdftotext parser
-not_voting,NİĞDE,Kâzım Kangal (Cşk. V.j,Kâzım Kangal (Cşk. V.j,159,False,cs15025033_p158,pdftotext parser
-not_voting,TEKİRDAĞ,Orhan Öztrak,Orhan Öztrak,159,False,cs15025033_p158,pdftotext parser
-not_voting,TUNCELİ,Naim Taşan,Naim Taşan,159,False,cs15025033_p158,pdftotext parser
-not_voting,ŞANLIURFA,Abduir;ar.i Denıirkol,Abduir;ar.i Denıirkol,159,False,cs15025033_p158,pdftotext parser
+choice,province,name,name_raw,pdf_page,vote_id,source
+yes,TABİİ ÜYELER,Cevdet Sunay,Cevdet Sunay,158,cs15025033_p158,hand-corrected
+yes,ADANA,M. Nuri Âdemoğlu,M. Nuri Âdemoğlu,158,cs15025033_p158,hand-corrected
+yes,ADANA,Mehmet Ünaldı,Mehmet Ünaldı,158,cs15025033_p158,hand-corrected
+yes,ADIYAMAN,Mehmet Sırrı Turanlı,Mehmet Sırrı Turanlı,158,cs15025033_p158,hand-corrected
+yes,AFYON,M. Kâzım Karaağaçlıoğlu,M. Kâzım Karaağaçlıoğlu,158,cs15025033_p158,hand-corrected
+yes,AFYON,Ahmet Karayiğit,Ahmet Karayiğit,158,cs15025033_p158,hand-corrected
+yes,AĞRI,Kasım Küfrevî,Kasım Küfrevî,158,cs15025033_p158,hand-corrected
+yes,ANKARA,Mehmet Atıf Benderlioğlu,Mehmet Atıf Benderlioğlu,158,cs15025033_p158,hand-corrected
+yes,ANKARA,Turhan Kapanh,Turhan Kapanh,158,cs15025033_p158,hand-corrected
+yes,ANKARA,Yiğit Kö'ker,Yiğit Kö'ker,158,cs15025033_p158,hand-corrected
+yes,ANTALYA,Serafettin Paker,Serafettin Paker,158,cs15025033_p158,hand-corrected
+yes,AYDIN,AM Celâlettin Coşkun,AM Celâlettin Coşkun,158,cs15025033_p158,hand-corrected
+yes,AYDIN,İskender Cenap Ege,İskender Cenap Ege,158,cs15025033_p158,hand-corrected
+yes,BALIKESİR,Hikmet Aslanoğlu,Hikmet Aslanoğlu,158,cs15025033_p158,hand-corrected
+yes,BALIKESİR,Raif Eriş,Raif Eriş,158,cs15025033_p158,hand-corrected
+yes,BALIKESİR,Sıtkı Yırcah,Sıtkı Yırcah,158,cs15025033_p158,hand-corrected
+yes,BİLECİK,Mehmet Orhan Tuğrul,Mehmet Orhan Tuğrul,158,cs15025033_p158,hand-corrected
+yes,BİTLİS,Kâmran İnan,Kâmran İnan,158,cs15025033_p158,hand-corrected
+yes,BOLU,Turgut Yaşar Giilez,Turgut Yaşar Giilez,158,cs15025033_p158,hand-corrected
+yes,BOLU,Altıe d din Yi m azt ü rk,Altıe d din Yi m azt ü rk,158,cs15025033_p158,hand-corrected
+yes,BURSA,İ. Sabri Çağlayan gil,İ. Sabri Çağlayan gil,158,cs15025033_p158,hand-corrected
+yes,BURSA,Şeref Kayalar,Şeref Kayalar,158,cs15025033_p158,hand-corrected
+yes,ÇANAKKALE,İsmail Kutluk,İsmail Kutluk,158,cs15025033_p158,hand-corrected
+yes,ÇANKIRI,Gürhan Titrek,Gürhan Titrek,158,cs15025033_p158,hand-corrected
+yes,ÇORUM,M. Şevket Üzeetin,M. Şevket Üzeetin,158,cs15025033_p158,hand-corrected
+yes,ÇORUM,Safa Yalçuk,Safa Yalçuk,158,cs15025033_p158,hand-corrected
+yes,DENİZLİ,Baha Akşit,Baha Akşit,158,cs15025033_p158,hand-corrected
+yes,DİYARBAKIR,Sabahattin Savcı,Sabahattin Savcı,158,cs15025033_p158,hand-corrected
+yes,EDİRNE,Mehmet Nafiz Ergendi,Mehmet Nafiz Ergendi,158,cs15025033_p158,hand-corrected
+yes,ERZURUM,Lütfi Doğan,Lütfi Doğan,158,cs15025033_p158,hand-corrected
+yes,ERZURUM,Sakıp Hatuu'oğ'lıı,Sakıp Hatuu'oğ'lıı,158,cs15025033_p158,hand-corrected
+yes,ESKİŞEHİR,Ömer Ucuz al,Ömer Ucuz al,158,cs15025033_p158,hand-corrected
+yes,GAZİANTEP,İbrahim Tevfik Kutlar,İbrahim Tevfik Kutlar,158,cs15025033_p158,hand-corrected
+yes,GİRESUN,Hayrettin Erkmen,Hayrettin Erkmen,158,cs15025033_p158,hand-corrected
+yes,HATAY,Mustafa Deliveli,Mustafa Deliveli,158,cs15025033_p158,hand-corrected
+yes,ISPARTA,Mustafa Gülcügil,Mustafa Gülcügil,158,cs15025033_p158,hand-corrected
+yes,MERSİN,Talip Özdolay,Talip Özdolay,158,cs15025033_p158,hand-corrected
+yes,İSTANBUL,M. Erdoğan Adalı,M. Erdoğan Adalı,158,cs15025033_p158,hand-corrected
+yes,İSTANBUL,Ali Oğuz,Ali Oğuz,158,cs15025033_p158,hand-corrected
+yes,İSTANBUL,Ahmet Vefa Poyraz,Ahmet Vefa Poyraz,158,cs15025033_p158,hand-corrected
+yes,İZMİR,Beliğ Beler,Beliğ Beler,158,cs15025033_p158,hand-corrected
+yes,İZMİR,Mustafa Bozoklar,Mustafa Bozoklar,158,cs15025033_p158,hand-corrected
+yes,İZMİR,Müinıiıı. Kırlı,Müinıiıı. Kırlı,158,cs15025033_p158,hand-corrected
+yes,İZMİR,Orhan Kor,Orhan Kor,158,cs15025033_p158,hand-corrected
+yes,İZMİR,Necin Mirkelâmoğlu,Necin Mirkelâmoğlu,158,cs15025033_p158,hand-corrected
+yes,KAHRAMANMARAŞ,Adnan Karalküçük,Adnan Karalküçük,158,cs15025033_p158,hand-corrected
+yes,KAHRAMANMARAŞ,Hilmi Soydan,Hilmi Soydan,158,cs15025033_p158,hand-corrected
+yes,KARS,Yusuf Ziya Ayrımi,Yusuf Ziya Ayrım i,158,cs15025033_p158,hand-corrected
+yes,KAYSERİ,Sami Turan,Sami Turan,158,cs15025033_p158,hand-corrected
+yes,KIRKLARELİ,Ali Al kan,Ali Al kan,158,cs15025033_p158,hand-corrected
+yes,KOCAELİ,Lûtf? Tokoğlu,Lûtf? Tokoğlu,158,cs15025033_p158,hand-corrected
+yes,KONYA,Osman Nuri Canpolat,Osman Nuri Canpolat,158,cs15025033_p158,hand-corrected
+yes,KONYA,Fevzi Kalıcı,Fevzi Kalıcı,158,cs15025033_p158,hand-corrected
+yes,KONYA,Mehmet Varışlı,Mehmet Varışlı,158,cs15025033_p158,hand-corrected
+yes,KÜTAHYA,Osman Al bayrak,Osman Al bayrak,158,cs15025033_p158,hand-corrected
+yes,KÜTAHYA,Ahmet Oz mumcui,Ahmet Oz mumcu i,158,cs15025033_p158,hand-corrected
+yes,MALATYA,Nurettin Akyurt,Nurettin Akyurt,158,cs15025033_p158,hand-corrected
+yes,MANİSA,Orai Kai'aosmanoğlu,Orai Kai'aosmanoğlu,158,cs15025033_p158,hand-corrected
+yes,MANİSA,xV. Orhan Süersan,xV. Orhan Süersan,158,cs15025033_p158,hand-corrected
+yes,MARDİN,Sait. Mehmetoğlu,Sait. Mehmetoğlu,158,cs15025033_p158,hand-corrected
+yes,MUĞLA,Haldun Metnteşeoğlu,Haldun Metnteşeoğlu,158,cs15025033_p158,hand-corrected
+yes,NEVŞEHİR,İ. Şevki Atasağuni,İ. Şevki Atasağun i,158,cs15025033_p158,hand-corrected
+yes,ORDU,Selâhattin Acar,Selâhattin Acar,158,cs15025033_p158,hand-corrected
+yes,ORDU,Bekir Sıtkı Baykal,Bekir Sıtkı Baykal,158,cs15025033_p158,hand-corrected
+yes,SAKARYA,Osman Salihoğlu,Osman Salihoğlu,158,cs15025033_p158,hand-corrected
+yes,SAMSUN,Bahri Cömert,Bahri Cömert,158,cs15025033_p158,hand-corrected
+yes,SAMSUN,Şaban Demirdağ,Şaban Demirdağ,158,cs15025033_p158,hand-corrected
+yes,SAMSUN,Refet Rendeci,Refet Rendeci,158,cs15025033_p158,hand-corrected
+yes,SİNOP,Nâzım İneıbeyli,Nâzım İneıbeyli,158,cs15025033_p158,hand-corrected
+yes,TOKAT,Cevdet Aykan,Cevdet Aykan,158,cs15025033_p158,hand-corrected
+yes,TRABZON,Ahmet İhsan Birincioğlu,Ahmet İhsan Birincioğlu,158,cs15025033_p158,hand-corrected
+yes,TRABZON,Ahmet Cemil Kara,Ahmet Cemil Kara,158,cs15025033_p158,hand-corrected
+yes,ŞANLIURFA,Hasan Oral,Hasan Oral,158,cs15025033_p158,hand-corrected
+yes,VAN,Ferid Melen,Ferid Melen,158,cs15025033_p158,hand-corrected
+yes,YOZGAT,E. Süleyman Ergin,E. Süleyman Ergin,158,cs15025033_p158,hand-corrected
+yes,ZONGULDAK,Tarık Remzi Baltan,Tarık Remzi Baltan,158,cs15025033_p158,hand-corrected
+yes,ZONGULDAK,Ahmet Demir Yüce,Ahmet Demir Yüce,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Cihat Alpan,Cihat Alpan,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Zeyyat Baykara,Zeyyat Baykara,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Fethi Çelikbaş,Fethi Çelikbaş,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Hüsamettin Çelebi,Hüsamettin Çelebi,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Özer Derbil,Özer Derbil,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Sait Naci Ergin,Sait Naci Ergin,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Nihat Erim,Nihat Erim,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Sadi Irmak,Sadi Irmak,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Sabahattin Özbek,Sabahattin Özbek,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Naim Talû,Naim Talû,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Halil Tunç,Halil Tunç,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Şerif Tüten,Şerif Tüten,158,cs15025033_p158,hand-corrected
+yes,CUMHURBAŞKANINCA S. Ü.,Bahrive Ücok,Bahrive Ücok,158,cs15025033_p158,hand-corrected
+no,ANKARA,Cengizhan. Yorulmaz,Cengizhan. Yorulmaz,159,cs15025033_p158,hand-corrected
+no,ANTALYA,Reşat Oğuz,Reşat Oğuz,159,cs15025033_p158,hand-corrected
+no,ARTVİN,Recai K o c a m a n,Recai K o c a m a n,159,cs15025033_p158,hand-corrected
+no,AYDIN,Halil Goral,Halil Goral,159,cs15025033_p158,hand-corrected
+no,BALIKESİR,Nejat Sarlmak,Nejat Sarlmak,159,cs15025033_p158,hand-corrected
+no,BURDUR,Ekrem Kabay,Ekrem Kabay,159,cs15025033_p158,hand-corrected
+no,ÇANAKKALE,f ma d ettin E m a s,f ma d ettin E m a s,159,cs15025033_p158,hand-corrected
+no,DENİZLİ,Hüseyin Atmaca,Hüseyin Atmaca,159,cs15025033_p158,hand-corrected
+no,ERZİNCAN,Niyazi Unsal,Niyazi Unsal,159,cs15025033_p158,hand-corrected
+no,ERZURUM,Hilmi Nalbantoğl u,Hilmi Nalbantoğl u,159,cs15025033_p158,hand-corrected
+no,GAZİANTEP,Salih T a n y e r i,Salih T a n y e r i,159,cs15025033_p158,hand-corrected
+no,HAKKARİ,Naci Cidal,•Naci Cidal,159,cs15025033_p158,hand-corrected
+no,HATAY,Kemal Kılıçoğhı,Kemal Kılıçoğhı,159,cs15025033_p158,hand-corrected
+no,MERSİN,Lfıtfi Bilgen,Lfıtfi Bilgen,159,cs15025033_p158,hand-corrected
+no,İSTANBUL,Solmaz Belül,Solmaz Belül,159,cs15025033_p158,hand-corrected
+no,İSTANBUL,Fevzi Hakkı Esatoğlu,Fevzi Hakkı Esatoğlu,159,cs15025033_p158,hand-corrected
+no,İSTANBUL,Mehmet Ueyyat,Mehmet Ueyyat,159,cs15025033_p158,hand-corrected
+no,İSTANBUL,F i k r e t Gündoğan,F i k r e t Gündoğan,159,cs15025033_p158,hand-corrected
+no,KARS,Sırrı Ât al ay,Sırrı Ât al ay,159,cs15025033_p158,hand-corrected
+no,KARS,Muzaffer Ş a m il oğl u,Muzaffer Ş a m il oğl u,159,cs15025033_p158,hand-corrected
+no,KIRŞEHİR,Halil Özmeıı,Halil Özmeıı,159,cs15025033_p158,hand-corrected
+no,KOCAELİ,Abdullah Köseoğlu,Abdullah Köseoğlu,159,cs15025033_p158,hand-corrected
+no,KONYA,Fakih Özlen,Fakih Özlen,159,cs15025033_p158,hand-corrected
+no,MALATYA,H a m d Özer,H a m d Özer,159,cs15025033_p158,hand-corrected
+no,MANİSA,Doğan B a r u t ouoğhı,Doğan B a r u t ouoğhı,159,cs15025033_p158,hand-corrected
+no,MARDİN,Mehmet Ali A n k a n,Mehmet Ali A n k a n,159,cs15025033_p158,hand-corrected
+no,ORDU,Şevket K o k s a,Şevket K o k s a,159,cs15025033_p158,hand-corrected
+no,RİZE,Talât Doğan,Talât Doğan,159,cs15025033_p158,hand-corrected
+no,SAKARYA,Hasan Fehmi Güneş,Hasan Fehmi Güneş,159,cs15025033_p158,hand-corrected
+no,SAMSUN,Ziya Gökalp Mülayim,Ziya Gökalp Mülayim,159,cs15025033_p158,hand-corrected
+no,SİİRT,f S ü r e v v a Öner,f S ü r e v v a Öner,159,cs15025033_p158,hand-corrected
+no,SİVAS,Âdil Â t a y,Âdil Â t a y,159,cs15025033_p158,hand-corrected
+no,SİVAS,Hüseyin üztürk,Hüseyin üztürk,159,cs15025033_p158,hand-corrected
+no,TEKİRDAĞ,Hayri Mumcııoğlu,Hayri Mumcııoğlu,159,cs15025033_p158,hand-corrected
+no,TOKAT,Zihni Beti!,Zihni Beti!',159,cs15025033_p158,hand-corrected
+no,TRABZON,Hasan Güven,Hasan Güven,159,cs15025033_p158,hand-corrected
+no,UŞAK,Ahmet Tahtakılıç,Ahmet Tahtakılıç,159,cs15025033_p158,hand-corrected
+no,YOZGAT,Veli U y a r,Veli U y a r,159,cs15025033_p158,hand-corrected
+no,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,159,cs15025033_p158,hand-corrected
+no,CUMHURBAŞKANINCA S. Ü.,Selâhaddin Eabüroğlu,Selâhaddin Eabüroğlu,159,cs15025033_p158,hand-corrected
+no,CUMHURBAŞKANINCA S. Ü.,Muhsin Batur,Muhsin Batur,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Ekrem Acuner,Ekrem Acuner,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Mucip Ataklı,Mucip Ataklı,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Emanullah Çelebi,Emanullah Çelebi,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Vehbi Ersü,Vehbi Ersü,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Suphi Gürsoytrak,Suphi Gürsoytrak,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Kadri Kaplan,Kadri Kaplan,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Suphi Karaman,Suphi Karaman,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Kâmil Karavelioğlu,Kâmil Karavelioğlu,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Sami Küçük,Sami Küçük,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Sezai O'Kan,Sezai O'Kan,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Fahri Özdilek,Fahri Özdilek,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Mehmet Özgüneş,Mehmet Özgüneş,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Selâhattin Özgür,Selâhattin Özgür,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,M. Şükran Özkaya,M. Şükran Özkaya,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Haydar Tunçkanat,Haydar Tunçkanat,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Ahmet Yıldız,Ahmet Yıldız,159,cs15025033_p158,hand-corrected
+not_voting,TABİİ ÜYELER,Muzaffer Yurdakuler,Muzaffer Yurdakuler,159,cs15025033_p158,hand-corrected
+not_voting,ADANA,Hayri Öner,Hayri Öner,159,cs15025033_p158,hand-corrected
+not_voting,ADANA,Kemal Sarıibrahimoğlu,Kemal Sarıibrahimoğlu,159,cs15025033_p158,hand-corrected
+not_voting,AFYON,Mustafa Çelik,Mustafa Çelik,159,cs15025033_p158,hand-corrected
+not_voting,AMASYA,Macit Zeren,Macit Zeren,159,cs15025033_p158,hand-corrected
+not_voting,ANKARA,Uğur Alacakaptan,Uğur Alacakaptan,159,cs15025033_p158,hand-corrected
+not_voting,ANKARA,Ergün Ertem,Ergün Ertem,159,cs15025033_p158,hand-corrected
+not_voting,ANKARA,İbrahim Öztürk,İbrahim Öztürk,159,cs15025033_p158,hand-corrected
+not_voting,BİNGÖL,Mehmet Bilgin,Mehmet Bilgin,159,cs15025033_p158,hand-corrected
+not_voting,BURSA,Şebib Karamullaoğlu,Şebib Karamullaoğlu,159,cs15025033_p158,hand-corrected
+not_voting,BURSA,Barlas Küntay,Barlas Küntay,159,cs15025033_p158,hand-corrected
+not_voting,DİYARBAKIR,Selâhattin Cizrelioğlu,Selâhattin Cizrelioğlu,159,cs15025033_p158,hand-corrected
+not_voting,ELAZIĞ,M. Cahit Dalokay,M. Cahit Dalokay,159,cs15025033_p158,hand-corrected
+not_voting,ELAZIĞ,Hasan İldan,Hasan İldan,159,cs15025033_p158,hand-corrected
+not_voting,ESKİŞEHİR,Hikmet Savaş,Hikmet Savaş,159,cs15025033_p158,hand-corrected
+not_voting,GİRESUN,Ali Cüceoğlu,Ali Cüceoğlu,159,cs15025033_p158,hand-corrected
+not_voting,GÜMÜŞHANE,Ömer Naci Bozkurt,Ömer Naci Bozkurt,159,cs15025033_p158,hand-corrected
+not_voting,İSTANBUL,Tekin Arıburun,Tekin Arıburun,159,cs15025033_p158,hand-corrected
+not_voting,İSTANBUL,Rahmi Erdem,Rahmi Erdem,159,cs15025033_p158,hand-corrected
+not_voting,İSTANBUL,Besim Üstünel,Besim Üstünel,159,cs15025033_p158,hand-corrected
+not_voting,İZMİR,Nazif Çağatay,Nazif Çağatay,159,cs15025033_p158,hand-corrected
+not_voting,KASTAMONU,Mehmet Çamlıca,Mehmet Çamlıca,159,cs15025033_p158,hand-corrected
+not_voting,KASTAMONU,Ahmet Nusret Tuna,Ahmet Nusret Tuna,159,cs15025033_p158,hand-corrected
+not_voting,KAYSERİ,İbrahim Kirazoğlu,İbrahim Kirazoğlu,159,cs15025033_p158,hand-corrected
+not_voting,KAYSERİ,Ziya Müezzinoğlu,Ziya Müezzinoğlu,159,cs15025033_p158,hand-corrected
+not_voting,KONYA,Erdoğan Bakkalbaşı,Erdoğan Bakkalbaşı,159,cs15025033_p158,hand-corrected
+not_voting,MANİSA,Ruhi Tunakan,Ruhi Tunakan,159,cs15025033_p158,hand-corrected
+not_voting,MUĞLA,Fevzi Özer,Fevzi Özer,159,cs15025033_p158,hand-corrected
+not_voting,MUŞ,İsmail İlhan,İsmail İlhan,159,cs15025033_p158,hand-corrected
+not_voting,NİĞDE,Abdullah Emre İleri,Abdullah Emre İleri,159,cs15025033_p158,hand-corrected
+not_voting,NİĞDE,Ergün Özkan,Ergün Özkan,159,cs15025033_p158,hand-corrected
+not_voting,SİVAS,Nurettin Ertürk,Nurettin Ertürk,159,cs15025033_p158,hand-corrected
+not_voting,SİVAS,Kâzım Kangal,Kâzım Kangal,159,cs15025033_p158,hand-corrected
+not_voting,TEKİRDAĞ,Orhan Öztrak,Orhan Öztrak,159,cs15025033_p158,hand-corrected
+not_voting,TUNCELİ,Naim Taşan,Naim Taşan,159,cs15025033_p158,hand-corrected
+not_voting,ŞANLIURFA,Abdulgani Demirkol,Abdulgani Demirkol,159,cs15025033_p158,hand-corrected

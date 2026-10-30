@@ -24,8 +24,8 @@ MM_TERMS = {
     "d05": (1977, "1977-06-05", "1980-09-12"),
 }
 
-# Voteview-style cast codes used in the wide matrix.
-CAST_CODES = {"yes": 1, "no": 6, "abstain": 7, "not_voting": 9}
+# Voteview-style cast codes used in the wide matrix; 8 = invalid ballot ('geçersiz oy').
+CAST_CODES = {"yes": 1, "no": 6, "abstain": 7, "invalid": 8, "not_voting": 9}
 
 _TR_UPPER = str.maketrans({"i": "İ", "ı": "I"})
 _TR_LOWER = str.maketrans({"İ": "i", "I": "ı"})
