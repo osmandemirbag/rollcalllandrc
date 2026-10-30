@@ -1,7 +1,7 @@
 """Did the future Democrat Party founders stay away from the 1945 land-distribution law on purpose?
 
 Units: deputies of the 1943 TBMM. Votes: every open (named) vote of April 1945 - January 1946
-whose parsed lists match the printed tallies to within 10%.
+whose parsed lists do not overflow the printed tallies (54 of 57).
 Treated: deputies who later sat for, or were listed with, the DP (party string or any 1946-57 row).
 Estimand: for treated deputies, the excess probability of not voting on the 11 June 1945
 Çiftçiyi Topraklandırma Kanunu over their own not-voting rate on the other votes of the same
@@ -85,8 +85,11 @@ def vote_dates(votes):
 
 def main():
     chk = pd.read_csv(ROOT / "data/interim/tbmm_1945_namelists_check.csv")
-    ok = chk[(abs(chk.names_yes - chk.tally_yes) <= 0.1 * chk.tally_yes)
-             & (abs(chk.names_not_voting - chk.tally_not_voting) <= 0.1 * chk.tally_not_voting)]
+    # A vote is used when no list overflows its tally (names filed under the wrong list) and the
+    # lists are mostly there; names lost to OCR are simply missing (deputy-vote cells left empty).
+    nv = chk.tally_not_voting.fillna(0)
+    ok = chk[(chk.names_yes <= 1.03 * chk.tally_yes) & (chk.names_not_voting <= 1.03 * nv + 2)
+             & (chk.names_yes >= 0.4 * chk.tally_yes) & (chk.names_not_voting >= 0.8 * nv)]
     n = pd.read_csv(ROOT / "data/interim/tbmm_1945_namelists.csv")
     n = n[n.vote_id.isin(ok.vote_id) & n.choice.isin(["yes", "no", "not_voting"])]
     ros = roster()
@@ -94,7 +97,7 @@ def main():
     rate = n.id.notna().mean()
     n = n.dropna(subset=["id"]).drop_duplicates(["vote_id", "id"])
     n["absent"] = (n.choice == "not_voting").astype(int)
-    n["excused"] = n.note.fillna("").str.contains(r"^[İIi1l]\.?$|Bakan|Başkan|vekil", regex=True)
+    n["excused"] = n.note.fillna("").str.contains(r"^[İIi1lt]\.?$|^[ÖöO]\.?$|Bakan|Başkan|vekil|Has|Cumhurba", regex=True)
     dates = vote_dates(n.vote_id.unique())
     n["date"] = n.vote_id.map(dates)
     n = n.merge(ros[["id", "short", "province_old", "party", "later_dp"]], on="id")

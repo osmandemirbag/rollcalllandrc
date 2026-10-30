@@ -1,0 +1,180 @@
+{
+ "votes": 135,
+ "contested_votes": 25,
+ "member_votes": 60080,
+ "by_type": {
+  "agency_budget": 54,
+  "commodity_board": 22,
+  "infrastructure": 16,
+  "land_reform": 12,
+  "international": 11,
+  "other_agri": 8,
+  "farm_benefit": 6,
+  "forest_law": 6
+ },
+ "party_yes": [
+  {
+   "period": "1946-50",
+   "party_at_vote": "CHP",
+   "mean": 0.984,
+   "size": 985
+  },
+  {
+   "period": "1946-50",
+   "party_at_vote": "DP",
+   "mean": 0.085,
+   "size": 59
+  },
+  {
+   "period": "1950-60",
+   "party_at_vote": "Bağımsız",
+   "mean": 0.75,
+   "size": 40
+  },
+  {
+   "period": "1950-60",
+   "party_at_vote": "CHP",
+   "mean": 0.078,
+   "size": 927
+  },
+  {
+   "period": "1950-60",
+   "party_at_vote": "DP",
+   "mean": 0.988,
+   "size": 5092
+  },
+  {
+   "period": "1950-60",
+   "party_at_vote": "HP",
+   "mean": 0.234,
+   "size": 64
+  }
+ ],
+ "turnover_1950": {
+  "estimate": 1.5370900417412043,
+  "ri_p": 0.0,
+  "treated": 27,
+  "control": 41,
+  "member_votes": 434,
+  "means": {
+   "control_pre": 0.9883720930232558,
+   "control_post": 0.4,
+   "treated_pre": 0.05128205128205128,
+   "treated_post": 1.0
+  }
+ },
+ "dp_hp_1955": {
+  "estimate": -0.16004538714814498,
+  "ri_p": 0.0,
+  "treated": 36,
+  "control": 429,
+  "member_votes": 10534,
+  "means": {
+   "control_pre": 1.0,
+   "control_post": 0.99948114839156,
+   "treated_pre": 0.9955156950672646,
+   "treated_post": 0.8349514563106796
+  },
+  "votes_pre_post": {
+   "false": 19,
+   "true": 25
+  }
+ },
+ "dp_hp_1955_budgets": {
+  "estimate": -0.5185185185185186,
+  "ri_p": 0.0,
+  "treated": 29,
+  "control": 422,
+  "member_votes": 2619,
+  "means": {
+   "control_pre": 1.0,
+   "control_post": 1.0,
+   "treated_pre": 1.0,
+   "treated_post": 0.48148148148148145
+  }
+ },
+ "farmer_within_party": {
+  "effect": -0.0023306134530375316,
+  "se": 0.006787626908295072,
+  "n": 7139,
+  "farmer_deputies": 235
+ },
+ "no_votes_key_laws": [
+  {
+   "vote_id": "tbmm08014022_p048",
+   "title": "bâzı maddelerinin değiştirilmesine ve bâzı maddelerinin kaldırılmasına dair olan kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "MP": 14,
+    "DP": 14,
+    "Bağımsız": 2,
+    "CHP": 1
+   }
+  },
+  {
+   "vote_id": "tbmm08025067_p046",
+   "title": "praklandırılmasına dair olan kanunda değişiklik yapılması hakkındaki Kanuna ikinci defa verilen oyların sonucu",
+   "no_by_party": {
+    "CHP": 1
+   }
+  },
+  {
+   "vote_id": "tbmm08025068_p046",
+   "title": "50 O : 2 Toprak ve İskân İşleri Genel Müdürlüklerinin birleştirilmesi hakkındaki Kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "MP": 4
+   }
+  },
+  {
+   "vote_id": "tbmm08025070_p086",
+   "title": " değiştirilmesine ve bu kanuna bâzı maddeler ve geçici maddeler eklenmesine dair Kanune verilen oyların sonucu",
+   "no_by_party": {
+    "CHP": 9
+   }
+  },
+  {
+   "vote_id": "tbmm08025072_p141",
+   "title": "sine ve bu Kanunun birinci maddesinde değişiklik yapılmasına dair olan Kanuna ek Kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "DP": 1
+   }
+  },
+  {
+   "vote_id": "tbmm09007077_p039",
+   "title": "gisiyle Rıhtım Besiminden, diğer Vergi, Resim ve Harçlardan muafiyeti hakkındaki kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "DP": 3,
+    "?": 1
+   }
+  },
+  {
+   "vote_id": "tbmm09009107_p051",
+   "title": "il eden bazı hükümler hakkındaki 2460 sayılı Kanunda değişiklik yapılmasına dair Kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "CHP": 1
+   }
+  },
+  {
+   "vote_id": "tbmm09012027_p035",
+   "title": "16. III. 1950 tarihli ve 5302 sayılı Tapulama Kanununa ek Kanuna verilen oyların sonucu",
+   "no_by_party": {
+    "?": 1
+   }
+  },
+  {
+   "vote_id": "tbmm09027034_p035",
+   "title": "k tesislerinin devrine mütəəllik olarak akdedilen mukavelenin təsdiq hakkındaki Kanuna verilen reylerin sonucu",
+   "no_by_party": {
+    "CHP": 1
+   }
+  },
+  {
+   "vote_id": "tbmm10013103_p059",
+   "title": "I : 103 31.8.1956 C : 2 Orman Kanununa verilen reylerin neticesi",
+   "no_by_party": {
+    "CHP": 7,
+    "DP": 2,
+    "HP": 1
+   }
+  }
+ ]
+}

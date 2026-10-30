@@ -219,11 +219,16 @@ I tested both. Read it as suggestive only.
   - initial-style names ("A. MENDERES") are read as names, not as headers;
   - the old section words are recognised ("Kabul etmiyenler", "Müstenkif");
   - the restart-in-the-alphabet rule is switched off.
-- **Parse quality.** Of 57 votes from April 1945 to January 1946, 33 parse within 10% of the
-  printed tallies on both lists. 87% of the parsed names match a deputy of the 1943 roster on
-  province plus fuzzy surname.
+- **Parse quality, after repair.** Of 57 votes from April 1945 to January 1946, 54 are usable:
+  no list holds more names than its printed tally. 85% of the parsed names match a deputy of the
+  1943 roster on province plus fuzzy surname.
+  - Repairs: OCR-garbled headers ("[0]](h ıvatılnrHjanjarl", "Oya katûm%yaıUar") are
+    recognised; a list filed under a section whose tally is zero is moved to the section left
+    short; a tally that GNACT misread (17 for 167) is taken from the PDF when GNACT's tallies do
+    not add up to the house.
+  - Excluded: three votes whose lists run into the next vote. On one usable vote
+    (tbmm07019081) a page has no text layer, so about 170 "yes" names are missing.
   - The parse check is in `data/interim/tbmm_1945_namelists_check.csv`.
-  - The remaining 24 votes have a lost section header and need hand repair before use.
 
 ### 1945: did the future DP founders single out the land law? No.
 
@@ -241,12 +246,12 @@ I tested both. Read it as suggestive only.
 - **Inference:** randomization over which vote is treated as the land law.
 
 **Result**
-- **All 33 votes.** For the 14 deputies who later sat for the DP, the difference-in-differences
-  (DiD) is +0.23. The land law ranks 2nd of 33 votes, p = 0.15 over votes.
-- **The withdrawal.** The five dissenters were absent on 46% of the votes before the budget
-  vote and on 94% of the 23 other votes after it.
-- **Votes after 29 May only.** The land law is not distinctive: for the five, DiD +0.18
-  (p = 0.17 over 24 votes); for all 14 later-DP deputies, p = 0.21.
+- **All 54 votes.** For the 14 deputies who later sat for the DP, the difference-in-differences
+  (DiD) is +0.25. The land law ranks 2nd of 54 votes, p = 0.07 over votes.
+- **The withdrawal.** The five dissenters were absent on 41% of the votes before the budget
+  vote and on 91% of the 38 other votes after it.
+- **Votes after 29 May only.** The land law is not distinctive: for the five, DiD +0.21
+  (p = 0.18 over 39 votes); for all 14 later-DP deputies, +0.15 (p = 0.15).
 - **The exception.** In December 1945 Menderes, Köprülü and Koraltan came back to vote "no" on
   the 1946 budget (tbmm07020020).
 
@@ -285,9 +290,158 @@ steadily with rural pressure. This fits the cabinet-driven pattern in the votes.
 **Caveat:** GNACT's OCR sometimes invents text, so these are counts of robust phrases. Every
 quotation must come from the TBMM PDFs.
 
-### Occupations ("farmers")
+### The 1945 debate in the speeches
 
-- **The elites dataset has no occupation variable.** Its `majororoccupation` field is the field
-  of study: Other 51%, Law 22%, Medicine 4%, and so on. It has no farmer or landowner category.
-- **Where occupations are.** The TBMM Albümü (1920–2010) prints each deputy's occupation, but
-  the site that hosts it (acikerisim.tbmm.gov.tr) is blocked in this environment.
+`analysis/tbmm1943/05_land_debate_1945.py` splits the GNACT text of the debate into speaker turns.
+- **Sessions:** the general debate of 14–21 May (B. 54–58) and the articles, 4–11 June (B. 67–70, 72).
+- **Size:** 445 turns from 94 speakers; 87% of turns are matched to the 1943 roster.
+
+**Who spoke.** The 14 future-DP deputies, about 3% of the house, spoke 16% of all words.
+Menderes, Düşünsel, Sazak, Ülkümen, Koraltan and Oral each spoke 5,000–7,400 words.
+
+**What they said** (each quote checked on the TBMM PDF page):
+- **Menderes, 15 May (tbmm07017055 p. 22):** the bill's farmstead idea (ocak) is copied "almost
+  verbatim" from the National Socialist Erbhof law.
+- **Menderes, 4 June (tbmm07018067 p. 41):** he protests that the majority's motion on Article
+  17, the expropriation of land worked by sharecroppers down to small holdings, was
+  "passed hand to hand" for signatures and is being adopted without debate. He also asks not to be counted against the
+  land law.
+- **Oral (Seyhan), 4 June (p. 32):** "the provisions of Article 17 recognize no limit in land."
+- **Sazak, 4 June (p. 46):** "if I denied that my tie to land affects my speech, I would be
+  lying."
+- **Sazak, 5 June (tbmm07018068 p. 41):** "where are these serfs, these captives?"
+- **Koraltan, 14 May (tbmm07017054 p. 30):** "the economic measures of late are bad … if the
+  government continues on this path I cannot trust it."
+- **Koraltan, 5 June (tbmm07018069 p. 7):** a unanimous final vote "will be a clear answer" to
+  those who say there is opposition in the Assembly. He then did not vote.
+
+**A rough lexicon index** (property and producer terms against redistribution terms; speakers
+with at least 500 words, government and commission excluded):
+- Future-DP speakers 0.64, others 0.45. Permutation p = 0.17.
+- CHP loyalists such as Bayur and Tugay used the same property language.
+
+**Reading.** The opposition to the core article was voiced openly, and partly by CHP members.
+Nobody recorded a "no" vote (345–0). The dissenters said what they thought in debate and stayed
+away from the vote.
+
+### Occupations from the TBMM Albümü
+
+The parliament's open archive (acikerisim.tbmm.gov.tr, hdl 11543/2343) holds the TBMM Albümü
+1920–2010.
+- **Parsing:** volumes 1–2 (1920–80) have a text layer. `analysis/occupation/01_parse_album.py`
+  reads 7,355 biographies. Matched to the elites rows by year, province and name, 97–100%
+  match in every term (`data/processed/elites_occupation.csv`).
+- **Farmer flag:** the biography lists farming, a farm, land or livestock as an occupation
+  (çiftçi, çiftçilik, ziraatçı, çiftlik sahibi, arazi sahibi, hayvancılık). Examples:
+  Menderes "Çiftçilik", Sazak "Ziraatçı", Oral "Çiftçiler Birliği Reisi".
+- **Share of farmers:** 9–11% before 1946, 14–18% in 1946–69, 13–15% in the 1970s.
+- **Agricultural schooling** is a separate flag.
+- **Senators are not covered.** The Senate albums are scans without a text layer, and no OCR
+  engine is available here.
+
+**Results** (`analysis/occupation/03_farmer_votes.py`):
+
+| Sample | Outcome | Farmer effect |
+|---|---|---|
+| Millet Meclisi 1961–80, contested land-reform and land-tax votes (16 roll calls, 246 farmer deputies) | yes | **+0.002 (SE 0.009)**: farmers vote like their party colleagues on the same roll call |
+| Same, contested agency budgets | yes | +0.010 (0.008) |
+| Same, land votes | taking part | −0.030 (0.015) |
+| Same, farm-benefit votes | taking part | −0.040 (0.019) |
+| 1945 land law (41 farmer deputies) | excess absence | +0.005 (p = 0.93) |
+| 1945 debate | share of words spoken | **23%**, against 9% of the house |
+
+**Reading.** Landed deputies shaped the debate but not the vote. Once their party's line was
+set, they voted like everyone else. Where they differed, they were slightly more likely to be
+away. This is the same "voice, then exit" pattern as the DP founders, and it supports the
+party-and-cabinet account over a sectoral, landed-interest account of roll-call behaviour.
+
+### Agrarian roll calls 1946–60
+
+**Data.** `analysis/tbmm1943/06_farm_votes_1946_60.py` selects 143 named votes of 1946–60 on:
+- land distribution and titling;
+- the grain board (TMO), sugar and tobacco;
+- forests, state farms (DÜÇ), the State Hydraulic Works (DSİ) and irrigation;
+- seed loans, livestock and village water;
+- the agencies' budgets and accounts.
+
+`02_parse_lists.py farm` reads the lists:
+- 135 votes are usable, with 60,080 deputy-votes; 25 votes are contested.
+- 89.5% of names are matched to the 1946, 1950, 1954 and 1957 cohorts on province and full name.
+- Hand fixes: tally corrections in `data/interim/tbmm_1946_60_tally_fixes.csv`. Five votes are
+  excluded because GNACT's page does not exist in the TBMM PDF.
+- Analysis: `07_analyse_1946_60.py`, output in `analysis/output/h1950s_results.json`.
+
+**1. The 1950 turnover: the same deputies flip with the cabinet.**
+- **Design.** 68 deputies sat both before and after the May 1950 election and kept their party:
+  27 DP members (opposition, then government) and 41 CHP members (government, then opposition).
+- **Outcome.** Yes on contested agrarian votes (mostly agency budgets).
+
+| Group | Before May 1950 | After May 1950 |
+|---|---|---|
+| DP deputies | 5% yes | 100% yes |
+| CHP deputies | 99% yes | 40% yes |
+
+- **Result.** DiD = +1.54, the two flips added together (Fisher randomization over party labels:
+  p < 0.001, 0 of 5,000).
+- **Meaning.** The same people, voting on the same kinds of farm agencies, switch sides when the
+  cabinet changes hands. This is the 1961–80 result (DID_M +0.41) in a sharper form.
+
+**2. The 1955 DP → Hürriyet exit: a second "AP→DP".**
+- **Design.** 36 DP deputies of 1954 who left in October 1955 and founded the Hürriyet Partisi,
+  compared with 429 who stayed.
+- **Agency budgets.** Both groups voted 100% yes before the split. After it, the dissidents voted
+  48% yes and the stayers 100%. DiD −0.52, p < 0.001.
+- **All agrarian votes.** DiD −0.16, p < 0.001.
+- **Meaning.** This replicates the 1970 AP→DP exit (−0.83) fifteen years earlier, with a
+  different party. Leaving the government party, not the farm content of the bill, changes the vote.
+
+**3. Party lines.** Share voting yes on contested agrarian votes:
+
+| Period | CHP | DP |
+|---|---|---|
+| 1946–50 | 98% (government) | 8.5% (opposition) |
+| 1950–60 | 8% (opposition) | 99% (government) |
+
+Hürriyet Partisi members, 1956–57: 23%.
+
+**4. Farmers.** Within party on the same roll call, farmer deputies differ by −0.002 (SE 0.007;
+235 farmer deputies). A tight null, as in 1961–80.
+
+**5. Recorded dissent on the land laws.**
+- **22 March 1950, the CHP's amendment to the 1945 land law: 261–15–6.**
+  - All 15 "no" votes come from the CHP benches, with Adnan Adıvar an independent. They include
+    Şevket Raşit Hatipoğlu, the Agriculture Minister who carried the 1945 law (tbmm08025070,
+    PDF p. 87), Falih Rıfkı Atay, Ekrem Oran and Mümtaz Ökmen.
+  - 25 of the 31 DP deputies in the lists did not vote.
+  - The reform's own authors voted against diluting it, two months before the CHP lost power.
+  - **The debate of 10–13 March 1950** (tbmm08025062–63; quotes checked on the PDF):
+    - **The government's spokesman.** The Agriculture Minister presenting the dilution was Cavit
+      Oral (Seyhan), the leading critic of Article 17 in 1945 (pp. 37–39).
+    - **İbrahim Arvas (CHP, Van):** the delegates at the CHP's own party congress "all at once
+      attacked articles 15, 16, 17 and 43" (p. 20).
+    - **Sabit Sağıroğlu (CHP, Erzincan, a farmer in the album)** says sharecropping arrangements
+      ended "all from the fear of Article 17" (p. 37).
+    - **Hatipoğlu** answers that the law is "the only legacy of honour I can leave my children"
+      (p. 25).
+  - **Reading.** The landed critics of 1945 rewrote the law from inside the governing party, with
+    one of them as minister. This is the CHP's own landed wing, not the DP.
+- **The 1950 Tapulama (titling) law** passed 241–0.
+- **The 1955 TMO and land-law amendments** passed 289–1 and 275–0. Under the DP, agrarian
+  legislation passed with near-unanimity.
+- **31 August 1956, the Forest Law: 261–13.**
+  - 7 of the 8 CHP deputies who voted said no, İnönü among them.
+  - The DP voted 233–2 for it.
+  - Forest villagers were a core DP clientele, and the opposition voted against.
+- **December 1948, the amendment of the Sugar and Glucose Consumption Tax (tbmm08014022):**
+  14 DP and 14 Millet Partisi deputies voted no, including Bayar and Koraltan.
+
+**Reading.** Two eras, two governing parties, three natural experiments, all with the same
+answer:
+- **The turnover:** the same deputies flip when the cabinet changes hands.
+- **Exits from the government party:** in 1955 (DP→HP), as in 1970 (AP→DP), they turn deputies
+  against the cabinet's farm budgets.
+- **An exit that stays in opposition:** in 1967 (CHP→GP) it changes nothing.
+
+Landed occupation never predicts a vote within party. Agrarian roll calls in Turkey, 1945–80,
+are confidence votes on the cabinet. Landed interests act through debate, through absence, and
+through party exit, not through recorded votes against their party.
