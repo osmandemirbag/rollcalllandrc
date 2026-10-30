@@ -1,0 +1,461 @@
+<title>Cabinets, Not Countryside</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<style>
+/* Layout: a single reading column (~68ch) with figures that may widen to 920px; method boxes set off by a ruled margin, like an appendix in the minutes. */
+:root {
+  --paper: #f7f8f6; --ink: #1d2422; --ink-2: #4a5552; --muted: #7d8784; --rule: #d9dedb; --panel: #eef1ee;
+  --accent: #2f6b5a; --accent-ink: #1f4f42;
+  --ap: #2a78d6; --chp: #eb6834; --msp: #1baf7a; --dp: #eda100; --cgp: #e87ba4; --other: #9aa39f;
+  --band: #e5ebe7; --band-2: #f1ece3;
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-body: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --f-data: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #141917; --ink: #e8ece9; --ink-2: #b9c2be; --muted: #8b9692; --rule: #2c3532; --panel: #1b2220;
+  --accent: #6fb39d; --accent-ink: #9fd1bf;
+  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76;
+  --band: #1f2a26; --band-2: #2a2620; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #141917; --ink: #e8ece9; --ink-2: #b9c2be; --muted: #8b9692; --rule: #2c3532; --panel: #1b2220;
+  --accent: #6fb39d; --accent-ink: #9fd1bf;
+  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76;
+  --band: #1f2a26; --band-2: #2a2620; color-scheme: dark; }
+
+body { background: var(--paper); color: var(--ink); font: 17px/1.62 var(--f-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 48px 96px; display: grid; gap: 28px; }
+.col { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 650; text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(2.3rem, 6vw, 3.6rem); letter-spacing: -0.01em; }
+h2 { font-size: 1.75rem; margin-top: 28px; }
+h3 { font-size: 1.2rem; }
+p { margin: 0; }
+.stack { display: grid; gap: 14px; }
+.eyebrow, .label { font-family: var(--f-data); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; color: var(--muted); }
+.lede { font-size: 1.2rem; color: var(--ink-2); max-width: 60ch; }
+.byline { font-family: var(--f-data); color: var(--muted); font-size: 0.9rem; }
+.abstract { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); padding-block: 18px; display: grid; gap: 10px; }
+.claims { display: grid; gap: 8px; padding-left: 0; list-style: none; margin: 0; counter-reset: c; }
+.claims li { counter-increment: c; display: grid; grid-template-columns: 2.2em 1fr; gap: 6px; }
+.claims li::before { content: counter(c); font-family: var(--f-data); font-weight: 600; color: var(--accent); }
+.estimand { border-left: 3px solid var(--accent); background: var(--panel); padding: 14px 18px; display: grid; gap: 6px; font-size: 0.95rem; }
+.estimand b { font-family: var(--f-data); font-weight: 600; letter-spacing: 0.02em; }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; font-weight: 600; }
+figure { margin: 0; display: grid; gap: 8px; }
+figcaption { font-size: 0.88rem; color: var(--ink-2); max-width: 75ch; }
+.fig { width: 100%; overflow-x: auto; }
+svg { display: block; max-width: 100%; height: auto; }
+svg text { font-family: var(--f-data); fill: var(--ink-2); font-size: 11px; }
+svg .t-strong { fill: var(--ink); font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--f-data); font-size: 0.85rem; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--f-data); font-weight: 600; color: var(--ink-2); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em; }
+td.n, th.n { text-align: right; font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.tablewrap { overflow-x: auto; }
+.verdict { font-family: var(--f-data); font-weight: 600; font-size: 0.82rem; padding: 2px 8px; border-radius: 3px; white-space: nowrap; border: 1px solid currentColor; }
+.v-yes { color: var(--accent-ink); } .v-part { color: var(--ink-2); } .v-no { color: var(--chp); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.grid2 > * { min-width: 0; }
+.note { font-size: 0.88rem; color: var(--ink-2); }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 8px 0; width: 100%; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85em; background: var(--panel); padding: 1px 4px; border-radius: 3px; }
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--ink); color: var(--paper); font: 500 12px/1.4 var(--f-data);
+  padding: 6px 9px; border-radius: 4px; max-width: 260px; opacity: 0; transition: opacity .1s; }
+.math { font-family: var(--f-body); font-style: italic; }
+a { color: var(--accent-ink); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 560px) { body { font-size: 16px; } .claims li { grid-template-columns: 1.6em 1fr; } }
+@media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
+</style>
+
+<div id="tip" role="status" aria-live="polite"></div>
+<main class="wrap">
+  <header class="stack col">
+    <div class="eyebrow">Grand National Assembly of Turkey · recorded votes on land and agriculture · 1961–1980</div>
+    <h1>Cabinets, Not Countryside</h1>
+    <p class="lede">Who decided Turkish agrarian policy in parliament: landlords, rural constituencies, ideology, or the cabinet? A test of the big theories with every deputy's recorded vote.</p>
+    <p class="byline">Data: <span class="num" data-v="n_votes"></span> roll calls, 182,005 member-votes, read from the TBMM minutes and linked to the Turkish Political Elites Dataset.</p>
+  </header>
+
+  <section class="abstract col" aria-label="Summary">
+    <div class="label">The argument</div>
+    <p>Classic accounts explain agrarian policy by who owns land (Moore, Albertus), by the political weight of rural voters (Bates, Olson), or, in Turkey, by the cleavage between a reforming centre and a rural periphery (Mardin). In the recorded votes of 1961–80 none of these organises the behaviour of deputies. What organises it is the deputy's relation to the cabinet. Within that structure, landed interest surfaces on one issue only: taxing land. And it shows itself through party exit, not through regional voting blocs.</p>
+    <ol class="claims">
+      <li><span>When a deputy's party enters the cabinet, the same deputy becomes <span class="num" data-v="did_yes.estimate" data-f="pp"></span> points more likely to vote for agricultural agency budgets (DID<sub>M</sub>, 95% CI <span class="num" data-v="did_yes.ci" data-f="ci"></span>). The placebo on the preceding pair of votes is <span class="num" data-v="did_yes.placebo" data-f="pp1"></span> points.</span></li>
+      <li><span>Leaving the governing party reverses budget votes: the 21 AP deputies who founded the DP in December 1970 move <span class="num" data-v="ap_dp.estimate" data-f="pp"></span> points against AP stayers (randomization inference p &lt; 0.001).</span></li>
+      <li><span>Landed interest appears on one issue. Six months before the split, the future DP founders already voted against the 1970 property tax while their colleagues voted for it (Fisher's exact test, p = <span class="num" data-v="ap_dp.landtax_1970.fisher_p" data-f="sci"></span>). A general second voting dimension measured before the split does not predict exit.</span></li>
+      <li><span>A party's vote follows its stance toward the cabinet, not its coalition partner's ideology: the MSP backed the land reform agency with the centre-left CHP and again with the right-wing AP.</span></li>
+      <li><span>The 1971 military memorandum suspended partisan conflict for a year: the AP–CHP distance fell by <span class="num" data-v="memo.estimate" data-f="pp"></span> points (placebo-in-time p = <span class="num" data-v="memo.placebo_p" data-f="p"></span>). Conflict returned first on taxing land.</span></li>
+    </ol>
+  </section>
+
+  <section class="stack col">
+    <h2>1. What is observed</h2>
+    <p>The data are the open, by-name votes (açık oylama) of the Millet Meclisi and the Cumhuriyet Senatosu on land and agriculture. Every list printed in the minutes was read from the TBMM PDFs and matched to deputies.
+      <span class="num" data-v="exact" data-f="pct"></span> of roll calls reproduce the printed tallies exactly and <span class="num" data-v="within2" data-f="pct"></span> are within two names. All 73 land votes are exact, 13 of them after checks against the page images. A hand audit found 73 of 75 sampled links correct.</p>
+    <p>Two features of the data shape every claim below.</p>
+    <ul class="stack" style="margin:0;padding-left:1.2em">
+      <li>Open votes were compulsory for budgets and final accounts, and taken on request otherwise. Budgets therefore dominate (281 of 567 roll calls), and the most consequential agrarian instruments of the period are not observed at all: support prices, credit ceilings, and laws passed by show of hands.</li>
+      <li>Party at the time of the vote is exact for deputies who never switched and dated by the known splits for the 21% of member-votes cast by switchers. Senators' parties are not observed, so the causal designs use the Assembly.</li>
+    </ul>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>2. The space of agrarian conflict</h2>
+      <p>For each Assembly term I estimate a two-dimensional item-response model of yes/no votes. This is the Bayesian model of Clinton, Jackman and Rivers (2004), fitted at its posterior mode, a probabilistic cousin of NOMINATE. It uses roll calls whose lists are within two names of the tally and on which at least 2.5% voted in the minority. The model classifies 97–99% of votes correctly. It reduces errors over a majority-vote baseline by 0.83–0.99 (APRE).</p>
+    </div>
+    <figure>
+      <div class="legend" id="leg-party"></div>
+      <div class="fig" id="fig-space"></div>
+      <figcaption>Each dot is a deputy's position on the first dimension, by term and by party at the start of the term. Hover for names. The first dimension separates the governing bloc from the opposition in every term. Its orientation is fixed so that AP is to the right.</figcaption>
+    </figure>
+    <div class="grid2">
+      <figure>
+        <div class="fig" id="fig-scatter"></div>
+        <figcaption>1969–73, both dimensions. Ringed dots are AP deputies who later founded the DP. The second dimension is mostly variation inside parties (88% of its variance in this term). Its orientation is arbitrary.</figcaption>
+      </figure>
+      <figure>
+        <div class="fig" id="fig-angles"></div>
+        <figcaption>How much each kind of roll call loads on the second dimension: the median angle of its discrimination vector, where 0° is purely the first dimension. n is the number of scaled roll calls.</figcaption>
+      </figure>
+    </div>
+    <div class="col stack">
+      <p>Two facts follow.</p>
+      <ul class="stack" style="margin:0;padding-left:1.2em">
+        <li>The land reform law is almost a pure first-dimension vote (7°): land redistribution was fought along the government–opposition line.</li>
+        <li>Titling and property-tax votes load most on the second dimension (39° and 23°): conflicts over property claims cut across parties.</li>
+      </ul>
+      <p>The second dimension has no regional content. Its within-party correlation with the rural share of the province and with the East/Southeast is below 0.1 in every term.</p>
+      <p class="note">An earlier fit on all roll calls produced a second dimension that tracked the alphabetical order of provinces (r = 0.41 in 1969–73). That is a parsing artifact from a few votes whose sections the OCR mixed up. Restricting to well-measured votes removes it (|r| ≤ 0.05).</p>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>3. Claim 1: the cabinet causes agrarian budget votes</h2>
+      <div class="estimand">
+        <div><b>Estimand.</b> The average effect, on deputies whose party enters (or leaves) the cabinet between two consecutive agricultural budget roll calls of the same term, of that change on the probability of voting yes among votes cast. Leaving is counted with the sign reversed.</div>
+        <div><b>Design.</b> The DID<sub>M</sub> estimator of de Chaisemartin and D'Haultfœuille (2020). It compares the switchers' change to that of deputies with the same prior status whose status did not change. This avoids the negative weights of two-way fixed effects when effects differ across switches. Cabinets of 1971–75 without party mandates are excluded, as are ministers, members on leave and presiding officers.</div>
+        <div><b>Identifying assumption.</b> Parallel trends between switchers and stayers across consecutive budget votes, and no anticipation. Tested with the same comparison on the preceding pair of votes.</div>
+        <div><b>Inference.</b> Bootstrap over deputies (499 draws). Status changes happen at the party-by-cabinet level, so the effective number of independent shocks is smaller than the number of deputies. Read the intervals as lower bounds on uncertainty.</div>
+      </div>
+    </div>
+    <figure>
+      <div class="fig" id="fig-did"></div>
+      <figcaption>Points are estimates with 95% intervals. TWFE is the conventional two-way fixed-effects estimate on the same sample. DID<sub>M</sub> is smaller, a sign of heterogeneous effects across cabinet changes. The placebos are close to zero.</figcaption>
+    </figure>
+    <div class="col">
+      <p>Going into government raises the yes probability by <span class="num" data-v="did_yes.estimate" data-f="pp"></span> points and turnout by <span class="num" data-v="did_turnout.estimate" data-f="pp"></span> points, for the same people voting on the same agency's budget. On farm benefits the logic is different: almost nobody votes against them. On the 18 benefit votes that failed for lack of quorum, government deputies were <span class="num" data-v="gate" data-f="pp_abs"></span> points less likely to be present than opposition deputies on the same vote, excused absences excluded. That comparison is within the same vote, not within the same deputy, so it is descriptive.</p>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>4. Claim 2: party exit reverses the vote</h2>
+      <div class="estimand">
+        <div><b>Estimand.</b> The effect on the 21 AP deputies who founded the DP on 18 December 1970 (the average effect on the treated) of leaving the governing party for an opposition party, on the probability of voting yes on contested agricultural budget roll calls in the 1969–73 Assembly.</div>
+        <div><b>Design.</b> Difference-in-differences against the <span class="num" data-v="ap_dp.controls"></span> AP deputies who stayed, with an event study by budget roll call. Inference by Fisher randomization over which AP deputies are labelled switchers (5,000 draws).</div>
+        <div><b>Scope.</b> Switching was chosen, so the estimate describes these deputies under this exit. It is not the effect of a randomly assigned label.</div>
+      </div>
+    </div>
+    <div class="grid2">
+      <figure>
+        <div class="fig" id="fig-event"></div>
+        <figcaption>Share voting yes on each contested budget roll call, numbered relative to the split (0 = first roll call after it). Before the split both groups vote yes unanimously.</figcaption>
+      </figure>
+      <figure>
+        <div class="fig" id="fig-landtax"></div>
+        <figcaption>The June 1970 Emlâk Vergisi vote, six months before the split, among deputies then in AP. Shares of each group, with not voting as the remainder.</figcaption>
+      </figure>
+    </div>
+    <div class="col stack">
+      <h3>Claim 3: where landed interest shows</h3>
+      <p>The future DP founders voted with AP on every budget until the day they left. On taxing land they had already broken with it.</p>
+      <ul class="stack" style="margin:0;padding-left:1.2em">
+        <li>Of the future founders, <span class="num" data-v="ap_dp.landtax_1970.switchers_no" data-f="pct"></span> voted no and <span class="num" data-v="ap_dp.landtax_1970.switchers_yes" data-f="pct"></span> voted yes.</li>
+        <li>Of the deputies who stayed in AP, <span class="num" data-v="ap_dp.landtax_1970.stayers_no" data-f="pct"></span> voted no and <span class="num" data-v="ap_dp.landtax_1970.stayers_yes" data-f="pct"></span> voted yes.</li>
+      </ul>
+      <p>The disagreement over land preceded the party split, so preferences over landed property sorted deputies into parties; party membership did not create the preference.</p>
+      <p>The preference was issue-specific. A second dimension estimated only from pre-split votes does not predict who left (|r| = 0.08, within-party permutation p = 0.19).</p>
+    </div>
+  </section>
+
+  <section class="stack col">
+    <h2>5. Claim 4: stance toward the cabinet, not the partner's ideology</h2>
+    <p>The National Salvation Party (MSP) governed first with the centre-left CHP (1974), then with the right-wing AP (1975–77). If parties voted on land reform by ideology, or followed their partner's, its votes on the land reform agency's budget would change between these coalitions. They do not.</p>
+    <div class="tablewrap"><table id="tbl-msp">
+      <thead><tr><th>Budget vote</th><th>Cabinet</th><th>MSP's relation to cabinet</th><th class="n">Yes</th><th class="n">No</th><th class="n">Absent</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <p class="note">Of the same 31 MSP deputies, 29 voted yes alongside the CHP in 1974 and again alongside the AP in 1976. The comparison is within party and largely within person, but it is a single party, so it is a case rather than an estimate.</p>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>6. Claim 5: military tutelage and the suspension of party conflict</h2>
+      <div class="estimand">
+        <div><b>Estimand.</b> The change in the mean absolute difference between the AP and CHP yes-shares on Assembly roll calls, from the Demirel government (October 1969 – March 1971) to the period after the memorandum of 12 March 1971 (to April 1972). The same parliament and the same deputies throughout.</div>
+        <div><b>Inference.</b> Placebo in time: the same before/after contrast at <span class="num" data-v="memo.placebo_n"></span> break dates in the other terms (30 roll calls on each side). The p-value is the share of placebo drops at least as large.</div>
+        <div><b>Threat.</b> The end of the consensus coincides with Ecevit's takeover of the CHP (May 1972) and the 1973 election campaign. Only the onset is attributed to the memorandum.</div>
+      </div>
+    </div>
+    <figure>
+      <div class="fig" id="fig-memo"></div>
+      <figcaption>Each mark is a roll call of the 1969–73 Assembly: the distance between the AP and CHP yes-shares among votes cast. Land-tax votes are drawn as diamonds. Shaded bands mark the cabinets.</figcaption>
+    </figure>
+    <div class="col">
+      <p>Under the post-memorandum cabinets of Erim, partisan distance collapsed to near zero, including on the 1971 property-tax amendment. The collapse was deepest when the CHP held no cabinet posts (Erim II), so shared office does not explain it. The first issue on which conflict returned, in June 1972, was again the taxation of land.</p>
+      <p>In June 1973 the land reform law passed with the AP's votes. The CHP did not vote against it; 103 of its 105 deputies stayed away. Abstention was the opposition's instrument on land, as quorum denial was the government's on farm benefits.</p>
+    </div>
+  </section>
+
+  <section class="stack col">
+    <h2>7. Verdicts on the big theories</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Theory</th><th>Observable implication in roll calls</th><th>Evidence</th><th>Verdict</th></tr></thead>
+      <tbody>
+        <tr><td>Executive dominance (Cox 1987; Huber 1996)</td><td>Votes track the deputy's relation to the cabinet</td><td>DID<sub>M</sub> +0.41; party exit −0.83; MSP partner switch; one dominant dimension in every term</td><td><span class="verdict v-yes">Supported, causal</span></td></tr>
+        <tr><td>Landed elites block redistribution (Moore 1966; Albertus 2015)</td><td>Landed deputies defect on land; reform needs an elite split or authoritarian rule</td><td>Defection only on taxing land, through exit to the DP; the land reform law passed only under military tutelage</td><td><span class="verdict v-part">Supported on taxation and timing</span></td></tr>
+        <tr><td>Rural interest and urban bias (Bates 1981; Olson 1985)</td><td>Rural-province deputies vote as a bloc</td><td>Within-party correlations with rural share and the East/Southeast are below 0.1; no regional dimension</td><td><span class="verdict v-no">Not supported</span></td></tr>
+        <tr><td>Centre–periphery (Mardin 1973)</td><td>The centre pushes redistribution, the periphery resists</td><td>CHP for land reform in 1965; after 1971 positions follow the cabinet, and the periphery party (AP) passed the 1973 law</td><td><span class="verdict v-part">Before 1971 only</span></td></tr>
+        <tr><td>Distributive universalism (Weingast 1979)</td><td>Benefits pass by near-unanimity; governments ration by agenda</td><td>4% of votes cast on benefits are no; governments withhold quorum (descriptive)</td><td><span class="verdict v-part">Supported, descriptive</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="stack col">
+    <h2>8. What this does not show</h2>
+    <ul class="stack" style="margin:0;padding-left:1.2em">
+      <li>Any effect on farmers. The decisive agrarian instruments of the period were decrees and show-of-hands laws that left no individual record.</li>
+      <li>Senate behaviour by party, which is not observed.</li>
+      <li>Effects of being in government on land-tax votes. No deputy's status changed between those votes, so the estimand has no support.</li>
+      <li>Personal landholding. Occupation in the elites data is too coarse, so landed interest is inferred from behaviour on land votes, not from assets.</li>
+    </ul>
+  </section>
+
+  <section class="stack col">
+    <h2>Methods appendix</h2>
+    <p><b>Ideal points.</b> <span class="math">P(y<sub>ij</sub> = 1) = Λ(α<sub>j</sub> + x<sub>i</sub>′β<sub>j</sub>)</span>, with <span class="math">x<sub>i</sub> ∈ ℝ²</span>. The model is fitted at its posterior mode with priors <span class="math">x ~ N(0, I)</span> and <span class="math">α, β ~ N(0, 25)</span>, separately per Assembly term. The points are rotated to their principal axes. Roll calls enter if they are within two names of the printed tally, have at least 2.5% in the minority and at least 20 voters. Deputies enter with at least half the term's scaled roll calls (at most 10 required).</p>
+    <p><b>DID<sub>M</sub>.</b> For each consecutive pair of budget roll calls <span class="math">(t−1, t)</span> within a term, switchers <span class="math">0→1</span> are compared with stayers <span class="math">0→0</span>, and <span class="math">1→0</span> with <span class="math">1→1</span>. Cell estimates are averaged with weights equal to the number of switchers. The placebo repeats the comparison on <span class="math">(t−2, t−1)</span> for the same groups.</p>
+    <p><b>Randomization inference.</b> The treated set (21 DP founders) is reassigned at random among the AP deputies of 1969–73, and the difference-in-differences recomputed 5,000 times. None of the draws reached the observed effect.</p>
+    <p><b>Reproduce.</b> <code>analysis/06_rigorous.py</code> writes the estimates to <code>analysis/output/paper.json</code>. <code>analysis/07_build_page.py</code> builds this page from them.</p>
+  </section>
+</main>
+
+<script>
+const D = /*__DATA__*/null;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const PARTY_ORDER = ["AP", "CHP", "DP", "MSP", "CGP", "OTHER"];
+const PCOL = p => ({AP: "--ap", CHP: "--chp", DP: "--dp", MSP: "--msp", CGP: "--cgp"}[p] || "--other");
+const TERMS = {d01: "1961–65", d02: "1965–69", d03: "1969–73", d04: "1973–77", d05: "1977–80"};
+const NS = "http://www.w3.org/2000/svg";
+const tip = document.getElementById("tip");
+function el(tag, attrs = {}, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function txt(parent, x, y, s, attrs = {}) { const t = el("text", {x, y, ...attrs}, parent); t.textContent = s; return t; }
+function hover(node, html) {
+  node.addEventListener("pointerenter", () => { tip.innerHTML = html; tip.style.opacity = 1; });
+  node.addEventListener("pointermove", e => { tip.style.left = Math.min(e.clientX + 12, innerWidth - 270) + "px"; tip.style.top = (e.clientY + 12) + "px"; });
+  node.addEventListener("pointerleave", () => { tip.style.opacity = 0; });
+}
+const get = path => path.split(".").reduce((o, k) => o?.[k], D);
+const fmt = {
+  pp: v => (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(0),
+  pp1: v => (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(1),
+  pp_abs: v => Math.abs(v * 100).toFixed(0),
+  ci: v => `[${(v[0] * 100).toFixed(0)}, ${(v[1] * 100).toFixed(0)}]`,
+  pct: v => (v * 100).toFixed(0) + "%",
+  p: v => v.toFixed(3),
+  sci: v => v.toExponential(0).replace("e-", "×10⁻").replace(/⁻(\d+)/, (m, d) => "⁻" + [...d].map(c => "⁰¹²³⁴⁵⁶⁷⁸⁹"[c]).join("")),
+};
+document.querySelectorAll("[data-v]").forEach(n => { const v = get(n.dataset.v); n.textContent = n.dataset.f ? fmt[n.dataset.f](v) : v; });
+
+function partyOf(p) { return PARTY_ORDER.includes(p) ? p : "OTHER"; }
+function legend() {
+  const L = document.getElementById("leg-party");
+  for (const p of PARTY_ORDER) { const s = document.createElement("span"); s.innerHTML = `<i class="sw" style="background:var(${PCOL(p)})"></i>${p === "OTHER" ? "other parties and independents" : p}`; L.appendChild(s); }
+}
+
+function figSpace() {
+  const host = document.getElementById("fig-space");
+  const terms = Object.keys(TERMS).filter(t => D.points.some(p => p.term === t));
+  const W = 900, rowH = 24, top = 10;
+  const present = t => PARTY_ORDER.filter(p => D.points.some(q => q.term === t && partyOf(q.party) === p));
+  const panelH = t => present(t).length * rowH + 22;
+  const H = top + terms.reduce((a, t) => a + panelH(t), 0) + 18;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Ideal points on the first dimension by term and party"}, host);
+  const xs = D.points.map(p => p.d1); const lo = Math.min(...xs), hi = Math.max(...xs);
+  const X = v => 150 + (v - lo) / (hi - lo) * (W - 180);
+  let y0 = top;
+  terms.forEach((t) => {
+    txt(svg, 0, y0 + 14, TERMS[t], {class: "t-strong"});
+    const pts = D.points.filter(p => p.term === t);
+    present(t).forEach((p, pi) => {
+      const sub = pts.filter(q => partyOf(q.party) === p);
+      const yy = y0 + 10 + pi * rowH;
+      txt(svg, 140, yy + 4, `${p === "OTHER" ? "other" : p} (${sub.length})`, {"text-anchor": "end"});
+      sub.forEach((q, i) => {
+        const c = el("circle", {cx: X(q.d1), cy: yy + ((i * 37) % 13) - 6, r: 3.6, fill: css(PCOL(p)), "fill-opacity": 0.75, stroke: css("--paper"), "stroke-width": 0.8}, svg);
+        hover(c, `<b>${q.name || "?"}</b><br>${q.party}${q.party_last && q.party_last !== q.party ? " → " + q.party_last : ""} · ${q.province || ""}<br>dimension 1: ${q.d1.toFixed(2)}`);
+      });
+    });
+    y0 += panelH(t);
+    el("line", {x1: 150, x2: W - 30, y1: y0 - 8, y2: y0 - 8, stroke: css("--rule")}, svg);
+  });
+  txt(svg, 150, H - 4, "← opposition side", {}); txt(svg, W - 30, H - 4, "governing bloc side (AP oriented right) →", {"text-anchor": "end"});
+}
+
+function figScatter() {
+  const host = document.getElementById("fig-scatter");
+  const pts = D.points.filter(p => p.term === "d03");
+  const W = 440, H = 400, m = {l: 38, r: 12, t: 14, b: 38};
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Two-dimensional ideal points, 1969 to 1973"}, host);
+  const ext = k => [Math.min(...pts.map(p => p[k])), Math.max(...pts.map(p => p[k]))];
+  const [x0, x1] = ext("d1"), [y0, y1] = ext("d2");
+  const X = v => m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r), Y = v => H - m.b - (v - y0) / (y1 - y0) * (H - m.t - m.b);
+  el("line", {x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: css("--rule")}, svg);
+  el("line", {x1: m.l, x2: m.l, y1: m.t, y2: H - m.b, stroke: css("--rule")}, svg);
+  txt(svg, (W + m.l) / 2, H - 10, "dimension 1 (government – opposition)", {"text-anchor": "middle"});
+  txt(svg, 12, (H - m.b + m.t) / 2, "dimension 2", {"text-anchor": "middle", transform: `rotate(-90 12 ${(H - m.b + m.t) / 2})`});
+  const sorted = [...pts].sort((a, b) => (a.party === "AP" && a.party_last === "DP") - (b.party === "AP" && b.party_last === "DP"));
+  for (const q of sorted) {
+    const founder = q.party === "AP" && q.party_last === "DP";
+    const c = el("circle", {cx: X(q.d1), cy: Y(q.d2), r: founder ? 5.5 : 3.4, fill: founder ? "none" : css(PCOL(partyOf(q.party))),
+      "fill-opacity": 0.7, stroke: founder ? css("--ink") : css("--paper"), "stroke-width": founder ? 1.6 : 0.8}, svg);
+    hover(c, `<b>${q.name || "?"}</b><br>${q.party}${q.party_last !== q.party ? " → " + q.party_last : ""} · ${q.province || ""}<br>(${q.d1.toFixed(2)}, ${q.d2.toFixed(2)})`);
+  }
+  const lg = el("g", {}, svg); el("circle", {cx: W - 120, cy: 22, r: 5.5, fill: "none", stroke: css("--ink"), "stroke-width": 1.6}, lg); txt(lg, W - 110, 26, "later founded DP");
+}
+
+function figAngles() {
+  const host = document.getElementById("fig-angles");
+  const NAMES = {land_reform: "Land reform law", land_reform_budget: "Land reform agency budgets", land_tax: "Land tax", land_titling: "Titling, forest land",
+    farm_benefit: "Farm benefits", agency_budget: "Agency budgets", final_accounts: "Final accounts", agri_institution: "Institutions"};
+  const rows = D.angles.filter(r => NAMES[r.policy_type]).sort((a, b) => a.median - b.median);
+  const W = 440, rowH = 34, m = {l: 168, r: 50, t: 10, b: 30}, H = m.t + rows.length * rowH + m.b;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Second-dimension loading by policy type"}, host);
+  const X = v => m.l + v / 45 * (W - m.l - m.r);
+  [0, 15, 30, 45].forEach(v => { el("line", {x1: X(v), x2: X(v), y1: m.t, y2: H - m.b, stroke: css("--rule")}, svg); txt(svg, X(v), H - 12, v + "°", {"text-anchor": "middle"}); });
+  rows.forEach((r, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    txt(svg, m.l - 10, y + 4, NAMES[r.policy_type], {"text-anchor": "end", class: r.policy_type.startsWith("land") ? "t-strong" : ""});
+    el("line", {x1: X(0), x2: X(r.median), y1: y, y2: y, stroke: css("--accent"), "stroke-width": 2}, svg);
+    const c = el("circle", {cx: X(r.median), cy: y, r: 5, fill: css("--accent"), stroke: css("--paper"), "stroke-width": 2}, svg);
+    txt(svg, X(r.median) + 9, y + 4, `${r.median.toFixed(0)}° (n=${r.n})`);
+    hover(c, `${NAMES[r.policy_type]}: median angle ${r.median}° over ${r.n} roll calls`);
+  });
+}
+
+function forest(hostId, rows, lo, hi, label) {
+  const host = document.getElementById(hostId);
+  const W = 900, rowH = 40, m = {l: 300, r: 40, t: 16, b: 40}, H = m.t + rows.length * rowH + m.b;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": label}, host);
+  const X = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r);
+  for (let v = lo; v <= hi + 1e-9; v += 0.1) { el("line", {x1: X(v), x2: X(v), y1: m.t, y2: H - m.b, stroke: css(Math.abs(v) < 1e-9 ? "--ink-2" : "--rule")}, svg); txt(svg, X(v), H - 20, (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(0), {"text-anchor": "middle"}); }
+  txt(svg, (W + m.l) / 2, H - 4, "effect in percentage points", {"text-anchor": "middle"});
+  rows.forEach((r, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    txt(svg, m.l - 14, y + 4, r.name, {"text-anchor": "end", class: r.main ? "t-strong" : ""});
+    if (r.ci) el("line", {x1: X(r.ci[0]), x2: X(r.ci[1]), y1: y, y2: y, stroke: css(r.color), "stroke-width": 2}, svg);
+    const c = el(r.main ? "circle" : "rect", r.main ? {cx: X(r.est), cy: y, r: 6, fill: css(r.color), stroke: css("--paper"), "stroke-width": 2}
+      : {x: X(r.est) - 5, y: y - 5, width: 10, height: 10, rx: 2, fill: css(r.color), stroke: css("--paper"), "stroke-width": 2}, svg);
+    txt(svg, X(Math.max(r.est, r.ci ? r.ci[1] : r.est)) + 12, y + 4, (r.est >= 0 ? "+" : "−") + Math.abs(r.est * 100).toFixed(1));
+    hover(c, `<b>${r.name}</b><br>${(r.est * 100).toFixed(1)} points${r.ci ? `, 95% CI [${(r.ci[0] * 100).toFixed(1)}, ${(r.ci[1] * 100).toFixed(1)}]` : ""}${r.n ? `<br>${r.n}` : ""}`);
+  });
+}
+
+function figDid() {
+  forest("fig-did", [
+    {name: "Yes on budgets: DID(M)", est: D.did_yes.estimate, ci: D.did_yes.ci, main: true, color: "--accent", n: `${D.did_yes.switcher_obs} switcher observations`},
+    {name: "Yes on budgets: TWFE (for comparison)", est: D.twfe_yes, color: "--muted"},
+    {name: "Yes on budgets: placebo (preceding pair)", est: D.did_yes.placebo, ci: D.did_yes.placebo_ci, color: "--muted", n: `${D.did_yes.placebo_obs} observations`},
+    {name: "Turnout on budgets: DID(M)", est: D.did_turnout.estimate, ci: D.did_turnout.ci, main: true, color: "--accent", n: `${D.did_turnout.switcher_obs} switcher observations`},
+    {name: "Turnout on budgets: TWFE (for comparison)", est: D.twfe_turnout, color: "--muted"},
+    {name: "Turnout on budgets: placebo (preceding pair)", est: D.did_turnout.placebo, ci: D.did_turnout.placebo_ci, color: "--muted", n: `${D.did_turnout.placebo_obs} observations`},
+  ], -0.1, 0.6, "Effect of the party entering the cabinet");
+}
+
+function figEvent() {
+  const host = document.getElementById("fig-event");
+  const ev = D.ap_dp.event.filter(r => r.k >= -7 && r.k <= 12);
+  const W = 440, H = 320, m = {l: 40, r: 14, t: 18, b: 40};
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Event study of leaving AP for DP"}, host);
+  const ks = ev.map(r => r.k), k0 = Math.min(...ks), k1 = Math.max(...ks);
+  const X = k => m.l + (k - k0) / (k1 - k0) * (W - m.l - m.r), Y = v => H - m.b - v * (H - m.t - m.b);
+  [0, 0.5, 1].forEach(v => { el("line", {x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule")}, svg); txt(svg, m.l - 6, Y(v) + 4, (v * 100) + "%", {"text-anchor": "end"}); });
+  el("line", {x1: X(-0.5), x2: X(-0.5), y1: m.t, y2: H - m.b, stroke: css("--ink-2"), "stroke-dasharray": "3 3"}, svg);
+  txt(svg, X(-0.5) + 6, Y(0.5) + 4, "18 Dec 1970: DP founded");
+  [["stayed in AP", "--ap"], ["left AP for DP", "--dp"]].forEach(([g, col]) => {
+    const s = ev.filter(r => r[g] != null);
+    el("polyline", {points: s.map(r => `${X(r.k)},${Y(r[g])}`).join(" "), fill: "none", stroke: css(col), "stroke-width": 2}, svg);
+    s.forEach(r => { const c = el("circle", {cx: X(r.k), cy: Y(r[g]), r: 4, fill: css(col), stroke: css("--paper"), "stroke-width": 1.5}, svg); hover(c, `${g}<br>roll call ${r.k}: ${(r[g] * 100).toFixed(0)}% yes`); });
+    const last = s[s.length - 1]; txt(svg, X(last.k) - 4, Y(last[g]) + (g.startsWith("left") ? 16 : -8), g, {"text-anchor": "end", class: "t-strong"});
+  });
+  txt(svg, (W + m.l) / 2, H - 8, "contested budget roll calls, relative to the split", {"text-anchor": "middle"});
+}
+
+function figLandtax() {
+  const host = document.getElementById("fig-landtax"); const L = D.ap_dp.landtax_1970;
+  const rows = [["Future DP founders", L.switchers_yes, L.switchers_no, L.switchers_n], ["Stayed in AP", L.stayers_yes, L.stayers_no, L.stayers_n]];
+  const W = 440, H = 200, m = {l: 170, r: 40, t: 20, b: 36};
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "June 1970 land tax vote"}, host);
+  const X = v => m.l + v * (W - m.l - m.r);
+  [0, 0.5, 1].forEach(v => { el("line", {x1: X(v), x2: X(v), y1: m.t, y2: H - m.b, stroke: css("--rule")}, svg); txt(svg, X(v), H - 18, (v * 100) + "%", {"text-anchor": "middle"}); });
+  rows.forEach(([name, y, n, N], i) => {
+    const yy = m.t + i * 64;
+    txt(svg, m.l - 10, yy + 26, `${name} (n=${N})`, {"text-anchor": "end", class: "t-strong"});
+    const a = el("rect", {x: X(0), y: yy + 6, width: X(y) - X(0), height: 18, rx: 2, fill: css("--accent")}, svg); hover(a, `${name}: ${(y * 100).toFixed(0)}% yes`);
+    const b = el("rect", {x: X(0), y: yy + 28, width: Math.max(1, X(n) - X(0)), height: 18, rx: 2, fill: css("--chp")}, svg); hover(b, `${name}: ${(n * 100).toFixed(0)}% no`);
+    txt(svg, X(y) + 6, yy + 20, `yes ${(y * 100).toFixed(0)}%`); txt(svg, X(n) + 6, yy + 42, `no ${(n * 100).toFixed(0)}%`);
+  });
+}
+
+function figMemo() {
+  const host = document.getElementById("fig-memo");
+  const s = D.memo.series.map(r => ({...r, t: new Date(r.date)}));
+  const W = 900, H = 330, m = {l: 44, r: 16, t: 34, b: 40};
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "AP and CHP distance on each roll call, 1969 to 1973"}, host);
+  const t0 = new Date("1969-10-12"), t1 = new Date("1973-10-14");
+  const X = t => m.l + (t - t0) / (t1 - t0) * (W - m.l - m.r), Y = v => H - m.b - v * (H - m.t - m.b);
+  const bands = [["1969-10-12", "1971-03-12", "Demirel (AP)", "--band"], ["1971-03-12", "1972-05-22", "Erim I–II", "--band-2"], ["1972-05-22", "1973-04-15", "Melen", "--band"], ["1973-04-15", "1973-10-14", "Talu", "--band-2"]];
+  bands.forEach(([a, b, name, col]) => { el("rect", {x: X(new Date(a)), y: m.t, width: X(new Date(b)) - X(new Date(a)), height: H - m.t - m.b, fill: css(col)}, svg); txt(svg, X(new Date(a)) + 6, m.t - 10, name, {class: "t-strong"}); });
+  [0, 0.5, 1].forEach(v => { el("line", {x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule")}, svg); txt(svg, m.l - 6, Y(v) + 4, v.toFixed(1), {"text-anchor": "end"}); });
+  el("line", {x1: X(new Date("1971-03-12")), x2: X(new Date("1971-03-12")), y1: m.t, y2: H - m.b, stroke: css("--ink"), "stroke-width": 1.5}, svg);
+  for (const r of s) {
+    const lt = r.policy_type === "land_tax"; const x = X(r.t), y = Y(r.gap);
+    const n = lt ? el("rect", {x: x - 5, y: y - 5, width: 10, height: 10, transform: `rotate(45 ${x} ${y})`, fill: css("--chp"), stroke: css("--paper"), "stroke-width": 1.5}, svg)
+      : el("circle", {cx: x, cy: y, r: 4, fill: css("--ink-2"), "fill-opacity": 0.8, stroke: css("--paper"), "stroke-width": 1}, svg);
+    hover(n, `${r.date} · ${r.cabinet}<br>${r.policy_type.replace(/_/g, " ")}<br>AP–CHP distance ${r.gap.toFixed(2)}`);
+  }
+  txt(svg, m.l, H - 8, "1969"); txt(svg, W - m.r, H - 8, "1973", {"text-anchor": "end"});
+  txt(svg, X(new Date("1971-03-12")) + 5, Y(0.97), "12 Mar 1971 memorandum", {class: "t-strong"});
+  const lg = el("g", {}, svg); const lx = W - 220;
+  el("rect", {x: lx - 5, y: Y(0.92) - 5, width: 10, height: 10, transform: `rotate(45 ${lx} ${Y(0.92)})`, fill: css("--chp")}, lg); txt(lg, lx + 10, Y(0.92) + 4, "land-tax roll call");
+  el("circle", {cx: lx, cy: Y(0.84), r: 4, fill: css("--ink-2")}, lg); txt(lg, lx + 10, Y(0.84) + 4, "other roll call");
+}
+
+function tblMsp() {
+  const tb = document.querySelector("#tbl-msp tbody");
+  for (const r of D.msp) {
+    const rel = r.in_cabinet ? "in cabinet" : (r.yes > r.no ? "supporting from outside" : "opposing");
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${r.date}</td><td>${r.cabinet}</td><td>${rel}</td><td class="n">${r.yes}</td><td class="n">${r.no}</td><td class="n">${r.absent}</td>`;
+    tb.appendChild(tr);
+  }
+}
+
+function draw() {
+  for (const id of ["fig-space", "fig-scatter", "fig-angles", "fig-did", "fig-event", "fig-landtax", "fig-memo", "leg-party"]) document.getElementById(id).innerHTML = "";
+  legend(); figSpace(); figScatter(); figAngles(); figDid(); figEvent(); figLandtax(); figMemo();
+}
+draw(); tblMsp();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+new MutationObserver(draw).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
+</script>
