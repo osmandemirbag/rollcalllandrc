@@ -361,7 +361,7 @@ cs02013092_p106,ok,
 cs02013092_p100,ok,
 cs02013092_p098,ok,
 cs02013092_p102,ok,
-cs02013092_p094,ok after reconciliation,dropped 2 least name-like from yes
+cs02013092_p094,ok after reconciliation,dropped 2 from yes
 cs02013092_p092,ok after reconciliation,dropped 1 from yes; added 1 to not_voting
 cs02013092_p090,ok after reconciliation,dropped 1 from yes
 cs02013092_p086,ok after reconciliation,dropped 1 from not_voting
@@ -565,4 +565,4 @@ cs19045030_p061,ok after reconciliation,dropped 1 from not_voting
 cs19045031_p107,ok,
 cs19046035_p103,count mismatch,
 cs19046036_p130,count mismatch,dropped 1 from yes
-cs19046036_p132,count mismatch,dropped 2 from no
+cs19046036_p132,count mismatch,dropped 2 from no; dropped 6 from not_voting

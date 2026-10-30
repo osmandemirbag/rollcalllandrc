@@ -53,8 +53,8 @@ RULES = [  # (policy_type, subtype, regex on folded title); first match wins
     ("agri_institution", "", r"."),
 ]
 
-STAGES = [("budget", r"butce|cetvel"), ("final_accounts", r"kesin ?hesa|bilanco"),
-          ("motion", r"onerge"), ("article", r"\d+\s*(nci|ncu|nc|inci|uncu|ncü|ncı)? ?maddes|gecici \d|ek \d+ ")]
+STAGES = [("final_accounts", r"kesin ?hesa|bilanco"), ("budget", r"butce|cetvel"),
+          ("motion", r"onerge"), ("article", r"\b(n?ci|n?cu|nc|inci|uncu|ncu) maddes|maddesine|gecici madde|\bek madde")]  # fold() drops digits
 
 # Cabinets (start date, name, governing parties). Technocratic 'above-party' cabinets of 1971-74
 # list the parties that supplied ministers; Irmak (1974-75) had no party ministers.
@@ -143,7 +143,7 @@ def main():
 
     long = pd.read_csv(PROCESSED / "rollcall_long.csv.gz", low_memory=False,
                        usecols=["vote_id", "chamber", "choice", "person_key", "elite_row", "senate_person_id",
-                                "list_province", "row_status"])
+                                "list_province", "row_status", "status_note", "list_name_raw"])
     elites = pd.read_csv(ELITES_CSV, sep="\t", low_memory=False)
     cov = elites[["party", "year", "province_old", "rural_population_pct", "age", "education", "law_education",
                   "military_education", "local", "pastexp", "female", "dist_to_ankara", "id"]]

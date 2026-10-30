@@ -479,6 +479,12 @@ def main():
     m = pd.concat(frames, ignore_index=True)
     m = merge_rare_senators(m)
     m = merge_duplicate_senators(m)
+    # A 'senator' whose most frequent spelling is not a name (a vote-title fragment) is OCR junk.
+    sp = m[m.senate_person_id.notna()].groupby("senate_person_id").name.agg(lambda x: x.mode().iat[0])
+    junk = sp.index[sp.str.contains(r"Kanun|Bütçe|Senato|Meclis|Tasarı|verilen|İşaretli", regex=True)]
+    jr = m.senate_person_id.isin(junk)
+    m.loc[jr, ["senate_person_id", "person_key"]] = np.nan
+    m.loc[jr, "match_method"] = "unmatched"
 
     # Senator display name = most frequent spelling; link to elites when also a deputy.
     sp = m[m.senate_person_id.notna()]

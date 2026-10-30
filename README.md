@@ -88,6 +88,15 @@ Requirements:
 - poppler-utils (`pdftotext`)
 - network access to `www5.tbmm.gov.tr`
 
+## Analysis
+
+- `analysis/report.md`: tests of general and Turkey-specific theories of agrarian politics.
+- `analysis/quality_and_causality.md`: a measured quality audit of the collection, an inductive
+  exploration, and which findings can be read causally.
+
+`rollcall_long` has a `status_note` column, parsed from the printed name: minister, on leave,
+presiding officer or prime minister. Use it to separate excused absence from plain absence.
+
 ## Caveats
 - The names come from the OCR text layer of the TBMM PDFs. `list_name` keeps the printed
   (OCR) spelling, and `person_name` is the matched canonical name.

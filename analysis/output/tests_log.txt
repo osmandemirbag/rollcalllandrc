@@ -26,7 +26,7 @@ land reform agency budgets                             8   2668          0.023  
 land tax                                               7    973          0.044           0.462      0.160     0.547                    0.840  0.0
 land titling / settlement / forest land                5   1011          0.008           0.081      0.480     0.553                    0.358  0.0
 farm subsidies & benefits                              2    374          0.022           0.485      0.623     0.623                   -0.426  0.0
-agency budgets (baseline)                             98  22648          0.072           0.516      0.245     0.555                    0.673  0.0
+agency budgets (baseline)                             98  22649          0.072           0.516      0.245     0.555                    0.673  0.0
 final accounts (baseline)                              9   2103          0.164           0.315      0.375     0.409                    0.218  0.0
 
 ===== t3_flips
@@ -71,7 +71,7 @@ land reform agency budgets                3569                  0.161  0.000    
 land tax                                  3528                  0.077  0.001                          0.030  0.210        0.370        0.279
 land titling / settlement / forest land   6609                  0.176  0.000                          0.039  0.121        0.535        0.294
 farm subsidies & benefits                13183                  0.011  0.475                         -0.104  0.000        0.415        0.423
-agency budgets (baseline)                64489                  0.126  0.000                          0.084  0.000        0.594        0.455
+agency budgets (baseline)                64487                  0.126  0.000                          0.084  0.000        0.594        0.455
 final accounts (baseline)                32316                  0.046  0.000                          0.046  0.001        0.512        0.433
 
 ===== t6_constituency
@@ -87,8 +87,8 @@ land titling / settlement / forest land yes     1011               +0.102     -0
                                         voted   6609               +0.004     -0.005      +0.028        -0.002             +0.046    +0.040*
 farm subsidies & benefits               yes      374               -0.014     +0.034      +0.100        -0.014            -0.099*     +0.001
                                         voted  13152               +0.011     -0.029      +0.001        -0.001             +0.009     +0.027
-agency budgets (baseline)               yes    22631              +0.046*  +0.032***      +0.026       -0.018*             -0.011     +0.000
-                                        voted  64443              +0.053*     +0.005      +0.012       -0.019*             -0.006  +0.036***
+agency budgets (baseline)               yes    22632              +0.046*  +0.032***      +0.026       -0.018*             -0.011     +0.000
+                                        voted  64441              +0.053*     +0.005      +0.012       -0.019*             -0.006  +0.036***
 final accounts (baseline)               yes     2103               -0.057     +0.012      +0.026        -0.013             -0.031     +0.015
                                         voted  32316              +0.095*     +0.022      +0.024        +0.005             +0.004   +0.046**
 
@@ -139,7 +139,7 @@ final accounts (baseline)               yes     2103               -0.057     +0
                                         yes_of_cast                                  turnout                                  member_votes                                 
 senate_group                                elected natural (NUC) presidential quota elected natural (NUC) presidential quota      elected natural (NUC) presidential quota
 group                                                                                                                                                                      
-agency budgets (baseline)                     0.880         0.983              0.958   0.664         0.540              0.486      15422.0        1947.0             1563.0
+agency budgets (baseline)                     0.880         0.983              0.958   0.664         0.540              0.487      15422.0        1947.0             1557.0
 farm subsidies & benefits                     0.934         0.930              0.882   0.584         0.516              0.405       1775.0         223.0              168.0
 final accounts (baseline)                     0.993         0.995              0.993   0.600         0.506              0.536       5967.0         725.0              560.0
 land reform (law, motion)                     0.905         0.938              0.571   0.748         0.800              1.000        155.0          20.0                7.0

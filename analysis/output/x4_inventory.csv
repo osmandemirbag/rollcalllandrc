@@ -1,0 +1,12 @@
+policy_type,article,budget,final_accounts,final_passage,motion,All
+agency_budget,0,259,0,0,0,259
+agri_institution,25,0,0,17,1,43
+excluded,1,0,0,3,0,4
+farm_benefit,4,4,0,33,2,43
+final_accounts,0,0,114,0,0,114
+international,0,1,0,21,0,22
+land_reform,0,0,0,2,1,3
+land_reform_budget,0,17,0,0,0,17
+land_tax,3,0,0,9,0,12
+land_titling,31,0,0,17,2,50
+All,64,281,114,102,6,567

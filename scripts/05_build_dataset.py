@@ -99,10 +99,18 @@ def main():
             .merge(cov, left_on="elite_row", right_index=True, how="left"))
     long["elite_party_at_election"] = long.elite_party.str.split("/").str[0].str.strip()
     long["cast_code"] = long.choice.map(CAST_CODES)
+    # Office or leave printed beside the name; tells excused from plain absence.
+    raw = long.list_name_raw.fillna("")
+    long["status_note"] = np.select(
+        [raw.str.contains(r"Başbakan", regex=True),
+         raw.str.contains(r"B[sş]k\.?\s*V|Başkan\s*V|\(Başkan\)", regex=True),
+         raw.str.contains(r"\(\s*B\s*\.?\s*\)|\(Bakan|Bakan\)", regex=True),
+         raw.str.contains(r"\(\s*[İI1lt]\s*\.\s*\)|İ\.\s*[AÜ]\.?\)", regex=True)],
+        ["prime minister", "presiding officer", "minister", "on leave"], "")
     lead = ["vote_id", "date", "chamber", "category", "topic_group", "title", "outcome_class", "quality",
             "choice", "cast_code", "person_key", "person_name", "elite_row", "senate_person_id",
             "list_province", "list_name", "list_name_raw", "list_pdf_page", "match_method", "match_score",
-            "row_status", "elite_id", "elite_party", "elite_party_at_election"]
+            "row_status", "status_note", "elite_id", "elite_party", "elite_party_at_election"]
     drop = ["source", "list_status", "section_inferred"]
     long = long[lead + [c for c in long.columns if c not in lead + drop]]
     long = long.sort_values(["date", "vote_id", "choice", "list_province", "list_name"])
