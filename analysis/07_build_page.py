@@ -25,6 +25,7 @@ def main():
         "twfe_turnout": float(twfe.loc["agency budgets: turnout", "effect_of_government"]),
         "ap_dp": p["ap_dp"], "memo": p["memo"], "msp": p["msp"],
         "gate": float(gate.loc["excluding excused", "effect_of_government_on_turnout"]),
+        "tip": p["tip"], "gp": p["gp"], "quotes": p["quotes"], "quorum": p["quorum"],
         "n_votes": int(len(q)), "exact": float((q.names_off_vs_tally == 0).mean()),
         "within2": float((q.names_off_vs_tally <= 2).mean()),
     }

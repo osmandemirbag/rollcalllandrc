@@ -8,7 +8,7 @@
 :root {
   --paper: #f7f8f6; --ink: #1d2422; --ink-2: #4a5552; --muted: #7d8784; --rule: #d9dedb; --panel: #eef1ee;
   --accent: #2f6b5a; --accent-ink: #1f4f42;
-  --ap: #2a78d6; --chp: #eb6834; --msp: #1baf7a; --dp: #eda100; --cgp: #e87ba4; --other: #9aa39f;
+  --ap: #2a78d6; --chp: #eb6834; --msp: #1baf7a; --dp: #eda100; --cgp: #e87ba4; --other: #9aa39f; --tip: #8a1c2b;
   --band: #e5ebe7; --band-2: #f1ece3;
   --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
   --f-body: "Source Serif 4", "Iowan Old Style", Georgia, serif;
@@ -17,13 +17,16 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --paper: #141917; --ink: #e8ece9; --ink-2: #b9c2be; --muted: #8b9692; --rule: #2c3532; --panel: #1b2220;
   --accent: #6fb39d; --accent-ink: #9fd1bf;
-  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76;
+  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76; --tip: #e0707f;
   --band: #1f2a26; --band-2: #2a2620; color-scheme: dark; } }
 :root[data-theme="dark"] {
   --paper: #141917; --ink: #e8ece9; --ink-2: #b9c2be; --muted: #8b9692; --rule: #2c3532; --panel: #1b2220;
   --accent: #6fb39d; --accent-ink: #9fd1bf;
-  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76;
+  --ap: #3987e5; --chp: #d95926; --msp: #199e70; --dp: #c98500; --cgp: #d55181; --other: #6f7a76; --tip: #e0707f;
   --band: #1f2a26; --band-2: #2a2620; color-scheme: dark; }
+blockquote { margin: 0; padding: 12px 16px; border-left: 2px solid var(--tip); background: var(--panel); display: grid; gap: 6px; font-size: 0.95rem; }
+blockquote .tr { font-style: italic; color: var(--ink-2); }
+blockquote .src { font-family: var(--f-data); font-size: 0.8rem; color: var(--muted); }
 
 body { background: var(--paper); color: var(--ink); font: 17px/1.62 var(--f-body);
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
@@ -80,7 +83,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   <header class="stack col">
     <div class="eyebrow">Grand National Assembly of Turkey · recorded votes on land and agriculture · 1961–1980</div>
     <h1>Cabinets, Not Countryside</h1>
-    <p class="lede">Who decided Turkish agrarian policy in parliament: landlords, rural constituencies, ideology, or the cabinet? A test of the big theories with every deputy's recorded vote.</p>
+    <p class="lede">Who decided Turkish agrarian policy in parliament: landlords, rural constituencies, the radical left, ideology, or the cabinet? A test of the big theories with every deputy's recorded vote, their speeches in the minutes, and the sequence of regimes.</p>
     <p class="byline">Data: <span class="num" data-v="n_votes"></span> roll calls, 182,005 member-votes, read from the TBMM minutes and linked to the Turkish Political Elites Dataset.</p>
   </header>
 
@@ -93,6 +96,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       <li><span>Landed interest appears on one issue. Six months before the split, the future DP founders already voted against the 1970 property tax while their colleagues voted for it (Fisher's exact test, p = <span class="num" data-v="ap_dp.landtax_1970.fisher_p" data-f="sci"></span>). A general second voting dimension measured before the split does not predict exit.</span></li>
       <li><span>A party's vote follows its stance toward the cabinet, not its coalition partner's ideology: the MSP backed the land reform agency with the centre-left CHP and again with the right-wing AP.</span></li>
       <li><span>The 1971 military memorandum suspended partisan conflict for a year: the AP–CHP distance fell by <span class="num" data-v="memo.estimate" data-f="pp"></span> points (placebo-in-time p = <span class="num" data-v="memo.placebo_p" data-f="p"></span>). Conflict returned first on taxing land.</span></li>
+      <li><span>A second exit that left government status unchanged changed nothing: the CHP deputies who founded the Güven Partisi in 1967 moved <span class="num" data-v="gp.estimate" data-f="pp"></span> points against CHP stayers (p = <span class="num" data-v="gp.ri_p" data-f="p"></span>). Paired with the AP→DP exit, this isolates government status from the party label.</span></li>
+      <li><span>The radical flank was loud, isolated and never decisive. The Workers' Party (TİP) proposed land ceilings and state purchasing, and stood alone against both large parties on 8 agrarian roll calls. It could not reverse a single outcome among <span class="num" data-v="tip.roll_calls"></span>, though its presence supplied the quorum for <span class="num" data-v="tip.quorum_pivotal_passed"></span> that passed. Land reform came only after the party was closed and the military demanded reform.</span></li>
     </ol>
   </section>
 
@@ -200,7 +205,84 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
   <section class="stack">
     <div class="col stack">
-      <h2>6. Claim 5: military tutelage and the suspension of party conflict</h2>
+      <h2>6. Two exits: separating the party label from the cabinet</h2>
+      <p>Claim 2 shows that leaving AP reversed budget votes. But that exit changed two things at once: the deputies' party, and their relation to the cabinet, since they moved from the governing party into opposition. A second split in the same period changed only the first.</p>
+      <p>In May 1967 the right wing of the CHP left to found the Güven Partisi (GP), in protest at the party's turn "left of centre", itself a response to the TİP. Both the CHP and the new GP sat in opposition to the AP government. Before the split, the future GP founders voted exactly like their CHP colleagues on agrarian questions: against the 1966 titling law (13 no, 0 yes, against the stayers' 41 no and 1 yes).</p>
+      <div class="estimand">
+        <div><b>Estimand.</b> The effect on the <span class="num" data-v="gp.founders"></span> CHP deputies who founded the GP of leaving the CHP for another opposition party, on the probability of voting yes on contested agricultural budget and accounts roll calls (1965–69). The comparison group is the <span class="num" data-v="gp.stayers"></span> CHP stayers.</div>
+        <div><b>Design.</b> The same as for AP→DP: difference-in-differences with Fisher randomization inference (5,000 draws).</div>
+      </div>
+    </div>
+    <figure>
+      <div class="fig" id="fig-exits"></div>
+      <figcaption>Two exits from a major party, with the same design. Only the exit that also changed the deputies' relation to the cabinet changed their votes.</figcaption>
+    </figure>
+    <div class="col">
+      <p>The comparison is a paired, most-similar design. Both are exits by a faction of a major party, in the same decade, scored on the same kind of roll call. They differ in whether the exit moved deputies across the government–opposition line. The party label alone moved budget votes by <span class="num" data-v="gp.estimate" data-f="pp"></span> points, a null. The label combined with leaving government moved them by <span class="num" data-v="ap_dp.estimate" data-f="pp"></span>.</p>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>7. The radical flank: what TİP changed</h2>
+      <p>The Workers' Party of Turkey (TİP) entered parliament in 1965 with 15 deputies, elected under the national-remainder system. It was the only party that demanded redistribution of land in radical terms. Its deputies used the floor to propose ceilings on land and state control of crop purchasing.</p>
+    </div>
+    <div class="grid2">
+      <div class="stack" id="quotes"></div>
+      <div class="stack">
+        <div class="tablewrap"><table id="tbl-flank">
+          <thead><tr><th>Roll call</th><th>TİP yes–no</th><th class="n">AP yes</th><th class="n">CHP yes</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <p class="note">Roll calls of 1965–69 on which TİP's majority voted against the majorities of both AP and CHP. On the 1966 titling law TİP voted no (0–12), together with the CHP.</p>
+      </div>
+    </div>
+    <div class="col stack">
+      <p>The recorded votes measure what this rhetoric achieved in parliament.</p>
+      <ul class="stack" style="margin:0;padding-left:1.2em">
+        <li><b>Position.</b> TİP is the most extreme bloc in the 1965–69 scaling: its mean position is −1.12, against −0.65 for the CHP and +0.34 for the AP.</li>
+        <li><b>Influence on outcomes.</b> In none of the <span class="num" data-v="tip.roll_calls"></span> roll calls of 1965–69 could TİP's votes have reversed the result.</li>
+        <li><b>Influence on quorum.</b> TİP's presence was decisive for the 226-voter quorum on <span class="num" data-v="tip.quorum_pivotal"></span> roll calls, of which <span class="num" data-v="tip.quorum_pivotal_passed"></span> passed. Its no votes on the 1969 Cooperatives Law, for example, helped make the quorum for a law it opposed. The quorum rule (226 voters in a 450-seat Assembly) agrees with <span class="num" data-v="quorum.consistent"></span> of <span class="num" data-v="quorum.total"></span> recorded outcomes.</li>
+        <li><b>Attendance.</b> TİP deputies cast a vote on <span class="num" data-v="tip.turnout" data-f="pct"></span> of the roll calls they could have voted on.</li>
+      </ul>
+      <p>The direct effect of the radical flank on recorded agrarian outcomes was nil. Its ceiling amendments were put to a show of hands and not adopted, so no recorded vote exists on them. The titling law it opposed then passed with the AP's majority. What changed the policy was the sequence that followed: the military memorandum of March 1971, the closure of the TİP by the Constitutional Court in July 1971, and a land reform law passed in 1973 by the same AP that had voted down İnönü's bill in 1965 (§8). That sequence fits the argument that land reform under military tutelage is pre-emptive, made to defuse the radical left rather than in response to its votes (Huntington 1968; Albertus 2015). The roll calls can rule out the direct route. They cannot by themselves prove the pre-emptive one.</p>
+    </div>
+  </section>
+
+  <section class="stack col">
+    <h2>8. A comparative-historical sequence, 1961–1980</h2>
+    <p>Treating each configuration of government, radical left and military as a case allows a within-country comparison (Mill's methods, with Slater and Ziblatt's (2013) controlled comparison). Land reform passed in only one configuration.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Period</th><th>Government</th><th>Radical left in parliament</th><th>Military role</th><th>Land reform in the record</th></tr></thead>
+      <tbody>
+        <tr><td>1961–65</td><td>CHP-led coalitions</td><td>none</td><td>post-coup, withdrawn</td><td>Motion to send İnönü's bill to a joint committee rejected 157–167 (AP 2–127). Land tax passed by CHP against AP.</td></tr>
+        <tr><td>1965–69</td><td>AP majority</td><td>TİP, 15 seats</td><td>none</td><td>No land reform bill voted. Titling law passed; TİP's ceiling amendment rejected. TİP never decisive.</td></tr>
+        <tr><td>1969–71</td><td>AP majority, then the DP split</td><td>TİP, 2 seats</td><td>none</td><td>Land tax contested; future DP founders dissent before leaving.</td></tr>
+        <tr><td><b>1971–73</b></td><td><b>Military-supervised, "above party"</b></td><td><b>TİP closed (July 1971)</b></td><td><b>Memorandum, martial law</b></td><td><b>Land reform law passed (AP 198–1; CHP absent). Partisan distance near zero.</b></td></tr>
+        <tr><td>1974–80</td><td>Unstable coalitions</td><td>none</td><td>none until 1980</td><td>Reform agency survives. Its budgets become confidence votes that flip with the cabinet.</td></tr>
+      </tbody>
+    </table></div>
+    <p>The comparison by agreement and difference points to one condition present only in 1971–73: party competition was suspended by the military while the radical left was excluded.</p>
+    <ul class="stack" style="margin:0;padding-left:1.2em">
+      <li>Under open competition, a centre-left government (1965) and a right-wing majority facing a radical flank (1965–69) both failed to legislate land reform.</li>
+      <li>After 1974, competition returned, and the reform's administration became an object of cabinet politics.</li>
+    </ul>
+
+    <h3>Process-tracing tests</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Hypothesis</th><th>Test (Collier 2011)</th><th>Evidence</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td>Radical flank forced reform directly</td><td>Hoop: TİP must be decisive on some outcome, or its proposals adopted</td><td>0 of 78 outcomes; ceiling amendment rejected</td><td><span class="verdict v-no">Fails the hoop</span></td></tr>
+        <tr><td>Pre-emptive reform under tutelage</td><td>Hoop: reform follows the exclusion of the radical left and the suspension of competition, and right-wing deputies switch to yes</td><td>1973 law after the July 1971 closure; AP 2–127 against (1965) becomes 198–1 for (1973)</td><td><span class="verdict v-yes">Passes the hoop</span></td></tr>
+        <tr><td>Landed interest acts through party exit</td><td>Smoking gun: dissent on land precedes exit, not the reverse</td><td>Future DP founders against the 1970 land tax six months before the split (p = <span data-v="ap_dp.landtax_1970.fisher_p" data-f="sci"></span>)</td><td><span class="verdict v-yes">Smoking gun found</span></td></tr>
+        <tr><td>Votes follow cabinet status, not label or ideology</td><td>Doubly decisive: exits that cross the cabinet line change votes; exits that don't, don't; partners of either ideology get the same votes</td><td>AP→DP −0.83; CHP→GP −0.04; MSP yes with both CHP and AP</td><td><span class="verdict v-yes">Passes both</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="stack">
+    <div class="col stack">
+      <h2>9. Claim 5: military tutelage and the suspension of party conflict</h2>
       <div class="estimand">
         <div><b>Estimand.</b> The change in the mean absolute difference between the AP and CHP yes-shares on Assembly roll calls, from the Demirel government (October 1969 – March 1971) to the period after the memorandum of 12 March 1971 (to April 1972). The same parliament and the same deputies throughout.</div>
         <div><b>Inference.</b> Placebo in time: the same before/after contrast at <span class="num" data-v="memo.placebo_n"></span> break dates in the other terms (30 roll calls on each side). The p-value is the share of placebo drops at least as large.</div>
@@ -213,12 +295,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     </figure>
     <div class="col">
       <p>Under the post-memorandum cabinets of Erim, partisan distance collapsed to near zero, including on the 1971 property-tax amendment. The collapse was deepest when the CHP held no cabinet posts (Erim II), so shared office does not explain it. The first issue on which conflict returned, in June 1972, was again the taxation of land.</p>
+      <p>Section 8 places this episode in the longer sequence.</p>
       <p>In June 1973 the land reform law passed with the AP's votes. The CHP did not vote against it; 103 of its 105 deputies stayed away. Abstention was the opposition's instrument on land, as quorum denial was the government's on farm benefits.</p>
     </div>
   </section>
 
   <section class="stack col">
-    <h2>7. Verdicts on the big theories</h2>
+    <h2>10. Verdicts on the big theories</h2>
     <div class="tablewrap"><table>
       <thead><tr><th>Theory</th><th>Observable implication in roll calls</th><th>Evidence</th><th>Verdict</th></tr></thead>
       <tbody>
@@ -226,13 +309,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
         <tr><td>Landed elites block redistribution (Moore 1966; Albertus 2015)</td><td>Landed deputies defect on land; reform needs an elite split or authoritarian rule</td><td>Defection only on taxing land, through exit to the DP; the land reform law passed only under military tutelage</td><td><span class="verdict v-part">Supported on taxation and timing</span></td></tr>
         <tr><td>Rural interest and urban bias (Bates 1981; Olson 1985)</td><td>Rural-province deputies vote as a bloc</td><td>Within-party correlations with rural share and the East/Southeast are below 0.1; no regional dimension</td><td><span class="verdict v-no">Not supported</span></td></tr>
         <tr><td>Centre–periphery (Mardin 1973)</td><td>The centre pushes redistribution, the periphery resists</td><td>CHP for land reform in 1965; after 1971 positions follow the cabinet, and the periphery party (AP) passed the 1973 law</td><td><span class="verdict v-part">Before 1971 only</span></td></tr>
+        <tr><td>Radical flank effects (Haines 1984)</td><td>A radical party moves outcomes or pulls the centre-left</td><td>TİP never decisive (0 of 78); the CHP's right wing exited (GP) without changing its votes; reform came after TİP's closure</td><td><span class="verdict v-no">No direct effect</span></td></tr>
+        <tr><td>Pre-emptive reform under tutelage (Huntington 1968)</td><td>Reform after the radical left is excluded and competition suspended</td><td>1973 law; AP from 2–127 against to 198–1 for</td><td><span class="verdict v-part">Consistent, not identified</span></td></tr>
         <tr><td>Distributive universalism (Weingast 1979)</td><td>Benefits pass by near-unanimity; governments ration by agenda</td><td>4% of votes cast on benefits are no; governments withhold quorum (descriptive)</td><td><span class="verdict v-part">Supported, descriptive</span></td></tr>
       </tbody>
     </table></div>
   </section>
 
   <section class="stack col">
-    <h2>8. What this does not show</h2>
+    <h2>11. What this does not show</h2>
     <ul class="stack" style="margin:0;padding-left:1.2em">
       <li>Any effect on farmers. The decisive agrarian instruments of the period were decrees and show-of-hands laws that left no individual record.</li>
       <li>Senate behaviour by party, which is not observed.</li>
@@ -253,8 +338,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 <script>
 const D = /*__DATA__*/null;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-const PARTY_ORDER = ["AP", "CHP", "DP", "MSP", "CGP", "OTHER"];
-const PCOL = p => ({AP: "--ap", CHP: "--chp", DP: "--dp", MSP: "--msp", CGP: "--cgp"}[p] || "--other");
+const PARTY_ORDER = ["AP", "CHP", "DP", "MSP", "CGP", "TİP", "OTHER"];
+const PCOL = p => ({AP: "--ap", CHP: "--chp", DP: "--dp", MSP: "--msp", CGP: "--cgp", "TİP": "--tip"}[p] || "--other");
 const TERMS = {d01: "1961–65", d02: "1965–69", d03: "1969–73", d04: "1973–77", d05: "1977–80"};
 const NS = "http://www.w3.org/2000/svg";
 const tip = document.getElementById("tip");
@@ -441,6 +526,31 @@ function figMemo() {
   el("circle", {cx: lx, cy: Y(0.84), r: 4, fill: css("--ink-2")}, lg); txt(lg, lx + 10, Y(0.84) + 4, "other roll call");
 }
 
+function figExits() {
+  forest("fig-exits", [
+    {name: "AP → DP (Dec 1970): government → opposition", est: D.ap_dp.estimate, main: true, color: "--dp", n: `${D.ap_dp.treated} founders vs ${D.ap_dp.controls} stayers; randomization p < 0.001`},
+    {name: "CHP → GP (May 1967): opposition → opposition", est: D.gp.estimate, main: true, color: "--cgp", n: `${D.gp.founders} founders vs ${D.gp.stayers} stayers; randomization p = ${D.gp.ri_p.toFixed(2)}`},
+  ], -0.9, 0.1, "Effect of two party exits on yes votes on contested budgets");
+}
+
+function quotes() {
+  const host = document.getElementById("quotes");
+  for (const q of D.quotes) {
+    const b = document.createElement("blockquote");
+    b.innerHTML = `<div class="tr" lang="tr">“${q.tr}”</div><div>${q.en}</div><div class="src">${q.speaker} · ${q.bill} · ${q.date} · minutes ${q.pdf}, PDF p. ${q.page}</div>`;
+    host.appendChild(b);
+  }
+}
+
+function tblFlank() {
+  const tb = document.querySelector("#tbl-flank tbody");
+  for (const r of D.tip.flank_votes) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${r.date} · ${r.title.replace(/^.*?O\s*:\s*\d\s*/, "").slice(0, 60)}</td><td>${r["TİP"]}</td><td class="n">${(r.AP_yes * 100).toFixed(0)}%</td><td class="n">${(r.CHP_yes * 100).toFixed(0)}%</td>`;
+    tb.appendChild(tr);
+  }
+}
+
 function tblMsp() {
   const tb = document.querySelector("#tbl-msp tbody");
   for (const r of D.msp) {
@@ -452,10 +562,10 @@ function tblMsp() {
 }
 
 function draw() {
-  for (const id of ["fig-space", "fig-scatter", "fig-angles", "fig-did", "fig-event", "fig-landtax", "fig-memo", "leg-party"]) document.getElementById(id).innerHTML = "";
-  legend(); figSpace(); figScatter(); figAngles(); figDid(); figEvent(); figLandtax(); figMemo();
+  for (const id of ["fig-space", "fig-scatter", "fig-angles", "fig-did", "fig-event", "fig-landtax", "fig-memo", "fig-exits", "leg-party"]) document.getElementById(id).innerHTML = "";
+  legend(); figSpace(); figScatter(); figAngles(); figDid(); figEvent(); figLandtax(); figMemo(); figExits();
 }
-draw(); tblMsp();
+draw(); tblMsp(); quotes(); tblFlank();
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
 new MutationObserver(draw).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
 </script>
