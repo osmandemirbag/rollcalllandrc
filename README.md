@@ -10,9 +10,9 @@ minutes. Deputies are linked to the Turkish Political Elites Dataset.
 | file | content |
 |---|---|
 | `TBMM_land_agri_rollcalls_1961-1980.xlsx` | **Main workbook.** Sheets: codebook, votes (with quality flags), member_votes, matrix_assembly, matrix_senate, unmatched. |
-| `rollcall_long.csv.gz` | 177k rows, one per member × vote. Holds the vote, choice, person, the name as printed with its PDF page, match method, row status and elite covariates. |
-| `rollcall_wide_elites.csv` | All elites rows for the 1961–1977 Assembly cohorts, with **all 318 original columns**, plus one `v_<vote_id>` column per Assembly roll call (313 votes). |
-| `rollcall_wide_senate.csv` | One row per senator (`senate_person_id`, linked to `elite_row` when the senator also served as a deputy), with one column per Senate roll call (241 votes). |
+| `rollcall_long.csv.gz` | 182k rows, one per member × vote. Holds the vote, choice, person, the name as printed with its PDF page, match method, row status and elite covariates. |
+| `rollcall_wide_elites.csv` | All elites rows for the 1961–1977 Assembly cohorts, with **all 318 original columns**, plus one `v_<vote_id>` column per Assembly roll call (322 votes). |
+| `rollcall_wide_senate.csv` | One row per senator (`senate_person_id`, linked to `elite_row` when the senator also served as a deputy), with one column per Senate roll call (245 votes). |
 | `votes_quality.csv` | One row per roll call: metadata, printed counts, listed counts, `quality` and `names_off_vs_tally`. |
 
 The matrix codes follow Voteview:
@@ -29,9 +29,9 @@ The matrix codes follow Voteview:
 | | votes | lists match the printed tally exactly | within 2 names | off by more than 10 |
 |---|---|---|---|---|
 | land (hand-checked set) | 73 | **73** | 73 | 0 |
-| agriculture | 169 | 116 | 136 | 11 |
-| rural/peripheral (forestry, DSİ, village affairs, cooperatives law) | 312 | 211 | 262 | 25 |
-| **all** | **554** | **400** | **471** | 36 |
+| agriculture | 176 | 122 | 142 | 11 |
+| rural/peripheral (forestry, DSİ, village affairs, cooperatives law) | 318 | 215 | 266 | 26 |
+| **all** | **567** | **410** | **481** | 37 |
 
 Linking:
 - 99.5% of Assembly names are linked to an elites row.

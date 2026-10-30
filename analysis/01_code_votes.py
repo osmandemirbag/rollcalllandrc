@@ -33,7 +33,7 @@ OUT = ROOT / "analysis" / "output"
 
 # ---------------------------------------------------------------- policy coding
 RULES = [  # (policy_type, subtype, regex on folded title); first match wins
-    ("excluded", "", r"odenek|olenek|mutevel|hudut hat|universitesi kurulus|universitesi kadro"),
+    ("excluded", "", r"uyelerinin (odenek|olenek)|odeneklerinden|oleneklerinden|hudut hat|universitesi kurulus|universitesi kadro"),
     ("final_accounts", "", r"kesin ?hesa|bilanco|bilancos"),
     ("land_reform_budget", "", r"toprak ve tarim reformu mustesarl"),
     ("land_reform", "", r"toprak (ve tarim )?reform"),

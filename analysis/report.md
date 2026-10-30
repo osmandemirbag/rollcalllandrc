@@ -1,8 +1,8 @@
 # Who voted for land reform and farm benefits? Roll calls in the Turkish parliament, 1961–1980
 
 This report covers the recorded (open, by-name) votes only. Most decisions in this period were
-taken by show of hands and left no individual record. Everything below describes the 554
-recorded land and agricultural roll calls (177,490 member-votes).
+taken by show of hands and left no individual record. Everything below describes the 567
+recorded land and agricultural roll calls (182,005 member-votes).
 
 Scripts: `analysis/01_code_votes.py` (coding), `02_tests.py` (tests), `03_figures.py`.
 Tables: `analysis/output/t*.csv`.
@@ -20,7 +20,7 @@ Each roll call was coded by policy content (`analysis/output/votes_coded.csv`).
 | **land tax** | 12 (8 / 4) | Arazi Vergisi change (1964); Emlâk Vergisi law and amendments (1970–72) |
 | **land titling / settlement / forest land** | 47 (12 / 35) | Tapulama (cadastral titling) law 1963–66, much of it article by article in the Senate; İskân law 1970; the 1973 forest-land definition (Orman Kanunu); AOÇ land sale |
 | **farm subsidies & benefits** | 43 (31 / 12) | debt relief (17), commodity support boards (12: tea, tobacco, milk), credit (6), disaster relief (4), farm income tax relief (2), input tariff relief (2) |
-| agency budgets *(baseline)* | 248 | budgets of DSİ, State Farms, Forestry, Agriculture Ministry |
+| agency budgets *(baseline)* | 259 | budgets of DSİ, State Farms, Forestry, Agriculture Ministry |
 | final accounts *(baseline)* | 114 | approval of past years' accounts |
 
 **How contested each type is** (all roll calls, both chambers):
@@ -259,6 +259,58 @@ prices and debt forgiveness. Agricultural policy was patronage rather than progr
   CHP 172–0, with AP mostly absent.
 
 **Verdict: supported.**
+
+---
+
+## 2b. Other agricultural policies: credit, price support and rural infrastructure
+
+**What parliament voted on by name:**
+- **Agricultural credit:** 23 roll calls.
+  - Ziraat Bankası law changes (1963, 1979).
+  - The Tarım Kredi Kooperatifleri law (1972).
+  - Farmer debt relief (1963, 1976–77).
+- **Commodity support boards:** 12 roll calls on the tea board (ÇAYKUR, 1971–72), the tobacco
+  monopoly law (1969) and the milk industry board (1963).
+- **Input subsidies:** 2 roll calls (1962) removing customs duties on fertiliser and tractors.
+- **Rural infrastructure:**
+  - DSİ (irrigation and dams): 147 roll calls (109 budgets, 35 final accounts, 3 other).
+  - The Village Affairs Ministry law (1971), which created the ministry in charge of village
+    roads, drinking water and electrification (YSE).
+  - The Village Law amendments (1963, 19 article votes in the Senate).
+- **State farms and agencies (TİGEM/DÜÇ, plant protection, Forestry):** 144 budgets and 79
+  final-accounts votes.
+
+**What never came to a recorded vote:**
+- **Support prices.** Crop support prices and the grain board's (TMO) purchases were set by
+  Council of Ministers decree, not by law. The full index of 6,446 votes has no roll call on
+  them.
+- **SOE subsidies.** The same holds for subsidies delivered through state companies (fertiliser,
+  sugar, meat) and for Ziraat Bankası credit ceilings.
+- **Ministry budgets.** The Agriculture and Village Affairs ministries' budgets were voted
+  inside the general budget law, by show of hands section by section. So most of the money for
+  farmers is not observable through roll calls.
+
+**How parties voted on infrastructure and agency budgets** (Assembly, share of cast votes that
+are yes, technocratic cabinets excluded):
+
+| agency | AP in government | CHP in opposition | AP in opposition | CHP in government |
+|---|---|---|---|---|
+| DSİ irrigation and dams | 0.95 | 0.26 | 0.68 | 1.00 |
+| State farms and agencies | 0.95 | 0.38 | 0.34 | 0.97 |
+| Forestry | 0.99 | 0.33 | 0.35 | 1.00 |
+
+Infrastructure budgets follow the same government-versus-opposition logic as the land reform
+agency, with one difference. Irrigation is the least partisan item: AP in opposition still gave
+DSİ budgets 68% support, against 34–35% for the other agencies. This fits the distributive
+reading, since irrigation projects are geographically targeted and attractive to every deputy.
+
+The 1971 law creating the Village Affairs Ministry got 116–2 from AP and 89–1 from CHP. As with
+farm benefits, nobody voted against it; it failed quorum twice before passing.
+
+**Verdict:** credit, subsidies and infrastructure behave like the farm-benefit votes in §2.5
+(near-universal support, rationed by quorum control), except for annual agency budgets. Budgets
+are confidence votes and split government against opposition, with irrigation the least
+contested.
 
 ---
 

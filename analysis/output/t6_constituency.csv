@@ -4,12 +4,12 @@ group,dv,n,rural_population_pct,east_se,agri_degree,law_education,military_educa
 land reform agency budgets,yes,2661,-0.016,+0.002,+0.050,-0.007,+0.041,+0.001
 land reform agency budgets,voted,3559,-0.093,-0.041,-0.004,-0.021,+0.017,+0.058**
 land tax,yes,973,+0.122,+0.057,-0.013,-0.044,+0.025,+0.023
-land tax,voted,3543,+0.101,-0.038,-0.056,-0.017,-0.019,+0.035
-land titling / settlement / forest land,yes,927,+0.074,-0.021,-0.021,-0.021,+0.004,+0.009
-land titling / settlement / forest land,voted,5302,+0.009,+0.000,+0.029,-0.001,+0.054,+0.040*
+land tax,voted,3528,+0.102,-0.038,-0.056,-0.018,-0.020,+0.034
+land titling / settlement / forest land,yes,1011,+0.102,-0.020,-0.053,-0.017,+0.018,+0.020
+land titling / settlement / forest land,voted,6609,+0.004,-0.005,+0.028,-0.002,+0.046,+0.040*
 farm subsidies & benefits,yes,374,-0.014,+0.034,+0.100,-0.014,-0.099*,+0.001
-farm subsidies & benefits,voted,13157,+0.011,-0.029,+0.001,-0.001,+0.009,+0.027
-agency budgets (baseline),yes,21883,+0.049*,+0.031***,+0.025,-0.018*,-0.011,+0.000
-agency budgets (baseline),voted,61618,+0.045,+0.006,+0.012,-0.019*,-0.002,+0.037***
-final accounts (baseline),yes,2104,-0.060,+0.012,+0.027,-0.013,-0.030,+0.017
-final accounts (baseline),voted,32363,+0.094*,+0.022,+0.025,+0.006,+0.004,+0.046**
+farm subsidies & benefits,voted,13152,+0.011,-0.029,+0.001,-0.001,+0.009,+0.027
+agency budgets (baseline),yes,22631,+0.046*,+0.032***,+0.026,-0.018*,-0.011,+0.000
+agency budgets (baseline),voted,64443,+0.053*,+0.005,+0.012,-0.019*,-0.006,+0.036***
+final accounts (baseline),yes,2103,-0.057,+0.012,+0.026,-0.013,-0.031,+0.015
+final accounts (baseline),voted,32316,+0.095*,+0.022,+0.024,+0.005,+0.004,+0.046**

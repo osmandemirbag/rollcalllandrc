@@ -1,0 +1,159 @@
+/home/user/rollcalllandrc/analysis/02_tests.py:35: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=d).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(d[cluster])[0]})
+/home/user/rollcalllandrc/analysis/02_tests.py:35: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=d).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(d[cluster])[0]})
+/home/user/rollcalllandrc/analysis/02_tests.py:35: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=d).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(d[cluster])[0]})
+/home/user/rollcalllandrc/analysis/02_tests.py:35: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=d).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(d[cluster])[0]})
+
+===== t1_typology
+                                         votes  assembly  senate  no_quorum  participation  yes_share_of_cast  lopsided  no_votes_share
+group                                                                                                                                  
+land reform (law, motion)                    3         2       1      0.000          0.688              0.784     0.333           0.261
+land reform agency budgets                  17         8       9      0.000          0.687              0.670     0.059           0.368
+land tax                                    12         8       4      0.417          0.407              0.765     0.333           0.225
+land titling / settlement / forest land     50        15      35      0.400          0.480              0.873     0.660           0.103
+farm subsidies & benefits                   43        31      12      0.465          0.457              0.925     0.884           0.040
+agency budgets (baseline)                  259       155     104      0.232          0.586              0.844     0.510           0.173
+final accounts (baseline)                  114        74      40      0.325          0.520              0.966     0.921           0.026
+
+===== t2_gov_vs_party
+                                         contested_votes      n  R2_votes_only  R2_+government  R2_+party  R2_+both  gov_effect_within_party    p
+group                                                                                                                                            
+land reform (law, motion)                              1    326          0.000           0.795      0.850     0.850                    0.482  0.0
+land reform agency budgets                             8   2668          0.023           0.757      0.150     0.803                    0.915  0.0
+land tax                                               7    973          0.044           0.462      0.160     0.547                    0.840  0.0
+land titling / settlement / forest land                5   1011          0.008           0.081      0.480     0.553                    0.358  0.0
+farm subsidies & benefits                              2    374          0.022           0.485      0.623     0.623                   -0.426  0.0
+agency budgets (baseline)                             98  22648          0.072           0.516      0.245     0.555                    0.673  0.0
+final accounts (baseline)                              9   2103          0.164           0.315      0.375     0.409                    0.218  0.0
+
+===== t3_flips
+party                                       AP           CHP       
+in_government                            False  True   False  True 
+group                                                              
+land reform (law, motion)                0.016    NaN    NaN  0.979
+land reform agency budgets               0.025  0.998  0.051  0.996
+land tax                                 0.152  0.886  0.046  0.994
+land titling / settlement / forest land  0.962  0.996  0.564  0.860
+farm subsidies & benefits                0.963  0.989  0.994  0.836
+agency budgets (baseline)                0.497  0.967  0.326  0.990
+final accounts (baseline)                0.948  0.996  0.758  0.955
+
+===== t4_cohesion
+party                                       AP    CHP     DP    MSP
+group                                                              
+land reform (law, motion)                0.979  0.972    NaN    NaN
+land reform agency budgets               0.972  0.935  0.888  1.000
+land tax                                 0.816  0.755  0.708    NaN
+land titling / settlement / forest land  0.952  0.839  1.000    NaN
+farm subsidies & benefits                0.987  0.977  0.980  0.972
+agency budgets (baseline)                0.912  0.835  0.743  0.998
+final accounts (baseline)                0.985  0.852  0.801    NaN
+
+===== t4_party_line
+                                          mean  size
+group                                               
+land reform (law, motion)                0.500     2
+land reform agency budgets               1.000     8
+land tax                                 0.750     8
+land titling / settlement / forest land  0.200    15
+farm subsidies & benefits                0.067    30
+agency budgets (baseline)                0.565   154
+final accounts (baseline)                0.041    74
+
+===== t5_participation
+                                             n  gov_effect_on_turnout      p  gov_effect_on_quorum_failures    p_q  turnout_gov  turnout_opp
+group                                                                                                                                       
+land reform (law, motion)                  872                  0.430  0.000                            NaN    NaN        0.823        0.461
+land reform agency budgets                3569                  0.161  0.000                            NaN    NaN        0.843        0.677
+land tax                                  3528                  0.077  0.001                          0.030  0.210        0.370        0.279
+land titling / settlement / forest land   6609                  0.176  0.000                          0.039  0.121        0.535        0.294
+farm subsidies & benefits                13183                  0.011  0.475                         -0.104  0.000        0.415        0.423
+agency budgets (baseline)                64489                  0.126  0.000                          0.084  0.000        0.594        0.455
+final accounts (baseline)                32316                  0.046  0.000                          0.046  0.001        0.512        0.433
+
+===== t6_constituency
+                                                   n rural_population_pct    east_se agri_degree law_education military_education      local
+group                                   dv                                                                                                  
+land reform (law, motion)               yes      326               +0.046     +0.009      -0.009        +0.005             -0.021     -0.018
+                                        voted    872               -0.092     -0.022      -0.004        -0.009             +0.075     +0.036
+land reform agency budgets              yes     2661               -0.016     +0.002      +0.050        -0.007             +0.041     +0.001
+                                        voted   3559               -0.093     -0.041      -0.004        -0.021             +0.017   +0.058**
+land tax                                yes      973               +0.122     +0.057      -0.013        -0.044             +0.025     +0.023
+                                        voted   3528               +0.102     -0.038      -0.056        -0.018             -0.020     +0.034
+land titling / settlement / forest land yes     1011               +0.102     -0.020      -0.053        -0.017             +0.018     +0.020
+                                        voted   6609               +0.004     -0.005      +0.028        -0.002             +0.046    +0.040*
+farm subsidies & benefits               yes      374               -0.014     +0.034      +0.100        -0.014            -0.099*     +0.001
+                                        voted  13152               +0.011     -0.029      +0.001        -0.001             +0.009     +0.027
+agency budgets (baseline)               yes    22631              +0.046*  +0.032***      +0.026       -0.018*             -0.011     +0.000
+                                        voted  64443              +0.053*     +0.005      +0.012       -0.019*             -0.006  +0.036***
+final accounts (baseline)               yes     2103               -0.057     +0.012      +0.026        -0.013             -0.031     +0.015
+                                        voted  32316              +0.095*     +0.022      +0.024        +0.005             +0.004   +0.046**
+
+===== t7_east
+            vote_id        date party  east_se    n  yes_of_members  no_of_members  absent
+0   mm01030095_p047  1964-04-29    AP     True   20           0.000          0.000   1.000
+1   mm01030095_p047  1964-04-29    AP    False  148           0.034          0.081   0.858
+2   mm01030095_p047  1964-04-29   CHP     True   37           0.189          0.000   0.811
+3   mm01030095_p047  1964-04-29   CHP    False  152           0.204          0.000   0.796
+4   mm01030096_p062  1964-04-30    AP     True   20           0.050          0.150   0.800
+5   mm01030096_p062  1964-04-30    AP    False  148           0.054          0.378   0.547
+6   mm01030096_p062  1964-04-30   CHP     True   37           0.622          0.000   0.378
+7   mm01030096_p062  1964-04-30   CHP    False  152           0.658          0.007   0.336
+8   mm01035055_p050  1965-02-11    AP     True   20           0.000          0.800   0.200
+9   mm01035055_p050  1965-02-11    AP    False  145           0.014          0.766   0.221
+10  mm01035055_p050  1965-02-11   CHP     True   37           0.703          0.027   0.270
+11  mm01035055_p050  1965-02-11   CHP    False  151           0.768          0.007   0.219
+12  mm03007114_p075  1970-06-28    AP     True   34           0.147          0.000   0.853
+13  mm03007114_p075  1970-06-28    AP    False  216           0.065          0.000   0.931
+14  mm03007114_p075  1970-06-28   CHP     True   25           0.040          0.080   0.880
+15  mm03007114_p075  1970-06-28   CHP    False  117           0.000          0.077   0.915
+16  mm03007115_p075  1970-06-29    AP     True   34           0.529          0.059   0.412
+17  mm03007115_p075  1970-06-29    AP    False  219           0.470          0.064   0.461
+18  mm03007115_p075  1970-06-29   CHP     True   25           0.040          0.480   0.480
+19  mm03007115_p075  1970-06-29   CHP    False  118           0.017          0.500   0.483
+20  mm03014108_p040  1971-06-04    AP     True   28           0.107          0.000   0.893
+21  mm03014108_p040  1971-06-04    AP    False  184           0.239          0.005   0.755
+22  mm03014108_p040  1971-06-04   CHP     True   25           0.240          0.000   0.760
+23  mm03014108_p040  1971-06-04   CHP    False  118           0.102          0.025   0.873
+24  mm03014109_p042  1971-06-07    AP     True   28           0.643          0.036   0.321
+25  mm03014109_p042  1971-06-07    AP    False  186           0.624          0.027   0.349
+26  mm03014109_p042  1971-06-07   CHP     True   25           0.240          0.080   0.680
+27  mm03014109_p042  1971-06-07   CHP    False  118           0.314          0.042   0.636
+28  mm03026115_p027  1972-06-28    AP     True   41           0.098          0.000   0.902
+29  mm03026115_p027  1972-06-28    AP    False  180           0.067          0.011   0.922
+30  mm03026115_p027  1972-06-28   CHP     True   25           0.040          0.080   0.880
+31  mm03026115_p027  1972-06-28   CHP    False  114           0.009          0.105   0.886
+32  mm03026116_p050  1972-06-29    AP     True   41           0.537          0.049   0.415
+33  mm03026116_p050  1972-06-29    AP    False  186           0.710          0.005   0.280
+34  mm03026116_p050  1972-06-29   CHP     True   25           0.240          0.400   0.360
+35  mm03026116_p050  1972-06-29   CHP    False  115           0.261          0.313   0.426
+36  mm03038125_p153  1973-06-12    AP     True   40           0.825          0.000   0.175
+37  mm03038125_p153  1973-06-12    AP    False  185           0.892          0.005   0.103
+38  mm03038125_p153  1973-06-12   CHP     True   15           0.000          0.000   1.000
+39  mm03038125_p153  1973-06-12   CHP    False   90           0.022          0.000   0.978
+
+===== t8_senate
+                                        yes_of_cast                                  turnout                                  member_votes                                 
+senate_group                                elected natural (NUC) presidential quota elected natural (NUC) presidential quota      elected natural (NUC) presidential quota
+group                                                                                                                                                                      
+agency budgets (baseline)                     0.880         0.983              0.958   0.664         0.540              0.486      15422.0        1947.0             1563.0
+farm subsidies & benefits                     0.934         0.930              0.882   0.584         0.516              0.405       1775.0         223.0              168.0
+final accounts (baseline)                     0.993         0.995              0.993   0.600         0.506              0.536       5967.0         725.0              560.0
+land reform (law, motion)                     0.905         0.938              0.571   0.748         0.800              1.000        155.0          20.0                7.0
+land reform agency budgets                    0.689         0.855              0.914   0.637         0.684              0.519       1336.0         171.0              135.0
+land tax                                      0.895         1.000              0.964   0.565         0.367              0.467        607.0          60.0               60.0
+land titling / settlement / forest land       0.881         0.735              0.824   0.500         0.404              0.548       5166.0         690.0              487.0
+
+===== t9_benefits
+                  votes     turnout        no_share       
+government          0.0 1.0     0.0    1.0      0.0    1.0
+subtype                                                   
+commodity_support     7   7   0.479  0.433    0.020  0.002
+credit                2   2   0.294  0.724    0.012  0.002
+debt_relief          15  15   0.413  0.341    0.001  0.046
+disaster_relief       3   3   0.446  0.423    0.002  0.002
+input_subsidy         2   2   0.590  0.539    0.000  0.000
+tax_relief            2   2   0.331  0.433    0.008  0.002

@@ -34,21 +34,23 @@ AGRI_RULES = [
     ("Livestock, veterinary and pasture",
      r"hayvan|veteriner|\bmera\b|meralar|et\s+ve\s+bal[ıi]k|yem\s+sanayi|s[üu]t\s+end[üu]strisi"),
     ("State farms and agricultural agencies",
-     r"devlet\s+[üu]retme\s+çiftlik|topraksu|zirai\s+m[üu]cadele|zirai\s+karantina|ziraat\s+işleri"
+     r"devlet[\s-]+[üu]retme[\s-]+çiftlik|topraksu|zirai\s+m[üu]cadele|zirai\s+karantina|ziraat\s+işleri"
      r"|tohum|g[üu]bre|tar[ıi]m\s+alet|traktör"),
     ("Ministry of Agriculture / Food-Agriculture-Livestock",
      r"tar[ıi]m\s+bakanl|g[ıi]da[,\s-]+tar[ıi]m|tar[ıi]m\s+ve\s+hayvanc|tar[ıi]m\s+orman"),
     ("Farmers: disaster relief, labour and support",
      r"çiftçi|tar[ıi]m\s+işçi|tar[ıi]mda|zirai|ziraat|tar[ıi]msal|k[üu]çük\s+çiftçi"),
     ("Village affairs and rural development", r"k[öo]y\s+işleri|k[öo]y\s+kanun|k[öo]ylerin|k[öo]ylere"),
-    ("Irrigation and water (DSİ)", r"su\s+işleri|sulama|dsi\b|DSİ"),
+    ("Irrigation and water (DSİ)", r"[sş]u\s+işleri|sulama|dsi\b|DSİ"),
     ("Forestry", r"orman|kavakç[ıi]l[ıi]k"),
     ("Cooperatives (general law)", r"^kooperatifler\s+kanun"),
     ("Expropriation and state land", r"kamulaştırma|istiml[âa]k|hazine(ye)?\s+ait\s+(arazi|taşınmaz)|devlet\s+arazi"),
 ]
 
 # Titles that hit a rule but are not agricultural policy.
-EXCLUDE = (r"ödenek|odenek|mütevellit|vergilendirme|köy\s+(eğitmen|enstit)|imar\s+ve\s+iskân"
+# MPs' allowances held at Ziraat Bankası ('üyelerinin ödeneklerinden mütevellit'), not 'ek ödenek'
+# (supplementary appropriations), which are agency budget votes.
+EXCLUDE = (r"üyeler\S*\s+ö\S*enek|ödeneklerinden|öleneklerinden|vergilendirme|köy\s+(eğitmen|enstit)|imar\s+ve\s+iskân"
            r"|milli\s+savunma|millî\s+savunma")
 
 # Rough net used only to report what the rules drop, so false negatives can be reviewed.
