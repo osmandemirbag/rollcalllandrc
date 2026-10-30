@@ -1,5 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-abstain,,Oya katılmıyanlar,Oya katılmıyanlar,60,False,cs05036082_p060,pdftotext parser
 yes,ADANA,Mehmet Nuri Âdemoğlu,Mehmet Nuri Âdemoğlu,60,False,cs05036082_p060,pdftotext parser
 yes,ADANA,Mehmet Ünaldı,Mehmet Ünaldı,60,False,cs05036082_p060,pdftotext parser
 yes,AFYON,M. Kâzım Karaağaçlıoğlu,M. Kâzım Karaağaçlıoğlu,60,False,cs05036082_p060,pdftotext parser

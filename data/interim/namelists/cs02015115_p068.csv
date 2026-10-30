@@ -1,6 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-no,,Oya katılmıyanlar,Oya katılmıyanlar,68,False,cs02015115_p068,pdftotext parser
-no,,Açık üyelikler,Açık üyelikler,68,False,cs02015115_p068,pdftotext parser
 yes,TABİİ ÜYELER,Emanullah Çelebi,Emanullah Çelebi,68,False,cs02015115_p068,pdftotext parser
 yes,TABİİ ÜYELER,Sezai O'Kan,Sezai O'Kan,68,False,cs02015115_p068,pdftotext parser
 yes,TABİİ ÜYELER,Haydar Tıınçkanat j,Haydar Tıınçkanat j,68,False,cs02015115_p068,pdftotext parser
@@ -61,23 +59,24 @@ yes,CUMHURBAŞKANINCA S. Ü.,Ragıp Üner,Ragıp Üner,68,False,cs02015115_p068,
 yes,CUMHURBAŞKANINCA S. Ü.,Necati özdeniz,Necati özdeniz,68,False,cs02015115_p068,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,N'evzat Sengel,N'evzat Sengel,68,False,cs02015115_p068,pdftotext parser
 yes,CUMHURBAŞKANINCA S. Ü.,Burhanettiıı Uluç,Burhanettiıı Uluç,68,False,cs02015115_p068,pdftotext parser
-yes,CUMHURBAŞKANINCA S. Ü.,i Âdil Ünlü,i Âdil Ünlü,68,False,cs02015115_p068,pdftotext parser
-abstain,TABİİ ÜYELER,Ekrem Aeırner,Ekrem Aeırner,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,özel Şahingiray Esat Çağa,özel Şahingiray Esat Çağa,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,O ı/a k atıl m ymı lor],0 ı/a k atıl m ymı lor],68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Refet Aksoyoğlu Vehbi Ersü,Refet Aksoyoğlu Vehbi Ersü,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Mucip Ataklı Suphi Gürsoytrak,Mucip Ataklı Suphi Gürsoytrak,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Kadri Kaplan,Kadri Kaplan,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Suphi Karaman,Suphi Karaman,68,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Kâmil Karavelioğlu,Kâmil Karavelioğlu,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Osman Koksal,Osman Koksal,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Sami Küçük,Sami Küçük,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Fahri Özdilek,Fahri Özdilek,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Mehmet özgüneş,Mehmet özgüneş,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Selâhattin Özgür,Selâhattin Özgür,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Mehmet Şükran Özkavv,Mehmet Şükran Özkavv.,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Ahmet Yıldız,Ahmet Yıldız,69,False,cs02015115_p068,pdftotext parser
-abstain,CUMHURBAŞKANINCA S. Ü.,Muzaffer Yurdakuler,Muzaffer Yurdakuler,69,False,cs02015115_p068,pdftotext parser
+yes,CUMHURBAŞKANINCA S. Ü.,i Âdil Ünlüözel,i Âdil Ünlü özel,68,False,cs02015115_p068,pdftotext parser
+abstain,CUMHURBAŞKANINCA S. Ü.,Esat Çağa,Esat Çağa,68,False,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Ekrem Aeırner,Ekrem Aeırner,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Mucip Ataklı,Mucip Ataklı,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Vehbi Ersü,Vehbi Ersü,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Suphi Gürsoytrak,Suphi Gürsoytrak,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Kadri Kaplan,Kadri Kaplan,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Suphi Karaman,Suphi Karaman,68,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Kâmil Karavelioğlu,Kâmil Karavelioğlu,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Osman Koksal,Osman Koksal,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Sami Küçük,Sami Küçük,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Fahri Özdilek,Fahri Özdilek,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Mehmet özgüneş,Mehmet özgüneş,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Selâhattin Özgür,Selâhattin Özgür,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Mehmet Şükran Özkavv,Mehmet Şükran Özkavv.,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Ahmet Yıldız,Ahmet Yıldız,69,True,cs02015115_p068,pdftotext parser
+not_voting,TABİİ ÜYELER,Muzaffer Yurdakuler,Muzaffer Yurdakuler,69,True,cs02015115_p068,pdftotext parser
 not_voting,ADANA,Mehmet Nuri Âdemoğlu,Mehmet Nuri Âdemoğlu,69,True,cs02015115_p068,pdftotext parser
 not_voting,ADANA,Galip Avşar,Galip Avşar,69,True,cs02015115_p068,pdftotext parser
 not_voting,ADANA,Mehmet Ünaldı,Mehmet Ünaldı,69,True,cs02015115_p068,pdftotext parser

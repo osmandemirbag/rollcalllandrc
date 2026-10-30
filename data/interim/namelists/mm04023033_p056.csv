@@ -172,8 +172,10 @@ yes,YOZGAT,Ömer Lütfi Zararsız,Ömer Lütfi Zararsız,57,True,mm04023033_p056
 yes,ZONGULDAK,Ahımet Nlihat Akın,Ahımet Nlihat Akın,57,True,mm04023033_p056,pdftotext parser
 yes,ZONGULDAK,Kemal Anadoil,Kemal Anadoil,57,True,mm04023033_p056,pdftotext parser
 yes,ZONGULDAK,Orhan Göncüoğm,Orhan Göncüoğm,57,True,mm04023033_p056,pdftotext parser
-abstain,,Müfit Bayraktar Ahmet Arakan,Müfit Bayraktar Ahmet Arakan,57,False,mm04023033_p056,pdftotext parser
-abstain,,Orhan Kayıhan Çetin Yılmaa,Orhan Kayıhan Çetin Yılmaa,57,False,mm04023033_p056,pdftotext parser
+abstain,BOLU,Müfit Bayraktar,Müfit Bayraktar,57,False,mm04023033_p056,pdftotext parser
+abstain,AMASYA,Orhan Kayıhan,Orhan Kayıhan,57,False,mm04023033_p056,pdftotext parser
+abstain,SİVAS,Ahmet Arakan,Ahmet Arakan,57,False,mm04023033_p056,pdftotext parser
+abstain,MERSİN,Çetin Yılmaa,Çetin Yılmaa,57,False,mm04023033_p056,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,57,False,mm04023033_p056,pdftotext parser
 not_voting,ADANA,Hasan Cerit,Hasan Cerit,57,False,mm04023033_p056,pdftotext parser
 not_voting,ADANA,Osman Çhtırık,Osman Çhtırık,57,False,mm04023033_p056,pdftotext parser

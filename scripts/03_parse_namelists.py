@@ -25,7 +25,7 @@ from difflib import SequenceMatcher
 import pandas as pd
 
 from common import ELITES_CSV, NAMELISTS, PDF_DIR, PROCESSED, INTERIM, VOTE1965_XLSX, fold, province_key
-from layout import column_lines, group_rows, read_pages, row_text
+from layout import column_lines, group_rows, gutters, read_pages, row_text
 
 SECTIONS = {
     "yes": ["kabul edenler"],
@@ -56,6 +56,7 @@ def province_names() -> dict[str, str]:
 
 def section_of(text):
     """'[Kabul edenler]' -> 'yes'. Tally lines ('Kabul edenler : 120') do not count."""
+    text = re.sub(r"^\s*0\s*(?=\D)", "(", text)  # '0 ı/a k atıl...' : '(' read as zero
     if re.search(r"[:\d]", text):
         return None
     text = re.sub(r"^\W*\w?\W*(?=[\[(]|[A-ZÇÖÜİŞĞ])", "", text.strip()) or text  # 'f Oya ...]' -> 'Oya ...]'
@@ -64,9 +65,11 @@ def section_of(text):
     if not f or len(f.split()) > 4:
         return None
     best, score = None, 0.0
+    squeezed = f.replace(" ", "")
     for c, names in SECTIONS.items():
         for n in names:
-            r = SequenceMatcher(None, f, n).ratio()
+            r = max(SequenceMatcher(None, f, n).ratio(),
+                    SequenceMatcher(None, squeezed, n.replace(" ", "")).ratio())
             if r > score:
                 best, score = c, r
     if re.search(r"edil|mis|mış|kanunlas|yok|vardir|saglan|kabul ol|redd?edil", f):
@@ -230,7 +233,7 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
                 # back to the start means a new list began whose header the OCR lost.
                 # The Senate lists end with the presidential-quota group: any province after it
                 # starts a new list. Otherwise require a clear jump back in the alphabet.
-                after_quota = prov == "CUMHURBAŞKANINCA S. Ü." and p != prov
+                after_quota = prov == "CUMHURBAŞKANINCA S. Ü." and p != prov and province_rank(p) <= 3
                 if prov and choice in order and (after_quota or (
                         province_rank(p) <= 3 and province_rank(p) <= province_rank(prov) - 6)):
                     nxt = next_section()
@@ -265,11 +268,15 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
         if not started and page.number == first and t0 is None:
             started = True  # page starts directly with the lists
         seg = []
+        # Column gutters of the whole page, for bands too short to show their own.
+        body = [w for r in rows if not section_of(row_text(r)) and not TITLE_ROW.search(row_text(r))
+                and not tally_of(row_text(r)) for w in r]
+        page_cuts = gutters(body, 0, page.width)
 
         def flush():
             if seg and started and choice not in (None, "vacant"):
                 words = [w for r in seg for w in r]
-                for line in column_lines(words, 0, page.width):
+                for line in column_lines(words, 0, page.width, page_cuts):
                     emit_line(row_text(line), page.number)
             seg.clear()
 
@@ -279,13 +286,16 @@ def parse_vote(pdf, first, title, provinces, npages, expected):
                 if i == t0:
                     started = True
                 continue
-            if choice is None:
+            if choice is None or not out:
                 t = tally_of(text)
                 if t:
+                    # Tallies before any name: a garbled outcome line was taken for a header.
+                    seg.clear()
+                    choice = None
                     tally.setdefault(t[0], t[1])
                     continue
-            if choice is not None and (TITLE_ROW.search(text) or re.match(r"\W*[ÜU]ye\s+say", text)
-                                       or AGENDA.search(text)):
+            if choice is not None and out and (TITLE_ROW.search(text) or re.match(r"\W*[ÜU]ye\s+say", text)
+                                               or AGENDA.search(text)):
                 flush()
                 return out, tally  # next vote's result block
             sec = section_of(text)
@@ -407,6 +417,8 @@ def main():
     votes = pd.read_csv(PROCESSED / "votes.csv")
     provinces = province_names()
     checks, tallies = [], {}
+    verified = pd.read_csv(INTERIM / "verified_votes.csv").set_index("vote_id") \
+        if (INTERIM / "verified_votes.csv").exists() else pd.DataFrame(columns=["verified_counts"])
 
     v1965, df1965 = import_1965(votes)
     df1965.to_csv(NAMELISTS / f"{v1965}.csv", index=False)
@@ -444,7 +456,13 @@ def main():
                       if x is not None] + der.get(c, []) for c in ["yes", "no", "abstain", "not_voting"]}
             df = relabel_sections(df, tg)
             df.to_csv(out, index=False)
-        checks.append(check_counts(v, df, tally))
+        row = check_counts(v, df, tally)
+        if v.vote_id in verified.index:
+            want = [int(x) for x in str(verified.at[v.vote_id, "verified_counts"]).split("/")]
+            have = [row[f"{c}_parsed"] for c in ["yes", "no", "abstain", "not_voting"]]
+            row["status"] = "ok (verified against page images)" if want == have else \
+                f"count mismatch: differs from hand-verified {want}"
+        checks.append(row)
 
     ch = pd.DataFrame(checks)
     ch.to_csv(INTERIM / "namelist_checks.csv", index=False)

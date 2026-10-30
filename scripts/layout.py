@@ -110,9 +110,14 @@ def gutters(words, x_lo, x_hi, min_gap=6.0):
     return merged
 
 
-def column_lines(words, x_lo, x_hi):
-    """Lines of a band in reading order: column by column, top to bottom."""
+def column_lines(words, x_lo, x_hi, page_cuts=None):
+    """Lines of a band in reading order: column by column, top to bottom.
+
+    A short band can hide a gutter (one long name bridges it); then the page's gutters,
+    found over all its list rows, are used instead."""
     cuts = gutters(words, x_lo, x_hi)
+    if page_cuts and len(cuts) < len(page_cuts) and len(group_rows(words)) < 25:
+        cuts = page_cuts
     edges = [-1e9] + cuts + [1e9]
     out = []
     for a, b in zip(edges[:-1], edges[1:]):

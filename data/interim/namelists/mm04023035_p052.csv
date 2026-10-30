@@ -202,8 +202,10 @@ yes,ZONGULDAK,Kemal Anadoi,Kemal Anadoi,53,False,mm04023035_p052,pdftotext parse
 yes,ZONGULDAK,Orhan Göaoüoğlu,Orhan Göaoüoğlu,53,False,mm04023035_p052,pdftotext parser
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,53,False,mm04023035_p052,pdftotext parser
 yes,ZONGULDAK,Mehmet Zekd Okur,Mehmet Zekd Okur,53,False,mm04023035_p052,pdftotext parser
-no,,Mehmet Ali Arsan Ahmet Amkan,Mehmet Ali Arsan Ahmet Amkan,53,False,mm04023035_p052,pdftotext parser
-no,,Orhan Kayıhan Çetin Yılmas,Orhan Kayıhan Çetin Yılmas,53,False,mm04023035_p052,pdftotext parser
+no,ÇANKIRI,Mehmet Ali Arsan,Mehmet Ali Arsan,53,False,mm04023035_p052,pdftotext parser
+no,AMASYA,Orhan Kayıhan,Orhan Kayıhan,53,False,mm04023035_p052,pdftotext parser
+no,SİVAS,Ahmet Amkan,Ahmet Amkan,53,False,mm04023035_p052,pdftotext parser
+no,MERSİN,Çetin Yılmas,Çetin Yılmas,53,False,mm04023035_p052,pdftotext parser
 not_voting,ADANA,Mehmet Can,Mehmet Can,53,False,mm04023035_p052,pdftotext parser
 not_voting,ADANA,Hatan Cerit,Hatan Cerit,53,False,mm04023035_p052,pdftotext parser
 not_voting,ADANA,Erol Çevikçe,Erol Çevikçe,53,False,mm04023035_p052,pdftotext parser

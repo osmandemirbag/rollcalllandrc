@@ -1,6 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-yes,,Oya katılmayanlar,Oya katılmayanlar,53,False,cs01005094_p053,pdftotext parser
-yes,,Açık üyelikler,Açık üyelikler,53,False,cs01005094_p053,pdftotext parser
 yes,TABİİ ÜYELER,Mucip Ataklı,Mucip Ataklı,53,False,cs01005094_p053,pdftotext parser
 yes,TABİİ ÜYELER,Emanullah Çelebi,Emanullah Çelebi,53,False,cs01005094_p053,pdftotext parser
 yes,TABİİ ÜYELER,Kâmil KaraveMoğiu,Kâmil KaraveMoğiu,53,False,cs01005094_p053,pdftotext parser

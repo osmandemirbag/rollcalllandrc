@@ -1,6 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-abstain,,Oya katılmıy anlar,Oya katılmıy anlar,34,False,cs02011071_p034,pdftotext parser
-abstain,,Açık üyelikler,Açık üyelikler,34,False,cs02011071_p034,pdftotext parser
 yes,TABİİ ÜYELER,Refet Aksoyoğlu,Refet Aksoyoğlu,34,False,cs02011071_p034,pdftotext parser
 yes,TABİİ ÜYELER,Vehbi Ersü,Vehbi Ersü,34,False,cs02011071_p034,pdftotext parser
 yes,TABİİ ÜYELER,Kadri Kaplan,Kadri Kaplan,34,False,cs02011071_p034,pdftotext parser

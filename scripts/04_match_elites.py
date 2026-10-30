@@ -229,6 +229,15 @@ def reconcile(m, checks, chamber_dates):
             if over > 0 and len(junk) == over:
                 m.loc[junk, "row_status"] = "dropped (OCR fragment)"
                 status.append(f"dropped {over} from {c}")
+            elif over > 0 and len(junk) > over and NAME_BANK.get(vid[:2]):
+                # Drop the lines least like any member's name, if they are clearly not names.
+                bank = NAME_BANK[vid[:2]]
+                sc = cdist([fold(x).replace(" ", "") for x in m.loc[junk, "name"]], bank,
+                           scorer=fuzz.ratio, workers=-1).max(axis=1)
+                worst = [junk[i] for i in np.argsort(sc)[:over] if sc[i] < 60]
+                if len(worst) == over:
+                    m.loc[worst, "row_status"] = "dropped (OCR fragment)"
+                    status.append(f"dropped {over} least name-like from {c}")
         # 2. add sitting members absent from every list, when one list is short
         g = m.loc[m.vote_id == vid]
         g = g[g.row_status == "kept"]
@@ -268,6 +277,7 @@ def reconcile(m, checks, chamber_dates):
 
 
 _SEEN = {}
+NAME_BANK = {}  # chamber -> spellings of matched names
 
 
 def sitting_members(m, vid, d):
@@ -411,6 +421,9 @@ def main():
         if k in variants:
             variants[k] += e.variants
     m = rescue_unmatched(m, variants, dates)
+    for ch in ("mm", "cs"):
+        k = m[(m.vote_id.str[:2] == ch) & m.person_key.notna()]
+        NAME_BANK[ch] = sorted({fold(x).replace(" ", "") for x in k.name.dropna()})[:20000]
     m, log = reconcile(m, checks.to_dict("index"), dates)
     m = m.drop(columns="date")
     m["list_status"] = m.vote_id.map(checks.status)

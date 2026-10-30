@@ -1,6 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-abstain,,Oya katümıyaniar,Oya katümıyaniar,92,False,cs02013092_p092,pdftotext parser
-abstain,,Açık üyelikler,Açık üyelikler,92,False,cs02013092_p092,pdftotext parser
 yes,TABİİ ÜYELER,Vehbi Ersü,Vehbi Ersü,92,False,cs02013092_p092,pdftotext parser
 yes,TABİİ ÜYELER,Suphi Gürsoytrak,Suphi Gürsoytrak,92,False,cs02013092_p092,pdftotext parser
 yes,TABİİ ÜYELER,Suphi Karaman,Suphi Karaman,92,False,cs02013092_p092,pdftotext parser

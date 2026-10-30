@@ -1,16 +1,16 @@
 vote_id,final_status,changes
 mm01002042_p026,ok,
-mm01002045_p028,count mismatch,
-mm01002046_p018,ok after reconciliation,added 1 to no
+mm01002045_p028,ok after reconciliation,dropped 1 least name-like from not_voting
+mm01002046_p018,ok,
 mm01003054_p098,ok,
 mm01003056_p082,ok,
 mm01003056_p086,ok after reconciliation,dropped 1 from abstain
-mm01005103_p027,count mismatch,
+mm01005103_p027,ok after reconciliation,added 1 to not_voting
 mm01006104_p058,ok,
 mm01006116_p027,ok after reconciliation,added 1 to not_voting
 mm01006116_p035,ok,
 mm01006117_p036,count mismatch,
-mm01006117_p040,count mismatch,
+mm01006117_p040,ok after reconciliation,dropped 1 least name-like from yes
 mm01006118_p068,ok after reconciliation,added 1 to not_voting
 mm01006118_p080,count mismatch,
 mm01007122_p066,count mismatch,
@@ -19,22 +19,22 @@ mm01007122_p074,count mismatch,
 mm01007122_p078,count mismatch,
 mm01007122_p082,ok,
 mm01007122_p086,ok,
-mm01007123_p065,ok,
-mm01007123_p069,ok,
+mm01007123_p065,ok after reconciliation,added 1 to no
+mm01007123_p069,ok after reconciliation,added 1 to no
 mm01007123_p073,count mismatch,
-mm01007123_p077,ok after reconciliation,added 1 to abstain
-mm01007123_p081,count mismatch,
-mm01007123_p085,ok after reconciliation,added 1 to abstain
+mm01007123_p077,ok,
+mm01007123_p081,ok after reconciliation,dropped 1 least name-like from yes
+mm01007123_p085,ok,
 mm01009013_p032,count mismatch,
-mm01010016_p063,ok after reconciliation,added 1 to no
-mm01010016_p067,count mismatch,
+mm01010016_p063,ok,
+mm01010016_p067,ok,
 mm01010016_p071,ok,
 mm01010016_p103,count mismatch,
 mm01010016_p127,ok after reconciliation,dropped 1 from yes
 mm01010018_p069,count mismatch,
 mm01010018_p073,count mismatch,
 mm01010018_p077,ok after reconciliation,added 2 to not_voting
-mm01010018_p109,ok,
+mm01010018_p109,count mismatch,
 mm01010018_p133,ok after reconciliation,added 1 to abstain
 mm01011034_p016,ok,
 mm01011035_p075,ok after reconciliation,added 1 to not_voting
@@ -42,7 +42,7 @@ mm01013053_p147,ok,
 mm01013054_p132,count mismatch,
 mm01013054_p136,ok,
 mm01016069_p042,count mismatch,
-mm01016078_p053,ok after reconciliation,dropped 1 from not_voting
+mm01016078_p053,ok after reconciliation,dropped 1 from not_voting; added 1 to no
 mm01019105_p059,ok after reconciliation,dropped 2 from abstain; added 1 to yes
 mm01020119_p055,ok,
 mm01021136_p035,ok,
@@ -55,7 +55,7 @@ mm01025031_p041,ok,
 mm01026047_p063,ok,
 mm01026048_p068,count mismatch,
 mm01027061_p165,ok,
-mm01027062_p145,ok after reconciliation,added 2 to not_voting
+mm01027062_p145,ok after reconciliation,added 1 to not_voting
 mm01027062_p149,ok,
 mm01028063_p113,ok,
 mm01028063_p117,ok,
@@ -65,49 +65,49 @@ mm01028064_p127,ok,
 mm01028064_p155,count mismatch,
 mm01030095_p047,count mismatch,dropped 2 from yes
 mm01030096_p062,ok,
-mm01031110_p048,ok,
+mm01031110_p048,ok after reconciliation,added 1 to no
 mm01031110_p060,ok after reconciliation,dropped 1 from yes
 mm01031111_p030,ok,
 mm01031111_p038,ok after reconciliation,dropped 1 from not_voting
 mm01031115_p031,ok,
-mm01031116_p039,count mismatch,dropped 1 from not_voting
+mm01031116_p039,ok after reconciliation,dropped 1 least name-like from abstain; dropped 1 from not_voting
 mm01033019_p053,ok,
 mm01034022_p057,ok after reconciliation,dropped 2 from no
-mm01034034_p042,ok,
+mm01034034_p042,count mismatch,
 mm01034035_p021,ok,
 mm01034039_p084,count mismatch,
-mm01034040_p078,count mismatch,
+mm01034040_p078,ok,
 mm01035055_p050,ok,
 mm01035055_p062,count mismatch,dropped 2 from yes
-mm01036056_p080,count mismatch,
+mm01036056_p080,ok,
 mm01036060_p046,count mismatch,
 mm01036061_p047,ok,
-mm01036064_p064,count mismatch,
+mm01036064_p064,count mismatch,dropped 1 least name-like from yes
 mm01040113_p063,ok,
 mm01040114_p112,count mismatch,
 mm01040115_p100,ok,
 mm01040115_p104,ok,
 mm01041116_p124,count mismatch,
-mm01043147_p062,count mismatch,
+mm01043147_p062,ok,
 mm01013055_p136,ok,
 mm02002042_p059,ok,
 mm02004051_p092,ok,
-mm02004052_p083,ok after reconciliation,added 1 to abstain
+mm02004052_p083,ok,
 mm02004053_p102,ok,
 mm02004053_p106,count mismatch,
 mm02004054_p123,ok,
-mm02004054_p127,ok,
+mm02004054_p127,ok after reconciliation,added 1 to abstain
 mm02004055_p133,ok,
 mm02006092_p086,ok,
-mm02006093_p021,count mismatch,dropped 2 from not_voting
-mm02008116_p072,ok,
-mm02008116_p076,ok,
+mm02006093_p021,ok after reconciliation,dropped 2 from not_voting
+mm02008116_p072,ok after reconciliation,added 1 to abstain
+mm02008116_p076,ok after reconciliation,added 1 to abstain
 mm02008117_p085,ok,
-mm02008117_p089,ok after reconciliation,added 1 to no
+mm02008117_p089,ok,
 mm02008117_p145,count mismatch,
-mm02008118_p066,count mismatch,
-mm02008119_p065,count mismatch,
-mm02010024_p041,count mismatch,
+mm02008118_p066,ok after reconciliation,dropped 1 from abstain
+mm02008119_p065,ok,
+mm02010024_p041,ok,
 mm02010025_p056,count mismatch,dropped 2 from not_voting
 mm02014060_p115,ok,
 mm02014060_p143,ok,
@@ -120,9 +120,9 @@ mm02018113_p071,ok after reconciliation,dropped 1 from yes
 mm02018113_p119,count mismatch,
 mm02018115_p086,ok,
 mm02018115_p134,ok,
-mm02021139_p058,count mismatch,
+mm02021139_p058,ok,
 mm02021139_p062,count mismatch,
-mm02021139_p066,ok,
+mm02021139_p066,count mismatch,
 mm02021139_p070,ok,
 mm02021139_p074,count mismatch,
 mm02021140_p060,ok,
@@ -131,7 +131,7 @@ mm02021140_p068,ok,
 mm02021140_p072,ok,
 mm02021140_p076,ok,
 mm02021149_p061,count mismatch,
-mm02021150_p055,count mismatch,dropped 3 from yes
+mm02021150_p055,ok,
 mm02025047_p156,count mismatch,
 mm02026048_p143,count mismatch,
 mm02026049_p165,ok,
@@ -144,7 +144,7 @@ mm02030028_p090,ok,
 mm02031032_p100,ok,
 mm02031032_p152,count mismatch,
 mm02031033_p082,count mismatch,
-mm02032042_p069,count mismatch,
+mm02032042_p069,ok,
 mm02032043_p045,count mismatch,
 mm02032045_p070,count mismatch,
 mm02032046_p110,ok,
@@ -158,7 +158,7 @@ mm02034057_p183,ok after reconciliation,dropped 1 from yes
 mm02034057_p191,ok,
 mm02034057_p192,ok,
 mm02034058_p128,count mismatch,
-mm02034058_p130,count mismatch,
+mm02034058_p130,ok,
 mm02034058_p144,ok,
 mm02035065_p076,ok,
 mm02035067_p059,count mismatch,
@@ -172,7 +172,7 @@ mm03003049_p030,count mismatch,
 mm03003050_p039,count mismatch,
 mm03004071_p033,count mismatch,
 mm03004071_p043,ok,
-mm03004071_p045,count mismatch,
+mm03004071_p045,ok,
 mm03004072_p051,ok,
 mm03004072_p071,ok,
 mm03004072_p075,count mismatch,
@@ -187,7 +187,7 @@ mm03005092_p144,ok after reconciliation,dropped 1 from yes
 mm03007114_p075,ok,
 mm03007115_p075,ok,
 mm03010045_p083,count mismatch,
-mm03010045_p086,ok,
+mm03010045_p086,count mismatch,
 mm03010045_p090,count mismatch,
 mm03010046_p040,count mismatch,
 mm03010046_p044,ok after reconciliation,dropped 1 from yes
@@ -203,7 +203,7 @@ mm03011049_p229,ok,
 mm03011056_p189,count mismatch,
 mm03011056_p197,ok after reconciliation,dropped 2 from not_voting
 mm03011057_p123,ok,
-mm03011058_p155,count mismatch,
+mm03011058_p155,ok after reconciliation,dropped 2 least name-like from yes
 mm03011058_p164,ok,
 mm03011059_p149,ok,
 mm03011059_p153,ok,
@@ -211,7 +211,7 @@ mm03014108_p040,count mismatch,
 mm03014109_p042,ok,
 mm03015121_p056,ok after reconciliation,dropped 1 from not_voting
 mm03015122_p048,ok,
-mm03015123_p038,ok after reconciliation,dropped 1 from not_voting
+mm03015123_p038,count mismatch,dropped 1 from not_voting
 mm03015134_p076,ok,
 mm03018169_p030,ok,
 mm03018170_p025,ok,
@@ -231,7 +231,7 @@ mm03020035_p055,count mismatch,
 mm03020036_p055,ok after reconciliation,dropped 1 from yes
 mm03021040_p107,count mismatch,
 mm03022049_p139,count mismatch,dropped 1 from no
-mm03022052_p141,ok after reconciliation,dropped 1 from yes; added 1 to not_voting
+mm03022052_p141,count mismatch,dropped 1 from yes
 mm03022052_p165,ok after reconciliation,dropped 1 from not_voting
 mm03022052_p173,count mismatch,dropped 1 from not_voting
 mm03024075_p050,ok,
@@ -245,20 +245,20 @@ mm03035071_p124,count mismatch,dropped 1 from yes
 mm03035071_p132,count mismatch,
 mm03035071_p140,count mismatch,
 mm03036080_p046,count mismatch,
-mm03038125_p153,count mismatch,
+mm03038125_p153,ok after reconciliation,dropped 1 least name-like from yes; dropped 1 least name-like from not_voting
 mm03039130_p110,count mismatch,
-mm03039130_p114,count mismatch,
+mm03039130_p114,ok after reconciliation,dropped 1 least name-like from yes
 mm03039130_p118,count mismatch,
 mm03024079_p023,count mismatch,
-mm04002047_p040,count mismatch,
+mm04002047_p040,count mismatch,dropped 1 least name-like from yes
 mm04002046_p054,count mismatch,
 mm04002046_p074,count mismatch,
 mm04002046_p078,ok after reconciliation,dropped 1 from not_voting
 mm04002047_p044,ok after reconciliation,added 1 to not_voting
-mm04005090_p115,count mismatch,
+mm04005090_p115,ok after reconciliation,dropped 1 least name-like from no; dropped 2 least name-like from not_voting
 mm04005090_p135,count mismatch,dropped 1 from yes
 mm04005090_p175,count mismatch,dropped 2 from no
-mm04005090_p183,count mismatch,dropped 2 from no
+mm04005090_p183,ok after reconciliation,dropped 3 least name-like from yes; dropped 2 from no; added 1 to not_voting
 mm04007021_p030,ok,
 mm04007022_p039,ok,
 mm04007025_p046,ok,
@@ -269,30 +269,30 @@ mm04008039_p068,ok,
 mm04008039_p092,ok,
 mm04009040_p092,count mismatch,
 mm04010049_p102,count mismatch,
-mm04010049_p126,ok after reconciliation,added 1 to abstain
+mm04010049_p126,ok,
 mm04010049_p166,ok,
 mm04010049_p174,ok,
 mm04017068_p179,count mismatch,
 mm04017068_p251,ok,
 mm04017068_p263,ok,
 mm04017068_p267,ok,
-mm04017068_p279,count mismatch,
+mm04017068_p279,ok,
 mm04017068_p287,count mismatch,dropped 1 from not_voting
-mm04017068_p295,count mismatch,
-mm04022018_p049,count mismatch,
+mm04017068_p295,count mismatch,dropped 1 least name-like from yes
+mm04022018_p049,ok,
 mm04022020_p044,ok,
-mm04022022_p051,count mismatch,
+mm04022022_p051,count mismatch,dropped 1 least name-like from not_voting
 mm04022026_p045,ok,
 mm04022027_p050,count mismatch,
 mm04022028_p032,count mismatch,
 mm04022029_p039,ok,
-mm04022030_p050,count mismatch,
+mm04022030_p050,count mismatch,dropped 1 least name-like from not_voting
 mm04023031_p050,ok,
 mm04023032_p044,count mismatch,
-mm04023033_p056,count mismatch,
+mm04023033_p056,ok,
 mm04023033_p060,count mismatch,
 mm04023035_p048,count mismatch,
-mm04023035_p052,count mismatch,dropped 1 from no
+mm04023035_p052,count mismatch,
 mm04023036_p059,ok,
 mm04023036_p063,count mismatch,
 mm04025056_p170,ok,
@@ -303,12 +303,12 @@ mm04025056_p278,ok,
 mm05004116_p131,count mismatch,
 mm05004118_p134,ok,
 mm05004118_p222,count mismatch,
-mm05004118_p238,ok after reconciliation,dropped 1 from yes
+mm05004118_p238,ok after reconciliation,dropped 1 from yes; added 1 to abstain
 mm05009050_p062,ok after reconciliation,dropped 1 from yes
-mm05011064_p155,ok,
+mm05011064_p155,ok after reconciliation,added 1 to no
 mm05011064_p255,ok after reconciliation,dropped 1 from not_voting
 mm05011064_p263,ok after reconciliation,dropped 1 from yes; dropped 1 from no; dropped 1 from not_voting
-mm05011064_p271,ok after reconciliation,added 1 to abstain
+mm05011064_p271,ok,
 mm05015055_p127,ok,
 mm05015055_p227,count mismatch,
 mm05015055_p243,count mismatch,dropped 1 from no
@@ -317,8 +317,8 @@ cs01002033_p097,ok,
 cs01002035_p090,ok after reconciliation,dropped 1 from not_voting
 cs01002035_p093,ok,
 cs01004082_p015,count mismatch,
-cs01005094_p053,count mismatch,
-cs01005094_p055,ok after reconciliation,dropped 2 from yes
+cs01005094_p053,ok,
+cs01005094_p055,ok,
 cs01005094_p059,count mismatch,dropped 1 from not_voting
 cs01005094_p065,ok,
 cs01005094_p067,count mismatch,
@@ -330,13 +330,13 @@ cs02007012_p058,ok,
 cs02007013_p025,ok,
 cs02008030_p074,ok,
 cs02008030_p078,ok,
-cs02009039_p143,ok,
+cs02009039_p143,ok after reconciliation,dropped 1 from abstain
 cs02009041_p120,ok,
-cs02009041_p123,count mismatch,
+cs02009041_p123,ok,
 cs02010043_p041,count mismatch,
-cs02011062_p025,ok after reconciliation,dropped 1 from yes
+cs02011062_p025,ok,
 cs02011070_p019,ok,
-cs02011071_p034,count mismatch,
+cs02011071_p034,ok,
 cs02011075_p032,ok,
 cs02011076_p053,count mismatch,
 cs02012077_p019,ok after reconciliation,dropped 1 from not_voting
@@ -363,7 +363,7 @@ cs02013092_p078,ok,
 cs02013092_p096,ok,
 cs02013095_p086,ok,
 cs02014102_p042,ok,
-cs02014110_p042,count mismatch,
+cs02014110_p042,ok,
 cs02014111_p043,ok after reconciliation,dropped 1 from yes; dropped 1 from not_voting
 cs02014111_p041,ok,
 cs02014111_p045,count mismatch,
@@ -374,28 +374,28 @@ cs02014112_p058,ok,
 cs02014112_p054,ok,
 cs02014112_p052,ok,
 cs02014112_p050,ok,
-cs02015114_p052,ok,
+cs02015114_p052,count mismatch,
 cs02015115_p080,ok,
 cs02015115_p078,ok,
 cs02015115_p074,ok,
-cs02015115_p072,count mismatch,
+cs02015115_p072,ok,
 cs02015115_p070,count mismatch,
 cs02015115_p068,count mismatch,
-cs02015115_p076,count mismatch,
+cs02015115_p076,ok,
 cs02015115_p064,ok,
 cs02015115_p061,ok,
 cs02015115_p056,ok,
 cs02015115_p053,ok after reconciliation,dropped 1 from yes
 cs02015115_p066,count mismatch,
-cs02015115_p050,ok,
+cs02015115_p050,count mismatch,
 cs02015115_p036,count mismatch,
 cs03017029_p030,count mismatch,
 cs03017033_p040,ok,
 cs03018039_p103,ok,
 cs03018040_p136,ok,
 cs03018040_p138,count mismatch,
-cs03019044_p034,count mismatch,
-cs03019045_p015,count mismatch,
+cs03019044_p034,ok after reconciliation,dropped 1 least name-like from not_voting
+cs03019045_p015,ok,
 cs03021079_p061,count mismatch,
 cs03021088_p038,ok,
 cs03021088_p040,ok,
@@ -409,24 +409,24 @@ cs04022005_p028,ok,
 cs04023020_p023,count mismatch,dropped 2 from yes
 cs04024034_p143,ok after reconciliation,added 1 to abstain
 cs04024035_p157,ok,
-cs04024035_p160,count mismatch,dropped 3 from not_voting
-cs04025043_p022,count mismatch,
-cs04026067_p036,ok after reconciliation,added 1 to no
+cs04024035_p160,count mismatch,
+cs04025043_p022,ok,
+cs04026067_p036,ok,
 cs04026071_p027,count mismatch,
 cs04026073_p020,ok,
 cs04026075_p022,count mismatch,
 cs04027080_p142,ok,
 cs04027082_p073,ok,
 cs04027082_p070,ok,
-cs04030119_p058,count mismatch,
+cs04030119_p058,ok after reconciliation,dropped 1 least name-like from not_voting
 cs05031023_p055,ok,
-cs05032042_p149,count mismatch,
+cs05032042_p149,ok after reconciliation,dropped 1 least name-like from yes
 cs05033044_p098,ok,
 cs05033044_p104,ok,
 cs05034049_p075,ok,
-cs05036082_p060,count mismatch,
+cs05036082_p060,ok,
 cs06037011_p037,count mismatch,
-cs06037011_p039,ok after reconciliation,dropped 1 from yes
+cs06037011_p039,ok,
 cs06037013_p043,ok,
 cs06037013_p041,ok,
 cs06037014_p045,count mismatch,
@@ -434,7 +434,7 @@ cs06038021_p039,ok,
 cs06038023_p028,ok,
 cs06038030_p079,ok after reconciliation,dropped 1 from not_voting
 cs06038032_p152,ok,
-cs06038032_p154,ok after reconciliation,dropped 2 from not_voting
+cs06038032_p154,count mismatch,
 cs06042083_p046,count mismatch,dropped 1 from not_voting
 cs07044010_p063,ok,
 cs07044010_p085,count mismatch,
@@ -445,7 +445,7 @@ cs07044011_p053,ok,
 cs07044011_p057,ok,
 cs07044014_p026,ok,
 cs07045029_p128,count mismatch,dropped 1 from yes
-cs07045030_p136,count mismatch,
+cs07045030_p136,ok,
 cs07045030_p138,ok,
 cs07046040_p034,count mismatch,
 cs07046048_p048,count mismatch,
@@ -476,7 +476,7 @@ cs10063037_p159,count mismatch,dropped 1 from not_voting
 cs10062026_p043,ok after reconciliation,dropped 1 from yes
 cs10062028_p037,ok,
 cs10062028_p041,ok,
-cs10062028_p055,ok,
+cs10062028_p055,count mismatch,
 cs10063035_p173,ok,
 cs10063036_p154,count mismatch,dropped 1 from not_voting
 cs10064042_p052,ok,
@@ -504,13 +504,13 @@ cs11003035_p092,ok,
 cs11004050_p025,ok,
 cs11004067_p029,ok after reconciliation,dropped 4 from not_voting
 cs11004068_p055,ok after reconciliation,dropped 1 from not_voting
-cs11005077_p094,count mismatch,
+cs11005077_p094,ok,
 cs12007011_p038,count mismatch,
 cs12009028_p149,count mismatch,
 cs12009029_p126,ok,
 cs12009030_p135,count mismatch,
-cs12009030_p143,count mismatch,
-cs12012077_p170,count mismatch,
+cs12009030_p143,count mismatch,dropped 1 least name-like from yes
+cs12012077_p170,ok,
 cs13013032_p071,ok after reconciliation,dropped 1 from not_voting
 cs13013033_p033,count mismatch,
 cs13015054_p127,ok,
@@ -529,7 +529,7 @@ cs14021051_p096,count mismatch,
 cs15025033_p158,count mismatch,
 cs15026035_p199,ok,
 cs15026038_p156,ok,
-cs15027040_p083,ok,
+cs15027040_p083,count mismatch,
 cs15027040_p085,count mismatch,
 cs15027040_p087,count mismatch,
 cs15028077_p029,ok after reconciliation,dropped 1 from not_voting
@@ -541,11 +541,12 @@ cs16032042_p037,ok,
 cs17035026_p136,ok after reconciliation,dropped 1 from not_voting
 cs17036030_p165,ok,
 cs17036030_p170,ok,
+cs17036031_p152,ok,
 cs17037032_p024,ok,
 cs18041034_p089,ok,
 cs18042039_p143,ok,
 cs18042040_p081,count mismatch,
-cs18042040_p083,count mismatch,
+cs18042040_p083,ok,
 cs18043057_p038,ok,
 cs19045030_p061,ok after reconciliation,dropped 1 from not_voting
 cs19045031_p107,ok,

@@ -1,2 +1,3 @@
 data/pdfs/
 __pycache__/
+data/processed/rollcall_long.csv

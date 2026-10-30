@@ -1,9 +1,4 @@
 choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
-yes,,Üye» sayısı,Üye» sayısı,55,True,mm02021150_p055,pdftotext parser
-yes,,Oy verenler,Oy verenler,55,True,mm02021150_p055,pdftotext parser
-yes,,Kabul edenler,Kabul edenler,55,True,mm02021150_p055,pdftotext parser
-no,,Oya katlim ıvanlar,Oya katlim ıvanlar,55,False,mm02021150_p055,pdftotext parser
-no,,Açık üyelikler,Açık üyelikler,55,False,mm02021150_p055,pdftotext parser
 yes,ADANA,Hasan Aksay,Hasan Aksay,55,False,mm02021150_p055,pdftotext parser
 yes,ADANA,Mahmut Bozdoğan?,Mahmut Bozdoğan?,55,False,mm02021150_p055,pdftotext parser
 yes,ADANA,Ali Bozdoğanoğlu,Ali Bozdoğanoğlu,55,False,mm02021150_p055,pdftotext parser

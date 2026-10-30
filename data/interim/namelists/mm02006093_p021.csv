@@ -226,14 +226,18 @@ yes,ZONGULDAK,Fevzi Fırat,Fevzi Fırat,22,False,mm02006093_p021,pdftotext parse
 yes,ZONGULDAK,Cahit Karakaş,Cahit Karakaş,22,False,mm02006093_p021,pdftotext parser
 yes,ZONGULDAK,Sadık Tekin Müftüoğlu,Sadık Tekin Müftüoğlu,22,False,mm02006093_p021,pdftotext parser
 yes,ZONGULDAK,Kemal Doğan Sungun,Kemal Doğan Sungun,22,False,mm02006093_p021,pdftotext parser
-no,ADANA,Rıza Kuas,Rıza Kuas,22,True,mm02006093_p021,pdftotext parser
-no,ADANA,Bekir Tünay llyas Seçkin,Bekir Tünay llyas Seçkin,22,True,mm02006093_p021,pdftotext parser
-no,ADANA,Süleyman Arif Emre Turgut Altunkaya,Süleyman Arif Emre Turgut Altunkaya,22,True,mm02006093_p021,pdftotext parser
-no,AFYON,Murat öner Mustafa Şükrü Koç,Murat öner Mustafa Şükrü Koç,22,True,mm02006093_p021,pdftotext parser
-no,AMASYA,Kemal Yılmaz,Kemal Yılmaz,22,True,mm02006093_p021,pdftotext parser
+no,ADANA,Bekir Tünay,Bekir Tünay,22,True,mm02006093_p021,pdftotext parser
+no,ADIYAMAN,Süleyman Arif Emre,Süleyman Arif Emre,22,True,mm02006093_p021,pdftotext parser
+no,AFYON,Murat öner,Murat öner,22,True,mm02006093_p021,pdftotext parser
 no,AMASYA,Ahmet Demiray,Ahmet Demiray,22,True,mm02006093_p021,pdftotext parser
-no,ANKARA,Enver Güreli,Enver Güreli,22,True,mm02006093_p021,pdftotext parser
-no,ANKARA,t Sıtkı Hatipoğlu Fennî Islimyeli,t Sıtkı Hatipoğlu Fennî Islimyeli,22,True,mm02006093_p021,pdftotext parser
+no,ANKARA,t Sıtkı Hatipoğlu,t Sıtkı Hatipoğlu,22,True,mm02006093_p021,pdftotext parser
+no,ANKARA,Rıza Kuas,Rıza Kuas,22,True,mm02006093_p021,pdftotext parser
+no,ANKARA,llyas Seçkin,llyas Seçkin,22,True,mm02006093_p021,pdftotext parser
+no,ARTVİN,Turgut Altunkaya,Turgut Altunkaya,22,True,mm02006093_p021,pdftotext parser
+no,AYDIN,Mustafa Şükrü Koç,Mustafa Şükrü Koç,22,True,mm02006093_p021,pdftotext parser
+no,AYDIN,M. Kemal Yılmaz,M. Kemal Yılmaz,22,True,mm02006093_p021,pdftotext parser
+no,BALIKESİR,Enver Güreli,Enver Güreli,22,True,mm02006093_p021,pdftotext parser
+no,BALIKESİR,Fennî Islimyeli,Fennî Islimyeli,22,True,mm02006093_p021,pdftotext parser
 no,BİTLİS,Zarife Koçak,Zarife Koçak,22,True,mm02006093_p021,pdftotext parser
 no,BOLU,Kemal D«mir,Kemal D«mir,22,True,mm02006093_p021,pdftotext parser
 no,BURSA,Sadrettin Çanga,Sadrettin Çanga,22,True,mm02006093_p021,pdftotext parser
@@ -299,6 +303,7 @@ no,YOZGAT,Yusuf Ziya Bahadmh,Yusuf Ziya Bahadmh,23,True,mm02006093_p021,pdftotex
 no,YOZGAT,Nuri Kodamanoğlu,Nuri Kodamanoğlu,23,True,mm02006093_p021,pdftotext parser
 no,ZONGULDAK,Kenan Esengin,Kenan Esengin,23,True,mm02006093_p021,pdftotext parser
 no,ZONGULDAK,Kâmil Kırıkoğlu,Kâmil Kırıkoğlu,23,True,mm02006093_p021,pdftotext parser
+abstain,MANİSA,Sami Binicioğlu,Sami Binicioğlu,23,False,mm02006093_p021,pdftotext parser
 abstain,YOZGAT,İsmail Hakkı Akdoğan,İsmail Hakkı Akdoğan,23,False,mm02006093_p021,pdftotext parser
 not_voting,ADANA,Turhan Dilligil,Turhan Dilligil,23,False,mm02006093_p021,pdftotext parser
 not_voting,ADANA,Kasım **Oül-ek,Kasım **0ül-ek,23,False,mm02006093_p021,pdftotext parser
