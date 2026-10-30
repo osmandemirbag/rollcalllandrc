@@ -1,0 +1,518 @@
+1 1962-01-30 1980-02-27
+date_source
+as printed                       488
+hand-checked                      73
+year from same sitting             8
+date from same sitting             1
+date from running page header      1
+year from same volume              1
+Name: count, dtype: int64
+## Agricultural credit and cooperatives 28
+    1962-12-05 X ve XI nci Dönem T. B. M. Meclisi üye'lerinin öleneklerinden mütevelli T. C. Ziraat Bankası ve Maliye Bakanlı
+    1962-12-07 M. Meclisi : B : 14 7.12.1962 O : 1 X. ve XI. nci Dönem T. B. M. M. üyelerinin ödeneklerinden mütevellit T. C.
+    1963-01-23 Köylü ve çiftçilerin Ziraat Bankasına ve tarım kredi kooperatiflerine olan borçlarının taksitlendirilmesi hakk
+    1963-01-24 X ve XI nci Dönem T. B. M. Meclisi üyelerinin ödenekler'nden mütevellit T. C. Ziraat Bankası ve Maliye Bakanlı
+    1963-01-25 Yozgat Milletvekili Mustafa Kepir'in, köylü ve çiftçilerin, T. C. Ziraat Bankası ve Tarım kooperatiflerine ola
+    1963-06-13 Türkiye Cumhuriyeti Ziraat Bankası Kanununun 33 ncü maddesinin değiştirilmesine dair kanun tasarısına verilen
+    1963-06-18 Türkiye Cumhuriyeti Ziraat Bankası Kanununun 33 ncü maddesinin değiştirilmesine dair kanu. tasarısına verilen
+    1963-08-29 Köylü ve çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine olan borçlarının taksitlendirilmesi 
+    1964-01-22 10 ve 11 nci Dönem Türkiye Büyük Millet Meclisi üyelerinin ödeneklerinden mütevellit T. C. Ziraat Bankası ve M
+    1964-01-23 X ve XI nci dönem T. B. M. M. Üyelerinin ödeneklerinden mütevellit T. C. Ziraat Bankası ve Maliye Bakanlığına 
+    1964-03-31 10 ve 11 nci Dönem Türkiye Büyük Millet Meclisi üyelerinin ödeneklerinden mütevellit T. C. Ziraat Bankasına ve
+    1972-02-16 Manisa Milletvekili Hilmi Okçu'nun, Tarım Kredi Kooperatifleri ve Birlikleri kanun teklifine verilen açık
+    1972-04-18 Tarım Kredi Kooperatifleri ve Birlikleri Kanun teklifine verilen
+    1976-12-14 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1976-12-16 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1976-12-22 Küçük Çiftçilerin T. C. Ziraat Bankası Ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1976-12-30 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-04 M. Meclisi B : 27 4 . 1 ; 1977 O : 1 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Ol
+    1977-01-05 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-06 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-11 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-12 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olon Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-13 M. Meclisi B : 32 13 : 1 . 1977 O : 1 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine O
+    1977-01-18 M. Meclisi : B : 33 18 . 1 . 1977 . 0 : 1 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatifleri
+    1977-01-20 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım Kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-01-25 Küçük Çiftçilerin T. C. Ziraat Bankası ve Tarım kredi Kooperatiflerine Olan Borçlarının 10 Yılda 10 Eşit Taksi
+    1977-03-15 C. Senatosu B : 42 15 : 3 . 1977 O : 1 Küçük Çiftçilerin T. C. Ziraat Bankası Ve Tarım Kredisi Kooperatiflerin
+    1979-02-12 3202 Sayılı Türkiye Cumhuriyeti Ziraat Bankası Kanununun Bazı Maddelerinin Değiştirilmesine, Bazı Maddeler Ekl
+## Cooperatives (general law) 3
+    1969-01-20 Kooperatifler kanunu tasarısına verilen
+    1969-01-21 Kooperatifler Kanun tasarısına verilen
+    1969-04-24 Kooperatifler kanun tasarısının tümünün oylamasına verilen
+## Crops and commodity boards 14
+    1963-04-26 M. Meclisi B : 78 26 : 4 1963 O : 1 Haşhaşın ekimi ile Afyonun istihsal, milletlerası ticaret, köptan ticaret 
+    1963-05-30 Haşhaşın ekimi ile afyonun istihsal, Milletlerarası ticaret ve istimalinin tahdit ve tanzimine dair Pratokollü
+    1963-06-04 Haşhaşın ekimi ile afyonun istihsal, Milletlerarası ticaret, toptan ticaret ve istimalinin tahdit ve tanzimine
+    1968-07-04 1961 yılında Kars, Erzurum ve Ağrı illerinde muhtaç durumda olan halka dağıtılan yemeklik ve yemlik hububat be
+    1969-02-06 ylamasına 18 sayın arkadaşımız katılmış, 17 kabul, 1 ret oyu çıkmıştır. Tasarı gerekli oy çoğunluğu sağlıyamad
+    1969-02-07 Tütün ve Tütün Tekeli Kanununa verilen
+    1969-05-09 Tütün ve Tütün Tekeli Kanun tasarısına verilen
+    1971-06-28 M. Metfisi B : 121 28.6.1971 O : 1 Trabzon Milletvekili ve 9 arkadaşları, Türkiye Çay İşletmeleri Kurumu Kanun
+    1971-06-30 Trabzon Milletvekili Ahmet Şener ve 9 arkadaşının, Türkiye Çay İşletmeleri Kurumu kanun teklifine verilen açık
+    1971-07-01 Trabzon Milletvekili Ahmet Şener ve 9 arkadaşının, Türkiye Çay İşletmeleri Kurumu kanun teklifine verilen
+    1971-08-19 C. Senatosu B : 104 19 . 8 . 1971 O : i Çay Kurumu kanun teklifine verilen
+    1972-04-20 6. 12. 1971 tarih ve 1497 sayılı Çay Kurumu Kanununun uygulanması için alınacak tedbirlerle ilgili yetki kanun
+    1972-06-15 6 . 12 . 1971 tarih ve 1497 sayılı Çay Kurumu Kanununun uygulaması için alınacak tedbirlerle ilgili Yetki Kanu
+    1972-06-20 6. 2. 1971 tarih ve 1497 sayılı Çay Kurumu Kanununun uygulanması için alınacak tedbirlerle ilgili yetki kanunu
+## Farmers: disaster relief, labour and support 19
+    1962-02-12 193 sayılı Gelir Vergisi Kanununun zirai gelirlerle ilgili hükümlerinin tatbikinin tehirine dair kanun teklifi
+    1962-02-14 193 sayılı Gelir Vergisi Kanununun zirai gelirlere ilgili hükümlerinin tatbikinin tehirine dair Kanuna ikinci 
+    1965-02-11 Türkiye Cumhuriyeti ile Amerika Birleşik Devletleri arasında Zirai İstihsal fazlası Andlaşmaları hakkındaki ka
+    1965-02-12 T. C. Hükümeti ile Amerika Birleşik Devletleri Hükümeti arasında yapılan Zirai istihsal fazlası Andlaşmaları g
+    1965-04-20 Türkiye Cumhuriyeti Hükümeti ile Amerika Birleşik Devletleri Hükümeti arasında yapılan Zirai İstihsal Fazlası 
+    1966-07-22 Milletlerarası Akdeniz Yüksek Zirai Etütler Merkezinin kurulması hakkındaki Anlaşma ile eki protokollerinin on
+    1966-07-25 Milletlerarası Akdeniz Yüksek Zirai Etipler Merkezinin kurulması hakkındaki Anlaşma ile eki protokollerinin on
+    1966-07-26 İletilerarası Akdeniz Yüksek Zirai Etütler Merkezinin kurulması hakkındaki Andlaşma ile eki otokollerinin onay
+    1967-01-17 Milletlerarası Akdeniz Yüksek Zirai Etütler Mezarların kurulması hakkındaki Andlaşma ile eki protokollerin ona
+    1967-01-24 Milletlerarası Akdeniz Yüksek Zirai Etütler Merkezinin kurulması hakkındaki Andlaşma ile eki protokollerin ona
+    1968-03-07 1104S. Sayılı Ankara Üniversitesi Kuruluş kadroları hakkındaki 5239 sayılı Kanuna ek Adana Ziraat Fakültesi ku
+    1969-02-03 Tarımda asgari ücret tesbiti usulleri hakkında 99 sayılı Milletlerarası Çalışma Sözleşmesinin onaylanmasının u
+    1969-02-04 Tarımda asgari ücret tesbiti usulleri hakkında 99 sayılı Milletlerarası Çalışma Sözleşmesinin onaylanmasının u
+    1969-04-30 Tarımda asgari ücret usulleri hakkında 99 sayılı Milletlerarası Çalışma Sözleşmesinin onaylanmasının uygun bul
+    1973-05-08 3 Kasım 1970 tarihinde Viyana'da imzalanan «Gelir ve Servet Vergilerinde çiftçi vergilendirmenin önlenmesine v
+    1977-01-18 Tabii Afetlerden Zarar Gören Çiftçilere Yapılacak Yardımlar Hakkında Kanun Tasarısına Verilen
+    1977-01-20 Tabii Afetlerden Zarar Gören Çiftçilere Yapılacak Yardımlar Hakkında Kanun Tasarısına Verilen
+    1977-01-25 | Tabii Afetlerden Zarar Gören Çiftçilere Yapılacak
+    1979-04-17 3202 Sayılı Türkiye Cumhuriyeti Ziraat Bakanlığı Kanununun Bazı Maddelerinin Değiştirilmesine, Bazı Maddeleri 
+## Forestry 143
+    1962-02-09 Orman Genel Müdürlüğü 1962 yılı Bütçe Kanununa verilen
+    1962-02-25 Orman Genel Müdürlüğü 1962 yılı Bütçe kanunu tasarısına kullanılan
+    1962-09-28 Orman Genel Müdürlüğü 1955 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-09-28 Orman Genel Müdürlüğü 1956 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-09-28 Orman Genel Müdürlüğü 1957 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-09-28 Orman Genel Müdürlüğü 1958 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-09-28 Orman Genel Müdürlüğü 1959 bütçe yılı kesinhesap kanun tasarısına verilen
+    1962-10-01 Orman Genel Müdürlüğü 1955 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-01 M. Meclisi B : 123 1.10.1962 Ö : 1 Orman Genel Müdürlüğü 1956 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-01 Orman Genel Müdürlüğü 1957 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-01 Orman Genel Müdürlüğü 1958 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-01 Orman Genel Müdürlüğü 1959 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-23 Orman Genel Müdürlüğü 1956 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-23 Orman Genel Müdürlüğü 1957 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-23 Orman Genel Müdürlüğü 1958 bütçe yılı K ssinhesap Kanununa verilen
+    1962-10-23 Orman Genel Müdürlüğü 1955 yılı Kesinhesap kanununa verilen
+    1962-11-27 Orman Genel Müdürlüğü 1962 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik yapılması hakkında kan
+    1962-12-12 Orman Genel Müdürlüğü 1962 yılı Bütçe Kanununa, bağlı (A/1) işaretli cetvelde değişiklik yapılması hakkındaki 
+    1962-12-17 Orman Genel Müdürlüğü 1952 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik yapılması hakkındaki k
+    1963-02-06 Orman Genel Müdürlüğü 1963 yılı bütçe kanunu tasarısına verilen
+    1963-02-12 Orman Genel Müdürlüğü 1962 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1963-02-19 Orman Genel Müdürlüğü 1963 yılı bütçe kanununa verilen
+    1963-09-12 Devlet Orman İşletmelerince ve Kereste Fabrikalarınca, yapılmış olan harcamalara ait 1953, 1954, 1955, 1956, 1
+    1963-09-13 Devlet Orman İşletmelerince ve Kereste Fabrikalarınca yapılmış olan harcamalara ait 1953, 1954, 1955, 1956, 19
+    1963-09-17 Devlet Orman işletmelerince ve kereste fabrikalarınca yapılmış olan harcamalara ait 1953, 1954, 1955, 1956, 19
+    1963-09-18 Devlet Orman işletmelerince ve kereste fabrikalarınca yapılmış olan harcamalara ait 1953, 1954, 1955, 1956, 19
+    1964-01-16 Devlet Orman işletmelerince ve keresete fabrikalarınca yapılmış olan harcamalara ait 1953, 1954, 1955 1955, 19
+    1964-02-07 Orman Genel Müdürlüğü 1964 yılı bütçe kanunu tasarısına verilen
+    1964-02-26 Orman Genel Müdürlüğü 1964 yılı bütçe kana nu tasarısına verilen
+    1964-02-26 Orman Genel Müdürlüğü 1964 yılı Bütçe Kanunu tasarısıne verilen
+    1964-12-08 Orman Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/1) ve (A/3) işaretli cetvellerde değişiklik yapılması 
+    1964-12-11 M. Meclisi B: 22. 11. 12. 1964 O: 1 Orman Genel Müdürlüğü 1964 yılı Bütçe Kanunun bağlı (A/1) ve (A/3) işaretl
+    1965-01-14 Milletlerarası Kavakçılık Komisyonunun Gıda ve Tarım Teşkilâtı (F.A.O.) bünyesi içine alınmasına dair Sözleşme
+    1965-01-15 Milletlerarası Kavakçılık Komisyonunun Gıda ve Tarım Teşkilâtı (FAO) bünyesi içine alınmasına dair Sözleşmeye 
+    1965-01-31 Orman Genel Müdürlüğü 1965 yılı Bütçe kanun ta:arısına verilen
+    1965-04-02 Milletlerarası Kavakçılık Komisyonunun Gıda ve Tarım Teşkilâtı (FAO) bünyesi içine alınmasına dair Sözleşmeye 
+    1965-05-11 Orman Genel Müdürlüğü 1965 Bütçe kazın tasarısına verilen
+    1965-05-25 Orman Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-05-26 Orman Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-12-23 Orman Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki kanun tasarıs
+    1966-02-07 Orman Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarısına verilen
+    1966-02-07 Orman Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1966-02-22 Orman Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarına verilen
+    1966-02-23 Orman Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarısına verilen
+    1967-02-07 Orman Genel Müdürlüğü 1967 yılı Bütçe Kanununa verilen
+    1967-02-23 Orman Genel Müdürlüğü 1967 yılı Bütçe kanunu tasarısına verilen
+    1967-07-13 Orman Genel Müdürlüğü 1960 bütçe yılı Kesin hesap kanunu tasarısına verilen
+    1967-07-13 Orman Genel Müdürlüğü 1961 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1967-07-13 Orman Genel Müdürlüğü 1962 bütçe yılı Kesin haşap kanunu tasarısına verilen
+    1967-07-13 Orman Genel Müdürlüğü 1963 bütçe yılı Kesinhesap kanunu, tasarısına verilen
+    1967-07-14 Orman Genel Müdürlüğü 1960 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1967-07-14 Orman Genel Müdürlüğü 1961 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1967-07-14 Orman Genel Müdürlüğü 1962 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1967-07-14 Orman Genel Müdürlüğü 1963 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1967-12-07 Orman Genel Müdürlüğü 1960 yılı Kesinhesap kanunu tasarısına verilen
+    1967-12-07 Orman Genel Müdürlüğü 1961 yılı Kesinhesap kanunu tasarısına verilen
+    1967-12-12 Orman Genel Müdürlüğü 1960 bütçe yılı Kesin hesap kanunu tasarısına verilen
+    1967-12-12 Orman Genel Müdürlüğü 1963 bütçe yılı Kesin hesap kanunu tasarısına verilen
+    1968-02-07 Devlet Orman İşletmesi Genel Müdürlüğü 1968 yılı Bütçe Kanunu tasarısına verilen
+    1968-02-23 Orman Genel Müdürlüğü 1968 yılı Bütçe kanunu tasarısına verilen
+    1968-02-24 Orman Genel Müdürlüğü 1968 yılı Bütçe kanunu tasarısına verilen
+    1968-03-01 Orman Genel Müdürlüğü 1964 bütçe yılı Kesin hesap kanun tasarısına verilen
+    1968-04-09 Orman Genel Müdürlüğünün 1964 yılı Kesin hesap kanunu tasarısına verilen
+    1969-02-03 Orman Genel Müdürlüğü 1969 yılı Bütçe kanun tasarısına verilen
+    1969-02-20 M. Meclisi B : 57 20. 2. 1969. O : 2 Orman Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-21 Orman Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-21 Orman Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-12-23 C. Senatosu B : 16 23 . 12 . 1969 O 1 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaret
+    1969-12-26 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması ha
+    1970-01-05 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması ha
+    1970-01-07 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması ha
+    1970-02-06 Orman Genel Müdürlüğü 1970 yılı Bütçe kanun tasarısına verilen
+    1970-02-25 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması ha
+    1970-02-27 Orman Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması ha
+    1970-03-02 Orman Genel Müdürlüğü 1969 yılı Bütçe Kan ununa bağlı (A/3) ve (B) işaretli cetvellerde değişiklik yapılması h
+    1970-04-17 Orman Genel Müdürlüğünün 1965 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1970-04-17 Orman Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1970-04-20 Orman Genel Müdürlüğünün 1965 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1970-04-20 Orman Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1970-05-14 Orman Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-05-30 Orman Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-06-02 Orman Genel Müdürlüğünün 1965 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1970-06-02 Orman Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1971-01-26 Orman Genel Müdürlüğü 1970 yılı Bütçe Kamu nuna bağlı (A/1) ve (B) işaretli cetvellerde değişiklik yapılması h
+    1971-02-01 Orman Genel Müdürlüğü 1970 yılı Bütçe kanuna bağlı (A/1) ve(B) işaretli cetvellerde değişiklik yapılması hakkı
+    1971-02-02 Orman Genel Müdürlüğü 1971 yılı Bütçe Kanunu tasarısına verilen
+    1971-02-03 M. Meclisi B : 46 3 . 2 . 1971 0 : 1 Orman Genel Müdürlüğü 1970 yılı Bütçe Kanununa bağlı (A/1) ve (B) işaretl
+    1971-02-12 Devlet Orman işletmeleri ve kereste fabrikaları ve anatamirhane ve yedek parça depo müdürlüklerinin 1984 yılı 
+    1971-02-15 Devlet Orman işletmeleri ve kereste fabrikaları anatamirhane müdürlükleri ve yedek parça depo müdürlüklerinin 
+    1971-02-18 O. Senatosu B : 42 18 . 2 . 1971 O : 1 Orman Genel Müdürlüğü 1970 yılı Bütçe Kanununa bağlı (A/2) işaretli cet
+    1971-02-22 Orman Genel Müdürlüğü 1970 yılı Bütçe Kanuna bağlı (A/2) işaretli cetvelde değişiklik yapılması hakkında kanun
+    1971-02-24 Orman Genel Müdürlüğü, 1971 yılı Bölge kanunu tasarısına verilen açık
+    1971-02-25 Orman Genel Müdürlüğü 1971 yılı Bütçe kanunu tasarısına verilen
+    1971-03-23 Devlet Orman İşletmeleri Kereste Fabrikaları Anatamirhane Müdürlükleri ve yedek parça depo mü- dürlüklerinin 1
+    1971-07-08 Orman Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1971-07-21 Orman Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1971-10-27 Bazı Orman suçlarının affama ve bunlardan mütevellit idare şahsi haklarının düşürülmesine dair kanun teklifini
+    1971-11-24 Bazı Orman suçlarının affına ve bunlardan mütevellit idare şahsi haklarının düşürülmesine ilişkin kısmı teklif
+    1971-11-29 Bazı orman suçlarının affına ve bunlardan mütevelli idare sahası haklarının düşürülmesine dair kanun teklifine
+    1971-12-14 Orman Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1971-12-24 Orman Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1971-12-27 Orman Genel Müdürlüğü 1971 Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hak kında kanun tasarısına ve
+    1971-12-27 Devlet Orman İşletmeleri Kereste fabrikaları Ana Tamirhane Müdürlükleri ve yedek parça depo müdürlüklerinin 19
+    1971-12-27 Orman Genel Müdürlüğü 1967 yılı Kesinhesap kanunu tasarısına verilen
+    1971-12-29 Devlet Orman İşletmeleri Kereste Fabrikaları, Anatamirhane müdürlükleri ve yedek parça depo müdürlüklerinin 19
+    1971-12-29 Orman Genel Müdürlüğü 1967 bütçe yılı Kesin hesap kanunu tasarısına verilen
+    1972-02-06 Orman Genel Müdürlüğü 1972 yılı Bütçe kanun tasarısına verilen açık
+    1972-02-22 Devlet Orman İşletmeleri Kereste fabrikaları Anatamirhane müdürlükleri ve yedek parça depo müdürlüklerinin 198
+    1972-02-22 Orman Genel Müdürlüğü 1967 yılı Kesinhesap Kanunu tasarısına verilen
+    1972-02-28 Orman Genel Müdürlüğü 1972 yılı Bütçe Kanunu tasarısına verilen açık
+    1973-02-08 Orman Genel Müdürlüğü 1972 yılı Bütçe Kanununa bağlı (R) işaretli cetvelde değişiklik yapılmış hakkında kanun 
+    1973-02-08 C. Senatosu B : 30 8 . 2 . 1973 0 : 4 Orman Genel Müdürlüğü 1972 yılı Bütçe Kanununa bağlı cetvellerde değişik
+    1973-02-15 Orman Genel Müdürlüğü 1972 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1973-02-15 Orman Genel Müdürlüğü 1972 yılı Bütçe Kanununa bağlı (R) işaretli cetvelde değişiklik yapılmıştır. İnsan hakla
+    1973-02-28 Orman Genel Müdürlüğü 1973 (yılı Bütçe Kanunu tasarısına verilen
+    1973-03-22 6831 sayılı Orman Kanununun bâzı maddelerinin değiştirilmesine ve bu kanuna bir ek madde eklenmesine dair kanu
+    1973-06-20 6831 sayılı Orman Kanunu tasarısının 2 nci maddesine verilen
+    1973-06-20 6831 sayılı Orman kanunu tasarısının 19 ncı maddesine verilen
+    1973-06-20 6831 sayılı Orman kanunu tasarısının muvakkat 1 nci maddesine verilen
+    1974-05-07 Orman Genel Müdürlüğü 1974 yılı Bütçe Kanunu tasarısına verilen
+    1974-05-30 M. Mezliği B : 90 30.5.1974 O : 3 Orman Genel Müdürlüğü 1974 yılı Bütçe Kanunu tasarısına verilen
+    1974-06-06 6831 sayılı Orman Kanununun 34 ncü ve ek 3 ncü maddesinin değiştirilmesine ve bir geçici madde eklenmesine dai
+    1974-06-11 6831 sayılı Orman Kanununun 34 ncü ve Ek 3 ncü maddesinin değiştirilmesine ve bir geçici madde eklenmesine dai
+    1975-01-02 Hükümeti Arasında İmzalanmış Olan İki Ülke Arasındaki Devlet Hudut Hattının Geçişine Ait Tarif Protokolü, Devl
+    1975-01-07  Hükümeti Arasında İmzalanmış Olan İki Ülke Arasındaki Devlet Hudut Hattının Geçişine Ait Tarif Protokolü, Dev
+    1975-01-28 etleri arasında imzalanmış olan, iki ülke arasındaki Devlet Hudut Hattının geçişine ait tarif Protokolü, Devle
+    1975-02-10 Orman Genel Müdürlüğü 1974 Yılı Bütçe Kanununa Bağlı Cetvellerde Değişiklik Yapılması Hakkında Kanun tasarısın
+    1975-02-10 Orman Genel Müdürlüğü 1975 Yılı Bütçe Kanunu esasına verilen
+    1975-02-13 Orman Genel Müdürlüğü 1974 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1975-02-17 Orman Genel Müdürlüğü 1974 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tasarısın
+    1975-02-26 Orman Genel Müdürlüğü 1975 yılı Bütçe Kanunu tasarısına verilen
+    1976-02-07 Orman Genel Müdürlüğü 1976 Yılı Bütçe kanunu tasarısına verilen
+    1976-02-24 C. Seratosu B : 40 24 . 2 . 1976 O : 1 Orman Genel Müfuküğü 1975 Yılı Bütçe Kanununa Bağlı Cetvelerde Değişikl
+    1976-02-27 Orman Genel Müdürlüğü 1976 Malî Yılı Bütçe Kanunu tasarısına verilen
+    1976-02-27 M. Meclisli B : 68 27 . 2 . 1976 O : 3 Orman Genel Müdürlüğü 1975 Yılı Bütçe Kanununa Bağlı cetvellerde değişi
+    1977-02-26 1977 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1978-02-13 1978 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1978-02-27 1978 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1979-02-10 1979 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Taşarısına Verilen
+    1979-02-26 1979 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1980-02-11 1980 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1980-02-27 1980 Yılı Orman Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    nan Orman Bakanlığı Kuruluş ve görevleri hakkındaki kanun tasarısının 11 nci maddesinin metinden çıkarılması hakkı
+## Irrigation and water (DSİ) 146
+    1962-01-30 Devlet Su İşleri Genel Müdürlüğü 1961 mali yılı Bütçe Kanununa bağlı (A/1) ve (A/2) işaretli cetvellerde değiş
+    1962-02-05 Devlet Su İşleri Genel Müdürlüğü 1961 malî yılı Bütçe Kanununa bağlı (A/1) ve (A/2) işaretli cetvellerde değiş
+    1962-02-07 Devlet Su İşleri Genel Müdürlüğü 1962 yılı Bütçe Kanunu tasarısına verilen
+    1962-02-23 M. Meclisi B 54 23.2.1962 O: 2 Devlet Su İşleri Genel Müdürlüğü 1962 yılı Bütçe Kanununa verilen
+    1962-06-18 Devlet Su İşleri Genel Müdürlüğü 1955 Bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-06-20 Devlet Su İşleri Genel Müdürlüğü 1955 Bütçe yılı kesinhesap kanun tasarısına -verilen
+    1962-09-13 Devlet Su İşleri Genel Müdürlüğünün 1955 bütçe yılı Kesinhesap Kanununa verilen
+    1962-09-14 Devlet Su İşleri Genel Müdürlüğü 1956 Bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1962-09-14 Devlet Su İşleri Genel Müdürlüğü 1957 bütçe yılı: Kesinhesap kanun tasarısına verilen
+    1962-09-17 Devlet Su İşleri Genel Müdürlüğü 1956 Bütçe yılı kesinhesabı kanununa ikinci defa verilen
+    1962-09-17 Devlet Su İşleri Genel Müdürlüğü 1957 Bütçe yılı kesinhesap kanununa ikinci defa verilen
+    1962-09-28 Devlet Su İşleri Genel Müdürlüğü 1958 bütçe yılı kesinhesap kanun tasarısına verilen
+    1962-10-01 Devlet Su İşleri Genel Müdürlüğü 1958 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-23 Devlet Su İşleri Genel Müdürlüğü 1957 bütçe yılı Kesinhesap Kanununa verilen
+    1962-10-23 Devlet Su İşleri Genel Müdürlüğü 1956 yılı Kesinhesabı Kanununa verilen
+    1962-10-23 Devlet Su İşleri Genel Müdürlüğü 1958 bütçe yılı Kesinhesap kanununa verilen
+    1962-11-20 Devlet Su İşleri Genel Müdürlüğü 1962 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki ka
+    1962-12-12 Devlet Su İşleri Genel Müdürlüğü 1962 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılmış hakkında kanun
+    1962-12-17 Davle: Su İşleri Genel Müdürlüğü 1962 yılı bütçe Kanununa bağlı cevherlerde değişiklik yapılması hakkında kanu
+    1963-02-04 Devlet Su İşleri Genel Müdürlüğü 1963 yılı bütçe kanunu tasarısına verilen
+    1963-02-18 Devlet Su İşleri Genel Müdürlüğü 1983 yılı Bütçe Kanununa verilen
+    1963-07-17 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik yapılması h
+    1963-07-19 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik yapılması h
+    1964-01-09 Devlet Su İşleri Genel Müdürlüğü 1959 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1964-01-10 M. Meclisi B: 30 10.1.1964 Ö: 2 Devlet Su İşleri Genel Müdürlüğünün 1959 bütçe yılı Kesinhesap kanunu tasarısı
+    1964-01-13 Devlet Su İşleri Genel Müdürlüğünün 1959 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1964-01-30 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/2) işaretli cetvelde değişiklik yapılması h
+    1964-02-04 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/2) işaretli cetvelde değişiklik yapılması h
+    1964-02-05 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/2) işaretli cetvelde değişiklik yapılması h
+    1964-02-06 C. Senatosu B : 39 6. 2. 1964 0 : 3 Devlet Su İşleri Genel Müdürlüğü 1964 yılı bütçe kanunu tasarısına verilen
+    1964-02-18 Devlet Su İşleri Genel Müdürlüğü 1959 bütçe yılı Kesinhesap Kanununa verilen
+    1964-02-24 Devlet Su İşleri Genel Müdürlüğü 1964 yılı bütçe kanun tasarısına verilen
+    1964-02-25 Devlet Su İşleri Genel Müdürlüğü 1964 yılı bütçe kanunu tasarısına verilen
+    1964-02-25 Devlet Su İşleri Genel Müdürlüğü 1964 yılı bütçe kanunu tasarısına verilen
+    1964-06-23 Devlet Su İşleri Genel Müdürlüğü 1960 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1964-11-05 Devlet Su İşleri Genel Müdürlüğünün 1930 bütçe yılı Kesinhesap Kanununa verilen
+    1964-12-24 Devlet Su İşleri Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/2) ve (A/3) işaretli cetvellerde değişiklik
+    1965-01-06 İ. Meclisi B: 34 6.1.1965 O: 1 Devlet Su İşleri Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/2) ve (A/3) 
+    1965-01-07 Devlet Su İşleri Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/2) ve (A/3) işaretli cetvellerde değişiklik
+    1965-01-30 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-05-09 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-05-23 M. Meclisi B : 113 23, 5 1985 O : 1 Devlet Su İşleri Genel Müdürlüğü 1985 yılı Bütçe Kanununa verilen
+    1965-05-24 M. Mecılısi B : 114 24.5.1985 O : 3 Devlet Su İşleri Umum Müdürlüğü 1985 yılı Bütçe kanunu tasarısına verilen
+    1965-07-16 C. Senatosu B : 119 16 . 7 . 1965 3 : 3 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı (A/2) 
+    1965-07-16 M. Meclisi · B : 147 · 16 · 7 · 1965 · 2 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı (A/2)
+    1966-02-05 Devlet Su İşleri Genel Müdürlüğü 1966 yılı Bütçe kanun tasarısına verilen
+    1966-02-20 Devlet Su İşleri Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarısına verilen
+    1966-02-21 Devlet Su İşleri Genel Müdürlüğü 1966 yılı Bütçe kanun tasarısına verilen
+    1966-02-22 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı (A/2) işaretli cetvelde dış- güçlük yapılması 
+    1966-02-24 Devlet Su İşleri Genel Müdürlüğü 1965 yılı Bütçe Kanununa bağlı (A/2) işaretli cetvelde değişiklik yapılması h
+    1966-07-21 M. Meclisi B : 116 | 21.7.1966 O : 1 Devlet Su İşleri Genel Müdürlüğü 1961 bütçe yılı Kesinhesabına ait kanun 
+    1966-07-21 M.: Meclisi B : 116 21.7.1966 O : 1 Devlet Su İşleri Genel Müdürlüğü 1962 bütçe yılı Kesinhesabına ait kanun t
+    1966-07-22 Davlet Su İşleri Genel Müdürlüğü 1961 bütçe yılı Kesinhesabına dair kanun tasarısına verilen
+    1966-07-22 Devlet Su İşleri Genel Müdürlüğü 1962 bütçe yılı Kesinhesabına dair kanun tasarısına verilen
+    1966-12-06 C. Sena'osu B : 11 6 . 12 . 1966 O : 1 Devlet Su İşleri Genel Müdürlüğü 1961 bütçe yılı Kesinhasap kanun tasar
+    1966-12-06 D. Senatosu B : 11 6 . 12 . 1966 O : 1 D. vlet Su İşleri Genel Müdürlüğü 1962 bütçe yılı Kesinhesap kanun tasa
+    1966-12-08 Devlet Su İşleri Genel Müdürlüğü 1961 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1966-12-08 Devlet Su İşleri Genel Müdürlüğü 1962 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1966-12-13 Devlet Su İşleri ve Karayolları Genel Müdürlükleri 1966 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapıl
+    1966-12-26 Devlet Su İşleri ve Karayolları Genel müdürlükleri 1966 yılı Bütçe kanunlarına bağlı cetvellerde değişiklik ya
+    1966-12-28 Devlet Su İşleri ve Karayolları Genel Müdürlükleri 1966 yılı Bütçe kanunlarına bağlı cetvellerde değişiklik ya
+    1967-02-05 Devlet Su İşleri Genel Müdürlüğü 1967 yılı Bütçe kanunu tasarısına verilen
+    1967-02-21 Devlet Su İşleri Genel Müdürlüğü 1967 bütçe Kanunu tasarısına verilen
+    1967-02-21 Devlet Su İşleri Genel Müdürlüğü 1967 Bütçe Kanunu tasarısına verilen
+    1967-02-23 Dovlet Su İşleri Genel Müdürlüğü 1936 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında'ki k
+    1967-02-23 Devlet Su İşleri Genel Müdürlüğü 1966 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki ka
+    1967-06-05 Devlet Su İşleri Genel Müdürlüğünün 1963 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1967-06-08 D. Meclisi B : 115 8.6.1967 O : 1 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Kesinhesap kanun tasarısına veril
+    1967-07-07 O. Senatosu B : 83 7.7.1967 O : 1 Devlet Su İşleri Genel Müdürlüğü 1967 yılı Bütçe Kanununa bağlı cetvellerde 
+    1967-07-13 Devlet Su İşleri Genel Müdürlüğü 1967 bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki kanun t
+    1967-07-14 Devlet Su İşleri Genel Müdürlüğü 1967 bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanun tas
+    1967-12-07 Devlet Su İşleri Genel Müdürlüğü 1963 yılı Kesinhesap kanunu tasarısına verilen
+    1967-12-12 Devlet Su İşleri Genel Müdürlüğü 1963 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1968-02-06 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe kanunu tasarısına verilen
+    1968-02-20 Devlet Su İşleri Genel Müdürlüğü 1967 yılı Bütçesine ek ödenek verilmesi hakkındaki kanun tasarısına verilen
+    1968-02-21 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe kanunu tasarısına verilen
+    1968-02-22 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe Kanununa verilen
+    1968-02-23 Devlet Su İşleri Genel Müdürlüğü 1967 yılı Düţcesinş ek ödenek verilmesi hakkında kanun tasarısına verilen
+    1968-02-23 M. Meclisi B : 49, 23, 2, 1968 O : 2 Devlet Su İşleri Genel Müdürlüğü 1967 yılı Bütçesine ek ödenek verilmesi 
+    1968-03-01 Devlet Su İşleri Genel Müdürlüğünün 1964 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1968-04-09 Devlet Su İşleri Genel Müdürlüğünün 1964 Bütçe yılı Kesinhesap Kanununa verilen
+    1969-01-09 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1969-01-13 M. Meçlisi B : 27 13 . 1 . 1969 O : 1 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe Kanununa bağlı cetvelle
+    1969-01-14 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1969-02-03 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-18 Devlet Su İşleri Genel Müdürlüğü 1968 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1969-02-18 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-19 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-19 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-19 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-02-20 D. Meclisi B : 5/ 20. 2. 1969. O : 2 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe Kanunu tasarısına verile
+    1969-02-20 M. Meclisi B : 57 20 . 2 . 1969 . O : 2 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına ver
+    1969-02-20 Devlet Su İşleri Genel Müdürlüğü 1968 Bütçe Kazanımına bağlı cetvellerde değişiklik yapılması hakkında kanun t
+    1970-01-29 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1970-02-02 Devlet Su İşleri Genel Müdürlüğü 1969 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki ka
+    1970-02-05 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-04-17 Devlet Su İşleri Genel Müdürlüğünün 1965 bütçe yılı Kesinhesabına ait kanun tasarısına verilen
+    1970-04-20 M. Meclisi B : 72 20 . 4 , 1970 O : 1 Devlet Su İşleri Genel Müdürlüğünün 1985 bütçe yılı Kesinhesabına ait ka
+    1970-05-14 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-05-25 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-05-26 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-05-30 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe kanunu t. arısına verilen
+    1971-01-04 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe kanunu tasarısına verilen
+    1971-01-26 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1971-02-01 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkındaki ka
+    1971-02-03 Devlet Su İşleri Genel Müdürlüğü 1970 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1971-02-12 Devlet Su İşleri Genel Müdürlüğünün 1966 yılı Kesinhesap kanun tasarısına verilen
+    1971-02-15 M. Meclisî B : 49 15 . 2 . 1971 O : 3 Devlet Su İşleri Genel Müdürlüğünün 1966 yılı K esinhesap kanun tasarısı
+    1971-02-22 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe kanunu tasarısına verilen
+    1971-03-23 DSİ. Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1971-07-22 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılmış hakkındaki kan
+    1972-01-06 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılmış hakkında kanun
+    1972-01-17 M. Meclisi . B : 29 17 . 1 . 1972 O : 1 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvel
+    1972-01-21 M. Meclisi B : 31 21 . 1 . 1972 Ö : 1 Devlet Su İşleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvelle
+    1972-02-09 Devlet Su İşleri Genel Müdürlüğü 1972 yılı Bütçe kanunu tasarısına verilen
+    1972-02-28 Devlet Su İşleri Genel Müdürlüğü 1972 yılı Bütçe Kanunu tasarısına verilen
+    1972-12-12 Devlet Su İşleri Genel Müdürlüğü 1972 yılı Bütçe Kanununda Değişiklik kanun tasarısına verilen
+    1972-12-20 Devlet Su İşleri Genel Müdürlüğü 1972 yılı Bütçe Kanununda değişiklik yapılması hakkında kanun tasarısına veri
+    1973-02-07 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe kanunu tasarısına verilen
+    1973-02-15 Devlet Su İşleri Genel Müdürlüğü 1972 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1973-02-28 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanunu tasarısına verilen
+    1974-02-23 C. S. Çınatosu B : 33 23 . 2 . 1974 O : 1 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetv
+    1974-02-23 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvelerde değişiklik yapılması hakkındaki kan
+    1974-02-27 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1974-02-27 M. Meclisi B : 46 27 : 2 . 1974 O : 1 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvel'e
+    1974-02-28 M. Meclisi B : 47. 28. 2. 1974 O : 1 Devlet Su İşleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvelerd
+    1974-05-10 Devlet: Su İşleri Genel Müdürlüğü 1974 yılı Bütçe Kanunu tasarısına verilen
+    1974-05-30 Devlet Su İşleri Genel Müdürlüğü 1974 yılı Bütçe Kanunu tasarısına verilen
+    1975-02-10 C. Senatosu B : 31 10 : 2 : 1975 O : 3 Devlet Su İşleri Genel Müdürlüğü 1974 Yılı Bütçe Kanununa Bağlı Cetvell
+    1975-02-13 C. Senatosu B : 34 43 : 2 : 1975 O : 2 Devlet Su İşleri Genel Müdürlüğü 1975 yılı Bütçe Kanunu tasarısına veri
+    1975-02-13 Devlet Su İşleri Genel Müdürlüğü 1974 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakkında kanu
+    1975-02-26 Devlet Su İşleri Genel Müdürlüğü 1975 yılı Bütçe Kanunu tasarısına verilen
+    1976-02-10 Devlet Su İşleri Genel Müdürlüğü 1976 yılı Bütçe kanunu tasarısına verilen
+    1976-02-24 Devlet Su İşleri Genel Müdürlüğü 1975 Yılı Bütçe Kanununa Bağlı Cetvellerde Değişiklik Yapılması Hakkında Kanu
+    1976-02-27 Devlet Su İşleri Genel Müdürlüğü 1976 Mali Yılı Bütçe Kanunu tasarısına verilen
+    1976-02-27 M. Meclisi B : 68 27 : 2 . 1976 O : 3 Devlet Su İşleri Genel Müdürlüğü 1975 Yılı Bütçe Kanununa Bağlı Cetvelle
+    1977-02-10 C. Senatosu B : 35 10 : 2 : 1977 O : 3 Devlet Su İşleri Genel Müdürlüğü 1977 Yılı Bütçe Kanunu Tasarısına Veri
+    1977-02-26 1977 Yılı Devlet Su İşleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1978-02-12 1978 Yılı Devlet Su İşleri Genel Müdürlüğü Bütçe Kaşınma Tasarısına Verilen
+    1978-02-24 C. Senatosu B : 32 24 . 2 . 1978 0 : 1 Devlet Su İşleri Genel Müdürlüğü 1977 Yılı Bütçe Kanununa Bağlı Cetvell
+    1978-02-25 M. Meclisi B : 116 25 . 2 . 1978 0 : 3 Devlet Su İşleri Genel Müdürlüğü 1977 Yılı Bütçe Kanununa Bağlı Cetvell
+    1978-02-27 1978 Yılı Devlet Su İşleri Genel Müdürlüğü Yıllıca Kanunu Tasarısına Verilen
+    1979-02-09 C. Senatosu B : 39 9 . 2 . 1979 0 : 3 1979 Devlet Su İşleri Genel Müdürlüğü Bütçe Kamu nu Tasarısına Vetilen
+    1979-02-26 1979 Yılı Devlet Su İşleri Genel Bildirilişi Bütçe Kanunu Tasarısına Verilen
+    1980-02-10 1980 Yılı Devlet Su İşleri Genel Müdürlüğü Bütçe Kamunu Tasarısına Verilen
+    1980-02-27 1980 Yılı Devset Su İşleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+## Livestock, veterinary and pasture 10
+    1963-04-10 Türkiye süt Endüstrisi kurumu kanununa verilen
+    1963-04-30 «Türkiye Süt Endüstrisi Kurumu» kurulmasına dair kanun teklifine verilen
+    1965-04-27 Islahı hayvanat Kanununun 5883 sayılı Kanunla değişik 35 nci maddesine bazı hükümler eklenmesine dair 7454 say
+    1975-01-14 Hayvanların Uluslararası nakliyat sırasında korunmasına dair Avrupa Sözleşmesinin onaylanmasının uygun bulundu
+    1975-01-16 Hayvanların Uluslararası nakliyat sırasında korunmasına dair Avrupa Sözleşmesinin onaylanmasının uygun bulundu
+    1975-01-21 M. Meclisi B : 28 21 . 1 . 1975 0 : 1 Hayvanların Uluslararası nakliyat sırasında korunma sına dair Avrupa Söz
+    1975-01-28 M, Meclisi B : 31 28 . 1 . 1975 O : 1 Hayvanların Uluslararası nakliyat sırasında korunmasına dair Avrupa Sözl
+    1975-04-17 Hayvanların Uluslararası Nakliyat Sırasında Korunmasına Dair Avrupa Sözleşmesinin Onaylanmasının Uygun Bulundu
+    1976-02-24 1868 Sayılı 1975 Yılı Bütçe Kanununa Bağlı (A) İşaretli Cetvelin Gıda - Tarım ve Hayvancılık Bakanlığına Ait K
+    1976-02-27 1868 Sayılı 1975 Yılı Bütçe Kanununa Bağlı (A) işaretli cetvelin Gıda - Tarım ve Hayvancılık Bakanlığına ait k
+## Ministry of Agriculture / Food-Agriculture-Livestock 6
+    1962-11-29 Tarım Bakanlığına bağlı okul ve kurumların idaresi hakkındaki 29. 5. 1926 tarihli ve 867 sayılı Kanuna ek kanu
+    1962-12-04 Tarım Bakanlığına bağlı bâzı okul ve kurumların idaresi hakkındaki 29 . 5 . 1926 tarihli ve 867 sayılı Kanuna 
+    1971-01-19 1970 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelin Tarım Bakanlığı kısmında değişiklik yapılması hakkında 
+    1971-01-26 1970 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelin Tarım Bakanlığı kısmında değişiklik yapılması hakkında 
+    1971-02-01 1970 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelin Tarım Bakanlığı kısmında değişiklik yapılması hakkındak
+    1971-02-03 1970 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelin Tarım Bakanlığı kısmında değişiklik yapılması hakkında 
+## State farms and agricultural agencies 105
+    1962-02-09 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1962 yılı Bütçe Kanununa verilen
+    1962-02-25 M. Meclisi. B : 56 25.2.1962 O : 2 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1962 yılı Bütçe kanunu tasarısına
+    1962-09-19 Gümrük giriş tarife cetvelinin 31.02 - 31.05 pozisyonlarına dâhil gübrelerin Gümrük Vergisinden muafiyetine da
+    1962-09-19 Gümrük Giriş Tarife Cetvelinin 87.01 pozisyonuna dâhil traktörlerin Gümrük Vergilerinin % 15 nisbetine indiril
+    1962-12-12 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1957 bütçe yılı kesinhesap kanun tasarısına verilen
+    1962-12-12 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1958 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-12-12 M, Meclisi B: 16 12.12.1962 O:1 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1959 bütçe yılı Kesinhesap kanun 
+    1962-12-17 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1987 bütçe yılı Kesinleşen kanun tasarısının
+    1962-12-17 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1958 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1962-12-17 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1969 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1963-01-22 Devlet Üretme Çiftlikleri Umum Müdürlüğü 1957 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1963-01-22 C. Senatosu B: 30 22, 1.1963 O: 1 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1959 bütçe yılı Kesinhesap kanu
+    1963-02-06 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı bütçe kanunu tasarısına verilen
+    1963-02-19 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı bütçe kanununa verilen
+    1963-06-19 Tohumlukların tescil, kontrol ve sertifikasyonu hakkındaki kanun tasarısının 6 ncı maddesine verilen
+    1963-06-19 C. Senatosu B : 77 19 . 6 . 1963 0 : 1 Tohumlukların tescil, kontrol ve sertifikasyonu hakkındaki kanun tasarı
+    1963-06-20 C. Senatosu B : 78 20 . 6 . 1963 0 : 1 Tohumlukların tescili, kontrol ve sertifikasyonu hakkındaki kanun tasar
+    1964-02-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1964 yılı bütçe kanunu tasarısına verilen
+    1964-02-20 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik ya
+    1964-02-26 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1964 yılı Bütçe kanunu tasarısına verilen
+    1964-02-26 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1964 yılı Bütçe Kanunu tasarısına verilen
+    1964-02-27 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik ya
+    1964-02-27 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçe Kanununa bağlı (A/1) işaretli cetvelde değişiklik ya
+    1964-06-22 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1960 Bütçe yılı kesinhesap kanun tasarısına verilen
+    1964-06-22 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1961 Bütçe yılı kesinhesap kanun tasarısına verilen
+    1964-06-23 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1961 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1964-11-05 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1960 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1964-11-05 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1961 bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1964-11-10 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1980 bütçe yılı Kesinhesap Kanununa verilen
+    1964-11-10 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1061 bütçe yılı Kesinhesap Kanununa verilen
+    1965-01-31 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-02-18 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/3) işaretli cetvelde değişiklik ya
+    1965-02-18 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1962 Bütçe yılı Kesinhesap kanun tasarısına verilen
+    1965-02-19 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1962 Bütçe yılı Kesinhesap kanunu tasarısına verilen
+    1965-02-25 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1964 yılı Bütçe Kanununa bağlı (A/3) işaretli cetvelde değişiklik ya
+    1965-05-04 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1965-05-11 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1965-05-25 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1965 yılı Bütçe kanunu tasarısına verilen
+    1966-02-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçe kanunu tasarısına verilen
+    1966-02-22 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarısına verilen
+    1966-02-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1966 yılı Bütçe kanunu tasarısına verilen
+    1967-02-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1967 yılı Bütçe kanunu tasarısına verilen
+    1967-02-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1967 yılı Bütçe kanunu tasarısına verilen
+    1967-02-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1967 yılı Bütçe kanunu tasarısına verilen
+    1967-06-05 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1967-06-08 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 bütçe yılı Kesileşen kanun tasarısına verilen
+    1967-07-27 Tarım Bakanlığı Ziraat İşleri Genel Müdürlüğü ile Zirai Mücadele ve Zirai Karantina Genel Müdürlüğüne bağlı ku
+    1967-07-28 Tarım Bakanlığı Ziraat İşleri Genel Müdürlüğü ile Zirai Mücadele ve Zirai Karantina Genel Müdürlüğüne bağlı ku
+    1967-12-07 C. Senatosu . B : 10 7 . 12 . 1967 O : 2 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 bütçe yılı Kesinhesap 
+    1967-12-21 Tarım Bakanlığı Ziraat İşleri Genel Müdürlüğü ile Zirai Mücadele ve Zirai Karantina Genel Müdürlüğüne bağlı ku
+    1968-02-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1968 yılı Bütçe kanun tasarısına verilen
+    1968-02-20 M. Meclisi - B.: 55-20.2.1983. O: 4 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1983 yılı Bütçe Kanununa verilen
+    1968-02-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1968 yılı Bütçe kanunu tasarısına verilen
+    1969-01-02 C. Senatosu B : 16 2.1.1969 0 : 1 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1968 yılı Bütçesine ek ödenek veri
+    1969-01-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçesine ek ödenek verilmesi hakkında kanun tasarısına ve
+    1969-01-13 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1963 yılı Bütçesine ek ödenek verilmesi hakkındaki kanun tasarısına 
+    1969-01-14 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1868 yılı Bütçesine ek ödenek verilmesi hakkındaki kanun tasarısına 
+    1969-01-20 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1964 bütçe yılı Kesinhesabına ait kanun tasarısına verilen
+    1969-02-03 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 yılı Bütçe kanun tasarısına verilen
+    1969-02-20 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 Bütçe kanunu tasarısına verilen
+    1969-02-21 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1969-03-17 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 yılı Kesinhesabına ait kanun tasarısına verilen
+    1969-03-21 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 bütçe yılı Kesinhesabına ait kanun tasarısına verilen
+    1969-03-24 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 bütçe yılı Kesinhesabına ait kanun tasarısına verilen
+    1969-04-17 C. Senatosu . B : 52 17 . 4 . 1969 O : 1 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1964 bütçe yılı Kesinhes
+    1969-05-13 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1965 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1969-12-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 yılı Bütçesine ek ödenek verilmesi hakkında kanun tasarısına ve
+    1970-01-05 M. Meclisi · B : 21 · 5.1.1970 · O : 1 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 yılı Bütçesine ek ödenek
+    1970-01-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1939 yılı Bütçesine ek ödenek verilmesi hakkında kanun tasarısına ve
+    1970-05-13 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1970-05-30 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1970 yılı Bütçe kanunu tasarısına verilen
+    1971-02-03 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe Kanun tasarısına verilen
+    1971-02-12 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen açık
+    1971-02-12 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1964 yılı genel bilânçosu ile kâr ve zarar hesabının onanmasına d
+    1971-02-15 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1986 bütçe yılı Kesinhesap kanun tasarısına verilen açık
+    1971-02-15 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1964 yılı genel bilânçosu ile kâr ve zarar hesabının onanmasına d
+    1971-02-23 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 Bütçe kanunu tasarısına verilen
+    1971-02-24 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe kanunu tasarısına verilen açık
+    1971-02-25 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe kanunu tasarısına verilen
+    1971-03-23 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1966 bütçe yılı Kesinhesap kanun tasarısına verilen
+    1971-03-23 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1964 yılı genel bilânçosu ile kâr ve zarar hesabının onanmasına d
+    1971-12-27 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 yılı Genel bilânçosunun onanmasına dair kanun teklifine veri
+    1971-12-29 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 yılı genel bilânçosunun onanmasına dair kanun teklifine veri
+    1972-01-13 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakk
+    1972-02-04 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakk
+    1972-02-07 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1971 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakk
+    1972-02-08 C. Senatosu B : 32 8 : 2 . 1972 O : 4 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1972 yılı Bütçe kanunu tasarıs
+    1972-02-22 Devlet Üretme Çiftlikleri Genel Müdürlüğünün 1965 yılı Genel Bilançosunun onanmasına dair kanun teklifinin açı
+    1972-02-25 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1972 yılı Bütçe kanunu tasarısına kullanılan açık
+    1972-02-28 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1972 Bütçe kanunu tasarısına verilen
+    1973-02-06 C. Senatosu B : 28 6. 2. 1973 0 : 3 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1973 yılı Bütçe kanunu tasarısın
+    1973-02-21 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1969 yılı Bütçe kanunu tasarısına verilen
+    1973-02-28 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1973 yılı Bütçe Kanunu tasarısına verilen
+    1974-02-22 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakk
+    1974-02-27 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1973 yılı Bütçe Kanununa bağlı cetvellerde değişiklik yapılması hakk
+    1974-05-30 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1974 yılı Bütçe Kanunu tasarısına verilen
+    1975-02-12 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1975 yılı Bütçe kanunu tasarısına verilen
+    1975-02-26 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1975 yılı Bütçe Kanunu tasarısına verilen açık
+    1976-02-27 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1976 Mali Yılı Bütçe Kanunu tasarısına verilen
+    1977-02-10 Devlet Üretme Çiftlikleri Genel Müdürlüğü 1977 Yılı Bütçe Kanunu Tasarısına Verilen
+    1977-02-26 \ 1977 Yılı Devlet Üretme Çiftlikleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1978-02-12 C. Senatosu B : 30 12 : 2 1978 0 : 3 1978 Yılı Devlet Üretme Çiftlikleri Genel Müdürlüğü Bütçe Kanunu Tasarısı
+    1979-02-10 1979 Yılı Devlet Üretme Çiftlikleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1979-02-26 1979 Yılı Devlet Üretme Çiftlikleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+    1980-02-11 1980 Yılı Devlet Üretme Çiftlikleri Genel Müdürlüğü Bütçe Kanunu Tasarısına Verilen
+## Village affairs and rural development 25
+    1963-07-12 C. Senatosu B : 92 12 : 7. 1963 O : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 1 nci mad
+    1963-07-12 C. Senatosu B : 92 12 : 7. 1963 0 : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 2 nci mad
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 3 ncü maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 4 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 5 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 7 nci maddesine verilen
+    1963-07-12 C. Senatosu B : 92 12 : 7 . 1963 O : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 8 nci ma
+    1963-07-12 C. Senatosu B : 92 12 : 7 . 1963 O : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 9 ncı ma
+    1963-07-12 C. Senatosu B : 92 12 : 7. 1963 O : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının ek 10 ncu ma
+    1963-07-12 C. Senatosu B : 92 12 : 7. 1963 0 : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının 1 nci maddes
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanunun tasarısının 22 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının 25 nci maddesine verilen
+    1963-07-12 C. Senatosu B : 92 12 : 7. 1963 O : 2 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının 33 ncü madde
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanunun 41 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının 2 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarının 3 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kararın tasarısının geçici 1 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının geçici 2 nci maddesine verilen
+    1963-07-12 Köy Kanununda değişiklik yapılmasına dair kanun tasarısının geçici 3 ncu maddesine verilen
+    1971-09-29 Köy İşleri Bakanlığı Kuruluş ve Görevleri hak kanda kanun tasarısına verilen
+    1971-09-30 Köy İşleri Bakanlığı kuruluş ve görevleri hakkında kanun tasarısına verilen
+    1971-10-01 Köy İşleri Bakanlığı kuruluş ve görevleri hakkında kanun tasarısına verilen
+    1971-12-28 Köy İşleri Bakanlığı Kuruluş ve Görevleri hakkında kanun tasarısının maddelerine geçilmesi için verilen
+    1971-12-30 Köy İşleri Bakanlığı kuruluş ve görevleri hakkında kanun tasarısının maddelerine geçilmesine verilen
+    1972-01-03 Köy İşleri Bakanlığı kuruluş ve görevleri hakkında kanun tasarısının maddelerine geçilmesi için verilen

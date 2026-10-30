@@ -1,0 +1,439 @@
+vote_id,choice,province,name,name_raw,pdf_page,source,elite_row,match_score,match_method,list_status
+mm01035055_p050,yes,ADANA,Kemal Sanib rahim oğlu,Kemal Sanib rahim oğlu,50,hand-cleaned list (raw xlsx),4997,0.923,name+province,ok
+mm01035055_p050,yes,AFYON KARAHİSAR,Halûk Nur Baki,Halûk Nur Baki,50,hand-cleaned list (raw xlsx),5010,1.0,name+province,ok
+mm01035055_p050,yes,AFYON KARAHİSAR,Asım Yılmaz,Asım Yılmaz,50,hand-cleaned list (raw xlsx),5011,1.0,name+province,ok
+mm01035055_p050,yes,AFYON KARAHİSAR,Şükrü Yüzbaşıoğlu,Şükrü Yüzbaşıoğlu,50,hand-cleaned list (raw xlsx),5016,1.0,name+province,ok
+mm01035055_p050,yes,AĞRI,Rıza Polat,Rıza Polat,50,hand-cleaned list (raw xlsx),5061,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,îsmail Rüştü Aksal,îsmail Rüştü Aksal,50,hand-cleaned list (raw xlsx),5021,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Burhan Apaydın,Burhan Apaydın,50,hand-cleaned list (raw xlsx),5027,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Nihat Berkkan,Nihat Berkkan,50,hand-cleaned list (raw xlsx),5038,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Fuat Börekçi,Fuat Börekçi,50,hand-cleaned list (raw xlsx),5036,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Bülent Ecevit,Bülent Ecevit,50,hand-cleaned list (raw xlsx),5039,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Muhlis Ete,Muhlis Ete,50,hand-cleaned list (raw xlsx),5025,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,İbrahim Sıtkı Hatipoğlu,İbrahim Sıtkı Hatipoğlu,50,hand-cleaned list (raw xlsx),5040,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Emin Paksüt,Emin Paksüt,50,hand-cleaned list (raw xlsx),5024,1.0,name+province,ok
+mm01035055_p050,yes,ANKARA,Ahmet Üstün,Ahmet Üstün,50,hand-cleaned list (raw xlsx),5041,1.0,name+province,ok
+mm01035055_p050,yes,ANTALYA,Eteni Ağva,Eteni Ağva,50,hand-cleaned list (raw xlsx),5043,0.867,name+province,ok
+mm01035055_p050,yes,ANTALYA,Nihat Su,Nihat Su,50,hand-cleaned list (raw xlsx),5047,1.0,name+province,ok
+mm01035055_p050,yes,ARTVİN,Saffet Eminngaoğlu,Saffet Eminngaoğlu,50,hand-cleaned list (raw xlsx),5049,0.945,name+province,ok
+mm01035055_p050,yes,AYDIN,Orhan Apaydın,Orhan Apaydın,50,hand-cleaned list (raw xlsx),5059,1.0,name+province,ok
+mm01035055_p050,yes,AYDIN,Mustafa Şükrü Koç,Mustafa 'Şükrü Koç,50,hand-cleaned list (raw xlsx),5052,1.0,name+province,ok
+mm01035055_p050,yes,BALIKESİR,Ahmet. Aydın Bulak,Ahmet. Aydın Bulak,50,hand-cleaned list (raw xlsx),5068,0.933,name+province,ok
+mm01035055_p050,yes,BALIKESİR,Fennî Islimyeli,Fennî Islimyeli,50,hand-cleaned list (raw xlsx),5064,1.0,name+province,ok
+mm01035055_p050,yes,BALIKESİR,Süreyya Koç,Süreyya Koç,50,hand-cleaned list (raw xlsx),5071,1.0,name+province,ok
+mm01035055_p050,yes,BİTLİS,Müştak Okumuş,Müştak Okumuş,50,hand-cleaned list (raw xlsx),5098,1.0,name+province,ok
+mm01035055_p050,yes,BOLU,Kemal Demir,Kemal Demir,50,hand-cleaned list (raw xlsx),5077,1.0,name+province,ok
+mm01035055_p050,yes,BOLU,Fuat Ümit,Fuat Ümit,50,hand-cleaned list (raw xlsx),5074,1.0,name+province,ok
+mm01035055_p050,yes,BURDUR,Fethi Çelikbaş,Fethi Çelikbaş,50,hand-cleaned list (raw xlsx),5081,1.0,name+province,ok
+mm01035055_p050,yes,BURDUR,Nadir Yavnzkau,Nadir Yavnzkau,50,hand-cleaned list (raw xlsx),5082,0.846,name+province,ok
+mm01035055_p050,yes,BURSA,Edip Rüştü Akyürek,Edip Rüştü Akyürek,50,hand-cleaned list (raw xlsx),5084,1.0,name+province,ok
+mm01035055_p050,yes,BURSA,Sadrettin Çanga,Sadrettin Çanga,50,hand-cleaned list (raw xlsx),5087,1.0,name+province,ok
+mm01035055_p050,yes,BURSA,İbrahim Öktem,İbrahim Öktem,50,hand-cleaned list (raw xlsx),5090,1.0,name+province,ok
+mm01035055_p050,yes,ÇANAKKALE,Burhan Arat,Burhan Arat,50,hand-cleaned list (raw xlsx),5376,1.0,name+province,ok
+mm01035055_p050,yes,ÇANAKKALE,Süreyya Endik,Süreyya Endik,50,hand-cleaned list (raw xlsx),5374,1.0,name+province,ok
+mm01035055_p050,yes,ÇANAKKALE,Şefik İnan,Şefik İnan,50,hand-cleaned list (raw xlsx),5377,1.0,name+province,ok
+mm01035055_p050,yes,ÇORUM,Nuri Ahıskalıoğlu,Nuri Ahıskalıoğlu,50,hand-cleaned list (raw xlsx),5386,1.0,name+province,ok
+mm01035055_p050,yes,ÇORUM,Hilmi İncesulu,Hilmi İncesulu,50,hand-cleaned list (raw xlsx),5385,1.0,name+province,ok
+mm01035055_p050,yes,ÇORUM,Necmi Ökten,Necmi ökten,50,hand-cleaned list (raw xlsx),5384,1.0,name+province,ok
+mm01035055_p050,yes,DENİZLİ,fsmail Ertan,fsmail Ertan,50,hand-cleaned list (raw xlsx),5100,0.933,name+province,ok
+mm01035055_p050,yes,DENİZLİ,Hüdai Oral,Hüdai Oral,50,hand-cleaned list (raw xlsx),5106,1.0,name+province,ok
+mm01035055_p050,yes,DENİZLİ,Atıf Sohoğlu,Atıf Sohoğlu,50,hand-cleaned list (raw xlsx),5102,1.0,name+province,ok
+mm01035055_p050,yes,DİYARBAKIR,Adnan Aral,Adnan Aral,50,hand-cleaned list (raw xlsx),5108,1.0,name+province,ok
+mm01035055_p050,yes,DİYARBAKIR,Solun us Arsîan,Solun us Arsîan,50,hand-cleaned list (raw xlsx),5112,0.645,surname+province (low confidence),ok
+mm01035055_p050,yes,DİYARBAKIR,Vefik Pirinçcioğlu,Vefik Pirinçcioğlu,50,hand-cleaned list (raw xlsx),5107,1.0,name+province,ok
+mm01035055_p050,yes,EDİRNE,Süleyman Bilgen,Süleyman Bilgen,50,hand-cleaned list (raw xlsx),5117,1.0,name+province,ok
+mm01035055_p050,yes,EDİRNE,Fahir Giritlioğhı,Fahir Giritlioğhı,50,hand-cleaned list (raw xlsx),5116,0.891,name+province,ok
+mm01035055_p050,yes,ELÂZIĞ,Nurettin Ardıçoğlu,Nurettin Ardıçoğlu,50,hand-cleaned list (raw xlsx),5121,1.0,name+province,ok
+mm01035055_p050,yes,ELÂZIĞ,Kemal Satır,Kemal Satır,50,hand-cleaned list (raw xlsx),5120,1.0,name+province,ok
+mm01035055_p050,yes,ERZİNCAN,Zeynel Gündoğdu,Zeynel Gündoğdu,50,hand-cleaned list (raw xlsx),5134,0.933,name+province,ok
+mm01035055_p050,yes,ERZİNCAN,Naci Yıldırım,Naci Yıldırım,50,hand-cleaned list (raw xlsx),5136,1.0,name+province,ok
+mm01035055_p050,yes,ERZURUM,Cevat Dursunoğlu,Cevat Dursunoğlu,50,hand-cleaned list (raw xlsx),5131,1.0,name+province,ok
+mm01035055_p050,yes,ERZURUM,Gıyasctttin Karaca,Gıyasctttin Karaca,50,hand-cleaned list (raw xlsx),5129,0.943,name+province,ok
+mm01035055_p050,yes,ERZURUM,Adnan Şenyurt,Adnan Şenyurt,50,hand-cleaned list (raw xlsx),5132,1.0,name+province,ok
+mm01035055_p050,yes,ESKİŞEHİR,Şevket Asbuzoğlu,Şevket Asbuzoğlu,50,hand-cleaned list (raw xlsx),5137,1.0,name+province,ok
+mm01035055_p050,yes,ESKİŞEHİR,İbrahim Cemalcılar,tbrahim Cemalcılar,50,hand-cleaned list (raw xlsx),5138,1.0,name+province,ok
+mm01035055_p050,yes,ESKİŞEHİR,Cclâlettin Üzer,Cclâlettin Üzer,50,hand-cleaned list (raw xlsx),5140,0.96,name+province,ok
+mm01035055_p050,yes,GAZİANTEP,Osman Orhan Bilen,Osman Orhan Bilen,50,hand-cleaned list (raw xlsx),5143,1.0,name+province,ok
+mm01035055_p050,yes,GAZİANTEP,Muzaffer Canbolat,Muzaffer Canbolat,50,hand-cleaned list (raw xlsx),5146,0.973,name+province,ok
+mm01035055_p050,yes,GAZİANTEP,Ali İhsan Göğüs,Ali İhsan Göğüs,50,hand-cleaned list (raw xlsx),5148,1.0,name+province,ok
+mm01035055_p050,yes,GİRESUN,Ali Köy m en,Ali Köy m en,50,hand-cleaned list (raw xlsx),5156,1.0,name+province,ok
+mm01035055_p050,yes,GİRESUN,Mustafa Kemal Çilesiz,Mustafa Kemal Çilesiz,50,hand-cleaned list (raw xlsx),5159,1.0,name+province,ok
+mm01035055_p050,yes,GİRESUN,Naim Tirali,Naim Tirali,50,hand-cleaned list (raw xlsx),5154,1.0,name+province,ok
+mm01035055_p050,yes,GÜMÜŞANE,Halis Bayramoğlu,Halis Bayramoğlu,50,hand-cleaned list (raw xlsx),5153,1.0,name+province,ok
+mm01035055_p050,yes,HAKKÂRİ,Ahmet Zeydan,Ahmet Zeydan,50,hand-cleaned list (raw xlsx),5160,1.0,name+province,ok
+mm01035055_p050,yes,HATAY,Saki Zorlu,Saki Zorlu,50,hand-cleaned list (raw xlsx),5162,1.0,name+province,ok
+mm01035055_p050,yes,İÇEL,Mehmet Ali Arslan,Mehmet Ali Arslan,50,hand-cleaned list (raw xlsx),5262,1.0,name+province,ok
+mm01035055_p050,yes,İÇEL,Yahya Dcrmancı,Yahya Dcrmancı,50,hand-cleaned list (raw xlsx),5261,0.925,name+province,ok
+mm01035055_p050,yes,İÇEL,Sadık Kutlay,Sadık Kutlay,50,hand-cleaned list (raw xlsx),5264,1.0,name+province,ok
+mm01035055_p050,yes,ISPARTA,Lokman Başaran,Lokman Başaran,50,hand-cleaned list (raw xlsx),5169,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Cihad Baban,Cihad Baban,50,hand-cleaned list (raw xlsx),5419,0.92,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Suphi Baykam,Suphi Baykam,50,hand-cleaned list (raw xlsx),5415,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Ratip Tahir Burak,Ratip Tahir Burak,50,hand-cleaned list (raw xlsx),5399,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Fahrettin Kerim Gökay,Fahrettin Kerim Gökay,50,hand-cleaned list (raw xlsx),5397,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Ali Coşkun Kırca,Ali Coşkun Kırca,50,hand-cleaned list (raw xlsx),5420,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Hilmi Oben,Hilmi Oben,50,hand-cleaned list (raw xlsx),5416,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Oğuz Oran,Oğuz Oran,50,hand-cleaned list (raw xlsx),5410,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Vahyi Özarar,Vahyi özarar,50,hand-cleaned list (raw xlsx),5395,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,llhami Sancar,llhami Sancar,50,hand-cleaned list (raw xlsx),5393,0.933,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Selim Sarper,Selim Sarper,50,hand-cleaned list (raw xlsx),5391,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Reşit Ülker,Reşit Ülker,50,hand-cleaned list (raw xlsx),5412,1.0,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Sabri Vardarh,Sabri Vardarh,50,hand-cleaned list (raw xlsx),5401,0.88,name+province,ok
+mm01035055_p050,yes,İSTANBUL,Zeki Zeren,Zeki Zeren,50,hand-cleaned list (raw xlsx),5398,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Osman Sabri Adal,Osman Sabri Adal,50,hand-cleaned list (raw xlsx),5437,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Şeref Bakşık,Şeref Bakşık,50,hand-cleaned list (raw xlsx),5431,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Arii Ertunga,"Ari""i Ertunga",50,hand-cleaned list (raw xlsx),5429,0.909,name+province,ok
+mm01035055_p050,yes,İZMİR,Ziya Ilanhan,Ziya Ilanhan,50,hand-cleaned list (raw xlsx),5430,0.857,name+province,ok
+mm01035055_p050,yes,İZMİR,Necip Mirkelâmoğlu,Necip Mirkelâmoğlu,50,hand-cleaned list (raw xlsx),5426,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Kadri Özek,Kadri özek,50,hand-cleaned list (raw xlsx),5435,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Mustafa Uyar,Mustafa Uyar,50,hand-cleaned list (raw xlsx),5432,1.0,name+province,ok
+mm01035055_p050,yes,İZMİR,Lebit Yurdoğlu,Lebit Yurdoğlu,50,hand-cleaned list (raw xlsx),5434,1.0,name+province,ok
+mm01035055_p050,yes,KARS,Hasan Erdoğan,Hasan Erdoğan,50,hand-cleaned list (raw xlsx),5178,1.0,name+province,ok
+mm01035055_p050,yes,KARS,Kemal Güven,Kemal Güven,50,hand-cleaned list (raw xlsx),5181,1.0,name+province,ok
+mm01035055_p050,yes,KARS,Kemal Okyay,Kemal Okyay,50,hand-cleaned list (raw xlsx),5180,1.0,name+province,ok
+mm01035055_p050,yes,KASTAMONU,İhsan Şeref Dura,İhsan Şeref Dura,50,hand-cleaned list (raw xlsx),5191,1.0,name+province,ok
+mm01035055_p050,yes,KASTAMONU,Ali Özdikmenli,Ali özdikmenli,50,hand-cleaned list (raw xlsx),5190,1.0,name+province,ok
+mm01035055_p050,yes,KAYSERİ,Turhan Feyzioğlu,Turhan Feyzioğlu,50,hand-cleaned list (raw xlsx),5199,1.0,name+province,ok
+mm01035055_p050,yes,KAYSERİ,Mehmet Göker,Mehmet Göker,50,hand-cleaned list (raw xlsx),5197,1.0,name+province,ok
+mm01035055_p050,yes,KAYSERİ,Mehmet Sağlara,Mehmet Sağlara,50,hand-cleaned list (raw xlsx),5196,0.88,name+province,ok
+mm01035055_p050,yes,KAYSERİ,Bahri Ya zır,Bahri Ya zır,51,hand-cleaned list (raw xlsx),5198,1.0,name+province,ok
+mm01035055_p050,yes,KAYSERİ,Mehmet Yüceler,Mehmet Yüceler,51,hand-cleaned list (raw xlsx),5194,1.0,name+province,ok
+mm01035055_p050,yes,KIRKLARELİ,Abdurrahman Altuğ,Abdurrahman Altuğ,51,hand-cleaned list (raw xlsx),5205,1.0,name+province,ok
+mm01035055_p050,yes,KIRKLARELİ,Hasan Tahsin Uzun,Hasan Tahsin Uzun,51,hand-cleaned list (raw xlsx),5202,1.0,name+province,ok
+mm01035055_p050,yes,KONYA,İhsan Kabadayı,ihsan Kabadayı,51,hand-cleaned list (raw xlsx),5214,1.0,name+province,ok
+mm01035055_p050,yes,KONYA,Abdüssamet Kuzucu,Abdüssamet Kuzucu,51,hand-cleaned list (raw xlsx),5218,1.0,name+province,ok
+mm01035055_p050,yes,KONYA,Rüştü Özal,Rüştü özal,51,hand-cleaned list (raw xlsx),5224,1.0,name+province,ok
+mm01035055_p050,yes,KONYA,Fakih Özfakih,Fakih özfakih,51,hand-cleaned list (raw xlsx),5216,1.0,name+province,ok
+mm01035055_p050,yes,KONYA,Vefa Tanır,Vefa Tanır,51,hand-cleaned list (raw xlsx),5227,1.0,name+province,ok
+mm01035055_p050,yes,KÜTAHYA,Ali Erbek,Ali Erbek,51,hand-cleaned list (raw xlsx),5236,1.0,name+province,ok
+mm01035055_p050,yes,KÜTAHYA,Rauf Kıray,Rauf Kıray,51,hand-cleaned list (raw xlsx),5233,1.0,name+province,ok
+mm01035055_p050,yes,MALATYA,Nurettin Akyurt,Nurettin Akyurt,51,hand-cleaned list (raw xlsx),5238,1.0,name+province,ok
+mm01035055_p050,yes,MALATYA,Mehmet Delikaya,Mehmet Delikaya,51,hand-cleaned list (raw xlsx),5240,1.0,name+province,ok
+mm01035055_p050,yes,MALATYA,İsmet İnönü,ismet inönü,51,hand-cleaned list (raw xlsx),5239,1.0,name+province,ok
+mm01035055_p050,yes,MANİSA,Yakup Kadri Karaosmanoğlu,Yakup Kadri Karaosmanoğlu,51,hand-cleaned list (raw xlsx),5243,1.0,name+province,ok
+mm01035055_p050,yes,MARDİN,Mehmet Ali Arıkan,Mehmet Ali Arıkan,51,hand-cleaned list (raw xlsx),5258,1.0,name+province,ok
+mm01035055_p050,yes,MARDİN,Şevki Aysan,Şevki Aysan,51,hand-cleaned list (raw xlsx),5254,1.0,name+province,ok
+mm01035055_p050,yes,MARDİN,Vahap Dizdaroğlu,Vahap Dizdaroğlu,51,hand-cleaned list (raw xlsx),5256,1.0,name+province,ok
+mm01035055_p050,yes,MUĞLA,fTilmi Baydur,fTilmi Baydur,51,hand-cleaned list (raw xlsx),5267,0.891,name+province,ok
+mm01035055_p050,yes,MUĞLA,Cevdet Oskay,Cevdet Oskay,51,hand-cleaned list (raw xlsx),5271,1.0,name+province,ok
+mm01035055_p050,yes,MUĞLA,Turan Şahin,Turan Şahin,51,hand-cleaned list (raw xlsx),5270,1.0,name+province,ok
+mm01035055_p050,yes,NEVŞEHİR,Talit Fikret Aka,[Talit Fikret Aka,51,hand-cleaned list (raw xlsx),5277,0.929,name+province,ok
+mm01035055_p050,yes,NİĞDE,Asım Eren,Asım Eren,51,hand-cleaned list (raw xlsx),5278,1.0,name+province,ok
+mm01035055_p050,yes,NİĞDE,lluhi Soyer,lluhi Soyer,51,hand-cleaned list (raw xlsx),5280,0.867,name+province,ok
+mm01035055_p050,yes,ORDU,Yusuf İzzettin Ağaoğlı,Yusuf İzzettin Ağaoğlı,51,hand-cleaned list (raw xlsx),5287,0.95,name+province,ok
+mm01035055_p050,yes,ORDU,Orhan Naim nazineda,Orhan Naim nazineda,51,hand-cleaned list (raw xlsx),5289,0.914,name+province,ok
+mm01035055_p050,yes,ORDU,Arif Hikmet Onat,Arif Hikmet Onat,51,hand-cleaned list (raw xlsx),5290,1.0,name+province,ok
+mm01035055_p050,yes,ORDU,Ata Topaloğlu,Ata Topaloğlu,51,hand-cleaned list (raw xlsx),5284,1.0,name+province,ok
+mm01035055_p050,yes,SAKARYA,Burhan Akdağ,Burhan Akdağ,51,hand-cleaned list (raw xlsx),5295,1.0,name+province,ok
+mm01035055_p050,yes,SAKARYA,Yusuf Ulusoy,Yusuf Ulusoy,51,hand-cleaned list (raw xlsx),5296,1.0,name+province,ok
+mm01035055_p050,yes,SAMSUN,Nurettin Ceritoğlu,Nurettin Ceritoğlu,51,hand-cleaned list (raw xlsx),5310,1.0,name+province,ok
+mm01035055_p050,yes,SAMSUN,Kâmran E liyaoğlu,Kâmran E^ liyaoğlu,51,hand-cleaned list (raw xlsx),5309,0.968,name+province,ok
+mm01035055_p050,yes,SAMSUN,Fevzi Geveci,Fevzi Geveci,51,hand-cleaned list (raw xlsx),5311,1.0,name+province,ok
+mm01035055_p050,yes,SAMSUN,İlyas Kılıç,tlyas Kılıç,51,hand-cleaned list (raw xlsx),5307,1.0,name+province,ok
+mm01035055_p050,yes,SİİRT,Cevdet Aydın,Cevdet Aydın,51,hand-cleaned list (raw xlsx),5327,1.0,name+province,ok
+mm01035055_p050,yes,SİİRT,Süreyya Öner,Süreyya öner,51,hand-cleaned list (raw xlsx),5329,1.0,name+province,ok
+mm01035055_p050,yes,SİİRT,Adil Yaşa,Adil Yaşa,51,hand-cleaned list (raw xlsx),5328,1.0,name+province,ok
+mm01035055_p050,yes,SİVAS,Adil Altay,Adil Altay,51,hand-cleaned list (raw xlsx),5326,1.0,name+province,ok
+mm01035055_p050,yes,SİVAS,Rahmi Çeltekli,Rahmi Çeltekli,51,hand-cleaned list (raw xlsx),5320,1.0,name+province,ok
+mm01035055_p050,yes,SİVAS,İbrahim Göker,ibrahim Göker,51,hand-cleaned list (raw xlsx),5325,1.0,name+province,ok
+mm01035055_p050,yes,SİVAS,Rahmi Günay,Rahmi Günay,51,hand-cleaned list (raw xlsx),5319,1.0,name+province,ok
+mm01035055_p050,yes,TEKİRDAĞ,Turhan Kut,Turhan Kut,51,hand-cleaned list (raw xlsx),5331,1.0,name+province,ok
+mm01035055_p050,yes,TEKİRDAĞ,Hayrı Mnmeuoğlu,Hayrı Mnmeuoğlu,51,hand-cleaned list (raw xlsx),5332,0.857,name+province,ok
+mm01035055_p050,yes,TEKİRDAĞ,Orhan Öztrak,Orhan öztrak,51,hand-cleaned list (raw xlsx),5333,1.0,name+province,ok
+mm01035055_p050,yes,TOKAT,Reşit Önder,Reşit önder,51,hand-cleaned list (raw xlsx),5340,1.0,name+province,ok
+mm01035055_p050,yes,TRABZON,Ali Şakir Ağanoğlu,Ali Şakir Ağanoğlu,51,hand-cleaned list (raw xlsx),5349,1.0,name+province,ok
+mm01035055_p050,yes,TRABZON,Ahmet Şener ,Ahmet Şener ',51,hand-cleaned list (raw xlsx),5348,1.0,name+province,ok
+mm01035055_p050,yes,TRABZON,Kâmuran Ural,Kâmuran Ural,51,hand-cleaned list (raw xlsx),5345,1.0,name+province,ok
+mm01035055_p050,yes,TRABZON,Ali Rıza Uzuner,Ali Rıza Uzuner,51,hand-cleaned list (raw xlsx),5346,1.0,name+province,ok
+mm01035055_p050,yes,TUNCELİ,Fethi Ülkü,Fethi Ülkü,51,hand-cleaned list (raw xlsx),5351,1.0,name+province,ok
+mm01035055_p050,yes,URFA,Atalay Akan,Atalay Akan,51,hand-cleaned list (raw xlsx),5441,1.0,name+province,ok
+mm01035055_p050,yes,URFA,Kemal Badıllı,Kemal Badıllı,51,hand-cleaned list (raw xlsx),5438,1.0,name+province,ok
+mm01035055_p050,yes,URFA,Sabri Kılıç,Sabri Kılıç,51,hand-cleaned list (raw xlsx),5440,1.0,name+province,ok
+mm01035055_p050,yes,UŞAK,Ali Rıza Akbıyıkoğlu,Ali Rıza Akbıyıkoğlu,51,hand-cleaned list (raw xlsx),5355,1.0,name+province,ok
+mm01035055_p050,yes,UŞAK,İbrahim Bulaııalp,İbrahim Bulaııalp,51,hand-cleaned list (raw xlsx),5354,0.903,name+province,ok
+mm01035055_p050,yes,UŞAK,"Ahmet Tnhtakılıç,","Ahmet Tnhtakılıç,",51,hand-cleaned list (raw xlsx),5353,0.94,name+province,ok
+mm01035055_p050,yes,YOZGAT,Celâl Sungur,Celâl Sungur,51,hand-cleaned list (raw xlsx),5364,1.0,name+province,ok
+mm01035055_p050,yes,YOZGAT,Veli Uyar,Veli Uyar,51,hand-cleaned list (raw xlsx),5359,1.0,name+province,ok
+mm01035055_p050,yes,ZONGULDAK,Kenan Esengin,Kenan Esengin,51,hand-cleaned list (raw xlsx),5373,1.0,name+province,ok
+mm01035055_p050,yes,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,51,hand-cleaned list (raw xlsx),5370,1.0,name+province,ok
+mm01035055_p050,yes,ZONGULDAK,Yusuf Ziva Yü««bilgin,Yusuf Ziva Yü««bilgin,51,hand-cleaned list (raw xlsx),5372,0.889,name+province,ok
+mm01035055_p050,no,ADANA,Flasun Aksay,Flasun Aksay,51,hand-cleaned list (raw xlsx),5000,0.818,name+province,ok
+mm01035055_p050,no,ADANA,Yusuf Aktimur,Yusuf Aktimur,51,hand-cleaned list (raw xlsx),4995,1.0,name+province,ok
+mm01035055_p050,no,ADANA,Cavit Oral,Cavit Oral,51,hand-cleaned list (raw xlsx),5002,1.0,name+province,ok
+mm01035055_p050,no,ADANA,Ahmet Savrun,Ahmet Savrun,51,hand-cleaned list (raw xlsx),5005,1.0,name+province,ok
+mm01035055_p050,no,ADANA,İbrahim Tekin,İbrahim Tekin,51,hand-cleaned list (raw xlsx),4996,1.0,name+province,ok
+mm01035055_p050,no,ADANA,Ahmet Topaloğlu,Ahmet Topaloğlu,51,hand-cleaned list (raw xlsx),4999,1.0,name+province,ok
+mm01035055_p050,no,ADIYAMAN,Arif Atalay,Arif Atalay,51,hand-cleaned list (raw xlsx),5007,0.952,name+province,ok
+mm01035055_p050,no,AFYON KARAHİSAR,Şevki Güler,Şevki Güler,51,hand-cleaned list (raw xlsx),5013,1.0,name+province,ok
+mm01035055_p050,no,AFYON KARAHİSAR,Mehmet Turgut,Mehmet Turgut,51,hand-cleaned list (raw xlsx),5014,1.0,name+province,ok
+mm01035055_p050,no,AĞRI,Nevzat Güngör,Nevzat Güngör,51,hand-cleaned list (raw xlsx),5062,1.0,name+province,ok
+mm01035055_p050,no,AĞRI,Kerem Özcan,Kerem özcan,51,hand-cleaned list (raw xlsx),5060,1.0,name+province,ok
+mm01035055_p050,no,AMASYA,İsmail Sarıgöz,ismail Sarıgöz,51,hand-cleaned list (raw xlsx),5019,1.0,name+province,ok
+mm01035055_p050,no,AMASYA,Nevzat Şener,Nevzat Şener,51,hand-cleaned list (raw xlsx),5018,1.0,name+province,ok
+mm01035055_p050,no,ANKARA,Hüseyin Ataman,Hüseyin Ataman,51,hand-cleaned list (raw xlsx),5030,1.0,name+province,ok
+mm01035055_p050,no,ANKARA,Osman Bölükbaşı,Osman Bölükbaşı,51,hand-cleaned list (raw xlsx),5029,1.0,name+province,ok
+mm01035055_p050,no,ANKARA,İsmail Gence,İsmail Gence,51,hand-cleaned list (raw xlsx),5023,1.0,name+province,ok
+mm01035055_p050,no,ANKARA,İhsan Köknel,ihsan Köknel,51,hand-cleaned list (raw xlsx),5033,1.0,name+province,ok
+mm01035055_p050,no,ANKARA,Zühtü Pehlivanlı,Zühtü Pehlivanlı,51,hand-cleaned list (raw xlsx),5034,1.0,name+province,ok
+mm01035055_p050,no,ANTALYA,İhsan Ataöv,ihsan Ataöv,51,hand-cleaned list (raw xlsx),5045,1.0,name+province,ok
+mm01035055_p050,no,ANTALYA,FTasan Fehmi Boztepe,FTasan Fehmi Boztepe,51,hand-cleaned list (raw xlsx),5046,0.914,name+province,ok
+mm01035055_p050,no,ANTALYA,Ömer Eken,Ömer Eken,51,hand-cleaned list (raw xlsx),5042,1.0,name+province,ok
+mm01035055_p050,no,ARTVİN,Nihat Ata,Nihat Ata,51,hand-cleaned list (raw xlsx),5050,1.0,name+province,ok
+mm01035055_p050,no,ARTVİN,Sabit Osman Avcı,Sabit Osman Avcı,51,hand-cleaned list (raw xlsx),5051,1.0,name+province,ok
+mm01035055_p050,no,AYDIN,Hilmi Aydınçer,Hilmi Aydınçer,51,hand-cleaned list (raw xlsx),5054,1.0,name+province,ok
+mm01035055_p050,no,AYDIN,Melâhat Gedik,Melâhat Gedik,51,hand-cleaned list (raw xlsx),5056,1.0,name+province,ok
+mm01035055_p050,no,AYDIN,Reşat Özarda,Reşat özarda,51,hand-cleaned list (raw xlsx),5057,1.0,name+province,ok
+mm01035055_p050,no,AYDIN,İsmet Sezgin,İsmet Sezgin,51,hand-cleaned list (raw xlsx),5053,1.0,name+province,ok
+mm01035055_p050,no,BALIKESİR,Cihat Bilgehan,Cihat Bilgehan,51,hand-cleaned list (raw xlsx),5072,1.0,name+province,ok
+mm01035055_p050,no,BALIKESİR,Mithat Şükrü Çavdaroğlu,Mithat Şükrü Çavdaroğlu,51,hand-cleaned list (raw xlsx),5067,1.0,name+province,ok
+mm01035055_p050,no,BALIKESİR,Gökhan Evliyaoğlu,Gökhan Evliyaoğlu,51,hand-cleaned list (raw xlsx),5073,1.0,name+province,ok
+mm01035055_p050,no,BALIKESİR,Cevat Kanpulat,Cevat Kanpulat,51,hand-cleaned list (raw xlsx),5069,1.0,name+province,ok
+mm01035055_p050,no,BALIKESİR,Cihat Turgut,Cihat Turgut,51,hand-cleaned list (raw xlsx),5065,1.0,name+province,ok
+mm01035055_p050,no,BİLECİK,Orhan Tuğrul,Orhan Tuğrul,51,hand-cleaned list (raw xlsx),5095,1.0,name+province,ok
+mm01035055_p050,no,BİNGÖL,Halit Rıza Ünal,Halit Rıza Ünal,51,hand-cleaned list (raw xlsx),5097,1.0,name+province,ok
+mm01035055_p050,no,BOLU,Ahmet Çakmak,Ahmet Çakmak,51,hand-cleaned list (raw xlsx),5075,1.0,name+province,ok
+mm01035055_p050,no,BOLU,Turgut Çulha,Turgut Çulha,51,hand-cleaned list (raw xlsx),5078,1.0,name+province,ok
+mm01035055_p050,no,BOLU,Kâmil İnal,Kâmil inal,51,hand-cleaned list (raw xlsx),5076,1.0,name+province,ok
+mm01035055_p050,no,BURSA,Hikmet Akalın,Hikmet Akalın,51,hand-cleaned list (raw xlsx),5088,1.0,name+province,ok
+mm01035055_p050,no,BURSA,Mustafa Tayyar,Mustafa Tayyar,51,hand-cleaned list (raw xlsx),5085,1.0,name+province,ok
+mm01035055_p050,no,BURSA,Ahmet Türked,Ahmet Türked,51,hand-cleaned list (raw xlsx),5086,0.909,name+province,ok
+mm01035055_p050,no,BURSA,Ziya Uğur,Ziya Uğur,51,hand-cleaned list (raw xlsx),5083,1.0,name+province,ok
+mm01035055_p050,no,BURSA,İsmail Yılmaz,İsmail Yılmaz,51,hand-cleaned list (raw xlsx),5089,1.0,name+province,ok
+mm01035055_p050,no,BURSA,Baha Cemal Za£ra,Baha Cemal Za£ra,51,hand-cleaned list (raw xlsx),5093,0.963,name+province,ok
+mm01035055_p050,no,ÇANAKKALE,Refet Sezerin,Refet Sezerin,51,hand-cleaned list (raw xlsx),5378,0.87,name+province,ok
+mm01035055_p050,no,ÇANKIRI,Kâzım Arar,Kâzım Arar,51,hand-cleaned list (raw xlsx),5381,1.0,name+province,ok
+mm01035055_p050,no,ÇORUM,Muzaffer Dündar,Muzaffer Dündar,51,hand-cleaned list (raw xlsx),5383,1.0,name+province,ok
+mm01035055_p050,no,ÇORUM,İhsan Tomhuş,İhsan Tomhuş,51,hand-cleaned list (raw xlsx),5387,0.909,name+province,ok
+mm01035055_p050,no,DENİZLİ,Sinan Bosna,Sinan Bosna,51,hand-cleaned list (raw xlsx),5101,1.0,name+province,ok
+mm01035055_p050,no,DENİZLİ,Mehmet Çobanoglu,Mehmet Çobanoglu,51,hand-cleaned list (raw xlsx),5104,1.0,name+province,ok
+mm01035055_p050,no,DENİZLİ,İbrahim Kocatürk,İbrahim Kocatürk,51,hand-cleaned list (raw xlsx),5103,1.0,name+province,ok
+mm01035055_p050,no,DENİZLİ,Remzi Şenel,Remzi Şenel,51,hand-cleaned list (raw xlsx),5105,1.0,name+province,ok
+mm01035055_p050,no,EDİRNE,İlhami Ertem,tlhami Ertem,51,hand-cleaned list (raw xlsx),5114,1.0,name+province,ok
+mm01035055_p050,no,EDİRNE,Nazmi Özoğul,Nazmi özoğul,51,hand-cleaned list (raw xlsx),5115,1.0,name+province,ok
+mm01035055_p050,no,ELÂZIĞ,Naci Güray,Naci Güray,51,hand-cleaned list (raw xlsx),5123,1.0,name+province,ok
+mm01035055_p050,no,ELÂZIĞ,Ömer Faruk Saııaç,Ömer Faruk Saııaç,51,hand-cleaned list (raw xlsx),5122,0.897,name+province,ok
+mm01035055_p050,no,ERZİNCAN,Hüsamettin Atabeyli,Hüsamettin Atabeyli,51,hand-cleaned list (raw xlsx),5133,1.0,name+province,ok
+mm01035055_p050,no,ERZİNCAN,Sadık Perinçek,Sadık Perinçek,51,hand-cleaned list (raw xlsx),5135,1.0,name+province,ok
+mm01035055_p050,no,ERZURUM,Ertuğrul Akça,Ertuğrul Akça,51,hand-cleaned list (raw xlsx),5130,1.0,name+province,ok
+mm01035055_p050,no,ERZURUM,Turhan Bilgin,Turhan Bilgin,51,hand-cleaned list (raw xlsx),5127,1.0,name+province,ok
+mm01035055_p050,no,ERZURUM,Nihat Diler,Nihat Diler,51,hand-cleaned list (raw xlsx),5125,1.0,name+province,ok
+mm01035055_p050,no,ERZURUM,Şerafettin Konuray,Şerafettin Konuray,51,hand-cleaned list (raw xlsx),5124,1.0,name+province,ok
+mm01035055_p050,no,ERZURUM,Tahsin Telli,Tahsin Telli,51,hand-cleaned list (raw xlsx),5126,1.0,name+province,ok
+mm01035055_p050,no,ESKİŞEHİR,Ertuğrul Gazi Sakarya,Ertuğrul Gazi Sakarya,51,hand-cleaned list (raw xlsx),5141,1.0,name+province,ok
+mm01035055_p050,no,ESKİŞEHİR,Seyfi Öztürk,Seyfi öztürk,51,hand-cleaned list (raw xlsx),5142,1.0,name+province,ok
+mm01035055_p050,no,ESKİŞEHİR,Aziz Zeytin oğlu,Aziz Zeytin oğlu,51,hand-cleaned list (raw xlsx),5139,1.0,name+province,ok
+mm01035055_p050,no,GAZİANTEP,Kudret Mavitan,Kudret Mavitan,51,hand-cleaned list (raw xlsx),5144,1.0,name+province,ok
+mm01035055_p050,no,GAZİANTEP,Sülejman Ünlü,Sülej^man Ünlü,51,hand-cleaned list (raw xlsx),5147,0.95,name+province,ok
+mm01035055_p050,no,GİRESUN,Nizamettin Erkmeiı,Nizamettin Erkmeiı,51,hand-cleaned list (raw xlsx),5157,0.909,name+province,ok
+mm01035055_p050,no,GİRESUN,İbrahim Etem Kılıçoğlu,İbrahim Etem Kılıçoğlu,51,hand-cleaned list (raw xlsx),5155,1.0,name+province,ok
+mm01035055_p050,no,GİRESUN,Ali Cüceoğlu,Ali Cüceoğlu,51,hand-cleaned list (raw xlsx),5158,1.0,name+province,ok
+mm01035055_p050,no,GÜMÜŞANE,Sabahattin Savacı,Sabahattin Savacı,51,hand-cleaned list (raw xlsx),5152,1.0,name+province,ok
+mm01035055_p050,no,HATAY,Ali Muhsin Bereketoğlu,Ali Muhsin Bereketoğlu,51,hand-cleaned list (raw xlsx),5161,1.0,name+province,ok
+mm01035055_p050,no,HATAY,Abdullah Çilli,Abdullah Çilli,52,hand-cleaned list (raw xlsx),5167,1.0,name+province,ok
+mm01035055_p050,no,HATAY,Sekip İnal,Sekip inal,52,hand-cleaned list (raw xlsx),5165,1.0,name+province,ok
+mm01035055_p050,no,İÇEL,Mazhar Arıkan,Mazhar Arıkan,52,hand-cleaned list (raw xlsx),5265,1.0,name+province,ok
+mm01035055_p050,no,İÇEL,Celâl Kılıç,Celâl Kılıç,52,hand-cleaned list (raw xlsx),5260,1.0,name+province,ok
+mm01035055_p050,no,İÇEL,İhsan Önal,ihsan önal,52,hand-cleaned list (raw xlsx),5266,1.0,name+province,ok
+mm01035055_p050,no,ISPARTA,Ali İhsan Balım,Ali İhsan Balım,52,hand-cleaned list (raw xlsx),5170,1.0,name+province,ok
+mm01035055_p050,no,ISPARTA,Sadettin Biügiç,Sadettin Biügiç,52,hand-cleaned list (raw xlsx),5168,0.929,name+province,ok
+mm01035055_p050,no,İSTANBUL,İbrahim Abak,ibrahim Abak,52,hand-cleaned list (raw xlsx),5409,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Ziya Altmoğlu,Ziya Altmoğlu,52,hand-cleaned list (raw xlsx),5411,0.894,name+province,ok
+mm01035055_p050,no,İSTANBUL,Ferruh Bozbeyli,Ferruh Bozbeyli,52,hand-cleaned list (raw xlsx),5404,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Nurettin Bulak,Nurettin Bulak,52,hand-cleaned list (raw xlsx),5403,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Tahsin Demiray,Tahsin Demiray,52,hand-cleaned list (raw xlsx),5405,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Muhiddin Güven,Muhiddin Güven,52,hand-cleaned list (raw xlsx),5418,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Ahmet Oğuz,Ahmet Oğuz,52,hand-cleaned list (raw xlsx),5396,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Sahabettin Orhon,Sahabettin Orhon,52,hand-cleaned list (raw xlsx),5406,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Naci Öktem,Naci öktem,52,hand-cleaned list (raw xlsx),5413,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,İsmail Hakkı Tekinel,ismail Hakkı Tekinel,52,hand-cleaned list (raw xlsx),5400,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Hüsamettin Tiyanşan,Hüsamettin Tiyanşan,52,hand-cleaned list (raw xlsx),5414,1.0,name+province,ok
+mm01035055_p050,no,İSTANBUL,Abdurrahman Yazgan,Abdurrahman Yazgan,52,hand-cleaned list (raw xlsx),5402,1.0,name+province,ok
+mm01035055_p050,no,İZMİR,"Mehmet Ali Aytaş,","Mehmet Ali Aytaş,",52,hand-cleaned list (raw xlsx),5423,1.0,name+province,ok
+mm01035055_p050,no,İZMİR,Muzaffer Döşemeci,Muzaffer Döşemeci,52,hand-cleaned list (raw xlsx),5428,1.0,name+province,ok
+mm01035055_p050,no,İZMİR,Ali Naili Erdem,Ali Naili Erdem,52,hand-cleaned list (raw xlsx),5433,1.0,name+province,ok
+mm01035055_p050,no,İZMİR,Nihad Kürşad,Nihad Kürşad,52,hand-cleaned list (raw xlsx),5436,0.82,name+province,ok
+mm01035055_p050,no,İZMİR,Şinasi Osıma,Şinasi Osıma,52,hand-cleaned list (raw xlsx),5427,0.952,name+province,ok
+mm01035055_p050,no,KARS,Lâtif Aküzüm,Lâtif Aküzüm,52,hand-cleaned list (raw xlsx),5183,1.0,name+province,ok
+mm01035055_p050,no,KARS,Kemal Kaya,Kemal Kaya,52,hand-cleaned list (raw xlsx),5186,1.0,name+province,ok
+mm01035055_p050,no,KASTAMONU,Sabri Keskin,Sabri Keskin,52,hand-cleaned list (raw xlsx),5187,1.0,name+province,ok
+mm01035055_p050,no,KASTAMONU,Osman Zeki Oktay,Osman Zeki Oktay,52,hand-cleaned list (raw xlsx),5188,1.0,name+province,ok
+mm01035055_p050,no,KASTAMONU,İsmail Hakkı Yılanlıoğlu,İsmail Hakkı Yılanlıoğlu,52,hand-cleaned list (raw xlsx),5192,1.0,name+province,ok
+mm01035055_p050,no,KAYSERİ,Abdülhalim Araş,Abdülhalim Araş,52,hand-cleaned list (raw xlsx),5201,1.0,name+province,ok
+mm01035055_p050,no,KAYSERİ,Hüsamettin Gümüşpala,Hüsamettin Gümüşpala,52,hand-cleaned list (raw xlsx),5195,1.0,name+province,ok
+mm01035055_p050,no,KAYSERİ,Vedat Âli Özkan,Vedat Âli Özkan,52,hand-cleaned list (raw xlsx),5200,1.0,name+province,ok
+mm01035055_p050,no,KIRŞEHİR,Memduh Erdemir,Memduh Erdemir,52,hand-cleaned list (raw xlsx),5208,1.0,name+province,ok
+mm01035055_p050,no,KIRŞEHİR,Halil Özmen,Halil özmen,52,hand-cleaned list (raw xlsx),5207,1.0,name+province,ok
+mm01035055_p050,no,KOCAELİ,Hâldan Kısayol,Hâldan Kısayol,52,hand-cleaned list (raw xlsx),5210,1.0,name+province,ok
+mm01035055_p050,no,KOCAELİ,Süreyya Sofuoğlu,Süreyya Sofuoğlu,52,hand-cleaned list (raw xlsx),5209,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Kemal Ataman,Kemal Ataman,52,hand-cleaned list (raw xlsx),5217,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Ahmet Gürkan,Ahmet Gürkan,52,hand-cleaned list (raw xlsx),5229,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Kadircan Kaflı,Kadircan Kaflı,52,hand-cleaned list (raw xlsx),5228,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Ömer Kart,Ömer Kart,52,hand-cleaned list (raw xlsx),5220,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Mekki Keskin,Mekki Keskin,52,hand-cleaned list (raw xlsx),5215,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Faruk Sükan,Faruk Sükan,52,hand-cleaned list (raw xlsx),5219,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Cahit Yılmaz,Cahit Yılmaz,52,hand-cleaned list (raw xlsx),5230,1.0,name+province,ok
+mm01035055_p050,no,KONYA,Sait Sına Yücesoy,Sait Sına Yücesoy,52,hand-cleaned list (raw xlsx),5226,1.0,name+province,ok
+mm01035055_p050,no,KÜTAHYA,Sezai Sarpaşar,Sezai Sarpaşar,52,hand-cleaned list (raw xlsx),5232,1.0,name+province,ok
+mm01035055_p050,no,MALATYA,H. Ayni Aksit,H. Ayni Aksit,52,hand-cleaned list (raw xlsx),5242,0.842,name+province,ok
+mm01035055_p050,no,MANİSA,Neriman Ağaoğlu,Neriman Ağaoğlu,52,hand-cleaned list (raw xlsx),5244,1.0,name+province,ok
+mm01035055_p050,no,MANİSA,Süleyman Çağlar,Süleyman Çağlar,52,hand-cleaned list (raw xlsx),5250,1.0,name+province,ok
+mm01035055_p050,no,MANİSA,Nusret Köklü,Nusret Köklü,52,hand-cleaned list (raw xlsx),5253,1.0,name+province,ok
+mm01035055_p050,no,MANİSA,Hurrem Kubat,Hurrem Kubat,52,hand-cleaned list (raw xlsx),5248,1.0,name+province,ok
+mm01035055_p050,no,MANİSA,Hilmi Okçu,Hilmi Okçu,52,hand-cleaned list (raw xlsx),5245,1.0,name+province,ok
+mm01035055_p050,no,MANİSA,Yakup Yakut,Yakup Yakut,52,hand-cleaned list (raw xlsx),5249,1.0,name+province,ok
+mm01035055_p050,no,MARDİN,Esat Kemal Aybar,Esat Kemal Aybar,52,hand-cleaned list (raw xlsx),5259,1.0,name+province,ok
+mm01035055_p050,no,MARDİN,Seyfi Güneştan,Seyfi Güneştan,52,hand-cleaned list (raw xlsx),5255,1.0,name+province,ok
+mm01035055_p050,no,MUĞLA,Adnan Akarca,Adnan Akarca,52,hand-cleaned list (raw xlsx),5269,1.0,name+province,ok
+mm01035055_p050,no,MUŞ,Sami Öztürk,Sami öztürk,52,hand-cleaned list (raw xlsx),5272,1.0,name+province,ok
+mm01035055_p050,no,NİĞDE,Mehmet Altınsoy,Mehmet Altınsoy,52,hand-cleaned list (raw xlsx),5281,1.0,name+province,ok
+mm01035055_p050,no,NİĞDE,Haydar Özalp,Haydar Özalp,52,hand-cleaned list (raw xlsx),5279,1.0,name+province,ok
+mm01035055_p050,no,NİĞDE,Oğuzdemir Tüzün,Oğuzdemir Tüzün,52,hand-cleaned list (raw xlsx),5282,1.0,name+province,ok
+mm01035055_p050,no,ORDU,Ata Bodur,Ata Bodur,52,hand-cleaned list (raw xlsx),5285,1.0,name+province,ok
+mm01035055_p050,no,RİZE,Erol Yılmaz Akçal,Erol Yılmaz Akçal,52,hand-cleaned list (raw xlsx),5294,1.0,name+province,ok
+mm01035055_p050,no,RİZE,Arif Hikmet Güner,Arif Hikmet Güner,52,hand-cleaned list (raw xlsx),5292,1.0,name+province,ok
+mm01035055_p050,no,RİZE,Cevat Yalç.m,Cevat Yalç.m,52,hand-cleaned list (raw xlsx),5293,0.857,name+province,ok
+mm01035055_p050,no,SAKARYA,Muslihittin Gürer,Muslihittin Gürer,52,hand-cleaned list (raw xlsx),5299,1.0,name+province,ok
+mm01035055_p050,no,SAKARYA,Hami Tezkan,Hami Tezkan,52,hand-cleaned list (raw xlsx),5300,1.0,name+province,ok
+mm01035055_p050,no,SAMSUN,Ali Fuat Alışan,Ali Fuat Alışan,52,hand-cleaned list (raw xlsx),5302,1.0,name+province,ok
+mm01035055_p050,no,SAMSUN,Vîohmet Başaran,Vîohmet Başaran,52,hand-cleaned list (raw xlsx),5303,0.846,name+province,ok
+mm01035055_p050,no,SAMSUN,Rahri Cömert,Rahri Cömert,52,hand-cleaned list (raw xlsx),5306,0.92,name+province,ok
+mm01035055_p050,no,SAMSUN,Hâmit Kiper,Hâmit Kiper,52,hand-cleaned list (raw xlsx),5305,1.0,name+province,ok
+mm01035055_p050,no,SAMSUN,Hüseyin Özalp,Hüseyin Özalp,52,hand-cleaned list (raw xlsx),5304,1.0,name+province,ok
+mm01035055_p050,no,SAMSUN,Osman Şahinoğlu,Osman Şahinoğlu,52,hand-cleaned list (raw xlsx),5308,1.0,name+province,ok
+mm01035055_p050,no,SİİRT,Hayrettin Özgen,Hayrettin özgen,52,hand-cleaned list (raw xlsx),5330,1.0,name+province,ok
+mm01035055_p050,no,SİNOP,Mustafa Kaptan,Mustafa Kaptan,52,hand-cleaned list (raw xlsx),5312,1.0,name+province,ok
+mm01035055_p050,no,SİNOP,Sebati Hastaoğlu,Sebati Hastaoğlu,52,hand-cleaned list (raw xlsx),5322,1.0,name only (province differs),ok
+mm01035055_p050,no,SİNOP,Cevat Odyakmaz,Cevat Odyakmaz,52,hand-cleaned list (raw xlsx),5318,1.0,name only (province differs),ok
+mm01035055_p050,no,SİNOP,Güner Sarısözen,Güner Sarısözen,52,hand-cleaned list (raw xlsx),5323,1.0,name only (province differs),ok
+mm01035055_p050,no,TEKİRDAĞ,Fethi Mahramlı,Fethi Mahramlı,52,hand-cleaned list (raw xlsx),5334,1.0,name+province,ok
+mm01035055_p050,no,TOKAT,Sabahattin Baybura,Sabahattin Baybura,52,hand-cleaned list (raw xlsx),5336,1.0,name+province,ok
+mm01035055_p050,no,TOKAT,H. Ali Dizman,H. Ali Dizman,52,hand-cleaned list (raw xlsx),5341,1.0,name+province,ok
+mm01035055_p050,no,TOKAT,Mehmet Kazova,Mehmet Kazova,52,hand-cleaned list (raw xlsx),5338,1.0,name+province,ok
+mm01035055_p050,no,TOKAT,Zeyyat Kocam emi,Zeyyat Kocam emi,52,hand-cleaned list (raw xlsx),5339,1.0,name+province,ok
+mm01035055_p050,no,TRABZON,Elkrem Dikmen,Elkrem Dikmen,52,hand-cleaned list (raw xlsx),5350,0.964,name+province,ok
+mm01035055_p050,no,TRABZON,Selâhattin Güven,Selâhattin Güven,52,hand-cleaned list (raw xlsx),5342,1.0,name+province,ok
+mm01035055_p050,no,TRABZON,Zeki Yağmurdereli,Zeki Yağmurdereli,52,hand-cleaned list (raw xlsx),5344,1.0,name+province,ok
+mm01035055_p050,no,URFA,Kadri Eroğan,Kadri Eroğan,52,hand-cleaned list (raw xlsx),5439,1.0,name+province,ok
+mm01035055_p050,no,URFA,Celâl Öncel,Celâl öncel,52,hand-cleaned list (raw xlsx),5444,1.0,name+province,ok
+mm01035055_p050,no,VAN,İhsan Bedirhanoğlu,ihsan Bedirhanoğlu,52,hand-cleaned list (raw xlsx),5357,1.0,name+province,ok
+mm01035055_p050,no,VAN,Şükrü Kösereisoğlu,Şükrü Kösereisoğlu,52,hand-cleaned list (raw xlsx),5356,1.0,name+province,ok
+mm01035055_p050,no,YOZGAT,İsmail Hakkı Akdoğan,ismail Hakkı Akdoğan,52,hand-cleaned list (raw xlsx),5363,1.0,name+province,ok
+mm01035055_p050,no,YOZGAT,İsmet Kapısız,ismet Kapısız,52,hand-cleaned list (raw xlsx),5362,1.0,name+province,ok
+mm01035055_p050,no,YOZGAT,Mustafa Kepir,Mustafa Kepir,52,hand-cleaned list (raw xlsx),5361,1.0,name+province,ok
+mm01035055_p050,no,YOZGAT,Turgut Nizamoğlu,Turgut Nizamoğlu,52,hand-cleaned list (raw xlsx),5360,1.0,name+province,ok
+mm01035055_p050,no,ZONGULDAK,Fevzi Fırat,Fevzi Fırat,52,hand-cleaned list (raw xlsx),5367,1.0,name+province,ok
+mm01035055_p050,no,ZONGULDAK,Ramiz Karakaşoğlu,Ramiz Karakaşoğlu,52,hand-cleaned list (raw xlsx),5369,1.0,name+province,ok
+mm01035055_p050,no,ZONGULDAK,Sadık Tekin Müftüoğlu,Sadık Tekin Müftüoğlu,52,hand-cleaned list (raw xlsx),5368,1.0,name+province,ok
+mm01035055_p050,abstain,AFYON KARAHİSAR,Hasan Dinçer,Hasan Dinçer,52,hand-cleaned list (raw xlsx),5015,1.0,name+province,ok
+mm01035055_p050,abstain,ANKARA,İbrahim Imirzahoğlu,tbrahim Imirzahoğlu,52,hand-cleaned list (raw xlsx),5028,0.922,name+province,ok
+mm01035055_p050,not_voting,ADANA,Ali Bozdoğanoğlu,Ali Bozdoğanoğlu,52,hand-cleaned list (raw xlsx),4994,1.0,name+province,ok
+mm01035055_p050,not_voting,ADANA,Mehmet Geçioğlu,Mehmet Geçioğlu,52,hand-cleaned list (raw xlsx),4998,1.0,name+province,ok
+mm01035055_p050,not_voting,ADANA,Kasım Gülek,Kasım Gülek,52,hand-cleaned list (raw xlsx),5001,1.0,name+province,ok
+mm01035055_p050,not_voting,ADANA,Ahmet KJaramüfttioğlu,Ahmet KJaramüfttioğlu,52,hand-cleaned list (raw xlsx),5004,0.914,name+province,ok
+mm01035055_p050,not_voting,ADANA,Melih Kemal Küçüktepepınar,Melih Kemal Küçüktepepınar,52,hand-cleaned list (raw xlsx),5003,0.909,name+province,ok
+mm01035055_p050,not_voting,ADIYAMAN,Mahmut Deniz,Mahmut Deniz,52,hand-cleaned list (raw xlsx),5008,1.0,name+province,ok
+mm01035055_p050,not_voting,ADIYAMAN,Mefamet Özfoay,Mefamet özfoay,52,hand-cleaned list (raw xlsx),5009,0.783,name+province,ok
+mm01035055_p050,not_voting,ADIYAMAN,Ali Turanlı,Ali Turanlı,52,hand-cleaned list (raw xlsx),5006,1.0,name+province,ok
+mm01035055_p050,not_voting,AFYON KARAHİSAR,Veli Başaran,Veli Başaran,52,hand-cleaned list (raw xlsx),5012,1.0,name+province,ok
+mm01035055_p050,not_voting,AMASYA,Reşat Arpacıoğlu,Reşat Arpacıoğlu,52,hand-cleaned list (raw xlsx),5017,1.0,name+province,ok
+mm01035055_p050,not_voting,AMASYA,Mustafa Kemal Karan,Mustafa Kemal Karan,52,hand-cleaned list (raw xlsx),5020,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,Raif Aybar,Raif Aybar,52,hand-cleaned list (raw xlsx),5032,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,Mustafa Kemal Erkovan,Mustafa Kemal Erkovan,52,hand-cleaned list (raw xlsx),5031,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,Mehdi Mıhçıoğlu,Mehdi Mıhçıoğlu,52,hand-cleaned list (raw xlsx),5037,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,İlyas Seçkin,tlyas Seçkin,52,hand-cleaned list (raw xlsx),5026,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,Ferhat Nuri Yıldırım,Ferhat Nuri Yıldırım,52,hand-cleaned list (raw xlsx),5035,1.0,name+province,ok
+mm01035055_p050,not_voting,ANKARA,Abdülhak Kemal YörüJ,Abdülhak Kemal YörüJ<,52,hand-cleaned list (raw xlsx),5022,0.944,name+province,ok
+mm01035055_p050,not_voting,ANTALYA,Rafet Eker,Rafet Eker,52,hand-cleaned list (raw xlsx),5044,1.0,name+province,ok
+mm01035055_p050,not_voting,ANTALYA,Nazmi Kerimoğlu,Nazmi Kerimoğlu,52,hand-cleaned list (raw xlsx),5048,1.0,name+province,ok
+mm01035055_p050,not_voting,AYDIN,Nedim M üren,Nedim M üren,52,hand-cleaned list (raw xlsx),5055,1.0,name+province,ok
+mm01035055_p050,not_voting,BALIKESİR,Kaya Bulut,Kaya Bulut,52,hand-cleaned list (raw xlsx),5066,1.0,name+province,ok
+mm01035055_p050,not_voting,BALIKESİR,Ahmet İhsan Kırımlı,Ahmet ihsan Kırımlı,52,hand-cleaned list (raw xlsx),5070,1.0,name+province,ok
+mm01035055_p050,not_voting,BALIKESİR,Mehmet Tiritoğlu,Mehmet Tiritoğlu,52,hand-cleaned list (raw xlsx),5063,1.0,name+province,ok
+mm01035055_p050,not_voting,BİLECİK,Sadi Binay,Sadi Binay,52,hand-cleaned list (raw xlsx),5094,1.0,name+province,ok
+mm01035055_p050,not_voting,BİNGÖL,M. Sıddık Aydar,M. Sıddık Aydar,52,hand-cleaned list (raw xlsx),5096,0.828,name+province,ok
+mm01035055_p050,not_voting,BİTLİS,Nafiz Giray,Nafiz Giray,52,hand-cleaned list (raw xlsx),5099,1.0,name+province,ok
+mm01035055_p050,not_voting,BOLU,Zeki Balitacıoğlu,Zeki Balitacıoğlu,52,hand-cleaned list (raw xlsx),5079,0.974,name+province,ok
+mm01035055_p050,not_voting,BURDUR,Mehmet Özbey,Mehmet özbey,53,hand-cleaned list (raw xlsx),5080,1.0,name+province,ok
+mm01035055_p050,not_voting,BURSA,Ekrem Pakşoy,Ekrem Pakşoy,53,hand-cleaned list (raw xlsx),5091,1.0,name+province,ok
+mm01035055_p050,not_voting,BURSA,Cevdet Perin,Cevdet Perin,53,hand-cleaned list (raw xlsx),5092,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇANAKKALE,Ahmet Nihat Akay,Ahmet Nihat Akay,53,hand-cleaned list (raw xlsx),5375,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇANKIRI,Rahmi İnceler,Rahmi İnceler,53,hand-cleaned list (raw xlsx),5379,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇANKIRI,Şaban Keskin,Şaban Keskin,53,hand-cleaned list (raw xlsx),5382,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇANKIRI,Nurettin Ok,Nurettin Ok (Bşk. V.),53,hand-cleaned list (raw xlsx),5380,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇORUM,Abdurrahman Güler,Abdurrahman Güler,53,hand-cleaned list (raw xlsx),5388,1.0,name+province,ok
+mm01035055_p050,not_voting,ÇORUM,Faruk Küreli,Faruk Küreli,53,hand-cleaned list (raw xlsx),5389,1.0,name+province,ok
+mm01035055_p050,not_voting,DİYARBAKIR,Yusuf Azizoğlu,Yusuf Azizoğlu,53,hand-cleaned list (raw xlsx),5113,1.0,name+province,ok
+mm01035055_p050,not_voting,DİYARBAKIR,Hilmi Güldoğan,Hilmi Güldoğan,53,hand-cleaned list (raw xlsx),5109,1.0,name+province,ok
+mm01035055_p050,not_voting,DİYARBAKIR,Recai îskenderoğlu,Recai îskenderoğlu,53,hand-cleaned list (raw xlsx),5110,1.0,name+province,ok
+mm01035055_p050,not_voting,DİYARBAKIR,Alp Doğan Şen,Alp Doğan Şen,53,hand-cleaned list (raw xlsx),5111,1.0,name+province,ok
+mm01035055_p050,not_voting,EDİRNE,Talât Asal,Talât Asal,53,hand-cleaned list (raw xlsx),5118,1.0,name+province,ok
+mm01035055_p050,not_voting,ELÂZIĞ,Hürrem Müftügil,Hürrem Müftügil,53,hand-cleaned list (raw xlsx),5119,1.0,name+province,ok
+mm01035055_p050,not_voting,GAZİANTEP,Hüseyin İncioğlu,Hüseyin tncioğlu,53,hand-cleaned list (raw xlsx),5149,1.0,name+province,ok
+mm01035055_p050,not_voting,GAZİANTEP,Mithat San,Mithat San,53,hand-cleaned list (raw xlsx),5145,1.0,name+province,ok
+mm01035055_p050,not_voting,GÜMÜŞANE,Necmeddin Küçüker,Necmeddin Küçüker,53,hand-cleaned list (raw xlsx),5150,1.0,name+province,ok
+mm01035055_p050,not_voting,GÜMÜŞANE,Nureddin Özdemir,Nureddin özdemir,53,hand-cleaned list (raw xlsx),5151,1.0,name+province,ok
+mm01035055_p050,not_voting,HATAY,Bahri Bahadır,Bahri Bahadır,53,hand-cleaned list (raw xlsx),5166,1.0,name+province,ok
+mm01035055_p050,not_voting,HATAY,Ahmet Sırrı Hocaoğlu,Ahmet Sırrı Hocaoğlu,53,hand-cleaned list (raw xlsx),5164,1.0,name+province,ok
+mm01035055_p050,not_voting,İÇEL,Burhan Bozdoğan,Burhan Bozdoğan,53,hand-cleaned list (raw xlsx),5263,1.0,name+province,ok
+mm01035055_p050,not_voting,İSTANBUL,Ömer Zekâi Dorman,Ömer Zekâi Dorman,53,hand-cleaned list (raw xlsx),5392,1.0,name+province,ok
+mm01035055_p050,not_voting,İSTANBUL,Saadet Evren,Saadet Evren,53,hand-cleaned list (raw xlsx),5394,1.0,name+province,ok
+mm01035055_p050,not_voting,İSTANBUL,Orhan Eyüboğlu,Orhan Eyüboğlu,53,hand-cleaned list (raw xlsx),5390,1.0,name+province,ok
+mm01035055_p050,not_voting,İSTANBUL,Malik Yolaç,Malik Yolaç (B.),53,hand-cleaned list (raw xlsx),5408,1.0,name+province,ok
+mm01035055_p050,not_voting,İZMİR,Şükrü Akkan,Şükrü Akkan,53,hand-cleaned list (raw xlsx),5421,1.0,name+province,ok
+mm01035055_p050,not_voting,İZMİR,İhsan Gürsan,İhsan Gürsan,53,hand-cleaned list (raw xlsx),5425,1.0,name+province,ok
+mm01035055_p050,not_voting,İZMİR,Saim Kaygan,Saim Kaygan,53,hand-cleaned list (raw xlsx),5424,1.0,name+province,ok
+mm01035055_p050,not_voting,KARS,Necmettin Akan,Necmettin Akan,53,hand-cleaned list (raw xlsx),5182,1.0,name+province,ok
+mm01035055_p050,not_voting,KARS,Sırrı Öktem,Sırrı öktem,53,hand-cleaned list (raw xlsx),5179,1.0,name+province,ok
+mm01035055_p050,not_voting,KARS,Bahtiyar Vural,Bahtiyar Vural,53,hand-cleaned list (raw xlsx),5184,1.0,name+province,ok
+mm01035055_p050,not_voting,KARS,Rıza Yalçın,Rıza Yalçın,53,hand-cleaned list (raw xlsx),5185,1.0,name+province,ok
+mm01035055_p050,not_voting,KASTAMONU,Avni Doğan,Avni Doğan,53,hand-cleaned list (raw xlsx),5189,1.0,name+province,ok
+mm01035055_p050,not_voting,KASTAMONU,Fethi Doğançay,Fethi Doğançay,53,hand-cleaned list (raw xlsx),5193,1.0,name+province,ok
+mm01035055_p050,not_voting,KIRKLARELİ,Mehmet Alâeddin Eriş,Mehmet Alâeddin Eriş,53,hand-cleaned list (raw xlsx),5204,1.0,name+province,ok
+mm01035055_p050,not_voting,KIRKLARELİ,Fikret Filiz,Fikret Filiz,53,hand-cleaned list (raw xlsx),5203,1.0,name+province,ok
+mm01035055_p050,not_voting,KIRŞEHİR,Ahmet Bilgin,Ahmet Bilgin,53,hand-cleaned list (raw xlsx),5206,1.0,name+province,ok
+mm01035055_p050,not_voting,KOCAELİ,Sahabettin Bilgisu,Sahabettin Bilgisu,53,hand-cleaned list (raw xlsx),5212,1.0,name+province,ok
+mm01035055_p050,not_voting,KOCAELİ,Nihat Erim,Nihat Erim,53,hand-cleaned list (raw xlsx),5213,1.0,name+province,ok
+mm01035055_p050,not_voting,KONYA,Selçuk Aytan,Selçuk Aytan,53,hand-cleaned list (raw xlsx),5221,1.0,name+province,ok
+mm01035055_p050,not_voting,KONYA,İrfan Baran,İrfan Baran,53,hand-cleaned list (raw xlsx),5222,1.0,name+province,ok
+mm01035055_p050,not_voting,KONYA,Fakih Özlen,Fakih özlen,53,hand-cleaned list (raw xlsx),5225,1.0,name+province,ok
+mm01035055_p050,not_voting,KONYA,0:1,0:1,53,hand-cleaned list (raw xlsx),,,unmatched,ok
+mm01035055_p050,not_voting,KÜTAHYA,Ahmet Bozbay,Ahmet Bozbay,53,hand-cleaned list (raw xlsx),5231,1.0,name+province,ok
+mm01035055_p050,not_voting,KÜTAHYA,Mehmet Kesen,Mehmet Kesen,53,hand-cleaned list (raw xlsx),5235,1.0,name+province,ok
+mm01035055_p050,not_voting,KÜTAHYA,Sadrettin Tosbi,Sadrettin Tosbi,53,hand-cleaned list (raw xlsx),5234,1.0,name+province,ok
+mm01035055_p050,not_voting,MALATYA,Ahmet Fırat,Ahmet Fırat,53,hand-cleaned list (raw xlsx),5241,1.0,name+province,ok
+mm01035055_p050,not_voting,MALATYA,Halit Ziya Özkan,Halit Ziya Özkan,53,hand-cleaned list (raw xlsx),5237,1.0,name+province,ok
+mm01035055_p050,not_voting,MANİSA,Muammer Erten,Muammer Erten (B.),53,hand-cleaned list (raw xlsx),5252,1.0,name+province,ok
+mm01035055_p050,not_voting,MANİSA,Nahit Yenişehirlioğlu,Nahit Yenişehirlioğlu,53,hand-cleaned list (raw xlsx),5251,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Kemal Bağcıoğlu,Kemal Bağcıoğlu,53,hand-cleaned list (raw xlsx),5177,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Kemali Bayazıt,Kemali Bayazıt,53,hand-cleaned list (raw xlsx),5173,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Hasan Fehmi Evliya,Hasan Fehmi Evliya,53,hand-cleaned list (raw xlsx),5172,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Ali Hüdayioğlu,Ali Hüdayioğlu,53,hand-cleaned list (raw xlsx),5174,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Enver Kaplan,Enver Kaplan,53,hand-cleaned list (raw xlsx),5176,1.0,name+province,ok
+mm01035055_p050,not_voting,MARAŞ,Adnan Karaküçük,Adnan Karaküçük,53,hand-cleaned list (raw xlsx),5175,1.0,name+province,ok
+mm01035055_p050,not_voting,MARDİN,Talât Oğuz,Talât Oğuz,53,hand-cleaned list (raw xlsx),5257,1.0,name+province,ok
+mm01035055_p050,not_voting,MUĞLA,İlhan Tekinalp,İlhan Tekinalp,53,hand-cleaned list (raw xlsx),5268,1.0,name+province,ok
+mm01035055_p050,not_voting,MUŞ,Sait Mutlu,Sait Mutlu,53,hand-cleaned list (raw xlsx),5274,1.0,name+province,ok
+mm01035055_p050,not_voting,NEVŞEHİR,Ramazan Demirsoy,Ramazan Demirsoy,53,hand-cleaned list (raw xlsx),5276,1.0,name+province,ok
+mm01035055_p050,not_voting,NEVŞEHİR,Ali Baran Numanoğlu,Ali Baran Numanoğlu,53,hand-cleaned list (raw xlsx),5275,1.0,name+province,ok
+mm01035055_p050,not_voting,ORDU,Refet Aksoy,Refet Aksoy,53,hand-cleaned list (raw xlsx),5288,1.0,name+province,ok
+mm01035055_p050,not_voting,ORDU,lerda Güley,l^erda Güley,53,hand-cleaned list (raw xlsx),5286,0.92,name+province,ok
+mm01035055_p050,not_voting,ORDU,Sadi Pehlivanoğlu,Sadi Pehlivanoğlu,53,hand-cleaned list (raw xlsx),5283,1.0,name+province,ok
+mm01035055_p050,not_voting,RİZE,Fuad Sirmen,Fuad Sirmen (Başkan),53,hand-cleaned list (raw xlsx),5291,0.9,name+province,ok
+mm01035055_p050,not_voting,SAKARYA,Ekrem Alican,Ekrem Alican,53,hand-cleaned list (raw xlsx),5298,1.0,name+province,ok
+mm01035055_p050,not_voting,SAKARYA,Nuri Bayar,Nuri Bayar,53,hand-cleaned list (raw xlsx),5297,1.0,name+province,ok
+mm01035055_p050,not_voting,SAMSUN,Fevzi Ceylân,Fevzi Ceylân,53,hand-cleaned list (raw xlsx),5301,1.0,name+province,ok
+mm01035055_p050,not_voting,SİNOP,Mahmut Alicanoğlu,Mahmut Alicanoğlu,53,hand-cleaned list (raw xlsx),5315,1.0,name+province,ok
+mm01035055_p050,not_voting,SİNOP,Haşim T a n,Haşim T a n,53,hand-cleaned list (raw xlsx),5314,0.824,name+province,ok
+mm01035055_p050,not_voting,SİVAS,Ahmet Kangal,Ahmet Kangal,53,hand-cleaned list (raw xlsx),5324,1.0,name+province,ok
+mm01035055_p050,not_voting,SİVAS,Reşat Turhan,Reşat Turhan,53,hand-cleaned list (raw xlsx),5317,1.0,name+province,ok
+mm01035055_p050,not_voting,SİVAS,Tahsin Türkay,Tahsin Türkay,53,hand-cleaned list (raw xlsx),5316,1.0,name+province,ok
+mm01035055_p050,not_voting,SİVAS,Mahmut Vural,Mahmut Vural (B.),53,hand-cleaned list (raw xlsx),5321,1.0,name+province,ok
+mm01035055_p050,not_voting,TOKAT,Bekir Şeyhoğlu,Bekir Şeyhoğlu,53,hand-cleaned list (raw xlsx),5337,1.0,name+province,ok
+mm01035055_p050,not_voting,TOKAT,Ali Rıza Ulusoy (1.),Ali Rıza Ulusoy (1.),53,hand-cleaned list (raw xlsx),5335,1.0,name+province,ok
+mm01035055_p050,not_voting,TRABZON,Nazmi Ökten,Nazmi ökten,53,hand-cleaned list (raw xlsx),5347,1.0,name+province,ok
+mm01035055_p050,not_voting,TUNCELİ,Vahap Kışoğlu,Vahap Kışoğlu,53,hand-cleaned list (raw xlsx),5352,1.0,name+province,ok
+mm01035055_p050,not_voting,URFA,Osman Ağan,Osman Ağan,53,hand-cleaned list (raw xlsx),5442,1.0,name+province,ok
+mm01035055_p050,not_voting,URFA,Bekir Sami Karahanh,Bekir Sami Karahanh,53,hand-cleaned list (raw xlsx),5443,0.914,name+province,ok
+mm01035055_p050,not_voting,VAN,Muslih Görentaş (I. Ü.),Muslih Görentaş (I. Ü.),53,hand-cleaned list (raw xlsx),5358,0.933,name+province,ok
+mm01035055_p050,not_voting,ZONGULDAK,Ahmet Fuat Ak (I.),Ahmet Fuat Ak (I.),53,hand-cleaned list (raw xlsx),5365,0.957,name+province,ok
+mm01035055_p050,not_voting,MANİSA,Şevket Raşit Hatipoğlu,Şevket Raşit Hatipoğlu Cemil Karahan,53,hand-cleaned list (raw xlsx),5247,1.0,name+province; split merged OCR line,ok
+mm01035055_p050,not_voting,MANİSA,Cemil Karahan,Şevket Raşit Hatipoğlu Cemil Karahan,53,hand-cleaned list (raw xlsx),5313,1.0,name only (province differs); split merged OCR line,ok
