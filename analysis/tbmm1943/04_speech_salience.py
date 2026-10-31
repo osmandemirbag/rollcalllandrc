@@ -15,6 +15,10 @@ TERMS = {
     "land_reform": r"toprak\s+reform|tar[ıi]m\s+reform|zirai\s+reform|toprak\s+da[ğg][ıi]t|topraklan[dd][ıi]r",
     "landlord": r"toprak\s+a[ğg]a|a[ğg]al[ıi]k\s+d[üu]zen|b[üu]y[üu]k\s+arazi\s+sahip",
     "landless": r"topraks[ıi]z|az\s+topraklı",
+    # Pressure from below entering debate: land occupations and seizures by peasants.
+    "occupation": r"toprak\s+i[şs]gal|arazi\s+i[şs]gal|i[şs]gal\s+edilen\s+(toprak|arazi|çiftlik)|çiftlik\s+i[şs]gal|i[şs]galci\s+köylü",
+    # Public land: Treasury land and commons as a reserve for distribution.
+    "public_land": r"hazine\s+(arazi|toprak)|devlet\s+arazi|mera(lar)?\b|kamu\s+arazi",
 }
 
 

@@ -201,7 +201,7 @@ def fig_memo():
 
 def fig_speech():
     s = pd.read_csv(OUT / "speech_land_salience.csv")
-    fig, ax = plt.subplots(figsize=(6.6, 2.6))
+    fig, (ax, bx) = plt.subplots(2, 1, figsize=(6.6, 5.0), sharex=True)
     t = s[s.legislative_body == "TBMM"]; cs = s[s.legislative_body == "CS"]; mm = s[s.legislative_body == "MM"]
     ax.plot(t.start + .5, t.land_reform * 100, "-o", ms=2.5, color=GREEN, label="TBMM, by legislative year")
     ax.plot(cs.start + .5, cs.land_reform * 100, "-s", ms=2.5, color=NAVY, label="Senate, by legislative year")
@@ -210,7 +210,18 @@ def fig_speech():
     ax.plot([], [], color=ORANGE, lw=2.5, label="Assembly, by term")
     for x_, y_, l in [(1945.5, 3.85, "1945 land law"), (1950.5, 1.63, "1950 dilution"), (1972.5, 4.41, "1972–74 reform")]:
         ax.annotate(l, (x_, y_), xytext=(0, 6), textcoords="offset points", ha="center", fontsize=7)
-    ax.set_ylabel("% of minutes pages"); ax.set_xlim(1943, 1980.5); ax.set_ylim(0, 5.2); ax.legend(fontsize=7, loc="upper left")
+    ax.set_ylabel("% of pages"); ax.set_ylim(0, 5.2); ax.legend(fontsize=7, loc="upper center")
+    ax.set_title("A. Land reform", loc="left")
+    both = pd.concat([t, cs]).sort_values("start")
+    for col, lab, c, mk in [("landless", "Landless peasants (topraksız)", "#555", "o"),
+                            ("occupation", "Land occupations (toprak işgali)", "#b22222", "^"),
+                            ("public_land", "Treasury land and pastures", GREEN, "s")]:
+        for body, ls in [(t, "-"), (cs, "--")]:
+            bx.plot(body.start + .5, body[col] * 100, ls, marker=mk, ms=2.5, color=c, label=lab if body is t else None)
+    bx.plot([], [], "k--", label="dashed: Senate")
+    bx.set_ylabel("% of pages"); bx.set_xlim(1943, 1980.5); bx.set_ylim(0, 2.8)
+    bx.set_title("B. Landlessness, occupations, and public land (TBMM 1943–60; Senate 1961–79)", loc="left")
+    bx.legend(fontsize=7, loc="upper right")
     save(fig, "figA3_speech")
 
 
