@@ -127,33 +127,27 @@ def fig_exits():
 
 
 def fig_land():
-    s = json.loads((OUT / "synthesis.json").read_text())
-    lv = pd.DataFrame(s["land_votes"])
-    spec = [("tbmm08025070_p086", "DP", "D", "1950 dilution of the 1945 law"), ("tbmm08025066_p040", "DP", "D", "1950 titling law"),
-            ("tbmm10007078_p139", "CHP", "D", "1955 land-law amendment"), ("mm02006092_p086", "CHP", "D", "1966 titling amendment"),
-            ("mm03038125_p153", "CHP", "D", "1973 Land and Agrarian Reform Law"),
-            ("mm01035055_p050", "AP", "W", "1965 motion on İnönü's land bill"),
-            ("mm01030096_p062", "AP", "T", "1964 land tax, art. 9"), ("mm03007115_p075", "CHP", "T", "1970 property tax"),
-            ("mm03026116_p050", "DP", "T", "1972 property-tax amendment")]
-    rows = []
-    for vid, party, kind, label in spec:
-        r = lv[(lv.vote_id == vid) & (lv.party == party)].iloc[0]
-        rows.append((label + f" ({party})", kind, r.present / r.era_baseline_present, r.no_of_present))
-    fig, ax = plt.subplots(figsize=(6.6, 3.3))
-    col = {"D": ORANGE, "T": NAVY, "W": GRAY}
-    mk = {"D": "s", "T": "o", "W": "D"}
-    y = np.arange(len(rows))[::-1]
-    for yi, (lab, kind, ratio, no) in zip(y, rows):
-        ax.hlines(yi, 1, ratio, color=col[kind], lw=1.2)
-        ax.scatter(ratio, yi, color=col[kind], marker=mk[kind], s=30, zorder=3)
-        ax.text(ratio * (1.08 if ratio >= 1 else .92), yi, f"no {no*100:.0f}%", va="center", ha="left" if ratio >= 1 else "right", fontsize=7)
-    ax.set_xscale("log"); ax.set_xlim(.02, 3.5); ax.axvline(1, color="black", lw=.6)
-    ax.set_xticks([.05, .1, .25, .5, 1, 2], ["0.05", "0.1", "0.25", "0.5", "1", "2"])
-    ax.set_yticks(y, [r[0] for r in rows]); ax.set_xlabel("Opposing party's attendance relative to its own era baseline (log scale)")
+    r = pd.read_csv(OUT / "repertoire.csv")
+    fig, ax = plt.subplots(figsize=(6.6, 4.2))
+    ax.axvline(0, color="#999", lw=.6, ls="--"); ax.axhline(.5, color="#ddd", lw=.6)
+    for row in r.itertuples():
+        col = ORANGE if row.kind == "distribution" else NAVY
+        mk = "s" if row.kind == "distribution" else "o"
+        ax.scatter(row.sai, row.recorded_no, s=70, marker=mk, facecolors=col if row.pivotal else "white", edgecolors=col, lw=1.5, zorder=3)
+        off = {0: (0, 10), 1: (0, 10), 2: (0, 10), 3: (-11, 7), 4: (0, 10), 5: (10, -9), 6: (10, 0), 7: (3, -13), 8: (0, 11)}[row.Index]
+        ax.annotate(str(row.Index + 1), (row.sai, row.recorded_no), xytext=off, textcoords="offset points", fontsize=8,
+                    fontweight="bold", ha="center", va="center")
+    ax.text(-3.2, .55, "WITHDRAWAL\n(absent, no recorded opposition)", fontsize=7, color="#666", va="bottom")
+    ax.text(.75, .62, "RECORDED\nOPPOSITION", fontsize=7, color="#666", ha="right")
+    ax.set_xlim(-3.4, .8); ax.set_ylim(-.1, 1.12)
+    ax.set_xlabel("Selective absence index: log(attendance on the vote / party's usual attendance)")
+    ax.set_ylabel("Recorded opposition: share of present members voting no")
     from matplotlib.lines import Line2D
-    ax.legend(handles=[Line2D([], [], color=ORANGE, marker="s", ls="", label="Distribution or titling"),
-                       Line2D([], [], color=NAVY, marker="o", ls="", label="Taxation"),
-                       Line2D([], [], color=GRAY, marker="D", ls="", label="Winnable motion")], fontsize=7, loc="lower left")
+    ax.legend(handles=[Line2D([], [], color=ORANGE, marker="s", ls="", label="Land transfer or titling"),
+                       Line2D([], [], color=NAVY, marker="o", ls="", label="Land or property tax"),
+                       Line2D([], [], color="#444", marker="o", mfc="#444", ls="", label="Filled: opposition pivotal"),
+                       Line2D([], [], color="#444", marker="o", mfc="white", ls="", label="Hollow: not pivotal")],
+              fontsize=7, loc="center left", bbox_to_anchor=(0.0, .3))
     save(fig, "fig4_land_attendance")
 
 
