@@ -209,4 +209,4 @@ Please cite the original sources when using these data.
 - **Senate:** senators' parties are not observed, so the Senate (1961–80) is collected but left out of the comparisons.
 - **Randomization:** randomization inference uses fixed seeds, so results reproduce exactly.
 - **Runtime:** `4/06_rigorous.py` (ideal points, bootstrap; full rebuild only) and `6/03_variance_and_composition.py` take tens of minutes; everything else takes seconds to a few minutes.
-- **Verification:** with the included data, `bash run_all.sh` reproduces the included `output/` files and `paper/tables/` byte for byte. This was checked for the synthesis, repertoire, occupation, and coding outputs and for all table files.
+- **Verification:** with the included data, `bash run_all.sh` reproduces all 47 files in `output/` and every file in `paper/tables/` byte for byte (tested on a clean copy, about 45 minutes).
