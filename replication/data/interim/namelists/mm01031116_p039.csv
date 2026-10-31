@@ -1,0 +1,442 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADANA,Hasarf Aksay,Hasarf Aksay,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Yusuf Aktimur,Yusuf Aktimur,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Ali Bozdoğanoğlu,Ali Bozdoğanoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Mehmet Geçioğlu,Mehmet Geçioğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Kasım Gülek,Kasım Gülek,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Melih Kemal Küçüktepepınar,Melih Kemal Küçüktepepınar,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Cavit Oral s f!,Cavit Oral s f!,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Ahmet Savrun,Ahmet Savrun,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,tbrahim Tekin,tbrahim Tekin,39,False,mm01031116_p039,pdftotext parser
+yes,ADANA,Ahmet Topaloğlu,Ahmet Topaloğlu,39,False,mm01031116_p039,pdftotext parser
+yes,AFYON,Şevki Güler,Şevki Güler,39,False,mm01031116_p039,pdftotext parser
+yes,AFYON,Mehmet Turgut,Mehmet Turgut,39,False,mm01031116_p039,pdftotext parser
+yes,AFYON,Asım Yılmaz,Asım Yılmaz,39,False,mm01031116_p039,pdftotext parser
+yes,AFYON,Şükrü Yüzbaşıoğlu,Şükrü Yüzbaşıoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,AĞRI,Nevzat Güngör,Nevzat Güngör,39,False,mm01031116_p039,pdftotext parser
+yes,AĞRI,Rıza.Polat,Rıza.Polat,39,False,mm01031116_p039,pdftotext parser
+yes,AMASYA,Reşat Arpacıoğlu,Reşat Arpacıoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Hüseyin Ataman,Hüseyin Ataman,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Nihat Berkkan,Nihat Berkkan,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Fuat Börekçi,Fuat Börekçi,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,ismail Gence,ismail Gence,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,thsan Köknel,thsan Köknel,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Mehdi Mıhçıoğlu,Mehdi Mıhçıoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Zühtü Pehlivanlı,Zühtü Pehlivanlı,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Ahmet Üstün,Ahmet Üstün,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Ferhat Nuri Yıldırım,Ferhat Nuri Yıldırım,39,False,mm01031116_p039,pdftotext parser
+yes,ANKARA,Abdülhak Kemal Yörük,Abdülhak Kemal Yörük,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,Etem Ağva,Etem Ağva,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,thsan Ataöv,thsan Ataöv,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,Ömer Eken,Ömer Eken,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,Rafet Eker,Rafet Eker,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,Nazmi Keriımoğlu,Nazmi Keriımoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ANTALYA,Nihat Su,Nihat Su,39,False,mm01031116_p039,pdftotext parser
+yes,ARTVİN,Nihat Ata,Nihat Ata,39,False,mm01031116_p039,pdftotext parser
+yes,ARTVİN,Sabit Osman Avcı,Sabit Osman Avcı,39,False,mm01031116_p039,pdftotext parser
+yes,AYDIN,Melâhat Gedik,Melâhat Gedik,39,False,mm01031116_p039,pdftotext parser
+yes,AYDIN,tsmet Sezgin,tsmet Sezgin,39,False,mm01031116_p039,pdftotext parser
+yes,BALIKESİR,Cihat Bilgehan,Cihat Bilgehan,39,False,mm01031116_p039,pdftotext parser
+yes,BALIKESİR,Ahmet Aydın Bolak,Ahmet Aydın Bolak,39,False,mm01031116_p039,pdftotext parser
+yes,BALIKESİR,Gökhan Evliyaoğlu,Gökhan Evliyaoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,BALIKESİR,Cevat Kanpulat,Cevat Kanpulat,39,False,mm01031116_p039,pdftotext parser
+yes,BALIKESİR,Cihat Turgut,Cihat Turgut,39,False,mm01031116_p039,pdftotext parser
+yes,BİLECİK,Sadi Binay,Sadi Binay,39,False,mm01031116_p039,pdftotext parser
+yes,BİLECİK,Orhan Tuğrul,Orhan Tuğrul,39,False,mm01031116_p039,pdftotext parser
+yes,BİTLİS,Nafiz Giray,Nafiz Giray,39,False,mm01031116_p039,pdftotext parser
+yes,BİTLİS,Müştak Okumuş,Müştak Okumuş,39,False,mm01031116_p039,pdftotext parser
+yes,BOLU,Turgut Çulha,Turgut Çulha,39,False,mm01031116_p039,pdftotext parser
+yes,BOLU,Kâmil inal,Kâmil inal,39,False,mm01031116_p039,pdftotext parser
+yes,BURDUR,Fethi Çelikbaş,Fethi Çelikbaş,39,False,mm01031116_p039,pdftotext parser
+yes,BURDUR,Mehmet özbey,Mehmet özbey,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Hikmet Akalın,Hikmet Akalın,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Edip Rüştü Akyürek,Edip Rüştü Akyürek,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Sadrettin Çanga,Sadrettin Çanga,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Ekrem Paksoy,Ekrem Paksoy,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Mustafa Tayyar,Mustafa Tayyar,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Ahmet Tütfkel,Ahmet Tütfkel,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,i Ziya Uğur,i Ziya Uğur,39,False,mm01031116_p039,pdftotext parser
+yes,BURSA,Baha Cemal Zağra,Baha Cemal Zağra,39,False,mm01031116_p039,pdftotext parser
+yes,ÇANAKKALE,Süreyya Endik,Süreyya Endik,39,False,mm01031116_p039,pdftotext parser
+yes,ÇANAKKALE,Şefik inan,Şefik inan,39,False,mm01031116_p039,pdftotext parser
+yes,ÇANKIRI,Rahmi İnceler,Rahmi İnceler,39,False,mm01031116_p039,pdftotext parser
+yes,ÇORUM,Abdurrahman Güler,Abdurrahman Güler,39,False,mm01031116_p039,pdftotext parser
+yes,DENİZLİ,ismail Ertan,ismail Ertan,39,False,mm01031116_p039,pdftotext parser
+yes,EDİRNE,Süleyman Bilgen,.Süleyman Bilgen,39,False,mm01031116_p039,pdftotext parser
+yes,EDİRNE,tlhami Ertem,tlhami Ertem,39,False,mm01031116_p039,pdftotext parser
+yes,EDİRNE,Fahir Giritlioğlu,Fahir Giritlioğlu,39,False,mm01031116_p039,pdftotext parser
+yes,EDİRNE,Nazmi özoğul,Nazmi özoğul,39,False,mm01031116_p039,pdftotext parser
+yes,ERZİNCAN,Hüsamettin Atabeyli,Hüsamettin Atabeyli,39,False,mm01031116_p039,pdftotext parser
+yes,ERZİNCAN,Sadık Perinçek,Sadık Perinçek,39,False,mm01031116_p039,pdftotext parser
+yes,ERZİNCAN,Naci Yıldırım,Naci Yıldırım,39,False,mm01031116_p039,pdftotext parser
+yes,ERZURUM,Cevat Dursunoğk,Cevat Dursunoğk,39,False,mm01031116_p039,pdftotext parser
+yes,ERZURUM,Gıyasettin Karaca,Gıyasettin Karaca,39,False,mm01031116_p039,pdftotext parser
+yes,ERZURUM,Şerafettin Konuray,Şerafettin Konuray,39,False,mm01031116_p039,pdftotext parser
+yes,ERZURUM,Adnan Şenyurt,Adnan Şenyurt,39,False,mm01031116_p039,pdftotext parser
+yes,ERZURUM,Tahsin Telli,Tahsin Telli,39,False,mm01031116_p039,pdftotext parser
+yes,ESKİŞEHİR,Şevket Asbuzoğlu,Şevket Asbuzoğlu,39,False,mm01031116_p039,pdftotext parser
+yes,ESKİŞEHİR,ibrahim Cemalcılar,ibrahim Cemalcılar,39,False,mm01031116_p039,pdftotext parser
+yes,ESKİŞEHİR,Ertuğrul Gazi Sakarya,Ertuğrul Gazi Sakarya,39,False,mm01031116_p039,pdftotext parser
+yes,ESKİŞEHİR,Seyfi öztürk,Seyfi öztürk,39,False,mm01031116_p039,pdftotext parser
+yes,GAZİANTEP,Muzaffer Canbolat,Muzaffer Canbolat,39,False,mm01031116_p039,pdftotext parser
+yes,GAZİANTEP,Hüseyin Incioğlu,Hüseyin Incioğlu,39,False,mm01031116_p039,pdftotext parser
+yes,GAZİANTEP,Kudret Mavitari,Kudret Mavitari,39,False,mm01031116_p039,pdftotext parser
+yes,GİRESUN,Nizamettin Erknıen,Nizamettin Erknıen,39,False,mm01031116_p039,pdftotext parser
+yes,GİRESUN,Ali Köymen,Ali Köymen,39,False,mm01031116_p039,pdftotext parser
+yes,GİRESUN,Necmeddin Küçüker,Necmeddin Küçüker,39,False,mm01031116_p039,pdftotext parser
+yes,GİRESUN,Nureddin özdemir,Nureddin özdemir,39,False,mm01031116_p039,pdftotext parser
+yes,GİRESUN,Sabahattin Savacı,Sabahattin Savacı,39,False,mm01031116_p039,pdftotext parser
+yes,HAKKARİ,Ahmet Zeydan,Ahmet Zeydan,39,False,mm01031116_p039,pdftotext parser
+yes,HATAY,Bahri Bahadır,Bahri Bahadır,39,False,mm01031116_p039,pdftotext parser
+yes,HATAY,Sekip inal,Sekip inal,39,False,mm01031116_p039,pdftotext parser
+yes,MERSİN,Mehmet Ali Arslan,Mehmet Ali Arslan,39,False,mm01031116_p039,pdftotext parser
+yes,MERSİN,Yahya Dermancı,Yahya Dermancı,39,False,mm01031116_p039,pdftotext parser
+yes,MERSİN,Celâl Kılıç,Celâl Kılıç,39,False,mm01031116_p039,pdftotext parser
+yes,ISPARTA,Ali ihsan Balım,Ali ihsan Balım,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Mahmut Rıza Bertan,Mahmut Rıza Bertan,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Ratip Tahir Burak,Ratip Tahir Burak,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Tahsin Demiray,Tahsin Demiray,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Saadet Evren,Saadet Evren,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Orhan Eyüboğlu,Orhan Eyüboğlu,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Muhiddin Güven,Muhiddin Güven,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Hilmi Oben,Hilmi Oben,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Naci öktem,Naci öktem,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,ismail Hakkı Tekinel,ismail Hakkı Tekinel,39,False,mm01031116_p039,pdftotext parser
+yes,İSTANBUL,Abdurrahman Yazgan,Abdurrahman Yazgan,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Osman Sabri A dal,Osman Sabri A dal,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Mehmet Ali Aytaş,Mehmet Ali Aytaş,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Muzaffer Döşemeci,Muzaffer Döşemeci,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Ali Naili Erdem,Ali Naili Erdem,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,ihsan Gürsan,ihsan Gürsan,39,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Nihat Kürşat,Nihat Kürşat,40,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Şinasd Osuna,Şinasd Osuna,40,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,Mustafa Uyar,Mustafa Uyar,40,False,mm01031116_p039,pdftotext parser
+yes,İZMİR,LeMt Y!u*doğlx,LeMt Y!u*doğlx,40,False,mm01031116_p039,pdftotext parser
+yes,KARS,Hasan Erdoğan,Hasan Erdoğan,40,False,mm01031116_p039,pdftotext parser
+yes,KARS,Kemal Güven,Kemal Güven,40,False,mm01031116_p039,pdftotext parser
+yes,KARS,Kemal Kaya,Kemal Kaya,40,False,mm01031116_p039,pdftotext parser
+yes,KARS,Bahtiyar Vural,Bahtiyar Vural,40,False,mm01031116_p039,pdftotext parser
+yes,KARS,Rıza Yalçın,Rıza Yalçın,40,False,mm01031116_p039,pdftotext parser
+yes,KASTAMONU,Avni Doğan '*' >,Avni Doğan '*' >,40,False,mm01031116_p039,pdftotext parser
+yes,KASTAMONU,Sabri Kesıkın,Sabri Kesıkın,40,False,mm01031116_p039,pdftotext parser
+yes,KASTAMONU,Osman Zeki Oktay,Osman Zeki Oktay,40,False,mm01031116_p039,pdftotext parser
+yes,KASTAMONU,ismail Hakkı Yılanlıoğlu,ismail Hakkı Yılanlıoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,KAYSERİ,Mehmet Göker,Mehmet Göker,40,False,mm01031116_p039,pdftotext parser
+yes,KIRKLARELİ,Abdurrahman Altuğ,Abdurrahman Altuğ,40,False,mm01031116_p039,pdftotext parser
+yes,KIRKLARELİ,Fikret Filiz,Fikret Filiz,40,False,mm01031116_p039,pdftotext parser
+yes,KIRKLARELİ,Hasan Tahsin TTzıın,Hasan Tahsin TTzıın,40,False,mm01031116_p039,pdftotext parser
+yes,KIRŞEHİR,Ahmet Bilgin,Ahmet Bilgin,40,False,mm01031116_p039,pdftotext parser
+yes,KIRŞEHİR,Memduh Erdemir,Memduh Erdemir,40,False,mm01031116_p039,pdftotext parser
+yes,KOCAELİ,Hâldan Kısayol,Hâldan Kısayol,40,False,mm01031116_p039,pdftotext parser
+yes,KONYA,Selçuk Aytan,Selçuk Aytan,40,False,mm01031116_p039,pdftotext parser
+yes,KONYA,Vefa Tanır,Vefa Tanır,40,False,mm01031116_p039,pdftotext parser
+yes,KONYA,Cahit Yılmaz,Cahit Yılmaz,40,False,mm01031116_p039,pdftotext parser
+yes,KONYA,Sait Sına Yücesoy,Sait Sına Yücesoy,40,False,mm01031116_p039,pdftotext parser
+yes,KÜTAHYA,Rauf Kırav,Rauf Kırav,40,False,mm01031116_p039,pdftotext parser
+yes,KÜTAHYA,Sezai Sarpaşar,Sezai Sarpaşar,40,False,mm01031116_p039,pdftotext parser
+yes,MALATYA,Nurettin Akyurt,Nurettin Akyurt,40,False,mm01031116_p039,pdftotext parser
+yes,MALATYA,Mehmet Delikaya,Mehmet Delikaya,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Neriman Ağaoğlu,Neriman Ağaoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Süleyman Çağlar,Süleyman Çağlar,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Nusret Köklü,Nusret Köklü,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Hilmi Okçu,Hilmi Okçu,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Yakup Yakut,Yakup Yakut,40,False,mm01031116_p039,pdftotext parser
+yes,MANİSA,Nahit Yenişehirlioğhı,Nahit Yenişehirlioğhı,40,False,mm01031116_p039,pdftotext parser
+yes,KAHRAMANMARAŞ,Kemali Bayazıt,Kemali Bayazıt,40,False,mm01031116_p039,pdftotext parser
+yes,KAHRAMANMARAŞ,Hasan Fehmi Evliya,Hasan Fehmi Evliya,40,False,mm01031116_p039,pdftotext parser
+yes,MARDİN,Mehmet Ali Arıkan,Mehmet Ali Arıkan,40,False,mm01031116_p039,pdftotext parser
+yes,MARDİN,Esat Kemal Aybar,Esat Kemal Aybar,40,False,mm01031116_p039,pdftotext parser
+yes,MARDİN,Vahap Dizdar oğlu,Vahap Dizdar oğlu,40,False,mm01031116_p039,pdftotext parser
+yes,MARDİN,Seyfi Güneştan,Seyfi Güneştan,40,False,mm01031116_p039,pdftotext parser
+yes,MARDİN,Talât Oğuz,Talât Oğuz,40,False,mm01031116_p039,pdftotext parser
+yes,MUĞLA,ilhan Tekinalp,ilhan Tekinalp,40,False,mm01031116_p039,pdftotext parser
+yes,MUŞ,Sait Mutlu,Sait Mutlu,40,False,mm01031116_p039,pdftotext parser
+yes,NİĞDE,Ruhi Soyer,Ruhi Soyer,40,False,mm01031116_p039,pdftotext parser
+yes,NİĞDE,Oğuzdemir Tüzün,Oğuzdemir Tüzün,40,False,mm01031116_p039,pdftotext parser
+yes,ORDU,Yusuf İzzettin Ağaoğlu,Yusuf İzzettin Ağaoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,ORDU,Refet Aksoy,Refet Aksoy,40,False,mm01031116_p039,pdftotext parser
+yes,ORDU,Ata Bodur,Ata Bodur,40,False,mm01031116_p039,pdftotext parser
+yes,ORDU,Ferda Güley,Ferda Güley,40,False,mm01031116_p039,pdftotext parser
+yes,ORDU,Sadi Pehlivanoğlu,Sadi Pehlivanoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,RİZE,Erol Yılmaz Akçal,Erol Yılmaz Akçal,40,False,mm01031116_p039,pdftotext parser
+yes,RİZE,Arif Hikmet Güner,Arif Hikmet Güner,40,False,mm01031116_p039,pdftotext parser
+yes,SAKARYA,Burhan Akdağ,Burhan Akdağ,40,False,mm01031116_p039,pdftotext parser
+yes,SAKARYA,Nuri Bayar,Nuri Bayar,40,False,mm01031116_p039,pdftotext parser
+yes,SAKARYA,Hami Tezkan,Hami Tezkan,40,False,mm01031116_p039,pdftotext parser
+yes,SAKARYA,Yusuf Ulusoy,Yusuf Ulusoy,40,False,mm01031116_p039,pdftotext parser
+yes,SAMSUN,Mehmet Başaran,Mehmet Başaran,40,False,mm01031116_p039,pdftotext parser
+yes,SAMSUN,Nurettin Ceritoğlu,Nurettin Ceritoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,SAMSUN,Fevzi Ceylân,Fevzi Ceylân,40,False,mm01031116_p039,pdftotext parser
+yes,SAMSUN,Bahri Cömert,Bahri Cömert,40,False,mm01031116_p039,pdftotext parser
+yes,SAMSUN,Hâmit Kiper,Hâmit Kiper,40,False,mm01031116_p039,pdftotext parser
+yes,SİİRT,Adil Yaşa,Adil Yaşa,40,False,mm01031116_p039,pdftotext parser
+yes,SİNOP,Mahmut Alicanoğlu,Mahmut Alicanoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,SİNOP,Mustafa Kaptan,Mustafa Kaptan,40,False,mm01031116_p039,pdftotext parser
+yes,SİNOP,Cemil Karahan,Cemil Karahan,40,False,mm01031116_p039,pdftotext parser
+yes,SİNOP,Haşim Tan,Haşim Tan,40,False,mm01031116_p039,pdftotext parser
+yes,SİVAS,Adil Aitay,Adil Aitay,40,False,mm01031116_p039,pdftotext parser
+yes,SİVAS,Sebati Hastaoğlu,Sebati Hastaoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,SİVAS,Güner Sarısözen,Güner Sarısözen,40,False,mm01031116_p039,pdftotext parser
+yes,SİVAS,Reşat Turhan,Reşat Turhan,40,False,mm01031116_p039,pdftotext parser
+yes,TEKİRDAĞ,Hayri Mumcuoğlu,Hayri Mumcuoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,TOKAT,H. Ali Dizman,H. Ali Dizman,40,False,mm01031116_p039,pdftotext parser
+yes,TOKAT,Mehmet Kazova,Mehmet Kazova,40,False,mm01031116_p039,pdftotext parser
+yes,TOKAT,Zeyyat Kocamemi,Zeyyat Kocamemi,40,False,mm01031116_p039,pdftotext parser
+yes,TOKAT,Reşit önder,Reşit önder,40,False,mm01031116_p039,pdftotext parser
+yes,TOKAT,Bekir Şeyhoğlu,Bekir Şeyhoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,TRABZON,Ahmet Şener,Ahmet Şener,40,False,mm01031116_p039,pdftotext parser
+yes,ŞANLIURFA,Ajtalay Akan,Ajtalay Akan,40,False,mm01031116_p039,pdftotext parser
+yes,ŞANLIURFA,Kemal Badıllı,Kemal Badıllı,40,False,mm01031116_p039,pdftotext parser
+yes,ŞANLIURFA,Bekir Sami KarahanJı,Bekir Sami KarahanJı,40,False,mm01031116_p039,pdftotext parser
+yes,UŞAK,Ali Rıza Akbıyıkoğlu,Ali Rıza Akbıyıkoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,VAN,İhsan Bedirhanoğlu,İhsan Bedirhanoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,VAN,Şülkrü Kösereisoğlu,Şülkrü Kösereisoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,YOZGAT,ismet Kapısız,ismet Kapısız,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Ahmet Fuat Ak,Ahmet Fuat Ak,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Kenan Esengin,Kenan Esengin,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Ramiz Karakaşoğlu,Ramiz Karakaşoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Suphi Konak,Suphi Konak,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Sadık Tekin Müftüoğlu,Sadık Tekin Müftüoğlu,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Mehmet Ali Pestilci,Mehmet Ali Pestilci,40,False,mm01031116_p039,pdftotext parser
+yes,ZONGULDAK,Yusuf Ziya YüceMle-i,Yusuf Ziya YüceMle-i',40,False,mm01031116_p039,pdftotext parser
+no,ANKARA,Burhan Apaydın,Burhan Apaydın,40,True,mm01031116_p039,pdftotext parser
+no,ANKARA,Emin Paksüt,Emin Paksüt,40,True,mm01031116_p039,pdftotext parser
+no,ANKARA,tlyas Seçkin,tlyas Seçkin,40,True,mm01031116_p039,pdftotext parser
+no,ARTVİN,Saffet Eminağaoğlu,Saffet Eminağaoğlu,40,True,mm01031116_p039,pdftotext parser
+no,AYDIN,Orhan Apaydın,Orhan Apaydın,40,True,mm01031116_p039,pdftotext parser
+no,AYDIN,Nedim Müren,Nedim Müren,40,True,mm01031116_p039,pdftotext parser
+no,BOLU,Zeki Balıtacıoğlu,Zeki Balıtacıoğlu,40,True,mm01031116_p039,pdftotext parser
+no,BURDUR,Nadir Yavuzkan,Nadir Yavuzkan,40,True,mm01031116_p039,pdftotext parser
+no,ÇORUM,Hilmi incesulu,Hilmi incesulu,40,True,mm01031116_p039,pdftotext parser
+no,ÇORUM,Faruk Küreli,Faruk Küreli,40,True,mm01031116_p039,pdftotext parser
+no,DİYARBAKIR,Adnan Aral,Adnan Aral,40,True,mm01031116_p039,pdftotext parser
+no,DİYARBAKIR,Hilmi Güldoğan,Hilmi Güldoğan,40,True,mm01031116_p039,pdftotext parser
+no,ERZURUM,Nihat Diler,Nihat Diler,40,True,mm01031116_p039,pdftotext parser
+no,GAZİANTEP,Mithat San,Mithat San,40,True,mm01031116_p039,pdftotext parser
+no,HATAY,Ahmet Sırrı Hocaoğlu,Ahmet Sırrı Hocaoğlu,40,True,mm01031116_p039,pdftotext parser
+no,MERSİN,Sadık Kutlay,Sadık Kutlay,40,True,mm01031116_p039,pdftotext parser
+no,ISPARTA,Lokman Başaran,Lokman Başaran,40,True,mm01031116_p039,pdftotext parser
+no,İSTANBUL,Suphi Bayıkaım,Suphi Bayıkaım,40,True,mm01031116_p039,pdftotext parser
+no,İSTANBUL,Ali Coşku Kırca,Ali Coşku Kırca,40,True,mm01031116_p039,pdftotext parser
+no,İSTANBUL,Reşit Ülkeı,Reşit Ülkeı,40,True,mm01031116_p039,pdftotext parser
+no,İSTANBUL,Zeki Zeren,Zeki Zeren,40,True,mm01031116_p039,pdftotext parser
+no,KARS,Kemal Okyay,Kemal Okyay,40,True,mm01031116_p039,pdftotext parser
+no,KAYSERİ,Turhan Feyzioğlu,Turhan Feyzioğlu,40,True,mm01031116_p039,pdftotext parser
+no,KAYSERİ,Mehmet Sağlam,Mehmet Sağlam,40,True,mm01031116_p039,pdftotext parser
+no,KONYA,Kadirean Kaflı,Kadirean Kaflı,40,True,mm01031116_p039,pdftotext parser
+no,KÜTAHYA,Mehmet Kesen,Mehmet Kesen,40,True,mm01031116_p039,pdftotext parser
+no,KÜTAHYA,Sadrettin Tosbi,Sadrettin Tosbi,40,True,mm01031116_p039,pdftotext parser
+no,MARDİN,Şevki Aysan,Şevki Aysan,40,True,mm01031116_p039,pdftotext parser
+no,NEVŞEHİR,Ramazan Demirsoy,Ramazan Demirsoy,40,True,mm01031116_p039,pdftotext parser
+no,NEVŞEHİR,Süreyya öner,Süreyya öner,40,True,mm01031116_p039,pdftotext parser
+no,SİVAS,Mahmut Vural,Mahmut Vural,40,True,mm01031116_p039,pdftotext parser
+no,TRABZON,Ali Şakir Ağanoğlu,Ali Şakir Ağanoğlu,40,True,mm01031116_p039,pdftotext parser
+no,TRABZON,Ali Rıza Uzuner,Ali Rıza Uzuner,40,True,mm01031116_p039,pdftotext parser
+no,TUNCELİ,Vahap Kışoğlu,Vahap Kışoğlu,40,True,mm01031116_p039,pdftotext parser
+no,ŞANLIURFA,Sabri Kılıç,Sabri Kılıç,40,True,mm01031116_p039,pdftotext parser
+no,UŞAK,Ahmet Tatoknlıç,Ahmet Tatoknlıç,40,True,mm01031116_p039,pdftotext parser
+abstain,ADANA,Ahmet Karamüftüoğlu,Ahmet Karamüftüoğlu,41,False,mm01031116_p039,pdftotext parser
+abstain,ANKARA,ismail Rüştü Aksal,ismail Rüştü Aksal,41,False,mm01031116_p039,pdftotext parser
+abstain,ANKARA,ibrahim tmirzalıoğlıu,ibrahim tmirzalıoğlıu,41,False,mm01031116_p039,pdftotext parser
+abstain,MUĞLA,İ Adnan Akarca,İ Adnan Akarca,41,False,mm01031116_p039,pdftotext parser
+abstain,MUĞLA,j^g,j^g,41,False,mm01031116_p039,pdftotext parser
+abstain,MUĞLA,gam  ztürk,gam () ztürk,41,False,mm01031116_p039,pdftotext parser
+abstain,NİĞDE,Mehmet Altınsoy,Mehmet Altınsoy,41,False,mm01031116_p039,pdftotext parser
+abstain,SİİRT,Cevdet Aydın,Cevdet Aydın,41,False,mm01031116_p039,pdftotext parser
+not_voting,ADANA,Kemal Sarıibrahimoğlu,Kemal Sarıibrahimoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,ADIYAMAN,Arif Aıtalay,Arif Aıtalay,41,False,mm01031116_p039,pdftotext parser
+not_voting,ADIYAMAN,Mahmut Deniz,Mahmut Deniz,41,False,mm01031116_p039,pdftotext parser
+not_voting,ADIYAMAN,Mehmet özbay,Mehmet özbay,41,False,mm01031116_p039,pdftotext parser
+not_voting,ADIYAMAN,Ali Turanlı,Ali Turanlı,41,False,mm01031116_p039,pdftotext parser
+not_voting,AFYON,Halûk Nur Baki,Halûk Nur Baki,41,False,mm01031116_p039,pdftotext parser
+not_voting,AFYON,Veli Başaran,Veli Başaran,41,False,mm01031116_p039,pdftotext parser
+not_voting,AFYON,Hasan Dinçer,Hasan Dinçer,41,False,mm01031116_p039,pdftotext parser
+not_voting,AĞRI,Kerem özcan,Kerem özcan (I.),41,False,mm01031116_p039,pdftotext parser
+not_voting,AMASYA,Mustafa Kemal Karan,Mustafa Kemal Karan,41,False,mm01031116_p039,pdftotext parser
+not_voting,AMASYA,ismail Sarıgöz,ismail Sarıgöz,41,False,mm01031116_p039,pdftotext parser
+not_voting,AMASYA,Nevzat Şener,Nevzat Şener,41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,Rayif Aybar,Rayif Aybar,41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,Onman Bölüfcbaşı,Onman Bölüfcbaşı,41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,Bülent Eeevit,Bülent Eeevit (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,Mustafa Kemal Erkovan,Mustafa Kemal Erkovan,41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,Muhik Ete,Muhik Ete,41,False,mm01031116_p039,pdftotext parser
+not_voting,ANKARA,ibrahim Sıtkı Hatipoğlu,ibrahim Sıtkı Hatipoğlu (I. Ü.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ANTALYA,Hasan Fehımi Boztepe,Hasan Fehımi Boztepe,41,False,mm01031116_p039,pdftotext parser
+not_voting,AYDIN,Hilmi Aydmçer,Hilmi Aydmçer,41,False,mm01031116_p039,pdftotext parser
+not_voting,AYDIN,Mustafa Şükrü Koç,Mustafa Şükrü Koç,41,False,mm01031116_p039,pdftotext parser
+not_voting,AYDIN,Reşat özarda,Reşat özarda,41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Kaya Bulut,Kaya Bulut,41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Mithat Şükrü Çavdaroğlu,Mithat Şükrü Çavdaroğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Fennî Islimyeli,Fennî Islimyeli (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Ahmet ihsan Kırımlı,Ahmet ihsan Kırımlı,41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Süreyya Koç,Süreyya Koç,41,False,mm01031116_p039,pdftotext parser
+not_voting,BALIKESİR,Mehmet Tirito$hı,Mehmet Tirito$hı,41,False,mm01031116_p039,pdftotext parser
+not_voting,BİNGÖL,M. Sıddık Aydar,M. Sıddık Aydar,41,False,mm01031116_p039,pdftotext parser
+not_voting,BİNGÖL,Halit Rıza Ünal,Halit Rıza Ünal,41,False,mm01031116_p039,pdftotext parser
+not_voting,BOLU,Ahmet Çakmak,Ahmet Çakmak,41,False,mm01031116_p039,pdftotext parser
+not_voting,BOLU,Kemal Demir,Kemal Demir (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,BOLU,Fuat Ümit,Fuat Ümit,41,False,mm01031116_p039,pdftotext parser
+not_voting,BURSA,ibrahim öktem,ibrahim öktem (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,BURSA,Cevdet Perin,Cevdet Perin,41,False,mm01031116_p039,pdftotext parser
+not_voting,BURSA,ismail Yılmaz,ismail Yılmaz,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANAKKALE,Ahmet Nihat Akay,Ahmet Nihat Akay,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANAKKALE,Burhan Arat,Burhan Arat (I.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANAKKALE,Refet Sezgin,Refet Sezgin,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANKIRI,Kâzım Arar,Kâzım Arar,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANKIRI,Şaban Keskin,Şaban Keskin,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇANKIRI,Nurettin Ok,Nurettin Ok (Bşk. V.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇORUM,Nuri Ahıskalıoğlu,Nuri Ahıskalıoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇORUM,Muzaffer Dündar,Muzaffer Dündar,41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇORUM,Necmi ökten,Necmi ökten ( t ),41,False,mm01031116_p039,pdftotext parser
+not_voting,ÇORUM,ihsan Tombuş,ihsan Tombuş,41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,Sinan Bosna,Sinan Bosna,41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,Mehmet Çöbanofclu,Mehmet Çöbanofclu,41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,ibrahim Kocatürk,ibrahim Kocatürk,41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,Hüdai Oral,Hüdai Oral (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,Remzi Şenel,Remzi Şenel,41,False,mm01031116_p039,pdftotext parser
+not_voting,DENİZLİ,Atıf Şohoğlu,Atıf Şohoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,DİYARBAKIR,Şehmus Aralan,Şehmus Aralan,41,False,mm01031116_p039,pdftotext parser
+not_voting,DİYARBAKIR,Yusuf Azizoğlu,Yusuf Azizoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,DİYARBAKIR,Reeai îskenderoğlu,Reeai îskenderoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,DİYARBAKIR,Vefik Pirinççioğlu,Vefik Pirinççioğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,DİYARBAKIR,Alp Doğan Şen,Alp Doğan Şen,41,False,mm01031116_p039,pdftotext parser
+not_voting,EDİRNE,Talât Asal,Talât Asal,41,False,mm01031116_p039,pdftotext parser
+not_voting,ELAZIĞ,Nurettin Ardıçoğlu,Nurettin Ardıçoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,ELAZIĞ,Naci Güray,Naci Güray,41,False,mm01031116_p039,pdftotext parser
+not_voting,ELAZIĞ,Hürrem Myftügil,Hürrem Myftügil,41,False,mm01031116_p039,pdftotext parser
+not_voting,ELAZIĞ,Ömer Faruk Sanaç,Ömer Faruk Sanaç,41,False,mm01031116_p039,pdftotext parser
+not_voting,ELAZIĞ,Kemal Satır,Kemal Satır (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ERZİNCAN,Zeynel Gündoğdu,Zeynel Gündoğdu,41,False,mm01031116_p039,pdftotext parser
+not_voting,ERZURUM,Ertuğrul Aikça,Ertuğrul Aikça,41,False,mm01031116_p039,pdftotext parser
+not_voting,ERZURUM,Türkan Bilgin,Türkan Bilgin,41,False,mm01031116_p039,pdftotext parser
+not_voting,ESKİŞEHİR,Oelâlettin Üzer,Oelâlettin Üzer (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,ESKİŞEHİR,Aziz Zeytinoğlu,Aziz Zeytinoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,GAZİANTEP,Osman Orhan Bilend),Osman Orhan Bilen d),41,False,mm01031116_p039,pdftotext parser
+not_voting,GAZİANTEP,Ali ihsan Göğüs,Ali ihsan Göğüs (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,GAZİANTEP,Süleyman Ünlü,Süleyman Ünlü,41,False,mm01031116_p039,pdftotext parser
+not_voting,GİRESUN,Ali Cüceoğlu,Ali Cüceoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,GİRESUN,Mustafa Kemal Çilesiz,Mustafa Kemal Çilesiz,41,False,mm01031116_p039,pdftotext parser
+not_voting,GİRESUN,ibrahim Etem Kılıçoğlı,ibrahim Etem Kılıçoğlı.,41,False,mm01031116_p039,pdftotext parser
+not_voting,GİRESUN,Naim Tirali,Naim Tirali,41,False,mm01031116_p039,pdftotext parser
+not_voting,GÜMÜŞHANE,Halis Bayramoğlu,Halis Bayramoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,HATAY,Ali Muhsin Bereketoğl,Ali Muhsin Bereketoğl.,41,False,mm01031116_p039,pdftotext parser
+not_voting,HATAY,Abdullah Çilli,Abdullah Çilli,41,False,mm01031116_p039,pdftotext parser
+not_voting,HATAY,Saki Zorlu,Saki Zorlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,MERSİN,Mazhar Arıkan,Mazhar Arıkan,41,False,mm01031116_p039,pdftotext parser
+not_voting,MERSİN,Burhan Bozdoğan,Burhan Bozdoğan,41,False,mm01031116_p039,pdftotext parser
+not_voting,MERSİN,ihsan önal,ihsan önal,41,False,mm01031116_p039,pdftotext parser
+not_voting,ISPARTA,Sadettin Billgiç,Sadettin Billgiç,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,ibrahim Abak,ibrahim Abak,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Ziya Altınoğlu,Ziya Altınoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Cihad Baban,Cihad Baban,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Ferruh Bozbeyli,Ferruh Bozbeyli,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Nurettin Bulak,Nurettin Bulak,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Ömer Zekâi Dorman,Ömer Zekâi Dorman,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Fahrettin Kerim Gökay,Fahrettin Kerim Gökay,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Ahmet Oğuz,Ahmet Oğuz,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Oğuz Oran,Oğuz Oran,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Sahabettin Orhon,Sahabettin Orhon,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Vahyi özarar,Vahyi özarar,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,llhami Sancar,llhami Sancar (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Selim Sarper,Selim Sarper,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Hüsamettin Tiyanşan,Hüsamettin Tiyanşan,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Sabri Vardarlı,Sabri Vardarlı,41,False,mm01031116_p039,pdftotext parser
+not_voting,İSTANBUL,Malik Yolaç,Malik Yolaç (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Şükrü Akkan,Şükrü Akkan,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Şeref Bakşık,Şeref Bakşık,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Arif Ertunga,Arif Ertunga,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Ziya Hanhan,Ziya Hanhan,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Saim Kaygan,Saim Kaygan,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Necip Mirkelâmoğlu,Necip Mirkelâmoğlu,41,False,mm01031116_p039,pdftotext parser
+not_voting,İZMİR,Kadri özek,Kadri özek,41,False,mm01031116_p039,pdftotext parser
+not_voting,KARS,Necmettin Akan,Necmettin Akan,41,False,mm01031116_p039,pdftotext parser
+not_voting,KARS,Lâtif Aküzüm,Lâtif Aküzüm,41,False,mm01031116_p039,pdftotext parser
+not_voting,KARS,S i m öktem,S i m öktem,41,False,mm01031116_p039,pdftotext parser
+not_voting,KASTAMONU,Fethi Do$ançay,Fethi Do$ançay,41,False,mm01031116_p039,pdftotext parser
+not_voting,KASTAMONU,İhsan Şeref Dura,İhsan Şeref Dura,41,False,mm01031116_p039,pdftotext parser
+not_voting,KASTAMONU,Ali özdikmenli,Ali özdikmenli,41,False,mm01031116_p039,pdftotext parser
+not_voting,KAYSERİ,Abdülhaliım Araş,Abdülhaliım Araş,41,False,mm01031116_p039,pdftotext parser
+not_voting,KAYSERİ,Hüsamettin Gümüşpala,Hüsamettin Gümüşpala,41,False,mm01031116_p039,pdftotext parser
+not_voting,KAYSERİ,Vedat Âli Özkan,Vedat Âli Özkan,41,False,mm01031116_p039,pdftotext parser
+not_voting,KAYSERİ,Bahri Yazır,Bahri Yazır,41,False,mm01031116_p039,pdftotext parser
+not_voting,KAYSERİ,Metfımet Yüceler,Metfımet Yüceler (B.),41,False,mm01031116_p039,pdftotext parser
+not_voting,KIRKLARELİ,Mehmet Alâeddin Eriş,Mehmet Alâeddin Eriş,41,False,mm01031116_p039,pdftotext parser
+not_voting,KIRŞEHİR,Halil özraen,Halil özraen,42,False,mm01031116_p039,pdftotext parser
+not_voting,KOCAELİ,Sahabettin Bilgisu,Sahabettin Bilgisu,42,False,mm01031116_p039,pdftotext parser
+not_voting,KOCAELİ,Nihat Erim,Nihat Erim,42,False,mm01031116_p039,pdftotext parser
+not_voting,KOCAELİ,Süreyya Sofuoğlu,Süreyya Sofuoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Kemal Ataman,Kemal Ataman,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,trfan Baran,trfan Baran,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Ahmet Gürkaıı,Ahmet Gürkaıı,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,İhsan Kabadayı,İhsan Kabadayı,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Ömer Kart,Ömer Kart,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Mekki Keskin,Mekki Keskin,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Abdüssamet Kuzucu,Abdüssamet Kuzucu,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Rüştü özal,Rüştü özal,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Fakih özfakih,Fakih özfakih,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Fakih özlen,Fakih özlen,42,False,mm01031116_p039,pdftotext parser
+not_voting,KONYA,Faruk Sükan,Faruk Sükan,42,False,mm01031116_p039,pdftotext parser
+not_voting,KÜTAHYA,Ahmet Bozbay,Ahmet Bozbay,42,False,mm01031116_p039,pdftotext parser
+not_voting,KÜTAHYA,Ali Erbek,Ali Erbek,42,False,mm01031116_p039,pdftotext parser
+not_voting,MALATYA,H. Avni Akşit,H. Avni Akşit,42,False,mm01031116_p039,pdftotext parser
+not_voting,MALATYA,Ahmet Fırat,Ahmet Fırat,42,False,mm01031116_p039,pdftotext parser
+not_voting,MALATYA,İsmet İnönü,İsmet İnönü (Başbakan),42,False,mm01031116_p039,pdftotext parser
+not_voting,MALATYA,Halit Ziya Özkan,Halit Ziya Özkan,42,False,mm01031116_p039,pdftotext parser
+not_voting,MANİSA,Muammer Erten,Muammer Erten (B.),42,False,mm01031116_p039,pdftotext parser
+not_voting,MANİSA,Şevket Raşit Hatiboğlu,Şevket Raşit Hatiboğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,MANİSA,Yakup Kadri Karaosmanoğlu,Yakup Kadri Karaosmanoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,MANİSA,Hurrem Kubat,Hurrem Kubat,42,False,mm01031116_p039,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Kemal Bağeıoğlu,Kemal Bağeıoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Ali Hüdayioğiu,Ali Hüdayioğiu,42,False,mm01031116_p039,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Enver Kaplan,Enver Kaplan,42,False,mm01031116_p039,pdftotext parser
+not_voting,KAHRAMANMARAŞ,Adnan Karaküçük,Adnan Karaküçük,42,False,mm01031116_p039,pdftotext parser
+not_voting,MUĞLA,Hilmi Baydur,Hilmi Baydur,42,False,mm01031116_p039,pdftotext parser
+not_voting,MUĞLA,Cevdet Osıkay,Cevdet Osıkay,42,False,mm01031116_p039,pdftotext parser
+not_voting,MUĞLA,Turan Şahin,Turan Şahin (B.),42,False,mm01031116_p039,pdftotext parser
+not_voting,NEVŞEHİR,Halit Fikret Aka,Halit Fikret Aka,42,False,mm01031116_p039,pdftotext parser
+not_voting,NEVŞEHİR,Ali Baran Numanoğlu,Ali Baran Numanoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,NİĞDE,Asım Eren,Asım Eren,42,False,mm01031116_p039,pdftotext parser
+not_voting,NİĞDE,Haydar Özalp,Haydar Özalp,42,False,mm01031116_p039,pdftotext parser
+not_voting,ORDU,Orhan Naiım Hazinedar,Orhan Naiım Hazinedar,42,False,mm01031116_p039,pdftotext parser
+not_voting,ORDU,Arif Hikmet Onat,Arif Hikmet Onat (B.),42,False,mm01031116_p039,pdftotext parser
+not_voting,ORDU,Ata Topaloglu,Ata Topaloglu,42,False,mm01031116_p039,pdftotext parser
+not_voting,RİZE,Fuad Sirmen,Fuad Sirmen (Başkan),42,False,mm01031116_p039,pdftotext parser
+not_voting,RİZE,Cevat Yalçın,Cevat Yalçın,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAKARYA,Ekrem Al i can,Ekrem Al i can,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAKARYA,Muslhîttin Gürer,Muslhîttin Gürer,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,Ali Fuat Alişan,Ali Fuat Alişan,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,Kâmran Evliyaoğlu,Kâmran Evliyaoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,Fevzi Geveci,Fevzi Geveci,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,llyas Kılıç,llyas Kılıç,42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,Hüseyin Özalp,Hüseyin Özalp (1. Ü.),42,False,mm01031116_p039,pdftotext parser
+not_voting,SAMSUN,Osman Şahinoğlu,Osman Şahinoğlu,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİİRT,Hayrettin özgen,Hayrettin özgen,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,Rahmi Çeltekli,Rahmi Çeltekli,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,tbrahim Göker,tbrahim Göker,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,Rahmi Günay,Rahmi Günay,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,Ahmet Kangal,Ahmet Kangal,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,Cevad Odyakmaz,Cevad Odyakmaz,42,False,mm01031116_p039,pdftotext parser
+not_voting,SİVAS,Tahsin Türkay,Tahsin Türkay,42,False,mm01031116_p039,pdftotext parser
+not_voting,TEKİRDAĞ,Turhan Kut,Turhan Kut,42,False,mm01031116_p039,pdftotext parser
+not_voting,TEKİRDAĞ,Fethi Mahramlı,Fethi Mahramlı,42,False,mm01031116_p039,pdftotext parser
+not_voting,TEKİRDAĞ,Orham öztrak,Orham öztrak (B.),42,False,mm01031116_p039,pdftotext parser
+not_voting,TOKAT,Sabahattin Baybura,Sabahattin Baybura,42,False,mm01031116_p039,pdftotext parser
+not_voting,TOKAT,Ali Rıza Ulusoy,Ali Rıza Ulusoy,42,False,mm01031116_p039,pdftotext parser
+not_voting,TRABZON,Ekrem Dikmen,Ekrem Dikmen,42,False,mm01031116_p039,pdftotext parser
+not_voting,TRABZON,Selâhattin Güven,Selâhattin Güven,42,False,mm01031116_p039,pdftotext parser
+not_voting,TRABZON,Nazmi ökten,Nazmi ökten,42,False,mm01031116_p039,pdftotext parser
+not_voting,TRABZON,Kâmuran Ural,Kâmuran Ural,42,False,mm01031116_p039,pdftotext parser
+not_voting,TRABZON,Zeki Yağmurdereli,Zeki Yağmurdereli,42,False,mm01031116_p039,pdftotext parser
+not_voting,TUNCELİ,Fethi Ülkü,Fethi Ülkü,42,False,mm01031116_p039,pdftotext parser
+not_voting,ŞANLIURFA,Osman Ağan,Osman Ağan,42,False,mm01031116_p039,pdftotext parser
+not_voting,ŞANLIURFA,Kadri Eroğan,Kadri Eroğan,42,False,mm01031116_p039,pdftotext parser
+not_voting,ŞANLIURFA,Celâl öncel,Celâl öncel,42,False,mm01031116_p039,pdftotext parser
+not_voting,UŞAK,İbrahim Bulanalp,İbrahim Bulanalp,42,False,mm01031116_p039,pdftotext parser
+not_voting,VAN,Muslih Cörentaş,Muslih Cörentaş,42,False,mm01031116_p039,pdftotext parser
+not_voting,VAN,t Ü.),t Ü.),42,False,mm01031116_p039,pdftotext parser
+not_voting,YOZGAT,İsmail Hakkı Akdoğaı,İsmail Hakkı Akdoğaı,42,False,mm01031116_p039,pdftotext parser
+not_voting,YOZGAT,Mustafa Kepir,Mustafa Kepir,42,False,mm01031116_p039,pdftotext parser
+not_voting,YOZGAT,Turgut Nizamoğlıı,Turgut Nizamoğlıı,42,False,mm01031116_p039,pdftotext parser
+not_voting,YOZGAT,Celâl Sungur,Celâl Sungur,42,False,mm01031116_p039,pdftotext parser
+not_voting,YOZGAT,Veli Uyar,Veli Uyar,42,False,mm01031116_p039,pdftotext parser
+not_voting,ZONGULDAK,Feyzi Fırat,Feyzi Fırat,42,False,mm01031116_p039,pdftotext parser

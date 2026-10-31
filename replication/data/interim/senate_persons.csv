@@ -1,0 +1,494 @@
+senate_person_id,person_name,province,n_votes,elite_row
+S0000,Ekrem Acuner,TABİİ ÜYELER,245,
+S0001,Mucip Ataklı,TABİİ ÜYELER,244,7614.0
+S0002,Emanullah Çelebi,TABİİ ÜYELER,244,
+S0003,Suphi Gürsoytrak,TABİİ ÜYELER,245,
+S0004,Suphi Karaman,TABİİ ÜYELER,245,
+S0005,Kâmil Karavelioğlu,TABİİ ÜYELER,245,
+S0006,Osman Koksal,CUMHURBAŞKANINCA S. Ü.,181,
+S0008,Fikret Kuytak,TABİİ ÜYELER,4,
+S0009,Sezai O'Kan,TABİİ ÜYELER,245,
+S0010,Selâhattin özgür,TABİİ ÜYELER,243,
+S0011,M. Şükran Özkaya,TABİİ ÜYELER,243,
+S0012,Sıtkı Ulay,TABİİ ÜYELER,117,
+S0013,Ahmet Yıldız,TABİİ ÜYELER,242,12019.0
+S0014,Muzaffer Yurdakuler,TABİİ ÜYELER,243,
+S0015,Halil Ağar,ADIYAMAN,138,6365.0
+S0016,Mustafa Yılmaz Inceoğlu,AFYON,112,
+S0017,Celâl Tevfik Karasapan,AFYON,112,
+S0018,Macit Zeren,AMASYA,238,
+S0019,Niyazi Ağırnaslı,ANKARA,112,
+S0020,Osman Alişiroğlu,ANKARA,112,4108.0
+S0021,Hıfzı Oğuz Bekata,ANKARA,215,2397.0
+S0022,Rifat Etker,ANKARA,112,
+S0023,Sabit Kocabeyoğlu,ANKARA,112,
+S0024,İskender Cenap Ege,AYDIN,244,7324.0
+S0025,Osman Saim Sarıgöllü,AYDIN,139,
+S0026,Fikret Turhangil,AYDIN,137,5964.0
+S0027,Enver Aka,BALIKESİR,138,
+S0028,Hamdi Oğuzbeyoğlu,BALIKESİR,85,
+S0029,Kadri öztaş,BALIKESİR,84,
+S0030,Cevdet Geboloğlu,BİTLİS,84,5550.0
+S0031,Sırrı Uzunhasanoğlu,BOLU,138,
+S0032,İhsan Sabri Çağlayangil,BURSA,244,
+S0033,Baki Güzey,BURSA,110,
+S0034,Şeref Kayalar,BURSA,245,
+S0035,Cahit Ortaç,BURSA,218,
+S0036,Âli Aksoy,ÇANAKKALE,84,1276.0
+S0037,Zeki Arsan,ÇORUM,83,
+S0038,Mehmet Emin Durul,DENİZLİ,112,6013.0
+S0039,Tahsin Banguoğlu,EDİRNE,139,2472.0
+S0040,Rasim Giray,ELAZIĞ,112,
+S0041,Celâl Ertuğ,ELAZIĞ,217,6941.0
+S0042,Nurettin Aynuksa,ERZURUM,84,
+S0043,Nihat Pasinli,ERZURUM,84,5576.0
+S0044,Gavsi Uçagök,ESKİŞEHİR,147,
+S0045,Naci Toros,ESKİŞEHİR,16,
+S0046,Zeki İslâm,GAZİANTEP,139,
+S0047,Nizamettin özgül,GAZİANTEP,139,
+S0048,Halit Zarbun,GÜMÜŞHANE,112,3528.0
+S0049,Âdil Türkoğlu,HAKKARİ,22,
+S0050,Vehbi Aksoy,HATAY,84,
+S0051,Cavit Tevfik Okyayuz,MERSİN,139,
+S0052,Talip Özdolay,MERSİN,245,
+S0053,Suat Seren,ISPARTA,83,
+S0054,Şevket Akyürek,İSTANBUL,203,
+S0055,Celil Cevherioğlu,İSTANBUL,84,
+S0056,Ethem Menemencioğlu,İSTANBUL,84,
+S0057,Rifat Öztürkçine,İSTANBUL,203,
+S0058,Özel Şahingiray,İSTANBUL,84,
+S0059,Sabahattin Tanman,İSTANBUL,84,
+S0060,İzzet Birand,İZMİR,135,
+S0061,Ömer Lûtfi Bozcalı,İZMİR,139,
+S0062,Enis Kansu,İZMİR,138,
+S0063,Cahit Okurer,İZMİR,140,
+S0064,Sırrı Atalay,KARS,244,3565.0
+S0065,Mehmet Hazer,KARS,202,4075.0
+S0066,Mehmet Çamlıca,KASTAMONU,230,
+S0067,Ahmet Nusret Tuna,KASTAMONU,230,
+S0068,Hüsnü Dikeçligil,KAYSERİ,218,
+S0069,Hüseyin Kalpaklıoğlu,KAYSERİ,215,
+S0070,Ahmet Naci Arı,KIRKLARELİ,139,
+S0071,Lûtfi Tokoğlu,KOCAELİ,243,3601.0
+S0073,Mustafa Dinekli,KONYA,139,7897.0
+S0074,Muhittin Kılıç,KONYA,138,
+S0075,Muammer Obuz,KONYA,139,3617.0
+S0076,Osman Cevdet Erkut,KÜTAHYA,84,
+S0077,Emin Açar,MANİSA,138,6447.0
+S0078,Ferit Alpiskender,MANİSA,139,3478.0
+S0079,Orhan Süersan,MANİSA,230,
+S0080,Refik Ulusoy,MANİSA,138,
+S0081,Cenap Aksu,KAHRAMANMARAŞ,139,3109.0
+S0082,Nedim Evliya,KAHRAMANMARAŞ,107,
+S0083,Kemal Oral,MARDİN,84,
+S0084,Abdülkerim Saraçoğlu,MARDİN,202,
+S0085,Muallâ Akarca,MUĞLA,112,6172.0
+S0086,Haldun Menteşeoğlu,MUĞLA,243,
+S0087,İhsan Akpolat,MUŞ,84,
+S0088,Kudret Bayhan,NİĞDE,210,
+S0089,İzzet Gener,NİĞDE,112,
+S0090,Eşref Ayhan,ORDU,139,4776.0
+S0091,Şevket Koksal,ORDU,230,4781.0
+S0094,Turhan Kapanlı,ANKARA,245,
+S0095,Kâzım Yurdakul,SAKARYA,111,
+S0096,Cemalettin Bulak,SAMSUN,84,
+S0097,Fethi Tevetoğlu,SAMSUN,202,
+S0098,Cahit Tokgöz,SAMSUN,84,
+S0099,Suphi Batur,SİNOP,141,3219.0
+S0103,Osman Hacıbaloğlu,TOKAT,83,4268.0
+S0104,Yusuf Demirdağ,TRABZON,111,
+S0105,Mehmet Ali Demir,TUNCELİ,110,1970.0
+S0106,Kâmil Coşkunoğlu,UŞAK,111,3151.0
+S0107,Sadık Artukmaç,YOZGAT,203,
+S0108,Neşet Çetintaş,YOZGAT,84,
+S0109,Tarık Remzi Baltan,ZONGULDAK,230,
+S0110,Tevfik İnci,ZONGULDAK,137,
+S0111,Cevat Açıkalm,CUMHURBAŞKANINCA S. Ü.,139,
+S0112,Enver Akoğlu,CUMHURBAŞKANINCA S. Ü.,3,
+S0113,Âmil Artus,CUMHURBAŞKANINCA S. Ü.,138,
+S0114,Ömer Ergün,CUMHURBAŞKANINCA S. Ü.,142,
+S0115,Kâzım Orbay,CUMHURBAŞKANINCA S. Ü.,84,
+S0116,Ragıp Üner,CUMHURBAŞKANINCA S. Ü.,197,6634.0
+S0117,Necati özdeniz,CUMHURBAŞKANINCA S. Ü.,111,
+S0118,Nevzat Sengel,CUMHURBAŞKANINCA S. Ü.,84,
+S0119,Burhanettin Uluç,CUMHURBAŞKANINCA S. Ü.,74,
+S0120,Âdil Ünlü,CUMHURBAŞKANINCA S. Ü.,181,
+S0121,Azmi Erdoğan,DİYARBAKIR,217,
+S0122,Lâtif Aykut,SİİRT,83,
+S0123,Refet Aksoyoğlu,TABİİ ÜYELER,245,
+S0124,Vehbi Ersü,TABİİ ÜYELER,245,
+S0125,Kadri Kaplan,TABİİ ÜYELER,245,
+S0126,Fahri Özdilek,TABİİ ÜYELER,245,
+S0127,Mehmet özgüneş,TABİİ ÜYELER,244,
+S0128,Haydar Tunçkanat,TABİİ ÜYELER,245,
+S0129,M. Nuri Âdemoğlu,ADANA,244,
+S0130,Galip Avşar,ADANA,111,
+S0131,Mehmet Ünaldı,ADANA,240,3859.0
+S0132,Sakıp önal,ADANA,112,
+S0133,Rasim Hancıoğlu,AFYON,108,6374.0
+S0134,Veysi Yardımcı,AĞRI,84,
+S0135,İbrahim Saffet Omay,ANKARA,112,4434.0
+S0136,Mansur Ulusoy,ANKARA,201,
+S0137,Mehmet îlkuçan,ANTALYA,83,
+S0138,Mustafa özer,ANTALYA,84,4705.0
+S0139,Fehmi Alpaslan,ARTVİN,198,
+S0140,Hasan Ali Türker,BALIKESİR,124,
+S0141,Talât Oran,BİLECİK,138,3463.0
+S0142,Sabri Topçuoğlu,BİNGÖL,112,
+S0143,Rahmi Arıkan,BOLU,139,
+S0144,Hüseyin Otan,BURDUR,84,
+S0145,Halit Sarıkaya,ÇANAKKALE,84,
+S0146,Hazım Dağlı,ÇANKIRI,139,6287.0
+S0147,Alâeddin Çetin,ÇORUM,139,
+S0148,Cahit Akyar,DENİZLİ,112,
+S0149,İhsan Hamit Tigrel,DİYARBAKIR,112,2985.0
+S0150,Fehmi Baysoy,ERZİNCAN,201,
+S0151,Rahmi Sanalan,ERZURUM,83,
+S0152,Mehmet İzmen,GİRESUN,181,
+S0153,Sabahattin Orhon,GİRESUN,218,
+S0154,Sabahattin Adalı,HATAY,85,5620.0
+S0155,Fethi Başak,İSTANBUL,83,
+S0156,Nurullah Esat Sümer,İSTANBUL,84,1943.0
+S0157,Berç Turan,İSTANBUL,84,
+S0158,Hilmi Onat,İZMİR,139,
+S0159,Nevzat özerdendi,İZMİR,138,
+S0160,Turgut Göle,KARS,84,4077.0
+S0161,Suad Hayri Ürgüplü,KAYSERİ,191,2112.0
+S0162,Ali Rıza Ulusman,KIRŞEHİR,137,
+S0163,Rifat özdeş,KOCAELİ,108,3595.0
+S0164,Ahmet Onar,KONYA,138,
+S0165,A. Bahattin Özbek,KÜTAHYA,89,
+S0166,Mehmet Zeki Tulunay,MALATYA,139,4150.0
+S0167,Nüvit Yetkin,MALATYA,139,4154.0
+S0169,Zeki Kumrulu,ORDU,138,4775.0
+S0170,Rifat Öçten,SİVAS,158,3728.0
+S0171,Selâmi Üren,TEKİRDAĞ,90,
+S0172,Cemal Tarlan,TEKİRDAĞ,216,
+S0173,Zihni Betil,TOKAT,239,3745.0
+S0174,Şevket Buladoğlu,TRABZON,112,
+S0175,Reşat Zaloğlu,TRABZON,217,
+S0176,Vasfi Gerger,ŞANLIURFA,112,3354.0
+S0177,Esat Mahmut Karakurt,ŞANLIURFA,112,4990.0
+S0178,Faruk Işık,VAN,83,11101.0
+S0179,Akif Eyidoğan,ZONGULDAK,139,3061.0
+S0180,Hidayet Aydmer,CUMHURBAŞKANINCA S. Ü.,166,
+S0181,Esat Çağa,CUMHURBAŞKANINCA S. Ü.,84,
+S0182,Hasan Kangal,CUMHURBAŞKANINCA S. Ü.,138,4269.0
+S0183,Enver Kök,CUMHURBAŞKANINCA S. Ü.,186,3222.0
+S0184,Sahir Kurutluoğlu,CUMHURBAŞKANINCA S. Ü.,112,3097.0
+S0185,Sedat Çumralı,KONYA,204,2623.0
+S0186,Sami Küçük,TABİİ ÜYELER,244,
+S0191,Şevki Atasağun,NEVŞEHİR,225,
+S0197,Ahmet Çekemoğlu,SİVAS,139,
+S0198,Sadi Koçaş,CUMHURBAŞKANINCA S. Ü.,147,6124.0
+S0201,Ziya önder,SİVAS,139,
+S0208,Ragıp Üııer,CUMHURBAŞKANINCA S. Ü.,6,
+S0218,Necip Danışoğlu,RİZE,84,
+S0234,Hulusi Söylemezoğlu,SİVAS,138,
+S0271,E. Süleyman Ergin,YOZGAT,38,
+S0282,Muhittin Taylan,SİVAS,16,
+S0285,Hasan Atakan,CUMHURBAŞKANINCA S. Ü.,36,
+S0293,Salih Türkmen,AĞRI,117,
+S0294,Mehmet Pırıltı,ANTALYA,119,
+S0295,Nejat Sarlıcalı,BALIKESİR,159,
+S0296,Sakıp Hatunoğlu,ERZURUM,156,
+S0297,Necip Seyhan,HAKKARİ,119,
+S0298,M. Enver Bahadırlı,HATAY,119,
+S0299,Mebrure Aksoley,İSTANBUL,118,2392.0
+S0300,Fikret Gündoğan,İSTANBUL,156,
+S0301,Ekrem Özden,İSTANBUL,119,
+S0302,Cemal Yıldırım,İSTANBUL,118,
+S0303,H. Enver Işıklar,SAMSUN,118,
+S0304,Rıza Isıtan,SAMSUN,119,3217.0
+S0305,Abdurrahman Kavak,SİİRT,119,
+S0306,Ferid Melen,VAN,156,3764.0
+S0307,Muzaffer Alankuş,CUMHURBAŞKANINCA S. Ü.,28,
+S0308,Zerin Tüzün,CUMHURBAŞKANINCA S. Ü.,97,
+S0310,Osman Alihocagil,ERZURUM,119,4571.0
+S0312,Ömer Ucuzal,ESKİŞEHİR,161,
+S0313,Ş. Sami Kırdar,İSTANBUL,11,
+S0314,A. Orhan Akça,KÜTAHYA,119,
+S0315,Etem Erdinç,KÜTAHYA,118,4245.0
+S0316,İsa Hisan Bingöl,MUŞ,119,
+S0317,Refet Rendeci,SAMSUN,155,
+S0318,Akif Tekin,ANTALYA,118,
+S0319,Ahmet özdemir,ARTVİN,4,1216.0
+S0320,Mehmet Güler,BALIKESİR,118,10022.0
+S0321,Ziya Nami Şerefhanoğlu,BİTLİS,39,
+S0323,Ziya Termen,ÇANAKKALE,119,3571.0
+S0324,Safa Yalçuk,ÇORUM,161,
+S0325,Mustafa Deliveli,HATAY,161,
+S0327,Erdoğan Adalı,İSTANBUL,161,
+S0328,Tekin Arıburun,İSTANBUL,156,
+S0329,O. Zeki Gümüşoğlu,İSTANBUL,119,
+S0330,Y. Ziya Ayrım,KARS,156,
+S0331,Abdurrahman Bayar,MARDİN,119,3658.0
+S0332,O. Mecdi Agun,RİZE,112,
+S0333,Ali Altuntaş,TOKAT,119,
+S0334,İsmail Yeşilyurt,YOZGAT,119,
+S0335,Nadir Nadi,CUMHURBAŞKANINCA S. Ü.,74,3675.0
+S0336,Nahit Altan,ÇANAKKALE,119,
+S0337,Edip Somunoğlu,ERZURUM,117,
+S0338,Mustafa Gülcügil,ISPARTA,161,3473.0
+S0339,Ö. Faruk Kmaytürk,BURDUR,119,
+S0341,"T Ilı ""İ,İ",KÜTAHYA,4,
+S0370,Genel Müdürlüğü,CUMHURBAŞKANINCA S. Ü.,3,
+S0390,M. Kâzım Karaağaçlıoğlu,AFYON,133,
+S0391,Kemal Şenocak,AFYON,105,
+S0392,Turgut Cebe,ANKARA,106,
+S0393,Yiğit Köker,ANKARA,133,
+S0394,İsmail Yetiş,ANKARA,105,
+S0395,A. Hikmet Yurtsever,BİNGÖL,106,
+S0396,Ali Kemal Turgut,DENİZLİ,106,
+S0397,Selâhattin Cizrelioğlu,DİYARBAKIR,133,
+S0398,Abbas Cilâra,GÜMÜŞHANE,106,
+S0399,Halûk Berkol,İSTANBUL,90,
+S0400,Ahmet Tevfik Paksu,KAHRAMANMARAŞ,27,6537.0
+S0401,İlyas Karaöz,MUĞLA,106,
+S0402,Hüseyin Avni Göktürk,NİĞDE,106,4203.0
+S0403,Hayri Mumcuoğlu,TEKİRDAĞ,133,5332.0
+S0404,Ali Şakir Ağanoğlu,TRABZON,106,5349.0
+S0405,Mehmet Faik Atayurt,UŞAK,106,
+S0406,Saffet Ural,BURSA,106,6912.0
+S0407,Salim Hazerdağlı,ELAZIĞ,105,
+S0408,İhsan Topaloğlu,GİRESUN,106,
+S0409,Hikmet İsmen,KOCAELİ,106,
+S0410,Cemal Madanoğlu,CUMHURBAŞKANINCA S. Ü.,82,
+S0412,M. Yılmaz Mete,ADANA,105,
+S0413,Mukadder Öztekin,ADANA,105,
+S0414,Ahmet Karayiğit,AFYON,132,
+S0415,Mahmut Vural,ANKARA,105,5321.0
+S0416,Hüseyin Atmaca,DENİZLİ,133,
+S0417,Sami Turan,KAYSERİ,133,
+S0418,Osman Salihoğlu,SAKARYA,133,
+S0419,Mustafa Tığlı,SAKARYA,106,
+S0420,Ö. Lûtfi Hocaoğlu,TRABZON,106,
+S0421,Arslan Bora,TUNCELİ,91,4283.0
+S0422,Etem Karakapıcı,ŞANLIURFA,86,4988.0
+S0423,Hasan Oral,ŞANLIURFA,132,3356.0
+S0425,Lûtfi Akadlı,CUMHURBAŞKANINCA S. Ü.,79,
+S0427,Devlet Su İşleri Genel,CUMHURBAŞKANINCA S. Ü.,4,
+S0429,O Mecdi Ağım,RİZE,7,
+S0449,İ. Şevki Atasağım,NEVŞEHİR,3,
+S0458,Ali Celâlettin Coşkun,AYDIN,86,9038.0
+S0459,Nuri Demirel,BALIKESİR,64,
+S0460,Cemalettin İnkaya,BALIKESİR,79,6892.0
+S0461,Orhan Kürümoğlu,BİTLİS,64,
+S0462,Turgut Yaşar Gülez,BOLU,91,7342.0
+S0463,Alâeddin Yılmaztürk,BOLU,91,
+S0464,M. Şevket özçetin,ÇORUM,91,
+S0465,Mehmet Nafiz Ergeneli,EDİRNE,90,
+S0466,Salih Tanyeri,GAZİANTEP,91,
+S0467,Beliğ Beler,İZMİR,91,
+S0468,Mustafa Bozoklar,İZMİR,91,
+S0469,Mümin Kırlı,İZMİR,90,
+S0470,Orhan Kor,İZMİR,91,
+S0471,Ali Alkan,KIRKLARELİ,89,
+S0472,Fakih Özlen,KONYA,91,5225.0
+S0473,Selâhattin Acar,ORDU,91,6879.0
+S0474,Nâzım İnebeyli,SİNOP,87,
+S0475,Nurettin Ertürk,SİVAS,91,3718.0
+S0476,Hüseyin Öztürk,SİVAS,106,
+S0477,Ahmet Demir Yüce,ZONGULDAK,106,
+S0478,Vehap Güvenç,CUMHURBAŞKANINCA S. Ü.,70,
+S0479,Mehmet Sırrı Turanlı,ADIYAMAN,91,4410.0
+S0480,Halil Goral,AYDIN,91,7321.0
+S0481,Mehmet Orhan Tuğrul,BİLECİK,91,5095.0
+S0482,Gürhan Titrek,ÇANKIRI,104,
+S0483,İbrahim Tevfik Kutlar,GAZİANTEP,91,
+S0484,Lûtfi Bilgen,MERSİN,91,
+S0485,Nazif Çağatay,İZMİR,86,
+S0486,Necip Mirkelâmoğlu,İZMİR,90,5426.0
+S0488,Halil Özmen,KIRŞEHİR,91,5207.0
+S0489,Fevzi Halıcı,KONYA,91,
+S0490,Osman Nuri Canpolat,KONYA,106,
+S0491,Mehmet Varışlı,KONYA,91,
+S0492,Nurettin Akyurt,MALATYA,91,4715.0
+S0493,Hamdi özer,MALATYA,106,
+S0494,Doğan Barutçuoğlu,MANİSA,91,
+S0495,Oral Karaosmanoğlu,MANİSA,106,
+S0496,Ruhi Tunakan,MANİSA,99,
+S0497,Adnan Karaküçük,KAHRAMANMARAŞ,106,5175.0
+S0498,Hilmi Soydan,KAHRAMANMARAŞ,91,4629.0
+S0499,Bekir Sıtkı Baykal,ORDU,91,4207.0
+S0500,Âdil Altay,SİVAS,91,5326.0
+S0501,Mehmet Ali Pestilci,ZONGULDAK,106,5370.0
+S0502,Hayri Dener,CUMHURBAŞKANINCA S. Ü.,70,
+S0503,Fahri Korutürk,CUMHURBAŞKANINCA S. Ü.,63,
+S0504,Tayfur Sökmen,CUMHURBAŞKANINCA S. Ü.,70,1491.0
+S0510,değişiklik yapılması,CUMHURBAŞKANINCA S. Ü.,3,
+S0515,Kasım Gülek,CUMHURBAŞKANINCA S. Ü.,29,2001.0
+S0519,Feridun Cemal Erkin,CUMHURBAŞKANINCA S. Ü.,18,5742.0
+S0527,Nazım İn ebeyi isrvAS,SİNOP,4,
+S0529,Sait Naci Ergin,CUMHURBAŞKANINCA S. Ü.,49,
+S0533,Selâhattin Babüroğlu,CUMHURBAŞKANINCA S. Ü.,48,
+S0534,Özer Derbil,CUMHURBAŞKANINCA S. Ü.,49,
+S0538,Nihat Erim,CUMHURBAŞKANINCA S. Ü.,42,2595.0
+S0546,Cihat Alpan,CUMHURBAŞKANINCA S. Ü.,39,
+S0547,Fethi Çelikbaş,CUMHURBAŞKANINCA S. Ü.,39,3445.0
+S0548,Naim Talû,CUMHURBAŞKANINCA S. Ü.,27,
+S0549,Halil Tunç,CUMHURBAŞKANINCA S. Ü.,49,
+S0551,İsmet İnönü,TABİİ ÜYELER,6,1715.0
+S0552,Sabahattin Özbek,CUMHURBAŞKANINCA S. Ü.,34,
+S0556,Cevdet Sunay,TABİİ ÜYELER,43,
+S0557,Faruk Gürler,CUMHURBAŞKANINCA S. Ü.,7,
+S0558,Kasım Küfrevi,AĞRI,42,3422.0
+S0559,Şerafettin Paker,ANTALYA,42,
+S0560,Recai Kocaman,ARTVİN,37,
+S0561,Raif Eriş,BALIKESİR,37,
+S0562,Ekrem Kabay,BURDUR,37,
+S0563,İmadettin Elmas,ÇANAKKALE,42,
+S0564,İsmail Kutluk,ÇANAKKALE,37,
+S0565,Niyazi Unsal,ERZİNCAN,37,
+S0566,Lûtfi Doğan,ERZURUM,42,7053.0
+S0567,Hilmi Nalbantoğlu,ERZURUM,37,7391.0
+S0568,Naci Cidal,HAKKARİ,37,
+S0569,Kemal Kılıçoğlu,HATAY,37,
+S0570,Solmaz Belül,İSTANBUL,37,
+S0571,Rahmi Erdem,İSTANBUL,42,
+S0572,Fevzi Hakkı Esatoğlu,İSTANBUL,37,
+S0573,Mehmet Feyyat,İSTANBUL,36,
+S0574,Ali Oğuz,İSTANBUL,42,8512.0
+S0575,Muzaffer Şamiloğlu,KARS,37,5631.0
+S0576,Mehmet Ali Arıkan,MARDİN,37,4737.0
+S0577,Sait Mehmetoğlu,MARDİN,37,
+S0578,Talât Doğan,RİZE,37,
+S0579,Bahri Cömert,SAMSUN,37,5306.0
+S0580,Fevzi Geveci,SAMSUN,7,5311.0
+S0581,Ziya Gökalp Mülayim,SAMSUN,37,
+S0582,Süreyya Öner,SİİRT,37,5329.0
+S0583,Kâzım Kangal,SİVAS,27,5770.0
+S0584,Cevdet Aykan,TOKAT,37,5793.0
+S0585,İbrahim Halil Balkıs,ŞANLIURFA,15,5901.0
+S0586,Veli Uyar,YOZGAT,37,5359.0
+S0587,Reşat Oğuz,ANTALYA,37,
+S0588,Hikmet Aslanoğlu,BALIKESİR,37,
+S0589,Kâmran İnan,BİTLİS,36,7364.0
+S0590,Hasan Ergeçen,ESKİŞEHİR,15,
+S0592,Ahmet Vefa Poyraz,İSTANBUL,42,
+S0594,Osman Albayrak,KÜTAHYA,37,
+S0595,Ahmet Özmumcu,KÜTAHYA,37,
+S0596,İsmail İlhan,MUŞ,42,
+S0606,Zeyyat Baykara,CUMHURBAŞKANINCA S. Ü.,35,
+S0607,Hüsamettin Çelebi,CUMHURBAŞKANINCA S. Ü.,35,
+S0608,Ecvet Güresin,CUMHURBAŞKANINCA S. Ü.,7,
+S0609,Sadi Irmak,CUMHURBAŞKANINCA S. Ü.,35,2617.0
+S0610,Muhsin Batur,CUMHURBAŞKANINCA S. Ü.,33,
+S0616,Mehmet Atıf Benderlioğlu,ANKARA,27,3883.0
+S0617,İ. Sıtkı Yırcalı,BALIKESİR,27,3430.0
+S0618,Baha Akşit,DENİZLİ,27,3470.0
+S0619,Sabahattin Savcı,DİYARBAKIR,27,6021.0
+S0620,Hayrettin Erkmen,GİRESUN,27,3534.0
+S0621,Şaban Demirdağ,SAMSUN,27,
+S0622,Ahmet İhsan Birincioğlu,TRABZON,26,5796.0
+S0623,Ahmet Cemil Kara,TRABZON,27,5343.0
+S0624,Şerif Tüten,CUMHURBAŞKANINCA S. Ü.,25,
+S0625,Cengizhan Yorulmaz,ANKARA,27,5941.0
+S0626,Abdullah Köseoğlu,KOCAELİ,27,
+S0627,Hasan Fehmi Güneş,SAKARYA,27,8094.0
+S0628,Hasan Güven,TRABZON,26,1102.0
+S0629,Ahmet Tahtakılıç,UŞAK,27,3130.0
+S0630,Hayri Öner,ADANA,27,
+S0631,Kemal Sarıibrahimoğlu,ADANA,26,4406.0
+S0632,Mustafa Çelik,AFYON,27,
+S0633,Uğur Alacakaptan,ANKARA,27,
+S0634,Ergün Ertem,ANKARA,26,
+S0635,İbrahim Öztürk,ANKARA,27,6085.0
+S0636,Mehmet Bilgin,BİNGÖL,27,3839.0
+S0637,Şebib Karamullaoğlu,BURSA,27,
+S0638,Barlas Küntay,BURSA,26,5536.0
+S0639,M. Cahit Dalokay,ELAZIĞ,27,
+S0640,Hasan İldan,ELAZIĞ,27,
+S0641,Hikmet Savaş,ESKİŞEHİR,27,
+S0642,Ali Cüceoğlu,GİRESUN,27,5158.0
+S0643,Ömer Naci Bozkurt,GÜMÜŞHANE,27,
+S0644,Besim Üstünel,İSTANBUL,27,
+S0645,İbrahim Kirazoğlu,KAYSERİ,27,3578.0
+S0646,Ziya Müezzinoğlu,KAYSERİ,27,
+S0647,Erdoğan Bakkalbaşı,KONYA,27,
+S0648,Fevzi Özer,MUĞLA,27,
+S0649,Abdullah Emre İleri,NİĞDE,27,
+S0650,Ergun Özkan,NİĞDE,26,8922.0
+S0651,Orhan Öztrak,TEKİRDAĞ,27,5333.0
+S0652,Naim Taşan,TUNCELİ,27,
+S0653,Abdulgani Demirkol,ŞANLIURFA,27,
+S0658,Adile Ayda,CUMHURBAŞKANINCA S. Ü.,10,
+S0663,Sadettin Demirayak,AYDIN,15,
+S0664,Süleyman Sırrı Ergun,EDİRNE,15,
+S0665,Selâhattin Çolakoğlu,GAZİANTEP,15,
+S0666,İsmail Çataloğlu,MERSİN,15,5718.0
+S0667,Şeref Bakşık,İZMİR,15,5431.0
+S0668,Kâmran Erkmenoğlu,İZMİR,15,
+S0669,E. Akıp Aksaç,KIRŞEHİR,15,
+S0670,Mukbil Abay,KONYA,15,
+S0671,Mustafa Fahri Dayı,MANİSA,15,
+S0672,Mehmet Tevfik Elmasyazar,MANİSA,15,
+S0673,İdris Gürsoy,ORDU,15,
+S0674,Orhan Vural,ORDU,15,6189.0
+S0675,Abdullah Vehbi Uğur,SİNOP,15,
+S0676,Temel Kitapçı,SİVAS,15,
+S0677,Behiç Sonbay,ZONGULDAK,15,
+S0678,A. Metin Taş,AYDIN,15,
+S0679,Orhan Ataullah Çalış,BOLU,15,
+S0680,Mehmet Kılıç,GAZİANTEP,15,5440.0
+S0681,Mehmet Münir Daldal,İZMİR,15,1926.0
+S0682,Akın Özdemir,İZMİR,15,6332.0
+S0683,Süleyman Tuncel,İZMİR,15,6607.0
+S0684,Ali Münif İslâmoğlu,KASTAMONU,15,4651.0
+S0685,Muzaffer Demirtaş,KONYA,15,6587.0
+S0686,Ata Bodur,ORDU,14,5285.0
+S0688,Yusuf Çetin,ADIYAMAN,15,
+S0689,Mehmet Erdem,BİLECİK,15,3098.0
+S0690,Neş'et Akmandor,BOLU,15,
+S0691,Abdullah Ercan,ÇORUM,15,
+S0693,Nurhan Artemiz,İZMİR,15,
+S0694,Rıza Akgün,KAHRAMANMARAŞ,15,
+S0695,Mehmet Seydibeyoğlu,KASTAMONU,15,6097.0
+S0696,Beyti Arda,KIRKLARELİ,15,6109.0
+S0697,Ahmet Remzi Hatip,KONYA,15,8358.0
+S0698,Süleyman Efe,MALATYA,15,
+S0699,Kemal Cantürk,CUMHURBAŞKANINCA S. Ü.,14,
+S0700,H. Nail Kübalı,CUMHURBAŞKANINCA S. Ü.,14,
+S0701,Safa Reisoğlu,CUMHURBAŞKANINCA S. Ü.,15,
+S0702,N. Kemal Şentürk,CUMHURBAŞKANINCA S. Ü.,15,
+S0703,Metin Toker,CUMHURBAŞKANINCA S. Ü.,14,
+S0712,Tahsin Türkay,SİVAS,14,5316.0
+S0716,Fahri Çöker,CUMHURBAŞKANINCA S. Ü.,10,
+S0717,Hilmi Fırat,CUMHURBAŞKANINCA S. Ü.,10,
+S0718,Adnan Başer Kafaoğlu,CUMHURBAŞKANINCA S. Ü.,10,
+S0724,Nermin Abadan Unat,CUMHURBAŞKANINCA S. Ü.,10,
+S0729,Rasim Gezmiş,ARTVİN,5,
+S0730,Mithad Şükrü Çavdaroğlu,BALIKESİR,5,5067.0
+S0731,Cemal Örgen,BALIKESİR,5,
+S0732,Mehmet Sedat Özcaın,BİTLİS,5,
+S0733,Faik Kmbaşh,BURDUR,5,
+S0735,Orhan Özen,ERZİNCAN,5,
+S0736,Sdlahattin Deniz,ERZURUM,5,
+S0737,Naci Gacıroğlu,ERZURUM,5,6036.0
+S0738,Abdulhaluk Özdinç,HAKKARİ,5,
+S0739,(M. Sıtk» Sadolk Batum,İSTANBUL,5,
+S0740,Orhan Cemal Fersoy,İSTANBUL,5,6314.0
+S0741,Emim Uyansoy,İSTANBUL,5,
+S0742,Halim Dursunoğhı,KARS,5,
+S0743,Mehmet Emin Alanyalı,KÜTAHYA,5,
+S0744,Erol Yavuz,MANİSA,5,
+S0745,İsmet Moharremoğlu,MARDİN,5,
+S0746,Şükrü Meto,RİZE,5,
+S0747,Celal Arslan,SAMSUN,4,
+S0748,Doğan Kitaplı,SAMSUN,5,6215.0
+S0749,Osman Çetin,TOKAT,5,
+S0750,Fevzi Kartal,VAN,5,
+S0751,Ünal Allıoğlu,YOZGAT,5,
+S0752,Nevzat Şener,AMASYA,5,5018.0
+S0754,Remzi Yılmaz,ANTALYA,5,6407.0
+S0755,Refet Sezgin,ÇANAKKALE,5,5378.0
+S0756,Mehmet Sönmez,HATAY,5,6045.0
+S0757,Aysel Baykal,İSTANBUL,5,
+S0758,Mehmet Emin Sungur,İSTANBUL,5,6747.0
+S0759,Halis Soylu,KARS,5,7437.0
+S0760,Fevzi Ergün,KÜTAHYA,5,
+S0761,Cemil Çeçan,MARDİN,5,
+S0762,Muharrem Bartın,SAMSUN,5,
+S0764,Metin Somuncu,TOKAT,5,
+S0765,Servet Bora,YOZGAT,5,
+S0767,İdris An kan,SİİRT,5,

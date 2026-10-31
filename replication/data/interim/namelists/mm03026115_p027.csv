@@ -1,0 +1,47 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+yes,ADANA,Turgut Topaloğlu,Turgut Topaloğlu,27,False,mm03026115_p027,pdftotext parser
+yes,AFYON,Mehmet Rıza Çerçel,Mehmet Rıza Çerçel,27,False,mm03026115_p027,pdftotext parser
+yes,AFYON,Ali ihsan Ulubahşi,Ali ihsan Ulubahşi,27,False,mm03026115_p027,pdftotext parser
+yes,AFYON,Kâzım Uysal,Kâzım Uysal,27,False,mm03026115_p027,pdftotext parser
+yes,BALIKESİR,MevKit Yıknaz,MevKit Yıknaz,27,False,mm03026115_p027,pdftotext parser
+yes,BİTLİS,Mbi'cfön inan Gayda.^,Mbi'cfön inan Gayda.^,27,False,mm03026115_p027,pdftotext parser
+yes,BURSA,Ahmet Türkel,Ahmet Türkel,27,False,mm03026115_p027,pdftotext parser
+yes,ÇANAKKALE,Kemal Bağcıoğlu,Kemal Bağcıoğlu,27,False,mm03026115_p027,pdftotext parser
+yes,HAKKARİ,Ahmet Zeydan,Ahmet Zeydan,27,False,mm03026115_p027,pdftotext parser
+yes,İSTANBUL,ismail Hakkı Tekine!,ismail Hakkı Tekine!,27,False,mm03026115_p027,pdftotext parser
+yes,KARS,ismail Hakkı Alaca,ismail Hakkı Alaca,27,False,mm03026115_p027,pdftotext parser
+yes,KASTAMONU,Hasan Tosyalı,Hasan Tosyalı,27,False,mm03026115_p027,pdftotext parser
+yes,KAYSERİ,Vedat Ali Özkan,Vedat Ali Özkan,27,False,mm03026115_p027,pdftotext parser
+yes,MALATYA,Ahmet Karaaslân,Ahmet Karaaslân,27,False,mm03026115_p027,pdftotext parser
+yes,MANİSA,Süleyman Çağlar,Süleyman Çağlar,27,False,mm03026115_p027,pdftotext parser
+yes,NİĞDE,H. Avni Kavurmacıoğlu,H. Avni Kavurmacıoğlu,27,False,mm03026115_p027,pdftotext parser
+yes,RİZE,Salih Zeki Köseoğlu,Salih Zeki Köseoğlu,27,False,mm03026115_p027,pdftotext parser
+yes,RİZE,Mehmet Nebil Oktay,Mehmet Nebil Oktay,27,False,mm03026115_p027,pdftotext parser
+yes,SİVAS,Enver Akova,Enver Akova,27,False,mm03026115_p027,pdftotext parser
+yes,TUNCELİ,Hüseyin Yenipmar,Hüseyin Yenipmar,27,False,mm03026115_p027,pdftotext parser
+yes,ZONGULDAK,Ahmet Nihat Akm,Ahmet Nihat Akm,27,False,mm03026115_p027,pdftotext parser
+yes,ZONGULDAK,Oahit Karabaş,Oahit Karabaş,27,False,mm03026115_p027,pdftotext parser
+no,ADIYAMAN,Yusuf Ziya Yıknaz,Yusuf Ziya Yıknaz,27,False,mm03026115_p027,pdftotext parser
+no,ANTALYA,Süleyman Çüoğlu,Süleyman Çüoğlu,27,False,mm03026115_p027,pdftotext parser
+no,BURSA,ibrahim öktem (,ibrahim öktem (',27,False,mm03026115_p027,pdftotext parser
+no,ÇANAKKALE,Mustafa Çalıkoğlu,Mustafa Çalıkoğlu,27,False,mm03026115_p027,pdftotext parser
+no,ERZURUM,Cevat önder,Cevat önder,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,İlhan  Darendelioğlu,İlhan (Egemen) Darendelioğlu,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Nuri Eroğan,Nuri Eroğan,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Bahir Ersoy,Bahir Ersoy,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,M. Kâzım özeke,M. Kâzım özeke,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Reşit Ülker,Reşit Ülker,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Burbanettiin Asutety,Burbanettiin Asutety,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Ooşjkun Karagözoğlu,Ooşjkun Karagözoğlu,27,False,mm03026115_p027,pdftotext parser
+no,İSTANBUL,Kemal önder,Kemal önder,27,False,mm03026115_p027,pdftotext parser
+no,KARS,Kemal Güven,Kemal Güven,27,False,mm03026115_p027,pdftotext parser
+no,KASTAMONU,Mehmet Seydibeyoğhı,Mehmet Seydibeyoğhı,27,False,mm03026115_p027,pdftotext parser
+no,KOCAELİ,Vehbi Engiz,Vehbi Engiz,27,False,mm03026115_p027,pdftotext parser
+no,NİĞDE,Mevlüt Ocaıkcıoğlu,Mevlüt Ocaıkcıoğlu,27,False,mm03026115_p027,pdftotext parser
+no,ORDU,Memduh Ekşi,Memduh Ekşi,27,False,mm03026115_p027,pdftotext parser
+no,SAKARYA,M. Vedat önsal,M. Vedat önsal,27,False,mm03026115_p027,pdftotext parser
+no,TOKAT,Hüseyin Abbas,Hüseyin Abbas,27,False,mm03026115_p027,pdftotext parser
+no,TRABZON,Necati Çakıroğlu,Necati Çakıroğlu,27,False,mm03026115_p027,pdftotext parser
+no,UŞAK,ÂdM Tu/ran,ÂdM Tu/ran,27,False,mm03026115_p027,pdftotext parser
+no,ZONGULDAK,Ahmet Guatr,Ahmet Guatr,27,False,mm03026115_p027,pdftotext parser
+abstain,İSTANBUL,İbrahSım Elmalı,İbrahSım Elmalı,28,True,mm03026115_p027,pdftotext parser

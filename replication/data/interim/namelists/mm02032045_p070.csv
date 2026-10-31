@@ -1,0 +1,4 @@
+choice,province,name,name_raw,pdf_page,section_inferred,vote_id,source
+no,,Ziya öztürk,Ziya öztürk.,70,False,mm02032045_p070,pdftotext parser
+no,,Mehmet Zeki Yücetürk,Mehmet Zeki Yücetürk.,70,False,mm02032045_p070,pdftotext parser
+no,,Yahya Kanbolat,Yahya Kanbolat.,70,False,mm02032045_p070,pdftotext parser

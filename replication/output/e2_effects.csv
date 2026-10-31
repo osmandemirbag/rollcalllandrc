@@ -1,0 +1,6 @@
+design,estimate,se,t,n,units_with_variation
+leaving AP for DP -> yes on contested agency budgets,-0.7937083637892788,0.07449792103687011,-10.65410084929029,2797,21
+tea provinces x tea votes -> turnout,0.05117568701858986,0.05461895490052844,0.9369583711696896,26952,16
+"tobacco, core 5 provinces provinces x tobacco votes -> turnout",0.20997837229558983,0.06437298489296195,3.2619020641148997,29412,54
+"tobacco, broad 18 provinces provinces x tobacco votes -> turnout",0.06878227954098384,0.05112674298599227,1.3453287951440374,29412,134
+close-province deputy x 9 months before election -> turnout,0.020157395645615746,0.009785277578391349,2.0599717774106847,121428,860

@@ -1,0 +1,10 @@
+vote_id,verified_counts,note
+cs11005077_p094,107/3/1/70,"Lists transcribed from page images (pp. 94-95). Printed tally block is internally inconsistent (107+3+1=111 vs 110 votes cast)."
+cs02014110_p042,51/16/0/114,"Lists checked against page images (pp. 42-43): 51 yes, 16 no. The printed tally block (16 yes, 1 no, 52 cast) does not match the printed lists; 51+16+114 = 185 seats - 4 vacancies."
+cs02015115_p070,68/1/2/110,"Yes list counted on page image p.70: 68 names (printed tally says 67). 68+1+2+110 = 185 seats - 4 vacancies."
+cs03021079_p061,71/22/0/91,"Not-voting list counted on page image p.62: 91 names (tally OCR '9]')."
+mm03004076_p037,190/6/2/0,"Yes list compared province by province with page images pp.37-38: 190 names printed (tally says 191). Not-voting list not printed (derived)."
+mm03004077_p015,223/2/4/220,"Lists as printed (pp.15-18): 223 yes, 2 no, 4 abstain, 220 not voting; tallies say 222 and 221. See namelist_patches.csv for the Danışman/Cinisli misprint."
+mm03014108_p040,75/10/0/0,"Yes list counted on page image p.40: 75 names (tally says 76). Not-voting list not printed (derived)."
+mm04010049_p102,179/94/4/170,"Yes list compared province by province with page images pp.102-103: 179 names printed (tally says 178); 179+94+4+170 = 450 - 3 vacancies."
+mm04017068_p179,191/126/1/127,"Checked on page image p.181: 1 abstention (Abdurrahman Ünsal) and 3 invalid ballots (Geçersiz oylar: M. Kemal Gönül, Battal Köksal, M. Hulûsi Özkul); the tally block prints no abstain line."

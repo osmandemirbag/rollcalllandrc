@@ -1,0 +1,28 @@
+{
+ "farmers": 41,
+ "deputies": 441,
+ "land_absent_farmers": 0.25925925925925924,
+ "land_absent_others": 0.16981132075471697,
+ "did": 0.004307607366879365,
+ "p_votes": 0.9259259259259259,
+ "farmer_share_of_speakers": 0.1595744680851064,
+ "farmer_share_of_words": 0.2312452418674513,
+ "farmer_share_of_house": 0.09297052154195011,
+ "farmer_speakers": [
+  "Adnan MENDERES",
+  "Emin SAZAK",
+  "Lütfi ÜLKÜMEN",
+  "Feridun Osman MENTEŞEOĞLU",
+  "Cavit ORAL",
+  "Şükrü SARACOĞLU",
+  "Halil MENTEŞE",
+  "Emin Aslan TOKAT",
+  "İbrahim TURAN",
+  "Tayfur SÖKMEN",
+  "Rıza ERTEN",
+  "Abdullah YAYCIOĞLU",
+  "Sabit SAĞIROĞLU",
+  "Halet SAĞIROĞLU",
+  "İsmail Memet UĞUR"
+ ]
+}

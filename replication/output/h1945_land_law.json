@@ -1,0 +1,532 @@
+{
+ "votes": 54,
+ "deputies": 441,
+ "treated": 14,
+ "treated_names": [
+  "Emin SAZAK",
+  "Yusuf Duygu KARSLIOĞLU",
+  "Cemal TUNCA",
+  "Refik KORALTAN",
+  "Mahmut Celâl BAYAR",
+  "Feridun Fikri DÜŞÜNSEL",
+  "Adnan MENDERES",
+  "Fuat KÖPRÜLÜ",
+  "Cavit ORAL",
+  "Fuat ÇOBANOĞLU",
+  "Behçet UZ",
+  "Hasan ÜÇÖZ",
+  "Ali Rıza İNCEALEMDAROĞLU",
+  "Lütfi ÜLKÜMEN"
+ ],
+ "match_rate": 0.8495626049306353,
+ "land_absent_treated": 0.75,
+ "land_absent_control": 0.1619718309859155,
+ "other_absent_treated": 0.49140893470790376,
+ "other_absent_control": 0.26846624323688545,
+ "did": 0.24820467616477326,
+ "p_votes": 0.07407407407407407,
+ "p_deputies": 0.032,
+ "did_rank": 2,
+ "post_votes": 39,
+ "post_did": {
+  "five": 0.21079532838625262,
+  "later_dp": 0.14520675080003514
+ },
+ "post_p_votes": {
+  "five": 0.1794871794871795,
+  "later_dp": 0.15384615384615385
+ },
+ "five_absent_post_other": 0.9084507042253521,
+ "five_absent_pre": 0.4126984126984127,
+ "others_absent_post_other": 0.27694634612322877,
+ "votes_all_five_absent": 7,
+ "votes_with_all_five_listed": 16,
+ "timeline": [
+  {
+   "vote_id": "tbmm07020019_p095",
+   "date": "1915-12-26",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07016046_p028",
+   "date": "1945-04-25",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07016047_p020",
+   "date": "1945-04-27",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07016047_p023",
+   "date": "1945-04-27",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07016048_p006",
+   "date": "1945-04-30",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017050_p005",
+   "date": "1945-05-04",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017051_p005",
+   "date": "1945-05-07",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017052_p011",
+   "date": "1945-05-09",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017053_p007",
+   "date": "1945-05-11",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017054_p033",
+   "date": "1945-05-14",
+   "Adnan MENDERES": "yes",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "yes",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017066_p061",
+   "date": "1945-05-30",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": ""
+  },
+  {
+   "vote_id": "tbmm07017066_p064",
+   "date": "1945-05-30",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07017066_p067",
+   "date": "1945-05-30",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07017066_p071",
+   "date": "1945-05-30",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07017066_p074",
+   "date": "1945-05-30",
+   "Adnan MENDERES": "",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018078_p037",
+   "date": "1945-06-05",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018076_p030",
+   "date": "1945-06-20",
+   "Adnan MENDERES": "",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018076_p034",
+   "date": "1945-06-20",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018078_p033",
+   "date": "1945-06-25",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018078_p040",
+   "date": "1945-06-26",
+   "Adnan MENDERES": "",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": ""
+  },
+  {
+   "vote_id": "tbmm07019081_p026",
+   "date": "1945-07-02",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019082_p008",
+   "date": "1945-07-04",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019084_p048",
+   "date": "1945-07-09",
+   "Adnan MENDERES": "",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019085_p010",
+   "date": "1945-07-10",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019088_p004",
+   "date": "1945-08-08",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019090_p030",
+   "date": "1945-08-15",
+   "Adnan MENDERES": "yes",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "yes",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07020011_p011",
+   "date": "1945-12-14",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": ""
+  },
+  {
+   "vote_id": "tbmm07020019_p092",
+   "date": "1945-12-26",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p089",
+   "date": "1945-12-28",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p099",
+   "date": "1945-12-28",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p103",
+   "date": "1945-12-28",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p110",
+   "date": "1945-12-28",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p113",
+   "date": "1945-12-28",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019082_p005",
+   "date": "1946-07-04",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020019_p078",
+   "date": "1946-12-26",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020019_p081",
+   "date": "1946-12-26",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020019_p085",
+   "date": "1946-12-26",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07016040_p017",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07016046_p021",
+   "date": "",
+   "Adnan MENDERES": "",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07016046_p024",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07016047_p016",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017054_p036",
+   "date": "",
+   "Adnan MENDERES": "yes",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "yes",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07017065_p040",
+   "date": "",
+   "Adnan MENDERES": "no",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "no",
+   "Mahmut Celâl BAYAR": "no",
+   "Refik KORALTAN": "no"
+  },
+  {
+   "vote_id": "tbmm07017066_p077",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07018069_p049",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "yes"
+  },
+  {
+   "vote_id": "tbmm07018070_p019",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "yes",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": ""
+  },
+  {
+   "vote_id": "tbmm07018072_p022",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019081_p022",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "",
+   "Fuat KÖPRÜLÜ": "yes",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019083_p014",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07019084_p041",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "not_voting",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020019_p088",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020020_p061",
+   "date": "",
+   "Adnan MENDERES": "no",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "no",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "no"
+  },
+  {
+   "vote_id": "tbmm07020021_p106",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  },
+  {
+   "vote_id": "tbmm07020021_p117",
+   "date": "",
+   "Adnan MENDERES": "not_voting",
+   "Emin SAZAK": "not_voting",
+   "Fuat KÖPRÜLÜ": "not_voting",
+   "Mahmut Celâl BAYAR": "",
+   "Refik KORALTAN": "not_voting"
+  }
+ ]
+}

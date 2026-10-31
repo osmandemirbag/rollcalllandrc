@@ -1,0 +1,9 @@
+# Created by the full rebuild (run_all.sh --full); about 10 GB
+data/pdfs/
+data/pdfs_tbmm/
+data/gnact_raw/
+data/gnact/
+data/albums/
+data/processed/rollcall_long.csv
+paper/figures/*.png
+__pycache__/
